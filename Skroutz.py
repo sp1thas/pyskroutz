@@ -140,8 +140,22 @@ class Skroutz():
     return req.json()
   
   def sku_favorite(self, id):
-    req = requests.get('http://api.skroutz.gr/skus/%s/favorite', % str(id), headers=self.headers)
+    req = requests.get('http://api.skroutz.gr/skus/%s/favorite' % str(id), headers=self.headers)
     return req.json()
+    
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  #~ Product
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+  def product_single(self, id):
+    req = requests.get('http://api.skroutz.gr/products/%s' % str(id), headers=self.headers)
+    return req.json()
+    
+  def product_search(self, shop_id=None, shop_uid=None):
+    req = requests.get('http://api.skroutz.gr/shops/%s/products/search?shop_uid=%s' % (str(shop_id), str(shop_uid)), headers=self.headers)
+    return req.json()
+  
+  
     
   
     
