@@ -99,7 +99,6 @@ class Skroutz():
     req = requests.get(url, headers=self.headers)
     return req.json()
 
-<<<<<<< HEAD
   def sku(self, id, sku_rating_breakdown=False, sku_reviews_aggregation=False):
     if sku_rating_breakdown: req = requests.get('http://api.skroutz.gr/skus/%s?include_meta=sku_rating_breakdown' % str(id), headers=self.headers)
     elif sku_rating_breakdown: req = requests.get('http://api.skroutz.gr/skus/%s?include_meta=sku_reviews_aggregation' % str(id), headers=self.headers)
@@ -155,26 +154,72 @@ class Skroutz():
   def product_search(self, shop_id=None, shop_uid=None):
     req = requests.get('http://api.skroutz.gr/shops/%s/products/search?shop_uid=%s' % (str(shop_id), str(shop_uid)), headers=self.headers)
     return req.json()
-  
-  
-    
-  
-    
-    
-=======
-  def sku(self, id):
-    req = requests.get('http://api.skroutz.gr/skus/%s' % str(id), headers=self.headers)
-    return req.json()
 
-  def sku_similar(self, id):
-    req = requests.get('http://api.skroutz.gr/skus/%s/similar' % str(id), headers=self.headers)
+    
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  #~ Shop
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+  def shop(self, id):
+    req = requests.get('http://api.skroutz.gr/shops/%s' % str(id), headers=self.headers)
     return req.json()
+  
+  def shop_reviews(self, id):
+    req = requests.get('http://api.skroutz.gr/%s/reviews' % str(id), headers=self.headers)
+    return req.json()
+    
+  def shop_locations(self, id, embed_address=False):
+    if not embed_address: req = requests.get('http://api.skroutz.gr/shops/%s/locations' % str(id), headers=self.headers)
+    else: req = requests.get('http://api.skroutz.gr/shops/%s/locations?embed=address' % str(id), headers=self.headers)
+    return req.json()
+    
+  def shop_location(self, shop_id=None, id=None, embed_address=False):
+    if not embed_address: req = requests.get('http://api.skroutz.gr/shops/%s/locations/%s' % (str(shop_id), str(id)), headers=self.headers)
+    else: req = requests.get('http://api.skroutz.gr/shops/%s/locations/%s?embed=address' % (str(shop_id), str(id)), headers=self.headers)
 
-  def sku_products(self, id):
-    req = requests.get('http://api.skroutz.gr/skus/%s/products' % str(id), headers=self.headers)
+  def shop_search(self, q):
+    req = requests.get('http://api.skroutz.gr/shops/search?q=%s' % str(q), headers=self.headers)
     return req.json()
-
-  def sku_reviews(self, id):
-    req = requests.get('http://api.skroutz.gr/skus/%s/reviews' % id, headers=self.headers)
+  
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  #~ Manufacturer
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+  def manufacturer_listall(self):
+    req = requests.get('http://api.skroutz.gr/manufacturers', headers=self.headers)
     return req.json()
->>>>>>> 1bab5261931b536ac4f9d55c20f4a2c91915c2eb
+  
+  def manufacturer(self, id):
+    req = requests.get('http://api.skroutz.gr/manufacturers/%s' % str(id), headers=self.headers)
+    return req.json()
+    
+  def manufacturer_categories(self, id, order_by=None, order_dir=None):
+    if order_by: req = requests.get('http://api.skroutz.gr/manufacturers/%s/categories?order_by=%s' % (str(id), order_by), headers=self.headers)
+    elif order_dir: req = requests.get('http://api.skroutz.gr/manufacturers/%s/categories?order_dir=%s' % (str(id), order_dir), headers=self.headers)
+    else: req = requests.get('http://api.skroutz.gr/manufacturers/%s/categories' % str(id), headers=self.headers)
+    return req.json()
+  
+  def manufacturer_sku(self, id, order_by=None, order_dir=None):
+    if order_by: req = requests.get('http://api.skroutz.gr/manufacturers/%s/skus?order_by=%s' % (str(id), order_by), headers=self.headers)
+    elif order_dir: req = requests.get('http://api.skroutz.gr/manufacturers/%s/skus?order_dir=%s' % (str(id), order_dir), headers=self.headers)
+    else: req = requests.get('http://api.skroutz.gr/manufacturers/%s/skus' % str(id), headers=self.headers)
+    return req.json()  
+  
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  #~ Search
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+  def search(self, q):
+    req = requests.get('http://api.skroutz.gr/search?q=%s', % q.replace(' ', '+'), headers=self.headers)
+    return req.json()
+  
+  def search_autocomplete(self, q):
+    req = requests.get('http://api.skroutz.gr/autocomplete?q=%s' % q.replace(' ', '+'), headers=self.headers)
+    return req.json()
+  
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  #~ Flag
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  def flags():
+    req = requests.get('http://api.skroutz.gr/flags', headers=self.headers)
+    return req.json()
