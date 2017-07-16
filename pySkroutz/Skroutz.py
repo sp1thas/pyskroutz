@@ -90,19 +90,18 @@ class Skroutz():
   #~ SKU
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  def sku_category(self, category_id, q=None, manufacturer_ids=[], filter_ids=None, order_by=None, order_dir=None,):
-    url = url = 'http://api.skroutz.gr/categories/%s' % str(category_id)
-    if manufacturer_ids:
-      url = 'http://api.skroutz.gr/categories/%s/skus?manufacturer_ids[]=%s' % (str(category_id), '&manufacturer_ids[]='.join([str(_) for _ in manufacturer_ids]))
-    if q is not None: 'http://api.skroutz.gr/categories/40/skus?q=%s' % q.replace(' ', '+')
-    if filter_ids:
-      url = 'http://api.skroutz.gr/categories/%s/skus?filter_ids[]=%s' % (category_id, '&filter_ids[]='.join(filter_ids))
+  def sku_category(self, category_id, q=None, manufacturer_ids=[], filter_ids=None, order_by=None, order_dir=None, include_meta=None):
+    url = 'http://api.skroutz.gr/categories/%s' % str(category_id)
+    if manufacturer_ids: url = 'http://api.skroutz.gr/categories/%s/skus?manufacturer_ids[]=%s' % (str(category_id), '&manufacturer_ids[]='.join([str(_) for _ in manufacturer_ids]))
+    if q is not None: url = 'http://api.skroutz.gr/categories/40/skus?q=%s' % q.replace(' ', '+')
+    if filter_ids: url = 'http://api.skroutz.gr/categories/%s/skus?filter_ids[]=%s' % (category_id, '&filter_ids[]='.join([str(_) for _ in filter_ids]))
     if order_by: url += '?order_by=%s' % order_by
     elif order_dir: url += '?order_dir=%s' % order_dir
+    if include_meta: url += '?include_meta=%s' % include_meta
     req = requests.get(url, headers=self.headers)
     return req.json()
 
-  def sku(self, id, sku_rating_breakdown=False, sku_reviews_aggregation=False):
+  def sku_single(self, id, sku_rating_breakdown=False, sku_reviews_aggregation=False):
     if sku_rating_breakdown: req = requests.get('http://api.skroutz.gr/skus/%s?include_meta=sku_rating_breakdown' % str(id), headers=self.headers)
     elif sku_rating_breakdown: req = requests.get('http://api.skroutz.gr/skus/%s?include_meta=sku_reviews_aggregation' % str(id), headers=self.headers)
     else: req = requests.get('http://api.skroutz.gr/skus/%s' % str(id), headers=self.headers)
