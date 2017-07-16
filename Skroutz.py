@@ -220,6 +220,30 @@ class Skroutz():
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   #~ Flag
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  def flags():
+  def flags(self):
     req = requests.get('http://api.skroutz.gr/flags', headers=self.headers)
     return req.json()
+    
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  #~ User
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+  def user(self):
+    req = requests.get('http://api.skroutz.gr/user', headers=self.headers)
+    return req.json()
+  
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  #~ User Favorite
+  #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  def user_favorite_list(self):
+    req = requests.get('http://api.skroutz.gr/favorite_lists', headers=self.headers)
+    return req.json()
+    
+  def user_favorite_create_list(self, name):
+    req = requests.post('http://api.skroutz.gr/favorite_lists[name]=%s' % name.replace(' ', '+'), headers=self.headers)
+    return req.json()
+    
+  def user_favorite_destroy_list(self, id):
+    req = requests.delete('http://api.skroutz.gr/favorite_lists/%s' % str(id), headers=sself.headers)
+    return req.json()
+  
