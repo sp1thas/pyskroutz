@@ -1,6 +1,5 @@
 # pySkroutz
-
-![](https://raw.githubusercontent.com/sp1thas/pySkroutz/master/logo.png)
+[![PyPI](https://img.shields.io/pypi/v/pySkroutz.svg)](https://pypi.python.org/pypi/pySkroutz/)
 
 This client library is designed to support the Skroutz API. You can read more about the Skroutz API by accessing its [official documentation](https://developer.skroutz.gr/api/v3/).
 
