@@ -210,7 +210,7 @@ class Skroutz():
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
   def search(self, q):
-    req = requests.get('http://api.skroutz.gr/search?q=%s', % q.replace(' ', '+'), headers=self.headers)
+    req = requests.get('http://api.skroutz.gr/search?q=%s' % q.replace(' ', '+'), headers=self.headers)
     return req.json()
   
   def search_autocomplete(self, q):
