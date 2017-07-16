@@ -65,8 +65,8 @@ class Skroutz():
     req = requests.get('http://api.skroutz.gr/categories/%s/parent' % str(category_id), headers=self.headers)
     return req.json()
 
-  def category_root(self, category_id):
-    req = requests.get('http://api.skroutz.gr/categories/%s/root' % str(category_id), headers=self.headers)
+  def category_root(self):
+    req = requests.get('http://api.skroutz.gr/categories/root', headers=self.headers)
     return req.json()
 
   def category_children(self, category_id):
@@ -90,12 +90,15 @@ class Skroutz():
   #~ SKU
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  def sku_category(self, category_id, q=None, manufacturer_ids=[], filter_ids=None):
+  def sku_category(self, category_id, q=None, manufacturer_ids=[], filter_ids=None, order_by=None, order_dir=None,):
+    url = url = 'http://api.skroutz.gr/categories/%s' % str(category_id)
     if manufacturer_ids:
-      url = 'http://api.skroutz.gr/categories/%s/skus?manufacturer_ids[]=%s' % (category_id, '&manufacturer_ids[]='.join(manufacturer_ids))
-    if q is not None: 'http://api.skroutz.gr/categories/40/skus?q=%s' % q
+      url = 'http://api.skroutz.gr/categories/%s/skus?manufacturer_ids[]=%s' % (str(category_id), '&manufacturer_ids[]='.join([str(_) for _ in manufacturer_ids]))
+    if q is not None: 'http://api.skroutz.gr/categories/40/skus?q=%s' % q.replace(' ', '+')
     if filter_ids:
       url = 'http://api.skroutz.gr/categories/%s/skus?filter_ids[]=%s' % (category_id, '&filter_ids[]='.join(filter_ids))
+    if order_by: url += '?order_by=%s' % order_by
+    elif order_dir: url += '?order_dir=%s' % order_dir
     req = requests.get(url, headers=self.headers)
     return req.json()
 
