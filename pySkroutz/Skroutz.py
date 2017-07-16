@@ -246,4 +246,4 @@ class Skroutz():
   def user_favorite_destroy_list(self, id):
     req = requests.delete('http://api.skroutz.gr/favorite_lists/%s' % str(id), headers=sself.headers)
     return req.json()
-  
+    
