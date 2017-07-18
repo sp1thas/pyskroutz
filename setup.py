@@ -1,8 +1,12 @@
 from distutils.core import setup
+
+with open('README.md') as readme_file:
+    readme = readme_file.read()
+
 setup(
   name = 'pySkroutz',
   packages = ['pySkroutz'],
-  version = '0.0.1.3',
+  version = '0.0.1.4',
   description = 'Unofficial Python SDK for Skroutz.gr API. This client library is designed to support the Skroutz API. You can read more about the Skroutz API by accessing its official documentation.',
   author = 'Panagiotis Simakis',
   license = 'GPL',
