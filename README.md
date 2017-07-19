@@ -1,5 +1,5 @@
 # pySkroutz
-[![PyPI](https://img.shields.io/pypi/v/pySkroutz.svg)](https://pypi.python.org/pypi/pySkroutz/)
+[![PyPI](https://img.shields.io/pypi/v/pySkroutz.svg)](https://pypi.python.org/pypi/pySkroutz/) [![Codacy grade](https://img.shields.io/codacy/grade/e27821fb6289410b8f58338c7e0bc686.svg)](https://www.codacy.com/app/sp1thas/pySkroutz/dashboard)
 
 This client library is designed to support the Skroutz API. You can read more about the Skroutz API by accessing its [official documentation](https://developer.skroutz.gr/api/v3/).
 
