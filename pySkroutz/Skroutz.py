@@ -92,7 +92,7 @@ class Skroutz():
 
   def sku_category(self, category_id, q=None, manufacturer_ids=[], filter_ids=None, order_by=None, order_dir=None, include_meta=None):
     url = 'http://api.skroutz.gr/categories/%s' % str(category_id)
-    if manufacturer_ids: url = 'http://api.skroutz.gr/categories/%s/skus?manufacturer_ids[]=%s' % (str(category_id), '&manufacturer_ids[]='.join([str(_) for _ in manufacturer_ids]))
+    if manufacturer_ids is not None: url = 'http://api.skroutz.gr/categories/%s/skus?manufacturer_ids[]=%s' % (str(category_id), '&manufacturer_ids[]='.join([str(_) for _ in manufacturer_ids]))
     if q is not None: url = 'http://api.skroutz.gr/categories/40/skus?q=%s' % q.replace(' ', '+')
     if filter_ids: url = 'http://api.skroutz.gr/categories/%s/skus?filter_ids[]=%s' % (category_id, '&filter_ids[]='.join([str(_) for _ in filter_ids]))
     if order_by: url += '?order_by=%s' % order_by
@@ -121,10 +121,11 @@ class Skroutz():
 
   def sku_reviews(self, sku_id, sku_rating_breakdown=False, sku_reviews_aggregation=False):
     if sku_rating_breakdown: req = requests.get('http://api.skroutz.gr/skus/%s/reviews?include_meta=sku_rating_breakdown' % str(sku_id), headers=self.headers)
-    elif sku_reviews_aggregation: req = requests.get('http://api.skroutz.gr/skus/%s/reviews?include_meta=sku_reviews_aggregation' % str(sku_id), headers=self.headers) 
+    elif sku_reviews_aggregation: 
+      req = requests.get('http://api.skroutz.gr/skus/%s/reviews?include_meta=sku_reviews_aggregation' % str(sku_id), headers=self.headers) 
     req = requests.get('http://api.skroutz.gr/skus/%s/reviews' % str(sku_id), headers=self.headers)
     return req.json()
-  
+
   def sku_vote_review(self, sku_id=None, review_id=None, helpful=None):
     pass
   
@@ -166,18 +167,19 @@ class Skroutz():
     req = requests.get('http://api.skroutz.gr/shops/%s' % str(id), headers=self.headers)
     return req.json()
   
-  def shop_reviews(self, id):
-    req = requests.get('http://api.skroutz.gr/%s/reviews' % str(id), headers=self.headers)
+  def shop_reviews(self, shop_id):
+    req = requests.get('http://api.skroutz.gr/%s/reviews' % str(shop_id), headers=self.headers)
     return req.json()
     
-  def shop_locations(self, id, embed_address=False):
-    if not embed_address: req = requests.get('http://api.skroutz.gr/shops/%s/locations' % str(id), headers=self.headers)
-    else: req = requests.get('http://api.skroutz.gr/shops/%s/locations?embed=address' % str(id), headers=self.headers)
+  def shop_locations(self, shop_id, embed_address=False):
+    if not embed_address: req = requests.get('http://api.skroutz.gr/shops/%s/locations' % str(shop_id), headers=self.headers)
+    else: req = requests.get('http://api.skroutz.gr/shops/%s/locations?embed=address' % str(shop_id), headers=self.headers)
     return req.json()
     
   def shop_location(self, shop_id=None, id=None, embed_address=False):
     if not embed_address: req = requests.get('http://api.skroutz.gr/shops/%s/locations/%s' % (str(shop_id), str(id)), headers=self.headers)
     else: req = requests.get('http://api.skroutz.gr/shops/%s/locations/%s?embed=address' % (str(shop_id), str(id)), headers=self.headers)
+    return req.json()
 
   def shop_search(self, q):
     req = requests.get('http://api.skroutz.gr/shops/search?q=%s' % str(q), headers=self.headers)
@@ -244,7 +246,7 @@ class Skroutz():
   def user_favorite_create_list(self, name):
     req = requests.post('http://api.skroutz.gr/favorite_lists[name]=%s' % name.replace(' ', '+'), headers=self.headers)
     return req.json()
-    
+
   def user_favorite_destroy_list(self, usr_fv_id):
     req = requests.delete('http://api.skroutz.gr/favorite_lists/%s' % str(usr_fv_id), headers=sself.headers)
     return req.json()
