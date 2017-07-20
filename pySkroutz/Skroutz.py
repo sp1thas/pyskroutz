@@ -101,28 +101,28 @@ class Skroutz():
     req = requests.get(url, headers=self.headers)
     return req.json()
 
-  def sku_single(self, id, sku_rating_breakdown=False, sku_reviews_aggregation=False):
-    if sku_rating_breakdown: req = requests.get('http://api.skroutz.gr/skus/%s?include_meta=sku_rating_breakdown' % str(id), headers=self.headers)
-    elif sku_rating_breakdown: req = requests.get('http://api.skroutz.gr/skus/%s?include_meta=sku_reviews_aggregation' % str(id), headers=self.headers)
-    else: req = requests.get('http://api.skroutz.gr/skus/%s' % str(id), headers=self.headers)
+  def sku_single(self, sku_id, sku_rating_breakdown=False, sku_reviews_aggregation=False):
+    if sku_rating_breakdown: req = requests.get('http://api.skroutz.gr/skus/%s?include_meta=sku_rating_breakdown' % str(sku_id), headers=self.headers)
+    elif sku_rating_breakdown: req = requests.get('http://api.skroutz.gr/skus/%s?include_meta=sku_reviews_aggregation' % str(sku_id), headers=self.headers)
+    else: req = requests.get('http://api.skroutz.gr/skus/%s' % str(sku_id), headers=self.headers)
     return req.json()
 
-  def sku_similar(self, id, sku_rating_breakdown=False, sku_reviews_aggregation=False):
-    if sku_rating_breakdown: req = requests.get('http://api.skroutz.gr/skus/%s/similar?include_meta=sku_rating_breakdown' % str(id), headers=self.headers)
-    elif sku_reviews_aggregation: req = requests.get('http://api.skroutz.gr/skus/%s/similar?include_meta=sku_reviews_aggregation' % str(id), headers=self.headers)
-    else: req = requests.get('http://api.skroutz.gr/skus/%s/similar' % str(id), headers=self.headers)
+  def sku_similar(self, sku_id, sku_rating_breakdown=False, sku_reviews_aggregation=False):
+    if sku_rating_breakdown: req = requests.get('http://api.skroutz.gr/skus/%s/similar?include_meta=sku_rating_breakdown' % str(sku_id), headers=self.headers)
+    elif sku_reviews_aggregation: req = requests.get('http://api.skroutz.gr/skus/%s/similar?include_meta=sku_reviews_aggregation' % str(sku_id), headers=self.headers)
+    else: req = requests.get('http://api.skroutz.gr/skus/%s/similar' % str(sku_id), headers=self.headers)
     return req.json()
 
-  def sku_products(self, id, sku_rating_breakdown=False, sku_reviews_aggregation=False):
-    if sku_rating_breakdown: req = requests.get('http://api.skroutz.gr/skus/%s/products?include_meta=sku_rating_breakdown' % str(id), headers=self.headers)
-    elif sku_reviews_aggregation: req = requests.get('http://api.skroutz.gr/skus/%s/products?include_meta=sku_reviews_aggregation' % str(id), headers=self.headers)
-    else: req = requests.get('http://api.skroutz.gr/skus/%s/products' % str(id), headers=self.headers)
+  def sku_products(self, sku_id, sku_rating_breakdown=False, sku_reviews_aggregation=False):
+    if sku_rating_breakdown: req = requests.get('http://api.skroutz.gr/skus/%s/products?include_meta=sku_rating_breakdown' % str(sku_id), headers=self.headers)
+    elif sku_reviews_aggregation: req = requests.get('http://api.skroutz.gr/skus/%s/products?include_meta=sku_reviews_aggregation' % str(sku_id), headers=self.headers)
+    else: req = requests.get('http://api.skroutz.gr/skus/%s/products' % str(sku_id), headers=self.headers)
     return req.json()
 
-  def sku_reviews(self, id, sku_rating_breakdown=False, sku_reviews_aggregation=False):
-    if sku_rating_breakdown: req = requests.get('http://api.skroutz.gr/skus/%s/reviews?include_meta=sku_rating_breakdown' % str(id), headers=self.headers)
-    elif sku_reviews_aggregation: req = requests.get('http://api.skroutz.gr/skus/%s/reviews?include_meta=sku_reviews_aggregation' % str(id), headers=self.headers) 
-    req = requests.get('http://api.skroutz.gr/skus/%s/reviews' % id, headers=self.headers)
+  def sku_reviews(self, sku_id, sku_rating_breakdown=False, sku_reviews_aggregation=False):
+    if sku_rating_breakdown: req = requests.get('http://api.skroutz.gr/skus/%s/reviews?include_meta=sku_rating_breakdown' % str(sku_id), headers=self.headers)
+    elif sku_reviews_aggregation: req = requests.get('http://api.skroutz.gr/skus/%s/reviews?include_meta=sku_reviews_aggregation' % str(sku_id), headers=self.headers) 
+    req = requests.get('http://api.skroutz.gr/skus/%s/reviews' % str(sku_id), headers=self.headers)
     return req.json()
   
   def sku_vote_review(self, sku_id=None, review_id=None, helpful=None):
@@ -132,25 +132,25 @@ class Skroutz():
     req = requests.post('http://api.skroutz.gr/skus/%s/reviews/%s/votes' % (str(sku_id), str(review_id)), headers=self.headers)
     return req.json()
   
-  def sku_specifications(self, id, group=False):
-    if group: req = requests.get('http://api.skroutz.gr/skus/%s/specifications?include=group' % str(id), headers=self.headers)
-    else: req = requests.get('http://api.skroutz.gr/skus/%s/specifications' % str(id), headers=self.headers)
+  def sku_specifications(self, sku_id, group=False):
+    if group: req = requests.get('http://api.skroutz.gr/skus/%s/specifications?include=group' % str(sku_id), headers=self.headers)
+    else: req = requests.get('http://api.skroutz.gr/skus/%s/specifications' % str(sku_id), headers=self.headers)
     return req.json()
   
-  def sku_pricehistory(self, id):
-    req = requests.get('http://api.skroutz.gr/skus/%s/price_history' % str(id), headers=self.headers)
+  def sku_pricehistory(self, sku_id):
+    req = requests.get('http://api.skroutz.gr/skus/%s/price_history' % str(sku_id), headers=self.headers)
     return req.json()
   
-  def sku_favorite(self, id):
-    req = requests.get('http://api.skroutz.gr/skus/%s/favorite' % str(id), headers=self.headers)
+  def sku_favorite(self, sku_id):
+    req = requests.get('http://api.skroutz.gr/skus/%s/favorite' % str(sku_id), headers=self.headers)
     return req.json()
     
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   #~ Product
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
-  def product_single(self, id):
-    req = requests.get('http://api.skroutz.gr/products/%s' % str(id), headers=self.headers)
+  def product_single(self, pr_id):
+    req = requests.get('http://api.skroutz.gr/products/%s' % str(pr_id), headers=self.headers)
     return req.json()
     
   def product_search(self, shop_id=None, shop_uid=None):
@@ -191,20 +191,20 @@ class Skroutz():
     req = requests.get('http://api.skroutz.gr/manufacturers', headers=self.headers)
     return req.json()
   
-  def manufacturer(self, id):
-    req = requests.get('http://api.skroutz.gr/manufacturers/%s' % str(id), headers=self.headers)
+  def manufacturer(self, mnfct_id):
+    req = requests.get('http://api.skroutz.gr/manufacturers/%s' % str(mnfct_id), headers=self.headers)
     return req.json()
     
-  def manufacturer_categories(self, id, order_by=None, order_dir=None):
-    if order_by: req = requests.get('http://api.skroutz.gr/manufacturers/%s/categories?order_by=%s' % (str(id), order_by), headers=self.headers)
-    elif order_dir: req = requests.get('http://api.skroutz.gr/manufacturers/%s/categories?order_dir=%s' % (str(id), order_dir), headers=self.headers)
-    else: req = requests.get('http://api.skroutz.gr/manufacturers/%s/categories' % str(id), headers=self.headers)
+  def manufacturer_categories(self, mnfct_id, order_by=None, order_dir=None):
+    if order_by: req = requests.get('http://api.skroutz.gr/manufacturers/%s/categories?order_by=%s' % (str(mnfct_id), order_by), headers=self.headers)
+    elif order_dir: req = requests.get('http://api.skroutz.gr/manufacturers/%s/categories?order_dir=%s' % (str(mnfct_id), order_dir), headers=self.headers)
+    else: req = requests.get('http://api.skroutz.gr/manufacturers/%s/categories' % str(mnfct_id), headers=self.headers)
     return req.json()
   
-  def manufacturer_sku(self, id, order_by=None, order_dir=None):
-    if order_by: req = requests.get('http://api.skroutz.gr/manufacturers/%s/skus?order_by=%s' % (str(id), order_by), headers=self.headers)
-    elif order_dir: req = requests.get('http://api.skroutz.gr/manufacturers/%s/skus?order_dir=%s' % (str(id), order_dir), headers=self.headers)
-    else: req = requests.get('http://api.skroutz.gr/manufacturers/%s/skus' % str(id), headers=self.headers)
+  def manufacturer_sku(self, mnfct_id, order_by=None, order_dir=None):
+    if order_by: req = requests.get('http://api.skroutz.gr/manufacturers/%s/skus?order_by=%s' % (str(mnfct_id), order_by), headers=self.headers)
+    elif order_dir: req = requests.get('http://api.skroutz.gr/manufacturers/%s/skus?order_dir=%s' % (str(mnfct_id), order_dir), headers=self.headers)
+    else: req = requests.get('http://api.skroutz.gr/manufacturers/%s/skus' % str(mnfct_id), headers=self.headers)
     return req.json()  
   
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -245,7 +245,7 @@ class Skroutz():
     req = requests.post('http://api.skroutz.gr/favorite_lists[name]=%s' % name.replace(' ', '+'), headers=self.headers)
     return req.json()
     
-  def user_favorite_destroy_list(self, id):
-    req = requests.delete('http://api.skroutz.gr/favorite_lists/%s' % str(id), headers=sself.headers)
+  def user_favorite_destroy_list(self, usr_fv_id):
+    req = requests.delete('http://api.skroutz.gr/favorite_lists/%s' % str(usr_fv_id), headers=sself.headers)
     return req.json()
     
