@@ -14,4 +14,4 @@ python:
   - "3.7-dev" # 3.7 development branch
   - "nightly" # currently points to 3.7-dev
   - "pypy"  # PyPy2 2.5.0
-# command to install dependencies
+script: pytest
