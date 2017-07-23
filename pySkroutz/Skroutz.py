@@ -123,8 +123,10 @@ class Skroutz():
     if sku_rating_breakdown:
       req = requests.get('http://api.skroutz.gr/skus/%s/reviews?include_meta=sku_rating_breakdown' % str(sku_id), headers=self.headers)
     elif sku_reviews_aggregation:
-      req = requests.get('http://api.skroutz.gr/skus/%s/reviews?include_meta=sku_reviews_aggregation' % str(sku_id), headers=self.headers) 
-    req = requests.get('http://api.skroutz.gr/skus/%s/reviews' % str(sku_id), headers=self.headers)
+      req = requests.get('http://api.skroutz.gr/skus/%s/reviews?include_meta=sku_reviews_aggregation' \
+                          % str(sku_id), headers=self.headers) 
+    else:
+      req = requests.get('http://api.skroutz.gr/skus/%s/reviews' % str(sku_id), headers=self.headers)
     return req.json()
 
   def sku_vote_review(self, sku_id=None, review_id=None, helpful=None):
@@ -138,7 +140,7 @@ class Skroutz():
     if group: req = requests.get('http://api.skroutz.gr/skus/%s/specifications?include=group' % str(sku_id), headers=self.headers)
     else: req = requests.get('http://api.skroutz.gr/skus/%s/specifications' % str(sku_id), headers=self.headers)
     return req.json()
-  
+
   def sku_pricehistory(self, sku_id):
     req = requests.get('http://api.skroutz.gr/skus/%s/price_history' % str(sku_id), headers=self.headers)
     return req.json()
