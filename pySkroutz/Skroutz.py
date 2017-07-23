@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-#  untitled.py
+#  Skroutz.py
 #
-#  Copyright 2017 Simakis Panagiotis <spithas@yoga-deb>
+#  Copyright 2017 Simakis Panagiotis <simakis@autistici.org>
 #
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -90,7 +90,7 @@ class Skroutz():
   #~ SKU
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  def sku_category(self, category_id, q=None, manufacturer_ids=[], filter_ids=None, order_by=None, order_dir=None, include_meta=None):
+  def sku_category(self, category_id, q=None, manufacturer_ids=None, filter_ids=None, order_by=None, order_dir=None, include_meta=None):
     url = 'http://api.skroutz.gr/categories/%s' % str(category_id)
     if manufacturer_ids is not None: url = 'http://api.skroutz.gr/categories/%s/skus?manufacturer_ids[]=%s' % (str(category_id), '&manufacturer_ids[]='.join([str(_) for _ in manufacturer_ids]))
     if q is not None: url = 'http://api.skroutz.gr/categories/40/skus?q=%s' % q.replace(' ', '+')
