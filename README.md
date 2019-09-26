@@ -1,3 +1,6 @@
+# DEPRECATED
+This project is discontinued due to the fact that Skroutz API does not accept requests anymore.
+
 # pySkroutz
 [![PyPI](https://img.shields.io/pypi/v/pySkroutz.svg)](https://pypi.python.org/pypi/pySkroutz/) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6d4cfa2124f94e1c823de6dec50268bb)](https://www.codacy.com/app/sp1thas/pySkroutz?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sp1thas/pySkroutz&amp;utm_campaign=Badge_Grade)[![PyPI](https://img.shields.io/pypi/pyversions/Django.svg)](https://pypi.python.org/pypi/pySkroutz) [![GitHub license](https://img.shields.io/badge/license-GPLv2-blue.svg)](https://raw.githubusercontent.com/sp1thas/pySkroutz/master/LICENSE)
 
