@@ -7,18 +7,14 @@ This client library is designed to support the Skroutz API. You can read more ab
 ## Install
 via PyPI:
 ```bash
-pip install pySkroutz
+pip install pyskroutz
 ```
 
 ## Usage
 
 ```python
->>> from pySkroutz import Skroutz
->>> client_id = 'your client id'
->>> client_secret = 'your client secret'
->>> skrtz = Skroutz(client_id=client_id, client_secret=client_secret)
->>> skrtz.search('xiaomi redmi note 4')
 ```
 
-## License
-This project is licensed under the GNU General Public License version 3
+## How to contribute
+
+If you wish to contribute, read [CONTRIBUTING.md](CONTRIBUTING.md) guide for further details.

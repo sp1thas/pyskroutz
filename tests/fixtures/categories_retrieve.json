@@ -1,0 +1,24 @@
+{
+  "category": {
+    "id": 88,
+    "name": "SSD Σκληροί Δίσκοι",
+    "children_count": 0,
+    "image_url": "http://d.scdn.gr/ds/categories/88/20171113120930_4a77e901.jpeg",
+    "parent_id": 1716,
+    "fashion": false,
+    "layout_mode": "list",
+    "web_uri": "http://skroutz.gr:3000/c/88/ssd-sklhroi-diskoi.html",
+    "code": "esoterikoi-sklhroi-diskoi",
+    "family_id": 1269,
+    "show_manufacturers_filter": true,
+    "adult": false,
+    "onclick_behaviour": "onclick_to_sku_page",
+    "show_spec_summary": false,
+    "unit_price_label": "GB",
+    "reviewable": true,
+    "comparable": true,
+    "path": "76,1269,22,27,46,1716,88",
+    "show_specifications": true,
+    "manufacturer_title": "Κατασκευαστές"
+  }
+}

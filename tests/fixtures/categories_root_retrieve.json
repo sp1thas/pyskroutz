@@ -1,0 +1,16 @@
+{
+  "category": {
+    "id": 76,
+    "name": "Skroutz",
+    "children_count": 7,
+    "image_url": "https://a.scdn.gr/ds/categories/76/76.jpg",
+    "parent_id": 0,
+    "fashion": false,
+    "layout_mode": "list",
+    "web_uri": "https://www.skroutz.gr/c/76/skroutz.html",
+    "code": "skroutz",
+    "path": "76",
+    "show_specifications": false,
+    "manufacturer_title": "Κατασκευαστές"
+  }
+}
