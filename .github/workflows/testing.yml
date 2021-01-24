@@ -23,7 +23,7 @@ jobs:
     - name: Run tests
       run: |
         pip install pytest pytest-cov . -U
-        pytest --cov=src --cov-report=xml
+        pytest --cov=src -s tests --cov-report=xml
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1
       with:

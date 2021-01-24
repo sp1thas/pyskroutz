@@ -6,4 +6,9 @@ mkdocs:
 python:
    version: 3.7
    install:
-   - requirements: docs/requirements.txt
+     - requirements: docs/requirements.txt
+     - method: pip
+         path: .
+         extra_requirements:
+           - method: setuptools
+             path: package
