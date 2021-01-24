@@ -9,6 +9,3 @@ python:
      - requirements: docs/requirements.txt
      - method: pip
          path: .
-         extra_requirements:
-           - method: setuptools
-             path: package
