@@ -5,12 +5,18 @@ name = "pypi"
 
 [packages]
 requests = "*"
+pydantic = "*"
 
 [dev-packages]
 black = "*"
+twine = "*"
 mypy = "*"
 pytest = "*"
 pipfile = "*"
+pytest-cov = "*"
+mkdocs = "*"
+mkdocs-material = "*"
+mkautodoc = "*"
 
 [requires]
 python_version = "3.7"

@@ -1,11 +1,9 @@
 # pyskroutz
-[![PyPI](https://img.shields.io/pypi/v/pySkroutz.svg)](https://pypi.python.org/pypi/pySkroutz/) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6d4cfa2124f94e1c823de6dec50268bb)](https://www.codacy.com/app/sp1thas/pySkroutz?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sp1thas/pySkroutz&amp;utm_campaign=Badge_Grade)[![PyPI](https://img.shields.io/pypi/pyversions/Django.svg)](https://pypi.python.org/pypi/pySkroutz) [![license](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://raw.githubusercontent.com/sp1thas/pySkroutz/master/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/pyskroutz.svg)](https://pypi.python.org/pypi/pyskroutz/) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6d4cfa2124f94e1c823de6dec50268bb)](https://www.codacy.com/app/sp1thas/pySkroutz?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sp1thas/pySkroutz&amp;utm_campaign=Badge_Grade)
 
-This client library is designed to support the Skroutz API. You can read more about the Skroutz API by accessing its [official documentation](https://developer.skroutz.gr/api/v3/).
-
+A Python client for Skroutz API
 
 ## Install
-via PyPI:
 ```bash
 pip install pyskroutz
 ```
@@ -13,8 +11,12 @@ pip install pyskroutz
 ## Usage
 
 ```python
+>>> from pyskroutz.client import SkroutzClient
+>>> client = SkroutzClient('<client-id>', '<client-secret>')
+>>> first_category = client.categories.list(per=1)
+>>> first_category.categories
 ```
 
 ## How to contribute
 
-If you wish to contribute, read [CONTRIBUTING.md](CONTRIBUTING.md) guide for further details.
+If you wish to contribute, read [CONTRIBUTING.md](docs/contributing.md) guide for further details.

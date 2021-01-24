@@ -1,15 +1,15 @@
-from ..models.items import Category
-from .base import HttpClient
-from typing import List
+from .base_client import _SkroutzClient
+from ..models.categories import CategoryListResponseModel
 
 
-class Categories(HttpClient):
-    endpoint_path: str = "categories"
+class Categories(_SkroutzClient):
+    ENDPOINT_PATH: str = "categories"
 
-    ENDPOINT_PATH: str = 'categories'
-
-    def list(self, page: int = 1, per: int = 5) -> List[Category]:
-        resp_json = self.fetch(
-            url=f'{self.BASE_URL}/{self.ENDPOINT_PATH}'
-        )
-        return [Category(**item) for item in resp_json.get('categories')]
+    def list(self, **pag_params):
+        self._url = f"{self.BASE_URL}/{self.ENDPOINT_PATH}"
+        self._params = pag_params
+        self._json = {}
+        self._data = None
+        self._model = CategoryListResponseModel
+        self._method = "GET"
+        return self.fetch()
