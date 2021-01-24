@@ -1,4 +1,4 @@
-from typing import Any, Type, Dict, Optional
+from typing import Any, Type, Dict
 
 import requests
 from pydantic import BaseModel
@@ -27,7 +27,6 @@ class _SkroutzClient:
         """Get headers using the access token.
 
         Returns: Headers dictionary.
-
         """
         return {
             "Accept": "application/vnd.skroutz+json; version=3",
@@ -48,6 +47,8 @@ class _SkroutzClient:
                 )
             )
         )
+        import pprint
+        pprint.pprint(resp.json())
         return self._model(**resp.json())
 
     def __init__(self, client_id: str, client_secret: str, endpoints: list) -> None:

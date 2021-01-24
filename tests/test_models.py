@@ -4,7 +4,7 @@ from typing import Type
 
 import pytest
 from pydantic import BaseModel
-from pyskroutz.models import categories, skus
+from pyskroutz.models import skus, categories
 
 
 def load_response(path):
@@ -16,12 +16,12 @@ def load_response(path):
 @pytest.mark.parametrize(
     "fixture_file,model",
     [
-        ("categories_list", categories.CategoryListResponseModel),
+        ("categories_list", categories.CategoryList),
         ("categories_retrieve", categories.CategoryRetrieveResponseModel),
-        ("categories_children_list", categories.CategoryListResponseModel),
+        ("categories_children_list", categories.CategoryList),
         ("categories_parent_retrieve", categories.CategoryRetrieveResponseModel),
         ("categories_root_retrieve", categories.CategoryRetrieveResponseModel),
-        ("categories_specifications_group_list", categories.SpecificationListSchema),
+        ("categories_specifications_group_list", categories.SpecificationList),
         ("categories_specifications_list", skus.SpecificationListSchema),
         ("skus_category_list", skus.SkuListResponseModel),
         ("skus_retrieve", skus.SkuRetrieveResponseModel),

@@ -1,6 +1,5 @@
-from .base_client import _SkroutzClient
-from .categories import Categories
-import typing
+from .base import _SkroutzClient
+from pyskroutz.endpoints.categories import Categories
 
 
 class SkroutzClient(_SkroutzClient):

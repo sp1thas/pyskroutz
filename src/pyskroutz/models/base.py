@@ -98,24 +98,3 @@ class BookResponseModel(
     main_author: str
     images: List[ItemImageBaseResponseModel]
 
-
-class SpecificationResponseModel(BaseModel):
-    """Specification base model
-
-    Attributes:
-        id:
-        name:
-        values:
-        order:
-        unit:
-    """
-
-    id: int
-    name: str
-    values: List
-    order: int
-    unit: str
-
-
-class SpecificationListSchema(BaseModel):
-    specifications: List[SpecificationResponseModel]

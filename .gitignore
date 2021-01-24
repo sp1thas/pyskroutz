@@ -4,3 +4,5 @@
 .coverage
 .pytest_cache/
 .mypy_cache/
+coverage.xml
+htmlcov/

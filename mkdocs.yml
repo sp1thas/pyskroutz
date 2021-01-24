@@ -1,13 +1,14 @@
 site_name: pyskroutz
 site_description: pyskroutz documentation page
 site_author: Panagiotis Simakis
-features:
-    - navigation.instant
 
 theme:
   name: "material"
   palette:
     primary: orange
+
+  features:
+    - navigation.instant
 
 repo_url: https://github.com/sp1thas/pyskroutz/
 
@@ -21,9 +22,10 @@ markdown_extensions:
   - admonition
 
 nav:
-  - 'User Guide':
-      - Usage: 'index.md'
-  - API: 'api.md'
+  - API:
+      - client: 'api/client.md'
+      - endpoints: 'api/endpoints.md'
+      - models: 'api/models.md'
   - 'Developer Documentation':
       - Contributing: 'contributing.md'
       - Testing: ''

@@ -17,6 +17,12 @@ pip install pyskroutz
 >>> first_category.categories
 ```
 
+### Supported endpoints:
+
+ - Categories
+
+This project is under a major refactoring and heavy development. Most endpoint of Skroutz API will be implemented asap.
+
 ## How to contribute
 
 If you wish to contribute, read [CONTRIBUTING.md](docs/contributing.md) guide for further details.
