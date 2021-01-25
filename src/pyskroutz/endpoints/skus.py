@@ -41,19 +41,19 @@ class Skus(_SkroutzClient):
         Returns:
             List of skus under the given category.
         """
-        self._url = f"{self.BASE_URL}/{Categories.ENDPOINT_PATH}/{id}/skus"
-        self._params = dict(**pag_params)
+        params: dict = dict(**pag_params)
         if q is not None:
-            self._params["q"] = q
+            params["q"] = q
         if manufacturer_ids:
-            self._params["manufacturer_ids[]"] = manufacturer_ids
+            params["manufacturer_ids[]"] = manufacturer_ids
         if filter_ids:
-            self._params["filter_ids"] = filter_ids
-        self._json = {}
-        self._data = None
-        self._model = SkuList
-        self._method = "GET"
-        return self.fetch()
+            params["filter_ids"] = filter_ids
+        return self.fetch(
+            f"{self.BASE_URL}/{Categories.ENDPOINT_PATH}/{id}/skus",
+            "GET",
+            SkuList,
+            params=params,
+        )
 
     def retrieve(self, id: int) -> SkuRetrieve:
         """Retrieve a single SKU.
@@ -67,13 +67,9 @@ class Skus(_SkroutzClient):
         Returns:
             SKU details.
         """
-        self._url = f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}"
-        self._params = {}
-        self._json = {}
-        self._data = None
-        self._model = SkuRetrieve
-        self._method = "GET"
-        return self.fetch()
+        return self.fetch(
+            f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}", "GET", SkuRetrieve
+        )
 
     def retrieve_similar(self, id: int) -> SkuList:
         """Retrieve similar SKUs.
@@ -87,13 +83,9 @@ class Skus(_SkroutzClient):
         Returns:
             Similar SKU details.
         """
-        self._url = f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/similar"
-        self._params = {}
-        self._json: dict = {}
-        self._data = None
-        self._model = SkuList
-        self._method = "GET"
-        return self.fetch()
+        return self.fetch(
+            f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/similar", "GET", SkuList
+        )
 
     def retrive_reviews(
         self,
@@ -115,15 +107,14 @@ class Skus(_SkroutzClient):
         Returns:
             list of reviews.
         """
-        self._url = f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/reviews"
-        self._params = dict(**pag_params)
-        if include_meta:
-            self._params["include_meta"] = include_meta
-        self._json = {}
-        self._data = None
-        self._model = ReviewList
-        self._method = "GET"
-        return self.fetch()
+        return self.fetch(
+            f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/reviews",
+            "GET",
+            ReviewList,
+            dict(**pag_params)
+            if include_meta is None
+            else dict(include_meta=include_meta, **pag_params),
+        )
 
     def vote_review(self, id: int, review_id: int, helpful: bool) -> VoteRetrieve:
         """Vote a SKU's review
@@ -140,14 +131,12 @@ class Skus(_SkroutzClient):
         Returns:
             Vote response.
         """
-        self._url = (
-            f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/reviews/{review_id}/votes"
+        return self.fetch(
+            f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/reviews/{review_id}/votes",
+            "POST",
+            VoteRetrieve,
+            json={"vote": {"helpful": helpful}},
         )
-        self._json = {"vote": {"helpful": helpful}}
-        self._data = None
-        self._model = VoteRetrieve
-        self._method = "POST"
-        return self.fetch()
 
     def flag_review(self, id: int, review_id: int, reason: str) -> FlagRetrieve:
         """Flag a SKU's review
@@ -164,14 +153,12 @@ class Skus(_SkroutzClient):
         Returns:
             Vote response.
         """
-        self._url = (
-            f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/reviews/{review_id}/flags"
+        return self.fetch(
+            f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/reviews/{review_id}/flags",
+            "POST",
+            VoteRetrieve,
+            json={"vote": {"reason": reason}},
         )
-        self._json = {"vote": {"reason": reason}}
-        self._data = None
-        self._model = VoteRetrieve
-        self._method = "POST"
-        return self.fetch()
 
     def retrieve_review_form(self, id: int) -> ReviewFormRetrieve:
         """

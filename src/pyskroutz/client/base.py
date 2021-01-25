@@ -1,4 +1,4 @@
-from typing import Any, Type, Dict
+from typing import Any, Type, Dict, Optional
 
 import requests
 from pydantic import BaseModel
@@ -34,20 +34,28 @@ class _SkroutzClient:
             % (self._access_token_type.capitalize(), self._access_token),
         }
 
-    def fetch(self):
+    def fetch(
+        self,
+        url: str,
+        method: str,
+        model: Type[BaseModel],
+        data: Optional[Any] = None,
+        params: Optional[dict] = None,
+        json: Optional[dict] = None,
+    ):
         resp = self._session.send(
             self._session.prepare_request(
                 requests.Request(
-                    method=self._method,
-                    url=self._url,
-                    data=self._data,
+                    method=method,
+                    url=url,
+                    data=data,
                     headers=self.headers(),
-                    params=self._params,
-                    json=self._json,
+                    params=params,
+                    json=json,
                 )
             )
         )
-        return self._model(**resp.json())
+        return model(**resp.json())
 
     def __init__(self, client_id: str, client_secret: str, endpoints: list) -> None:
         self._session = requests.Session()
