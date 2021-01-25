@@ -1,4 +1,4 @@
-from typing import List, Optional
+from typing import List, Optional, Dict
 
 from pydantic import BaseModel, HttpUrl
 
@@ -19,7 +19,39 @@ class PaginationResponseModel(BaseModel):
     per: int
 
 
-class MetaResponseModel(BaseModel):
+class AvailabilityItem(BaseModel):
+    id: int
+    label: str
+    count: int
+
+
+class DistaceItem(BaseModel):
+    id: int
+    label: str
+    count: int
+
+
+class AvailabilityFilterItem(BaseModel):
+    filters: Optional[Dict[str, int]]
+    manufacturers: Optional[Dict[str, int]]
+    shops: Optional[Dict[str, int]]
+    availabilities: Optional[List[AvailabilityItem]]
+    distances: Optional[List[AvailabilityItem]]
+
+
+class SkuRatingBreakDownItem(BaseModel):
+    star: int
+    percentage: int
+    count: int
+
+
+class SkuReviewsAggrItem(BaseModel):
+    label: str
+    score: int
+    style: str
+
+
+class MetaItem(BaseModel):
     """Meta model.
 
     Attributes:
@@ -27,6 +59,11 @@ class MetaResponseModel(BaseModel):
     """
 
     pagination: PaginationResponseModel
+    order_by: Optional[str]
+    order_by_methods: Optional[Dict[str, str]]
+    available_filters: Optional[AvailabilityFilterItem]
+    sku_reviews_aggregation: Optional[List[SkuReviewsAggrItem]]
+    sku_rating_breakdown: Optional[List[SkuRatingBreakDownItem]]
 
 
 class WebUriResponseModel(BaseModel):

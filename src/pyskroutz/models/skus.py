@@ -4,9 +4,7 @@ from .base import *
 from typing import Optional
 
 
-class SkuResponseModel(
-    ItemBaseResponseModel, ItemBuyBaseResponseModel, WebUriResponseModel
-):
+class SkuItem(ItemBaseResponseModel, ItemBuyBaseResponseModel, WebUriResponseModel):
     ean: str
     pn: str
     display_name: str
@@ -23,21 +21,22 @@ class SkuResponseModel(
     name_source: Optional[str]
 
 
-class SkuListResponseModel(BaseModel):
-    skus: List[SkuResponseModel]
-    meta: MetaResponseModel
+class SkuList(BaseModel):
+    skus: List[SkuItem]
+    meta: MetaItem
+    available_filters: Optional[AvailabilityFilterItem]
 
 
-class SkuRetrieveResponseModel(BaseModel):
-    sku: SkuResponseModel
+class SkuRetrieve(BaseModel):
+    sku: SkuItem
 
 
-class SentimentResponseBody(BaseModel):
-    positive: List[str]
-    mediocre: List[str]
+class SentimentItem(BaseModel):
+    positive: Optional[List[str]]
+    mediocre: Optional[List[str]]
 
 
-class ReviewResponseModel(BaseModel):
+class ReviewItem(BaseModel):
     id: int
     user_id: int
     review: str
@@ -49,27 +48,28 @@ class ReviewResponseModel(BaseModel):
     voted: bool
     flagged: bool
     helpful: bool
-    sentiments: SentimentResponseBody
+    sentiments: Optional[SentimentItem]
 
 
-class ReviewListResponseModel(BaseModel):
-    reviews: List[ReviewResponseModel]
-    meta: MetaResponseModel
+class ReviewList(BaseModel):
+    reviews: List[ReviewItem]
+    meta: MetaItem
 
 
-class SkuReviewVoteResponseModel(BaseModel):
+class VoteItem(BaseModel):
     id: int
     sku_review_id: int
     user_id: int
     helpful: bool
     created_at: datetime.datetime
+    sku_review: Optional[ReviewItem]
 
 
-class SkuReviewVoteRetrieveResponseBody(BaseModel):
-    sku_review_vote: SkuReviewVoteResponseModel
+class VoteRetrieve(BaseModel):
+    sku_review_vote: VoteItem
 
 
-class SkuReviewFlagResponseModel(BaseModel):
+class FlagItem(BaseModel):
     id: int
     flaggable_id: int
     flaggable_type: str
@@ -79,21 +79,25 @@ class SkuReviewFlagResponseModel(BaseModel):
     updated_at: datetime.datetime
 
 
-class AnswerResponseModel(BaseModel):
+class FlagRetrieve(BaseModel):
+    flag: FlagItem
+
+
+class AnswerItem(BaseModel):
     id: int
     text: str
 
 
-class QuestionResponseModel(BaseModel):
+class QuestionItem(BaseModel):
     text: str
     type: str
-    answers: List[AnswerResponseModel]
+    answers: List[AnswerItem]
 
 
-class ReviewFormResponseModel(BaseModel):
+class ReviewFormItem(BaseModel):
     requires_body: bool
-    questions: List[QuestionResponseModel]
+    questions: List[QuestionItem]
 
 
-class SkuReviewFormRetrieveResponseModel(BaseModel):
-    review_form: ReviewFormResponseModel
+class ReviewFormRetrieve(BaseModel):
+    review_form: ReviewFormItem

@@ -1,5 +1,6 @@
 from .base import _SkroutzClient
-from pyskroutz.endpoints.categories import Categories
+from ..endpoints.categories import Categories
+from ..endpoints.skus import Skus
 
 
 class SkroutzClient(_SkroutzClient):
@@ -13,13 +14,13 @@ class SkroutzClient(_SkroutzClient):
         >>> client = SkroutzClient("<client-id>", "<client-secret>")
         >>> client.categories.list(per=10)
 
-        Check out the available endpoint for further details.
+        Check out the available endpoints for further details.
 
     Attributes:
         BASE_URL:
     """
 
-    _endpoints = [("categories", Categories)]
+    _endpoints = [("categories", Categories), ("skus", Skus)]
 
     def __init__(self, client_id: str, client_secret: str) -> None:
         """

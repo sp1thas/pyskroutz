@@ -34,7 +34,7 @@ class _SkroutzClient:
             % (self._access_token_type.capitalize(), self._access_token),
         }
 
-    def fetch(self) -> BaseModel:
+    def fetch(self):
         resp = self._session.send(
             self._session.prepare_request(
                 requests.Request(
@@ -47,9 +47,6 @@ class _SkroutzClient:
                 )
             )
         )
-        import pprint
-
-        pprint.pprint(resp.json())
         return self._model(**resp.json())
 
     def __init__(self, client_id: str, client_secret: str, endpoints: list) -> None:

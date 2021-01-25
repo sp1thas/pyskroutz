@@ -1,0 +1,130 @@
+{
+  "reviews": [
+    {
+      "id": 157637,
+      "user_id": 514694,
+      "review": "Το κινητό είναι πολύ αξιόπιστο για τα λεφτά του είναι πολύ γρήγορο στις λειτουργίες του.Επίσης οι κάμερες του είναι πολύ καλές και οι δύο μάλιστα η selfie έχει flash.Το προτείνω ανεπιφύλακτα!!!!!!",
+      "rating": 5,
+      "created_at": "2017-02-16T18:01:56+02:00",
+      "demoted": false,
+      "votes_count": 0,
+      "helpful_votes_count": 0,
+      "voted": false,
+      "flagged": false,
+      "helpful": false,
+      "sentiments": {
+        "positive": [
+          "Ποιότητα κλήσης",
+          "Φωτογραφίες",
+          "Καταγραφή Video",
+          "Μουσική",
+          "GPS",
+          "Ταχύτητα",
+          "Σχέση ποιότητας τιμής",
+          "Ανάλυση οθόνης"
+        ]
+      }
+    },
+    {
+      "id": 157450,
+      "user_id": 536848,
+      "review": "",
+      "rating": 5,
+      "created_at": "2017-02-15T18:23:30+02:00",
+      "demoted": false,
+      "votes_count": 0,
+      "helpful_votes_count": 0,
+      "voted": false,
+      "flagged": false,
+      "helpful": false,
+      "sentiments": {
+        "positive": [
+          "Ποιότητα κλήσης",
+          "Φωτογραφίες",
+          "Καταγραφή Video",
+          "Μουσική",
+          "GPS",
+          "Ταχύτητα",
+          "Σχέση ποιότητας τιμής",
+          "Ανάλυση οθόνης"
+        ]
+      }
+    },
+    {
+      "id": 157306,
+      "user_id": 650818,
+      "review": "",
+      "rating": 5,
+      "created_at": "2017-02-15T00:54:31+02:00",
+      "demoted": false,
+      "votes_count": 0,
+      "helpful_votes_count": 0,
+      "voted": false,
+      "flagged": false,
+      "helpful": false,
+      "sentiments": {
+        "positive": [
+          "Ποιότητα κλήσης",
+          "Φωτογραφίες",
+          "GPS",
+          "Ταχύτητα",
+          "Σχέση ποιότητας τιμής",
+          "Ανάλυση οθόνης"
+        ],
+        "mediocre": [
+          "Μουσική"
+        ]
+      }
+    }
+  ],
+  "meta": {
+    "sku_reviews_aggregation": [
+      {
+        "label": "Ανάλυση οθόνης",
+        "score": 100,
+        "style": "good"
+      },
+      {
+        "label": "Ποιότητα κλήσης",
+        "score": 100,
+        "style": "good"
+      },
+      {
+        "label": "Φωτογραφίες",
+        "score": 100,
+        "style": "good"
+      },
+      {
+        "label": "Σχέση ποιότητας τιμής",
+        "score": 100,
+        "style": "good"
+      },
+      {
+        "label": "Ταχύτητα",
+        "score": 100,
+        "style": "good"
+      },
+      {
+        "label": "GPS",
+        "score": 90,
+        "style": "good"
+      },
+      {
+        "label": "Καταγραφή Video",
+        "score": 90,
+        "style": "good"
+      },
+      {
+        "label": "Μουσική",
+        "score": 80,
+        "style": "good"
+      }
+    ],
+    "pagination": {
+      "total_results": 253,
+      "total_pages": 85,
+      "page": 1,
+      "per": 3
+    }
+  }
+}

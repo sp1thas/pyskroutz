@@ -1,6 +1,6 @@
 # Welcome to pyskroutz documentation
 
-A Python client for Skroutz API.
+A Python client for [Skroutz API](https://developer.skroutz.gr/api/v3/).
 
 ![Main photo](https://i.imgur.com/98Ddr0h.jpg)
 *Ermoupoli, Syros, Greece 2020*

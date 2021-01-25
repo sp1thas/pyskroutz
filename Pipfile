@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 requests = "*"
 pydantic = "*"
+typing-extensions = "*"
 
 [dev-packages]
 black = "*"
