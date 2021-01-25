@@ -1,5 +1,9 @@
 from pyskroutz.client.base import _SkroutzClient
-from pyskroutz.models.categories import CategoryList, CategoryRetrieve, SpecificationList
+from pyskroutz.models.categories import (
+    CategoryList,
+    CategoryRetrieve,
+    SpecificationList,
+)
 
 
 class Categories(_SkroutzClient):
@@ -19,7 +23,7 @@ class Categories(_SkroutzClient):
         """
         self._url = f"{self.BASE_URL}/{self.ENDPOINT_PATH}"
         self._params = pag_params
-        self._json = {}
+        self._json: dict = {}
         self._data = None
         self._model = CategoryList
         self._method = "GET"
@@ -38,7 +42,7 @@ class Categories(_SkroutzClient):
             Category details.
         """
         self._url = f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}"
-        self._params = pag_params
+        # self._params = pag_params
         self._json = {}
         self._data = None
         self._model = CategoryRetrieve
@@ -58,13 +62,12 @@ class Categories(_SkroutzClient):
             Parent category details.
         """
         self._url = f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/parent"
-        self._params = pag_params
+        # self._params = pag_params
         self._json = {}
         self._data = None
         self._model = CategoryRetrieve
         self._method = "GET"
         return self.fetch()
-
 
     def retrieve_root(self) -> CategoryRetrieve:
         """Retrieve the root category.
@@ -76,7 +79,7 @@ class Categories(_SkroutzClient):
             Root category details.
         """
         self._url = f"{self.BASE_URL}/{self.ENDPOINT_PATH}/root"
-        self._params = pag_params
+        # self._params = pag_params
         self._json = {}
         self._data = None
         self._model = CategoryRetrieve
@@ -104,7 +107,9 @@ class Categories(_SkroutzClient):
         self._method = "GET"
         return self.fetch()
 
-    def list_specifications(self, id: int, include_group: bool = None, **pag_params) -> SpecificationList:
+    def list_specifications(
+        self, id: int, include_group: bool = None, **pag_params
+    ) -> SpecificationList:
         """List a category's specifications.
 
         Examples:
@@ -121,14 +126,16 @@ class Categories(_SkroutzClient):
         self._url = f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/specifications"
         self._params = pag_params
         if include_group is True:
-            self._params['include'] = 'group'
+            self._params["include"] = "group"
         self._json = {}
         self._data = None
         self._model = SpecificationList
         self._method = "GET"
         return self.fetch()
 
-    def list_manufacturers(self, id: int, order_dir: str = None, **pag_params) -> SpecificationList:
+    def list_manufacturers(
+        self, id: int, order_dir: str = None, **pag_params
+    ) -> SpecificationList:
         """List a category's manufacturers.
 
         Examples:
@@ -144,8 +151,8 @@ class Categories(_SkroutzClient):
         """
         self._url = f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/manufacturers"
         self._params = pag_params
-        if include_group is True:
-            self._params['include'] = 'group'
+        if order_dir is not None:
+            self._params["order_dir"] = order_dir
         self._json = {}
         self._data = None
         self._model = SpecificationList
@@ -166,7 +173,7 @@ class Categories(_SkroutzClient):
             List favorites details.
         """
         self._url = f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/favorites"
-        self._params = pag_params
+        # self._params = pag_params
         self._json = {}
         self._data = None
         self._model = SpecificationList

@@ -17,7 +17,7 @@ class _SkroutzClient:
     _url: str
     _data: Any
     _params: dict
-    _json: dict
+    _json: Dict[str, Any]
     _method: str
     _model: Type[BaseModel]
     _access_token_type: str
@@ -48,6 +48,7 @@ class _SkroutzClient:
             )
         )
         import pprint
+
         pprint.pprint(resp.json())
         return self._model(**resp.json())
 

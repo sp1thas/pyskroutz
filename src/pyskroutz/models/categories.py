@@ -1,4 +1,13 @@
-from pyskroutz.models.base import *
+from pydantic import BaseModel
+from typing import List, Optional
+
+from ..models.base import (
+    MetaResponseModel,
+    ItemBaseResponseModel,
+    WebUriResponseModel,
+    HttpUrl,
+)
+
 
 class GroupItem(BaseModel):
     """
@@ -8,9 +17,11 @@ class GroupItem(BaseModel):
         name:
         order:
     """
+
     id: int
     name: str
     order: int
+
 
 class GroupList(BaseModel):
     groups: GroupItem
@@ -38,6 +49,7 @@ class SpecificationList(BaseModel):
     groups: Optional[List[GroupItem]]
     specifications: List[SpecificationItem]
 
+
 class CategoryItem(ItemBaseResponseModel, WebUriResponseModel):
     """Category Item response model.
 
@@ -52,6 +64,7 @@ class CategoryItem(ItemBaseResponseModel, WebUriResponseModel):
         show_specifications:
         manufacturer_title:
     """
+
     children_count: int
     image_url: HttpUrl
     parent_id: int
@@ -70,9 +83,10 @@ class CategoryList(BaseModel):
         categories: A list of categories items.
         meta: response meta details.
     """
+
     categories: List[CategoryItem]
     meta: MetaResponseModel
 
+
 class CategoryRetrieve(BaseModel):
     category: CategoryItem
-

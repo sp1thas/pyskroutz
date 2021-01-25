@@ -97,4 +97,3 @@ class BookResponseModel(
     main_author_id: int
     main_author: str
     images: List[ItemImageBaseResponseModel]
-

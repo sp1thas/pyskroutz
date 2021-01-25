@@ -26,7 +26,7 @@ def rsetattr(obj: object, attr: str, val):
     return setattr(rgetattr(obj, pre) if pre else obj, post, val)
 
 
-def rgetattr(obj: object, attr: str, *args) -> Any:
+def rgetattr(obj, attr: str, *args) -> Any:
     """Get recursive attribute.
 
     Examples:
@@ -46,6 +46,7 @@ def rgetattr(obj: object, attr: str, *args) -> Any:
     Returns: Attribute value
 
     """
+
     def _getattr(obj, attr) -> Any:
         return getattr(obj, attr, *args)
 
