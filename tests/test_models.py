@@ -4,7 +4,7 @@ from typing import Type
 
 import pytest
 from pydantic import BaseModel
-from pyskroutz.models import skus, categories
+from pyskroutz.models import categories, skus
 
 
 def load_response(path):
@@ -17,12 +17,12 @@ def load_response(path):
     "fixture_file,model",
     [
         ("categories_list", categories.CategoryList),
-        ("categories_retrieve", categories.CategoryRetrieveResponseModel),
+        ("categories_retrieve", categories.CategoryRetrieve),
         ("categories_children_list", categories.CategoryList),
-        ("categories_parent_retrieve", categories.CategoryRetrieveResponseModel),
-        ("categories_root_retrieve", categories.CategoryRetrieveResponseModel),
+        ("categories_parent_retrieve", categories.CategoryRetrieve),
+        ("categories_root_retrieve", categories.CategoryRetrieve),
         ("categories_specifications_group_list", categories.SpecificationList),
-        ("categories_specifications_list", skus.SpecificationListSchema),
+        ("categories_specifications_list", categories.SpecificationList),
         ("skus_category_list", skus.SkuListResponseModel),
         ("skus_retrieve", skus.SkuRetrieveResponseModel),
         ("skus_similar_retrieve", skus.SkuListResponseModel),
