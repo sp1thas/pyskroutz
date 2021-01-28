@@ -5,7 +5,7 @@ from ..models.categories import (
     SpecificationList,
 )
 from . import PaginationParams
-from typing import Dict, Any
+from typing import Dict, Any, Optional
 
 
 class Categories(_SkroutzClient):
@@ -13,30 +13,12 @@ class Categories(_SkroutzClient):
 
     ENDPOINT_PATH: str = "categories"
 
-    def list(self, **pag_params: PaginationParams) -> CategoryList:
-        """List categories
+    def get(self, id: Optional[int] = None) -> CategoryRetrieve:
+        """Retrieve a single category or list them all.
 
         Examples:
-            >>> client.categories.list()
 
-        Args:
-            **pag_params:
-
-        Returns:
-
-        """
-        return self.fetch(
-            f"{self.BASE_URL}/{self.ENDPOINT_PATH}",
-            "GET",
-            CategoryList,
-            params=pag_params,
-        )
-
-    def retrive(self, id: int) -> CategoryRetrieve:
-        """Retrieve a single category.
-
-        Examples:
-            >>> client.categories.retrieve(88)
+            >>> client.categories.get(88)
 
         Args:
             id: category identifier
@@ -45,14 +27,19 @@ class Categories(_SkroutzClient):
             Category details.
         """
         return self.fetch(
-            f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}", "GET", CategoryRetrieve
+            f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}"
+            if id is not None
+            else f"{self.BASE_URL}/{self.ENDPOINT_PATH}",
+            "GET",
+            CategoryRetrieve,
         )
 
-    def retrieve_parent(self, id: int) -> CategoryRetrieve:
+    def get_parent(self, id: int) -> CategoryRetrieve:
         """Retrieve the parent of a category.
 
         Examples:
-            >>> client.categories.retrieve_parent(88)
+
+            >>> client.categories.get_parent(88)
 
         Args:
             id: category identifier.
@@ -64,11 +51,12 @@ class Categories(_SkroutzClient):
             f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/parent", "GET", CategoryRetrieve
         )
 
-    def retrieve_root(self) -> CategoryRetrieve:
+    def get_root(self) -> CategoryRetrieve:
         """Retrieve the root category.
 
         Examples:
-            >>> client.categories.retrieve_root()
+
+            >>> client.categories.get_root()
 
         Returns:
             Root category details.
@@ -81,6 +69,7 @@ class Categories(_SkroutzClient):
         """List the children categories of a category.
 
         Examples:
+
             >>> client.categories.list_children(252)
 
         Args:
@@ -97,13 +86,14 @@ class Categories(_SkroutzClient):
             params=pag_params,
         )
 
-    def list_specifications(
+    def get_specifications(
         self, id: int, include_group: bool = None, **pag_params: PaginationParams
     ) -> SpecificationList:
         """List a category's specifications.
 
         Examples:
-            >>> client.categories.list_specifications(40, include_group=True)
+
+            >>> client.categories.get_specifications(40, include_group=True)
 
         Args:
             id: category identifier.
@@ -122,13 +112,14 @@ class Categories(_SkroutzClient):
             else dict(include="group", **pag_params),
         )
 
-    def list_manufacturers(
+    def get_manufacturers(
         self, id: int, order_dir: str = None, **pag_params: PaginationParams
     ) -> SpecificationList:
         """List a category's manufacturers.
 
         Examples:
-            >>> client.categories.list_manufacturers(2)
+
+            >>> client.categories.get_manufacturers(2)
 
         Args:
             id: category identifier.
@@ -147,15 +138,15 @@ class Categories(_SkroutzClient):
             else dict(order_dir=order_dir, **pag_params),
         )
 
-    def list_favorites(self, id: int) -> SpecificationList:
+    def get_favorites(self, id: int) -> SpecificationList:
         """List a category's favorites.
 
         Examples:
-            >>> client.categories.list_favorites(40)
+
+            >>> client.categories.get_favorites(40)
 
         Args:
             id: category identifier.
-            **pag_params: pagination params.
 
         Returns:
             List favorites details.

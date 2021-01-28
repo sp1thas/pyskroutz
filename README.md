@@ -20,6 +20,8 @@ pip install pyskroutz
 ### Supported endpoints:
 
  - Categories
+ - SKUs
+ - Books
 
 This project is under a major refactoring and heavy development. Most endpoint of Skroutz API will be implemented asap.
 

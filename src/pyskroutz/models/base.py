@@ -1,6 +1,6 @@
 from typing import List, Optional, Dict
 
-from pydantic import BaseModel, HttpUrl
+from pydantic import BaseModel, HttpUrl, PositiveInt
 
 
 class PaginationResponseModel(BaseModel):
@@ -51,7 +51,7 @@ class SkuReviewsAggrItem(BaseModel):
     style: str
 
 
-class MetaItem(BaseModel):
+class MetaItemBase(BaseModel):
     """Meta model.
 
     Attributes:
@@ -66,17 +66,17 @@ class MetaItem(BaseModel):
     sku_rating_breakdown: Optional[List[SkuRatingBreakDownItem]]
 
 
-class WebUriResponseModel(BaseModel):
+class WebUriBaseItem(BaseModel):
     """Web URI model.
 
     Attributes:
         web_uri:
     """
 
-    web_uri: HttpUrl
+    web_uri: Optional[HttpUrl]
 
 
-class ItemBaseResponseModel(BaseModel):
+class ItemBase(BaseModel):
     """Item Base model.
 
     Attributes:
@@ -84,11 +84,11 @@ class ItemBaseResponseModel(BaseModel):
         name:
     """
 
-    id: int
+    id: PositiveInt
     name: str
 
 
-class ItemBuyBaseResponseModel(BaseModel):
+class BuyableItemBase(BaseModel):
     """Item Buy base model.
 
     Attributes:
@@ -108,7 +108,7 @@ class ItemBuyBaseResponseModel(BaseModel):
     reviewable: Optional[bool]
 
 
-class ItemImageBaseResponseModel(BaseModel):
+class ImageItemBase(BaseModel):
     """Item image base model.
 
     Attributes:
@@ -116,21 +116,5 @@ class ItemImageBaseResponseModel(BaseModel):
         alternatives:
     """
 
-    main: str
-    alternatives: List[str]
-
-
-class BookResponseModel(
-    ItemBaseResponseModel, ItemBuyBaseResponseModel, WebUriResponseModel
-):
-    """Book response model.
-
-    Attributes:
-        main_author_id:
-        main_author:
-        images:
-    """
-
-    main_author_id: int
-    main_author: str
-    images: List[ItemImageBaseResponseModel]
+    main: Optional[HttpUrl]
+    alternatives: Optional[List[HttpUrl]]

@@ -22,7 +22,7 @@ class SkroutzClient(_SkroutzClient):
 
     _endpoints = [("categories", Categories), ("skus", Skus)]
 
-    def __init__(self, client_id: str, client_secret: str) -> None:
+    def __init__(self, client_id: str, client_secret: str, dev: bool = False) -> None:
         """
         Initiates an SkroutzClient object.
 
@@ -30,4 +30,4 @@ class SkroutzClient(_SkroutzClient):
             client_id: The client id.
             client_secret: The client secret.
         """
-        super().__init__(client_id, client_secret, SkroutzClient._endpoints)
+        super().__init__(client_id, client_secret, SkroutzClient._endpoints, dev=dev)

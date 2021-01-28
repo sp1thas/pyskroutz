@@ -20,14 +20,17 @@ plugins:
 
 markdown_extensions:
   - admonition
+  - pymdownx.keys
 
 nav:
   - API:
       - client: 'api/client.md'
-      - endpoints: 'api/endpoints.md'
+      - Endpoints:
+          - categories: 'api/endpoints/categories.md'
+          - skus: 'api/endpoints/skus.md'
+          - books: 'api/endpoints/books.md'
       - models: 'api/models.md'
   - 'Developer Documentation':
       - Contributing: 'contributing.md'
-      - Testing: ''
   - About:
       - License: 'license.md'

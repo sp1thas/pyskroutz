@@ -6,12 +6,12 @@ def rsetattr(obj: object, attr: str, val):
     """Set attribute recursively.
 
     Examples:
-        >>> from argparse import Namespace
-        >>> from pyskroutz.utils import rsetattr
-        >>> ns_obj = Namespace()
-        >>> ns_obj.a = Namespace()
-        >>> rsetattr(ns_obj, 'a.b', 1)
-        >>> ns_obj.a.b
+        from argparse import Namespace
+        from pyskroutz.utils import rsetattr
+        ns_obj = Namespace()
+        ns_obj.a = Namespace()
+        rsetattr(ns_obj, 'a.b', 1)
+        ns_obj.a.b
         1
 
     Args:
@@ -30,12 +30,12 @@ def rgetattr(obj, attr: str, *args) -> Any:
     """Get recursive attribute.
 
     Examples:
-        >>> from argparse import Namespace
-        >>> from pyskroutz.utils import rgetattr
-        >>> ns_obj = Namespace()
-        >>> ns_obj.a = Namespace()
-        >>> ns_obj.a.b = 1
-        >>> rgetattr(ns_obj, 'a.b')
+        from argparse import Namespace
+        from pyskroutz.utils import rgetattr
+        ns_obj = Namespace()
+        ns_obj.a = Namespace()
+        ns_obj.a.b = 1
+        rgetattr(ns_obj, 'a.b')
         1
 
     Args:

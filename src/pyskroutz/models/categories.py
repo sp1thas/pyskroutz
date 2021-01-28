@@ -2,9 +2,9 @@ from pydantic import BaseModel
 from typing import List, Optional
 
 from ..models.base import (
-    MetaItem,
-    ItemBaseResponseModel,
-    WebUriResponseModel,
+    MetaItemBase,
+    ItemBase,
+    WebUriBaseItem,
     HttpUrl,
 )
 
@@ -50,7 +50,7 @@ class SpecificationList(BaseModel):
     specifications: List[SpecificationItem]
 
 
-class CategoryItem(ItemBaseResponseModel, WebUriResponseModel):
+class CategoryItem(ItemBase, WebUriBaseItem):
     """Category Item response model.
 
     Attributes:
@@ -85,7 +85,7 @@ class CategoryList(BaseModel):
     """
 
     categories: List[CategoryItem]
-    meta: MetaItem
+    meta: MetaItemBase
 
 
 class CategoryRetrieve(BaseModel):

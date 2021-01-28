@@ -1,0 +1,19 @@
+{
+  "book": {
+    "id": 242327,
+    "name": "Ο Χάρι Πότερ και η φιλοσοφική λίθος",
+    "main_author_id": 385,
+    "main_author": "1965- J. K. Rowling",
+    "images": {
+      "main": "https://d.scdn.gr/images/sku_main_images/000242/242327/medium_20160722014855_o_chari_poter_kai_i_filosofiki_lithos.jpeg"
+    },
+    "price_min": 6.63,
+    "price_max": 12.96,
+    "shop_count": 15,
+    "reviewscore": 5.0,
+    "reviews_count": 2,
+    "first_product_shop_info": null,
+    "web_uri": "https://www.skroutz.gr/books/242327.%CE%9F%20%CE%A7%CE%AC%CF%81%CE%B9%20%CE%A0%CF%8C%CF%84%CE%B5%CF%81%20%CE%BA%CE%B1%CE%B9%20%CE%B7%20%CF%86%CE%B9%CE%BB%CE%BF%CF%83%CE%BF%CF%86%CE%B9%CE%BA%CE%AE%20%CE%BB%CE%AF%CE%B8%CE%BF%CF%82.html",
+    "reviewable": true
+  }
+}

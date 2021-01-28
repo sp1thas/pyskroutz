@@ -14,12 +14,6 @@ class _SkroutzClient:
 
     BASE_URL: str = "https://api.skroutz.gr"
 
-    _url: str
-    _data: Any
-    _params: dict
-    _json: Dict[str, Any]
-    _method: str
-    _model: Type[BaseModel]
     _access_token_type: str
     _access_token: str
 
@@ -30,8 +24,11 @@ class _SkroutzClient:
         """
         return {
             "Accept": "application/vnd.skroutz+json; version=3",
-            "Authorization": "%s %s"
-            % (self._access_token_type.capitalize(), self._access_token),
+            "Authorization": "%s sdfsdfsdfsd %s"
+            % (
+                getattr(self, "_access_token_type", "").capitalize(),
+                getattr(self, "_access_token", ""),
+            ),
         }
 
     def fetch(
@@ -55,16 +52,44 @@ class _SkroutzClient:
                 )
             )
         )
-        return model(**resp.json())
+        return model(
+            **self._request(url=url, method=method, data=data, params=params, json=json)
+        )
 
-    def __init__(self, client_id: str, client_secret: str, endpoints: list) -> None:
+    def _request(
+        self,
+        url: str,
+        method: str,
+        data: Optional[Any] = None,
+        params: Optional[dict] = None,
+        json: Optional[dict] = None,
+    ):
+        resp = self._session.send(
+            self._session.prepare_request(
+                requests.Request(
+                    method=method,
+                    url=url,
+                    data=data,
+                    headers=self.headers(),
+                    params=params,
+                    json=json,
+                )
+            )
+        )
+        return resp.json()
+
+    def __init__(
+        self, client_id: str, client_secret: str, endpoints: list, dev: bool
+    ) -> None:
         self._session = requests.Session()
         self._client_id = client_id
         self._client_secret = client_secret
         self._endpoints = endpoints
-        self.authenticate(self._client_id, client_secret=self._client_secret)
+        self._authenticate(self._client_id, client_secret=self._client_secret, dev=dev)
 
-    def authenticate(self, client_id, client_secret) -> None:
+    def _authenticate(self, client_id, client_secret, dev: bool = False) -> None:
+        if dev:
+            return
         req = requests.post(
             "https://www.skroutz.gr/oauth2/token",
             data={

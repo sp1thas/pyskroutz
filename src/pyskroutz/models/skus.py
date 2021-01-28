@@ -4,7 +4,7 @@ from .base import *
 from typing import Optional
 
 
-class SkuItem(ItemBaseResponseModel, ItemBuyBaseResponseModel, WebUriResponseModel):
+class SkuItem(ItemBase, BuyableItemBase, WebUriBaseItem):
     ean: str
     pn: str
     display_name: str
@@ -15,7 +15,7 @@ class SkuItem(ItemBaseResponseModel, ItemBuyBaseResponseModel, WebUriResponseMod
     manufacturer_id: int
     future: bool
     virtual: bool
-    images: ItemImageBaseResponseModel
+    images: ImageItemBase
     favorited: Optional[bool]
     comparable: Optional[bool]
     name_source: Optional[str]
@@ -23,7 +23,7 @@ class SkuItem(ItemBaseResponseModel, ItemBuyBaseResponseModel, WebUriResponseMod
 
 class SkuList(BaseModel):
     skus: List[SkuItem]
-    meta: MetaItem
+    meta: MetaItemBase
     available_filters: Optional[AvailabilityFilterItem]
 
 
@@ -53,7 +53,7 @@ class ReviewItem(BaseModel):
 
 class ReviewList(BaseModel):
     reviews: List[ReviewItem]
-    meta: MetaItem
+    meta: MetaItemBase
 
 
 class VoteItem(BaseModel):
