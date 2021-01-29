@@ -1,8 +1,10 @@
-*.pyc
-*.egg-info/
-.idea/
 .coverage
-.pytest_cache/
+.idea/
 .mypy_cache/
+.pytest_cache/
+*.egg-info/
+*.pyc
+build/
 coverage.xml
+dist/
 htmlcov/
