@@ -22,6 +22,7 @@ pip install pyskroutz
  - Categories
  - SKUs
  - Books
+ - Products
 
 This project is under a major refactoring and heavy development. Most endpoint of Skroutz API will be implemented asap.
 

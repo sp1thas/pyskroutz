@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "id": 2542077,
+      "name": "Verbatim DVD+R 25PK Spindle 16x",
+      "sku_id": 4843381,
+      "shop_id": 452,
+      "category_id": 472,
+      "availability": "Άμεση παραλαβή / Παράδοση 1 έως 3 ημέρες",
+      "click_url": "https://www.skroutz.gr/products/show/2542077?client_id=NsgROlpU9757wHtXZPmbzA%3D%3D&from=api",
+      "shop_uid": "062276",
+      "expenses": null,
+      "web_uri": "https://www.skroutz.gr/products/show/2542077",
+      "sizes": [
+
+      ],
+      "price": 8.99,
+      "immediate_pickup": true
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "total_results": 1,
+      "total_pages": 1,
+      "page": 1,
+      "per": 25
+    }
+  }
+}

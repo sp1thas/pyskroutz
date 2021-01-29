@@ -1,6 +1,5 @@
 from .base import _SkroutzClient
-from ..endpoints.categories import Categories
-from ..endpoints.skus import Skus
+from ..endpoints import skus, books, categories
 
 
 class SkroutzClient(_SkroutzClient):
@@ -17,10 +16,14 @@ class SkroutzClient(_SkroutzClient):
         Check out the available endpoints for further details.
 
     Attributes:
-        BASE_URL:
+        BASE_URL: The base url of Skroutz API.
     """
 
-    _endpoints = [("categories", Categories), ("skus", Skus)]
+    _endpoints = [
+        ("categories", categories.Categories),
+        ("skus", skus.Skus),
+        ("books", books.Books),
+    ]
 
     def __init__(self, client_id: str, client_secret: str, dev: bool = False) -> None:
         """

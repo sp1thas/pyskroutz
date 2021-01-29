@@ -1,0 +1,39 @@
+{
+  "product": {
+    "id": 29878439,
+    "name": "Apple iPhone 5S Space Grey 16 GB EU ( ✔ΔΩΡΟ ΘΗΚΗ + ✔TEMPERED GLASS )",
+    "sku_id": 3783654,
+    "shop_id": 4102,
+    "category_id": 40,
+    "availability": "Παράδοση 1 έως 3 ημέρες",
+    "click_url": "https://www.skroutz.gr/products/show/29878439?client_id=XIbz2_n2p94JTskRpHu9wQ%3D%3D&from=api",
+    "shop_uid": "548",
+    "expenses": null,
+    "web_uri": "http://skroutz.gr:3000/products/show/29878439",
+    "sizes": [
+
+    ],
+    "blp": {
+      "shipping_cost": 4.41,
+      "payment_method_cost": 3.5,
+      "final_price": 297.81
+    },
+    "price": 289.9,
+    "immediate_pickup": false
+  },
+  "meta": {
+    "personalization": {
+      "location": {
+        "address_id": 25522,
+        "label": "Αλέκου Παναγούλη 91, Νέα Ιωνία",
+        "lat": "38.043322",
+        "lng": "23.760006",
+        "type": "address",
+        "country_code": "GR"
+      },
+      "payment_method": {
+        "type": "spot_cash"
+      }
+    }
+  }
+}

@@ -26,9 +26,10 @@ nav:
   - API:
       - client: 'api/client.md'
       - Endpoints:
-          - categories: 'api/endpoints/categories.md'
-          - skus: 'api/endpoints/skus.md'
           - books: 'api/endpoints/books.md'
+          - categories: 'api/endpoints/categories.md'
+          - products: 'api/endpoints/products.md'
+          - skus: 'api/endpoints/skus.md'
       - models: 'api/models.md'
   - 'Developer Documentation':
       - Contributing: 'contributing.md'

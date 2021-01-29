@@ -1,5 +1,5 @@
 import json
-from pyskroutz.models import categories, skus, books
+from pyskroutz.models import categories, skus, books, products, base
 
 
 def load_response(path):
@@ -49,4 +49,11 @@ fixtures_list = [
     ("books_categories", books.BookCategoriesList, "GET", ""),
     ("publisher__", books.PublisherRetrieve, "GET", ""),
     ("publisher__books", books.BooksList, "GET", ""),
+    # Products
+    ("products__", products.ProductRetrieve, "GET", ""),
+    ("skus__products", products.ProductsList, "GET", ""),
+    ("skus__product_cards", products.CardsList, "GET", ""),
+    ("personalization", products.PersonalizationRetrieve, "GET", ""),
+    ("personalization_put", products.PersonalizationRetrieve, "PUT", ""),
+    ("shops__products__search", products.ProductsList, "GET", ""),
 ]

@@ -1,9 +1,9 @@
-from typing import List, Optional, Dict
+from typing import List, Dict, Optional
 
 from pydantic import BaseModel, HttpUrl, PositiveInt
 
 
-class PaginationResponseModel(BaseModel):
+class PaginationItem(BaseModel):
     """Pagination model.
 
     Attributes:
@@ -13,42 +13,60 @@ class PaginationResponseModel(BaseModel):
         per:
     """
 
-    total_results: int
-    total_pages: int
     page: int
     per: int
+    total_pages: int
+    total_results: int
 
 
 class AvailabilityItem(BaseModel):
+    count: int
     id: int
     label: str
-    count: int
 
 
 class DistaceItem(BaseModel):
+    count: int
     id: int
     label: str
-    count: int
 
 
 class AvailabilityFilterItem(BaseModel):
+    availabilities: Optional[List[AvailabilityItem]]
+    distances: Optional[List[AvailabilityItem]]
     filters: Optional[Dict[str, int]]
     manufacturers: Optional[Dict[str, int]]
     shops: Optional[Dict[str, int]]
-    availabilities: Optional[List[AvailabilityItem]]
-    distances: Optional[List[AvailabilityItem]]
 
 
 class SkuRatingBreakDownItem(BaseModel):
-    star: int
-    percentage: int
     count: int
+    percentage: int
+    star: int
 
 
 class SkuReviewsAggrItem(BaseModel):
     label: str
     score: int
     style: str
+
+
+class LocationItem(BaseModel):
+    address_id: Optional[int]
+    country_code: str
+    label: str
+    lat: str
+    lng: str
+    type: str
+
+
+class PaymentMethodTypeItem(BaseModel):
+    type: str
+
+
+class PersonalizationItem(BaseModel):
+    location: LocationItem
+    payment_method: PaymentMethodTypeItem
 
 
 class MetaItemBase(BaseModel):
@@ -58,12 +76,13 @@ class MetaItemBase(BaseModel):
         pagination:
     """
 
-    pagination: PaginationResponseModel
+    available_filters: Optional[AvailabilityFilterItem]
     order_by: Optional[str]
     order_by_methods: Optional[Dict[str, str]]
-    available_filters: Optional[AvailabilityFilterItem]
-    sku_reviews_aggregation: Optional[List[SkuReviewsAggrItem]]
+    pagination: Optional[PaginationItem]
+    personalization: Optional[PersonalizationItem]
     sku_rating_breakdown: Optional[List[SkuRatingBreakDownItem]]
+    sku_reviews_aggregation: Optional[List[SkuReviewsAggrItem]]
 
 
 class WebUriBaseItem(BaseModel):
@@ -100,12 +119,12 @@ class BuyableItemBase(BaseModel):
         reviewable:
     """
 
-    price_min: float
     price_max: float
-    shop_count: int
-    reviewscore: float
-    reviews_count: int
+    price_min: float
     reviewable: Optional[bool]
+    reviews_count: int
+    reviewscore: float
+    shop_count: int
 
 
 class ImageItemBase(BaseModel):
@@ -116,5 +135,5 @@ class ImageItemBase(BaseModel):
         alternatives:
     """
 
-    main: Optional[HttpUrl]
     alternatives: Optional[List[HttpUrl]]
+    main: Optional[HttpUrl]

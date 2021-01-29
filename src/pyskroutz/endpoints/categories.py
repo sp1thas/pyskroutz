@@ -4,7 +4,7 @@ from ..models.categories import (
     CategoryRetrieve,
     SpecificationList,
 )
-from . import PaginationParams
+from ..endpoints import PaginationParams
 from typing import Dict, Any, Optional
 
 
