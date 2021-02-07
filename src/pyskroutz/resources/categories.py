@@ -100,7 +100,7 @@ class Categories(ApiResource):
             model=SpecificationList,
             params=pag_params
             if include_group is None
-            else dict(include="group", **pag_params), # type: ignore
+            else dict(include="group", **pag_params),  # type: ignore
         )
 
     @fluent
@@ -123,7 +123,7 @@ class Categories(ApiResource):
             model=SpecificationList,
             params=dict(**pag_params)
             if order_dir is None
-            else dict(order_dir=order_dir, **dict(pag_params)), # type: ignore
+            else dict(order_dir=order_dir, **dict(pag_params)),  # type: ignore
         )
 
     @fluent
