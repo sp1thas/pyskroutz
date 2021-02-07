@@ -1,9 +1,9 @@
 # pyskroutz
-![testing](https://github.com/sp1thas/pyskroutz/workflows/testing/badge.svg) ![build](https://github.com/sp1thas/pyskroutz/workflows/build/badge.svg) [![Documentation Status](https://readthedocs.org/projects/pyskroutz/badge/?version=latest)](https://pyskroutz.readthedocs.io/en/latest/?badge=latest) [![PyPI](https://img.shields.io/pypi/v/pyskroutz.svg)](https://pypi.python.org/pypi/pyskroutz/) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/6d4cfa2124f94e1c823de6dec50268bb)](https://www.codacy.com/app/sp1thas/pySkroutz?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sp1thas/pySkroutz&amp;utm_campaign=Badge_Grade) ![code style](https://img.shields.io/badge/code%20style-black-black) [![codecov](https://codecov.io/gh/sp1thas/pyskroutz/branch/master/graph/badge.svg?token=WTYZU0ENYX)](https://codecov.io/gh/sp1thas/pyskroutz) ![Python versions](https://img.shields.io/pypi/pyversions/pyskroutz.svg)
+A Python client for [Skroutz API](https://developer.skroutz.gr/api/v3/).
 
-A Python client for Skroutz API
+![testing](https://github.com/sp1thas/pyskroutz/workflows/testing/badge.svg) ![build](https://github.com/sp1thas/pyskroutz/workflows/build/badge.svg) [![Documentation Status](https://readthedocs.org/projects/pyskroutz/badge/?version=latest)](https://pyskroutz.readthedocs.io/en/latest/?badge=latest) [![PyPI](https://img.shields.io/pypi/v/pyskroutz.svg)](https://pypi.python.org/pypi/pyskroutz/) ![code style](https://img.shields.io/badge/code%20style-black-black) [![codecov](https://codecov.io/gh/sp1thas/pyskroutz/branch/master/graph/badge.svg?token=WTYZU0ENYX)](https://codecov.io/gh/sp1thas/pyskroutz) ![Python versions](https://img.shields.io/pypi/pyversions/pyskroutz.svg)
 
-## Install
+## Installation
 ```bash
 pip install pyskroutz
 ```
@@ -16,7 +16,7 @@ client = pyskroutz.client('<client-id>', '<client-secret>')
 first_category = pyskroutz.categories(client).get(per=1).execute()
 ```
 
-### Supported endpoints:
+## Supported resources:
 
  - Categories
  - SKUs
@@ -24,6 +24,8 @@ first_category = pyskroutz.categories(client).get(per=1).execute()
  - Products
  - Manufacturers
 
+
+### Note
 This project is under a major refactoring and heavy development. Most endpoint of Skroutz API will be implemented asap.
 
 ## How to contribute
