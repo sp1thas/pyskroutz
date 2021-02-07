@@ -1,0 +1,22 @@
+{
+  "manufacturers": [
+    {
+      "id": 1,
+      "name": "EA - Electronic Arts",
+      "image_url": "https://c.scdn.gr/ds/manufacturers/1/e2e019eea82bfe6b82b47ab77f6b4497.png"
+    },
+    {
+      "id": 2,
+      "name": "Sony",
+      "image_url": "https://c.scdn.gr/ds/manufacturers/2/502f0698a44df30f4fd55fd9e0893369.jpg"
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "total_results": 26986,
+      "total_pages": 13493,
+      "page": 1,
+      "per": 2
+    }
+  }
+}

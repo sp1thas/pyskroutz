@@ -1,3 +1,5 @@
+"""Response models for category resources
+"""
 from pydantic import BaseModel
 from typing import List, Optional
 
@@ -47,7 +49,7 @@ class SpecificationItem(BaseModel):
 
 class SpecificationList(BaseModel):
     groups: Optional[List[GroupItem]]
-    specifications: List[SpecificationItem]
+    specifications: Optional[List[SpecificationItem]]
 
 
 class CategoryItem(ItemBase, WebUriBaseItem):

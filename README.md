@@ -11,10 +11,9 @@ pip install pyskroutz
 ## Usage
 
 ```python
->>> from pyskroutz.client import SkroutzClient
->>> client = SkroutzClient('<client-id>', '<client-secret>')
->>> first_category = client.categories.list(per=1)
->>> first_category.categories
+import pyskroutz
+client = pyskroutz.client('<client-id>', '<client-secret>')
+first_category = pyskroutz.categories(client).get(per=1).execute()
 ```
 
 ### Supported endpoints:
@@ -23,6 +22,7 @@ pip install pyskroutz
  - SKUs
  - Books
  - Products
+ - Manufacturers
 
 This project is under a major refactoring and heavy development. Most endpoint of Skroutz API will be implemented asap.
 

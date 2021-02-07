@@ -1,3 +1,5 @@
+"""Response models for shop resources
+"""
 from typing import List
 
 from pydantic import BaseModel, HttpUrl

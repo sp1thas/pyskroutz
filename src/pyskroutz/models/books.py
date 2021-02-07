@@ -1,3 +1,6 @@
+"""Response models for book resources
+"""
+
 from typing import List, Optional, Any
 from pydantic import BaseModel, PositiveInt, HttpUrl, EmailStr, AnyUrl
 

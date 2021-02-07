@@ -1,0 +1,1 @@
+::: pyskroutz.resources.books

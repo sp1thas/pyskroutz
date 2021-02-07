@@ -8,7 +8,7 @@ theme:
     primary: orange
 
   features:
-    - navigation.instant
+    - navigation.sections
 
 repo_url: https://github.com/sp1thas/pyskroutz/
 
@@ -23,14 +23,34 @@ markdown_extensions:
   - pymdownx.keys
 
 nav:
+  - Home: 'index.md'
   - API:
-      - client: 'api/client.md'
-      - Endpoints:
-          - books: 'api/endpoints/books.md'
-          - categories: 'api/endpoints/categories.md'
-          - products: 'api/endpoints/products.md'
-          - skus: 'api/endpoints/skus.md'
-      - models: 'api/models.md'
+    - Client: 'api/client.md'
+    - Resources:
+      - Category:
+        - Actions: 'api/resources/categories.md'
+        - Responses: 'api/models/categories.md'
+      - SKU:
+        - Actions: 'api/resources/skus.md'
+        - Responses: 'api/models/skus.md'
+      - Book:
+        - Actions: 'api/resources/books.md'
+        - Responses: 'api/models/books.md'
+      - Product:
+        - Actions: 'api/resources/products.md'
+        - Responses: 'api/models/products.md'
+      - Shop: 'api/resources/shops.md'
+      - Manufacturer:
+        - Actions: 'api/resources/manufacturers.md'
+        - Responses: 'api/models/manufacturers.md'
+      - Search: 'api/resources/search.md'
+      - Flag: 'api/resources/flags.md'
+      - Filter Groups: 'api/resources/filter_groups.md'
+      - User Profile: 'api/resources/user_profile.md'
+      - User Favorite: 'api/resources/user_favorites.md'
+      - User Notifications: 'api/resources/user_notifications.md'
+    - Utilities: 'api/utils.md'
+
   - 'Developer Documentation':
       - Contributing: 'contributing.md'
   - About:

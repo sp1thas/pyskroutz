@@ -1,17 +1,16 @@
-from .base import _SkroutzClient
-from ..endpoints import skus, books, categories
+from typing import Dict
+import requests
 
 
-class SkroutzClient(_SkroutzClient):
+class SkroutzClient:
     """Skroutz Client Class. This is the main class that let's you interact with Skroutz API.
 
     Examples:
         In order to interact with Skroutz API you have to initiate a `SkroutzClient` object.
         You have to provide the client id and the client secret.
 
-        >>> from pyskroutz import SkroutzClient
-        >>> client = SkroutzClient("<client-id>", "<client-secret>")
-        >>> client.categories.list(per=10)
+        >>> import pyskroutz
+        >>> client = pyskroutz.client("<client-id>", "<client-secret>")
 
         Check out the available endpoints for further details.
 
@@ -19,13 +18,12 @@ class SkroutzClient(_SkroutzClient):
         BASE_URL: The base url of Skroutz API.
     """
 
-    _endpoints = [
-        ("categories", categories.Categories),
-        ("skus", skus.Skus),
-        ("books", books.Books),
-    ]
+    _access_token: str
+    _access_token_type: str
 
-    def __init__(self, client_id: str, client_secret: str, dev: bool = False) -> None:
+    def __init__(
+        self, client_id: str, client_secret: str, raise_auth_error: bool = True
+    ) -> None:
         """
         Initiates an SkroutzClient object.
 
@@ -33,4 +31,38 @@ class SkroutzClient(_SkroutzClient):
             client_id: The client id.
             client_secret: The client secret.
         """
-        super().__init__(client_id, client_secret, SkroutzClient._endpoints, dev=dev)
+        self._client_id = client_id
+        self._client_secret = client_secret
+        self._authenticate(raise_auth_error=raise_auth_error)
+        self._session = requests.Session()
+
+    def _authenticate(self, raise_auth_error: bool = True) -> None:
+        req = requests.post(
+            "https://www.skroutz.gr/oauth2/token",
+            data={
+                "client_id": self._client_id,
+                "client_secret": self._client_secret,
+                "grant_type": "client_credentials",
+                "scope": "public",
+            },
+        )
+        if raise_auth_error:
+            req.raise_for_status()
+
+        self._access_token = req.json().get("access_token", "test")
+        self._access_token_type = req.json().get("token_type", "test")
+
+    @property
+    def _headers(self) -> Dict[str, str]:
+        """Get headers using the access token.
+
+        Returns: Headers dictionary.
+        """
+        return {
+            "Accept": "application/vnd.skroutz+json; version=3",
+            "Authorization": "%s %s"
+            % (
+                getattr(self, "_access_token_type", "").capitalize(),
+                getattr(self, "_access_token", ""),
+            ),
+        }

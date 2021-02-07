@@ -1,23 +1,23 @@
 from typing import List, Optional
 
 from . import PaginationParams
+from .base import ApiResource
 from .categories import Categories
-from ..client.base import _SkroutzClient
 from ..models.skus import (
     SkuList,
     SkuRetrieve,
     ReviewList,
     VoteRetrieve,
-    FlagRetrieve,
-    ReviewFormRetrieve,
 )
+from ..utils import fluent
 
 
-class Skus(_SkroutzClient):
+class Skus(ApiResource):
     """This Class holds the group of SKU related endpoints. More details in [sku](https://developer.skroutz.gr/api/v3/sku/) section."""
 
     ENDPOINT_PATH: str = "skus"
 
+    @fluent
     def list(
         self,
         id: int,
@@ -25,12 +25,8 @@ class Skus(_SkroutzClient):
         manufacturer_ids: Optional[List[int]] = None,
         filter_ids: Optional[List[int]] = None,
         **pag_params: PaginationParams,
-    ) -> SkuList:
+    ) -> None:
         """List SKUs of specific category
-
-        Examples:
-
-            >>> client.skus.list(40)
 
         Args:
             id: Category identifier.
@@ -39,8 +35,9 @@ class Skus(_SkroutzClient):
             filter_ids: The ids of the filters to be applied on the SKUs.
             **pag_params: pagination parameters
 
-        Returns:
-            List of skus under the given category.
+        Examples:
+
+            >>> pyskroutz.skus(client).list(40).execute()
         """
         params: dict = dict(**pag_params)
         if q is not None:
@@ -49,125 +46,112 @@ class Skus(_SkroutzClient):
             params["manufacturer_ids[]"] = manufacturer_ids
         if filter_ids:
             params["filter_ids"] = filter_ids
-        return self.fetch(
-            f"{self.BASE_URL}/{Categories.ENDPOINT_PATH}/{id}/skus",
-            "GET",
-            SkuList,
+        self._set_prepared_request(
+            url=f"{self.BASE_URL}/{Categories.ENDPOINT_PATH}/{id}/skus",
+            model=SkuList,
             params=params,
         )
 
-    def get(self, id: int) -> SkuRetrieve:
+    @fluent
+    def get(self, id: int) -> None:
         """Retrieve a single SKU.
 
-        Examples:
-            >>> client.skus.get(3443837)
-
         Args:
             id: SKU identifier.
 
-        Returns:
-            SKU details.
+        Examples:
+            >>> pyskroutz.skus(client).get(3443837).execute()
         """
-        return self.fetch(
-            f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}", "GET", SkuRetrieve
+        self._set_prepared_request(
+            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}", model=SkuRetrieve
         )
 
-    def get_similar(self, id: int) -> SkuList:
+    @fluent
+    def get_similar(self, id: int) -> None:
         """Retrieve similar SKUs.
 
-        Examples:
-
-            >>> client.skus.get_similar(3034682)
-
         Args:
             id: SKU identifier.
 
-        Returns:
-            Similar SKU details.
+        Examples:
+
+            >>> pyskroutz.skus(client).get_similar(3034682).execute()
         """
-        return self.fetch(
-            f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/similar", "GET", SkuList
+        self._set_prepared_request(
+            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/similar", model=SkuList
         )
 
+    @fluent
     def get_reviews(
         self,
         id: int,
         include_meta: Optional[str] = None,
         **pag_params: PaginationParams,
-    ) -> ReviewList:
+    ) -> None:
         """Retrieve a SKU's reviews
-
-        Examples:
-
-            >>> client.skus.get_reviews(3783654, include_meta='sku_rating_breakdown')
 
         Args:
             id: sku identifier
             include_meta: You may choose to include extra meta information using the following parameters: (sku_rating_breakdown, sku_reviews_aggregation)
             **pag_params: pagination params
 
-        Returns:
-            list of reviews.
-        """
-        return self.fetch(
-            f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/reviews",
-            "GET",
-            ReviewList,
-            dict(**pag_params)
-            if include_meta is None
-            else dict(include_meta=include_meta, **pag_params),
-        )
-
-    def vote_review(self, id: int, review_id: int, helpful: bool) -> VoteRetrieve:
-        """Vote a SKU's review
-
         Examples:
 
-            >>> client.skus.vote_review(3982592, 21943, True)
+            >>> pyskroutz.skus(client).get_reviews(3783654, include_meta='sku_rating_breakdown').execute()
+        """
+        self._set_prepared_request(
+            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/reviews",
+            params=dict(**pag_params)
+            if include_meta is None
+            else dict(include_meta=include_meta, **pag_params),
+            model=ReviewList,
+        )
+
+    @fluent
+    def vote_review(self, id: int, review_id: int, helpful: bool) -> None:
+        """Vote a SKU's review
 
         Args:
             id: SKU Identifier.
             review_id: Review identifier.
             helpful: Helpful or not.
 
-        Returns:
-            Vote response.
-        """
-        return self.fetch(
-            f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/reviews/{review_id}/votes",
-            "POST",
-            VoteRetrieve,
-            json={"vote": {"helpful": helpful}},
-        )
-
-    def flag_review(self, id: int, review_id: int, reason: str) -> FlagRetrieve:
-        """Flag a SKU's review
-
         Examples:
 
-            >>> client.skus.flag_review(9783213, 240896, "spam")
+            >>> pyskroutz.skus(client).vote_review(3982592, 21943, True).execute()
+        """
+        self._set_prepared_request(
+            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/reviews/{review_id}/votes",
+            method="POST",
+            json={"vote": {"helpful": helpful}},
+            model=VoteRetrieve,
+        )
+
+    @fluent
+    def flag_review(self, id: int, review_id: int, reason: str) -> None:
+        """Flag a SKU's review
 
         Args:
             id: SKU Identifier.
             review_id: Review identifier.
             reason: bad_language, wrong_section or spam
 
-        Returns:
-            Vote response.
+        Examples:
+
+            >>> pyskroutz.skus(client).flag_review(9783213, 240896, "spam").execute()
         """
-        return self.fetch(
-            f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/reviews/{review_id}/flags",
-            "POST",
-            VoteRetrieve,
+        self._set_prepared_request(
+            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/reviews/{review_id}/flags",
+            method="POST",
+            model=VoteRetrieve,
             json={"vote": {"reason": reason}},
         )
 
-    def get_review_form(self, id: int) -> ReviewFormRetrieve:
+    @fluent
+    def get_review_form(self, id: int) -> None:
         """
 
         Args:
             id:
-
-        Returns:
         """
         pass

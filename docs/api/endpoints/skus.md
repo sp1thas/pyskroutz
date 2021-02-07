@@ -1,1 +1,0 @@
-::: pyskroutz.endpoints.skus

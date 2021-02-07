@@ -19,7 +19,7 @@ pip install pyskroutz
 ## Usage
 
 ```python
-from pyskroutz.client import SkroutzClient
-client = SkroutzClient('<client-id>', '<client-secret>')
-first_category = client.categories.list(per=1)
+import pyskroutz
+client = pyskroutz.client('<client-id>', '<client-secret>')
+first_category = pyskroutz.categories(client).get(per=1).execute()
 ```

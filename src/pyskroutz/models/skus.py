@@ -1,3 +1,5 @@
+"""Response models for SKUs resources
+"""
 import datetime
 
 from .base import *
