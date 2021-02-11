@@ -1,0 +1,16 @@
+{
+  "flags": [
+    {
+      "reason": "bad_language",
+      "description": "Περιέχει απρεπείς εκφράσεις"
+    },
+    {
+      "reason": "wrong_section",
+      "description": "Περιέχει ερώτηση/συζήτηση"
+    },
+    {
+      "reason": "spam",
+      "description": "Περιέχει παραπλανητικές πληροφορίες"
+    }
+  ]
+}

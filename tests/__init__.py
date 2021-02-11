@@ -1,5 +1,7 @@
 import json
-from pyskroutz.models import categories, skus, books, products, base, manufacturers
+
+import pyskroutz.models.flags
+from pyskroutz.models import categories, skus, books, products, base, manufacturers, flags
 
 
 def load_response(path):
@@ -34,7 +36,7 @@ fixtures_list = [
     ("sku_reviews_include_breakdown", skus.ReviewList, "GET", ""),
     ("skus_reviews_retrieve", skus.ReviewList, "GET", ""),
     ("skus_reviews_vote_retrieve", skus.VoteRetrieve, "POST", ""),
-    ("skus_reviews_flag_retrieve", skus.FlagItem, "POST", ""),
+    ("skus_reviews_flag_retrieve", pyskroutz.models.flags.FlagItem, "POST", ""),
     ("skus_review_form_retrieve", skus.ReviewFormRetrieve, "GET", ""),
     # Book
     ("author__", books.BookAuthorRetrieve, "GET", ""),
@@ -61,4 +63,6 @@ fixtures_list = [
     ("manufacturers__", manufacturers.ManufacturerRetrieve, "GET", ""),
     ("manufacturers__skus", skus.SkuList, "GET", ""),
     ("manufacturers__categories", categories.CategoryList, "GET", ""),
+    # Flags
+    ("flags", flags.FlagList, "GET", ""),
 ]

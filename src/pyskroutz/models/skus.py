@@ -71,20 +71,6 @@ class VoteRetrieve(BaseModel):
     sku_review_vote: VoteItem
 
 
-class FlagItem(BaseModel):
-    id: int
-    flaggable_id: int
-    flaggable_type: str
-    user_id: int
-    reason: str
-    created_at: datetime.datetime
-    updated_at: datetime.datetime
-
-
-class FlagRetrieve(BaseModel):
-    flag: FlagItem
-
-
 class AnswerItem(BaseModel):
     id: int
     text: str

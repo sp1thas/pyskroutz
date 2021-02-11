@@ -23,6 +23,7 @@ first_category = pyskroutz.categories(client).get(per=1).execute()
  - Books
  - Products
  - Manufacturers
+ - Flags
 
 
 ### Note
