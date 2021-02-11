@@ -31,4 +31,4 @@ jobs:
     - name: Install package
       run: |
         pip install '.[dev]'
-        python -c 'from pyskroutz import SkroutzClient'
+        python -c 'from pyskroutz import client'
