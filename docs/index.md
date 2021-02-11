@@ -1,8 +1,18 @@
-# Welcome to pyskroutz documentation
-
-A Python client for [Skroutz API](https://developer.skroutz.gr/api/v3/).
-
-![testing](https://github.com/sp1thas/pyskroutz/workflows/testing/badge.svg) ![build](https://github.com/sp1thas/pyskroutz/workflows/build/badge.svg) [![Documentation Status](https://readthedocs.org/projects/pyskroutz/badge/?version=latest)](https://pyskroutz.readthedocs.io/en/latest/?badge=latest) [![PyPI](https://img.shields.io/pypi/v/pyskroutz.svg)](https://pypi.python.org/pypi/pyskroutz/) ![code style](https://img.shields.io/badge/code%20style-black-black) [![codecov](https://codecov.io/gh/sp1thas/pyskroutz/branch/master/graph/badge.svg?token=WTYZU0ENYX)](https://codecov.io/gh/sp1thas/pyskroutz) ![Python versions](https://img.shields.io/pypi/pyversions/pyskroutz.svg)
+<div align="center">
+    <h1>pyskroutz</h1>
+    <p>A Python client for <a href="https://developer.skroutz.gr/api/v3/">Skroutz API</a>.</p>
+    <img src="https://github.com/sp1thas/pyskroutz/workflows/testing/badge.svg" alt="testing badge">
+    <img src="https://github.com/sp1thas/pyskroutz/workflows/build/badge.svg" alt="build badge">
+    <img src="https://readthedocs.org/projects/pyskroutz/badge/?version=latest" alt="docs badge">
+    <a href="https://pypi.python.org/pypi/pyskroutz/">
+        <img src="https://img.shields.io/pypi/v/pyskroutz.svg" alt="pypi badge" />
+    </a>
+    <a href="https://codecov.io/gh/sp1thas/pyskroutz">
+        <img alt="code coverage badge" src="https://codecov.io/gh/sp1thas/pyskroutz/branch/master/graph/badge.svg?token=WTYZU0ENYX" />
+    </a>
+    <img src="https://img.shields.io/badge/code%20style-black-black">
+</div>
+<hr>
 
 ![Main photo](https://i.imgur.com/98Ddr0h.jpg)
 *Ermoupoli, Syros, Greece 2020*
