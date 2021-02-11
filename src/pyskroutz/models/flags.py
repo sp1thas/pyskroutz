@@ -7,6 +7,7 @@ class FlagBaseItem(BaseModel):
     reason: str
     description: str
 
+
 class FlagItem(BaseModel):
     id: int
     flaggable_id: int

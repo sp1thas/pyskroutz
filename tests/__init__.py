@@ -1,7 +1,15 @@
 import json
 
 import pyskroutz.models.flags
-from pyskroutz.models import categories, skus, books, products, base, manufacturers, flags
+from pyskroutz.models import (
+    categories,
+    skus,
+    books,
+    products,
+    base,
+    manufacturers,
+    flags,
+)
 
 
 def load_response(path):
