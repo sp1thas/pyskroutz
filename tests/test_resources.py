@@ -311,7 +311,32 @@ def test_products(method, req_attr, params):
             },
             (9783213, 240896, "spam"),
         ),
+        (
+            "get_review_form",
+            {
+                "url": "https://api.skroutz.gr/skus/3783654/reviews/new",
+                "method": "GET",
+            },
+            (3783654,),
+        ),
     ],
 )
 def test_skus(method, req_attr, params):
     util_test_endpoint(client, pyskroutz.skus, method, params, req_attr)
+
+
+@pytest.mark.parametrize(
+    "method,req_attr,params",
+    [
+        (
+            "get",
+            {
+                "url": "https://api.skroutz.gr/flags",
+                "method": "GET",
+            },
+            None,
+        ),
+    ],
+)
+def test_flags(method, req_attr, params):
+    util_test_endpoint(client, pyskroutz.flags, method, params, req_attr)

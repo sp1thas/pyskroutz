@@ -19,7 +19,7 @@ class Flags(ApiResource):
             >>> pyskroutz.flags(client).get().execute()
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}",
+            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}",
             method="GET",
             model=FlagList,
         )

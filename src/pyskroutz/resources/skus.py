@@ -7,13 +7,16 @@ from ..models.skus import (
     SkuList,
     SkuRetrieve,
     ReviewList,
+    ReviewFormRetrieve,
     VoteRetrieve,
 )
 from ..utils import fluent
 
 
 class Skus(ApiResource):
-    """This Class holds the group of SKU related endpoints. More details in [sku](https://developer.skroutz.gr/api/v3/sku/) section."""
+    """This Class holds the group of SKU related endpoints. A SKU (Stock Keeping Unit) is an aggregation of products.
+    More details in [sku](https://developer.skroutz.gr/api/v3/sku/) section.
+    """
 
     ENDPOINT_PATH: str = "skus"
 
@@ -40,12 +43,17 @@ class Skus(ApiResource):
             >>> pyskroutz.skus(client).list(40).execute()
         """
         params: dict = dict(**pag_params)
-        if q is not None:
-            params["q"] = q
-        if manufacturer_ids:
-            params["manufacturer_ids[]"] = manufacturer_ids
-        if filter_ids:
-            params["filter_ids"] = filter_ids
+
+        params.update(
+            {
+                n: v
+                for n, v in zip(
+                    ("q", "manufacturer_ids[]", "filter_ids"),
+                    (q, manufacturer_ids, filter_ids),
+                )
+                if v is not None
+            }
+        )
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{Categories.ENDPOINT_PATH}/{id}/skus",
             model=SkuList,
@@ -149,9 +157,15 @@ class Skus(ApiResource):
 
     @fluent
     def get_review_form(self, id: int) -> None:
-        """
+        """Retrieve a SKU review form
 
         Args:
-            id:
+            id: SKU Identifier
+
+        Examples:
+            >>> pyskroutz.skus(client).get_review_form(3783654).execute()
         """
-        pass
+        self._set_prepared_request(
+            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/reviews/new",
+            model=ReviewFormRetrieve,
+        )
