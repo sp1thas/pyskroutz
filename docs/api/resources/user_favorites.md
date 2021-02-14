@@ -1,1 +1,1 @@
-Not implemented yet.
+::: pyskroutz.favorites

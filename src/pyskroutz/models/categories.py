@@ -1,7 +1,8 @@
 """Response models for category resources
 """
-from pydantic import BaseModel
 from typing import List, Optional
+
+from pydantic import BaseModel
 
 from ..models.base import (
     MetaItemBase,

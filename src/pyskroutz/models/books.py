@@ -2,8 +2,8 @@
 """
 
 from typing import List, Optional, Any
-from pydantic import BaseModel, PositiveInt, HttpUrl, EmailStr, AnyUrl
 
+from pydantic import BaseModel, PositiveInt, HttpUrl, EmailStr
 from pyskroutz.models.base import (
     ItemBase,
     BuyableItemBase,

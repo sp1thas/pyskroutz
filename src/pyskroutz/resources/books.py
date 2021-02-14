@@ -1,3 +1,5 @@
+from typing import Optional
+
 from .base import ApiResource
 from ..models.books import (
     BookCategoriesList,
@@ -8,7 +10,6 @@ from ..models.books import (
     BookDetailsRetrieve,
     BookAuthorRetrieve,
 )
-from typing import Optional
 from ..utils import fluent
 
 

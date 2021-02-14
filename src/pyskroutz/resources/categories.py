@@ -1,4 +1,7 @@
+from typing import Optional
+
 from pyskroutz.resources.base import ApiResource
+
 from ..models.categories import (
     CategoryList,
     CategoryRetrieve,
@@ -6,7 +9,6 @@ from ..models.categories import (
 )
 from ..resources import PaginationParams
 from ..utils import fluent
-from typing import Optional
 
 
 class Categories(ApiResource):

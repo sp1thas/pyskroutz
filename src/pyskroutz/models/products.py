@@ -1,7 +1,9 @@
 """Response models for product resources
 """
-from pydantic import BaseModel, HttpUrl
 from typing import List, Any, Optional
+
+from pydantic import BaseModel, HttpUrl
+
 from .base import WebUriBaseItem, ItemBase, MetaItemBase, PersonalizationItem
 from .shops import ShopItem
 

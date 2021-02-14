@@ -12,18 +12,20 @@ def util_test_endpoint(
     client_: pyskroutz.client,
     resource: Type[base.ApiResource],
     method: str,
-    params: Union[None, tuple],
+    args: Union[None, tuple],
+    kwargs: Union[None, dict],
     req_attr_: dict,
 ):
-    params = params if params is not None else tuple()
+    args = args if args is not None else tuple()
+    kwargs = kwargs if kwargs is not None else {}
     obj = resource(client_)
-    getattr(obj, method)(*params)
+    getattr(obj, method)(*args, **kwargs)
     for k, v in req_attr_.items():
         assert rgetattr(obj, f"_prepared_request.{k}") == v
 
 
 @pytest.mark.parametrize(
-    "method,req_attr,params",
+    "method,req_attr,args,kwargs",
     [
         (
             "get",
@@ -32,6 +34,7 @@ def util_test_endpoint(
                 "method": "GET",
             },
             (88,),
+            {},
         ),
         (
             "get",
@@ -40,6 +43,7 @@ def util_test_endpoint(
                 "method": "GET",
             },
             None,
+            {},
         ),
         (
             "get_parent",
@@ -48,6 +52,7 @@ def util_test_endpoint(
                 "method": "GET",
             },
             (88,),
+            {},
         ),
         (
             "get_root",
@@ -56,6 +61,7 @@ def util_test_endpoint(
                 "method": "GET",
             },
             None,
+            {},
         ),
         (
             "list_children",
@@ -64,6 +70,7 @@ def util_test_endpoint(
                 "method": "GET",
             },
             (88,),
+            {},
         ),
         (
             "get_specifications",
@@ -72,6 +79,7 @@ def util_test_endpoint(
                 "method": "GET",
             },
             (88,),
+            {},
         ),
         (
             "get_manufacturers",
@@ -80,6 +88,7 @@ def util_test_endpoint(
                 "method": "GET",
             },
             (88,),
+            {},
         ),
         (
             "get_favorites",
@@ -88,15 +97,16 @@ def util_test_endpoint(
                 "method": "GET",
             },
             (88,),
+            {},
         ),
     ],
 )
-def test_categories(method, req_attr, params):
-    util_test_endpoint(client, pyskroutz.categories, method, params, req_attr)
+def test_categories(method, req_attr, args, kwargs):
+    util_test_endpoint(client, pyskroutz.categories, method, args, kwargs, req_attr)
 
 
 @pytest.mark.parametrize(
-    "method,req_attr,params",
+    "method,req_attr,args,kwargs",
     [
         (
             "get",
@@ -105,6 +115,7 @@ def test_categories(method, req_attr, params):
                 "method": "GET",
             },
             (242327,),
+            {},
         ),
         (
             "get_details",
@@ -113,6 +124,7 @@ def test_categories(method, req_attr, params):
                 "method": "GET",
             },
             (242327,),
+            {},
         ),
         (
             "get_author",
@@ -121,6 +133,7 @@ def test_categories(method, req_attr, params):
                 "method": "GET",
             },
             (385,),
+            {},
         ),
         (
             "get_author_books",
@@ -129,6 +142,7 @@ def test_categories(method, req_attr, params):
                 "method": "GET",
             },
             (385,),
+            {},
         ),
         (
             "get_similar_by_author",
@@ -137,6 +151,7 @@ def test_categories(method, req_attr, params):
                 "method": "GET",
             },
             (242327,),
+            {},
         ),
         (
             "get_publisher",
@@ -145,6 +160,7 @@ def test_categories(method, req_attr, params):
                 "method": "GET",
             },
             (78,),
+            {},
         ),
         (
             "get_publisher_books",
@@ -153,6 +169,7 @@ def test_categories(method, req_attr, params):
                 "method": "GET",
             },
             (78,),
+            {},
         ),
         (
             "get_book_categories",
@@ -161,6 +178,7 @@ def test_categories(method, req_attr, params):
                 "method": "GET",
             },
             None,
+            {},
         ),
         (
             "get_category",
@@ -169,6 +187,7 @@ def test_categories(method, req_attr, params):
                 "method": "GET",
             },
             (1857,),
+            {},
         ),
         (
             "get_category_books",
@@ -177,15 +196,16 @@ def test_categories(method, req_attr, params):
                 "method": "GET",
             },
             (1857,),
+            {},
         ),
     ],
 )
-def test_books(method, req_attr, params):
-    util_test_endpoint(client, pyskroutz.books, method, params, req_attr)
+def test_books(method, req_attr, args, kwargs):
+    util_test_endpoint(client, pyskroutz.books, method, args, kwargs, req_attr)
 
 
 @pytest.mark.parametrize(
-    "method,req_attr,params",
+    "method,req_attr,args,kwargs",
     [
         (
             "get",
@@ -194,6 +214,7 @@ def test_books(method, req_attr, params):
                 "method": "GET",
             },
             (12907,),
+            {},
         ),
         (
             "get",
@@ -202,6 +223,7 @@ def test_books(method, req_attr, params):
                 "method": "GET",
             },
             None,
+            {},
         ),
         (
             "get_manufacturer_categories",
@@ -210,15 +232,18 @@ def test_books(method, req_attr, params):
                 "method": "GET",
             },
             (12907,),
+            {},
         ),
     ],
 )
-def test_manufacturers(method, req_attr, params):
-    util_test_endpoint(client, manufacturers.Manufacturers, method, params, req_attr)
+def test_manufacturers(method, req_attr, args, kwargs):
+    util_test_endpoint(
+        client, manufacturers.Manufacturers, method, args, kwargs, req_attr
+    )
 
 
 @pytest.mark.parametrize(
-    "method,req_attr,params",
+    "method,req_attr,args,kwargs",
     [
         (
             "get",
@@ -227,6 +252,7 @@ def test_manufacturers(method, req_attr, params):
                 "method": "GET",
             },
             (242327,),
+            {},
         ),
         (
             "get_sku_products",
@@ -235,6 +261,7 @@ def test_manufacturers(method, req_attr, params):
                 "method": "GET",
             },
             (242327,),
+            {},
         ),
         (
             "get_sku_products_grouped_cards",
@@ -243,6 +270,7 @@ def test_manufacturers(method, req_attr, params):
                 "method": "GET",
             },
             (3783654,),
+            {},
         ),
         (
             "get_personalization",
@@ -251,15 +279,16 @@ def test_manufacturers(method, req_attr, params):
                 "method": "GET",
             },
             None,
+            {},
         ),
     ],
 )
-def test_products(method, req_attr, params):
-    util_test_endpoint(client, pyskroutz.products, method, params, req_attr)
+def test_products(method, req_attr, args, kwargs):
+    util_test_endpoint(client, pyskroutz.products, method, args, kwargs, req_attr)
 
 
 @pytest.mark.parametrize(
-    "method,req_attr,params",
+    "method,req_attr,args,kwargs",
     [
         (
             "list",
@@ -268,6 +297,7 @@ def test_products(method, req_attr, params):
                 "method": "GET",
             },
             (40,),
+            {},
         ),
         (
             "get",
@@ -276,6 +306,7 @@ def test_products(method, req_attr, params):
                 "method": "GET",
             },
             (3443837,),
+            {},
         ),
         (
             "get_similar",
@@ -284,6 +315,7 @@ def test_products(method, req_attr, params):
                 "method": "GET",
             },
             (3034682,),
+            {},
         ),
         (
             "get_reviews",
@@ -292,6 +324,7 @@ def test_products(method, req_attr, params):
                 "method": "GET",
             },
             (3783654,),
+            {},
         ),
         (
             "vote_review",
@@ -301,6 +334,7 @@ def test_products(method, req_attr, params):
                 "body": b'{"vote": {"helpful": true}}',
             },
             (3982592, 21943, True),
+            {},
         ),
         (
             "flag_review",
@@ -310,6 +344,7 @@ def test_products(method, req_attr, params):
                 "body": b'{"vote": {"reason": "spam"}}',
             },
             (9783213, 240896, "spam"),
+            {},
         ),
         (
             "get_review_form",
@@ -318,15 +353,16 @@ def test_products(method, req_attr, params):
                 "method": "GET",
             },
             (3783654,),
+            {},
         ),
     ],
 )
-def test_skus(method, req_attr, params):
-    util_test_endpoint(client, pyskroutz.skus, method, params, req_attr)
+def test_skus(method, req_attr, args, kwargs):
+    util_test_endpoint(client, pyskroutz.skus, method, args, kwargs, req_attr)
 
 
 @pytest.mark.parametrize(
-    "method,req_attr,params",
+    "method,req_attr,args,kwargs",
     [
         (
             "get",
@@ -335,8 +371,194 @@ def test_skus(method, req_attr, params):
                 "method": "GET",
             },
             None,
+            {},
         ),
     ],
 )
-def test_flags(method, req_attr, params):
-    util_test_endpoint(client, pyskroutz.flags, method, params, req_attr)
+def test_flags(method, req_attr, args, kwargs):
+    util_test_endpoint(client, pyskroutz.flags, method, args, kwargs, req_attr)
+
+
+@pytest.mark.parametrize(
+    "method,req_attr,args,kwargs",
+    [
+        (
+            "get",
+            {
+                "url": "https://api.skroutz.gr/user",
+                "method": "GET",
+            },
+            None,
+            {},
+        ),
+        (
+            "update",
+            {
+                "url": "https://api.skroutz.gr/user",
+                "method": "PATCH",
+                "body": b'{"sex": "male", "birthyear": 1980}',
+            },
+            None,
+            {"sex": "male", "birthyear": 1980},
+        ),
+        (
+            "get_avatars",
+            {"url": "https://api.skroutz.gr/user/avatars", "method": "GET"},
+            None,
+            {},
+        ),
+        (
+            "get_addresses",
+            {"url": "https://api.skroutz.gr/user/addresses", "method": "GET"},
+            None,
+            {},
+        ),
+        (
+            "get_address_form",
+            {"url": "https://api.skroutz.gr/user/addresses/new", "method": "GET"},
+            None,
+            {},
+        ),
+        (
+            "new_address_form",
+            {
+                "url": "https://api.skroutz.gr/user/addresses",
+                "method": "POST",
+                "body": b'{"label": "home", "first_name": "bill", "last_name": "Testopoulos", "street_name": "Panagouli", "street_number": "61", "city": "Nea Ionia", "zip": 14123, "region_id": 5}',
+            },
+            None,
+            {
+                "label": "home",
+                "first_name": "bill",
+                "last_name": "Testopoulos",
+                "street_name": "Panagouli",
+                "street_number": "61",
+                "city": "Nea Ionia",
+                "zip": 14123,
+                "region_id": 5,
+            },
+        ),
+        (
+            "update_address",
+            {
+                "url": "https://api.skroutz.gr/user/addresses/48937",
+                "method": "POST",
+                "body": b'{"street_number": "62"}',
+            },
+            (48937,),
+            {"street_number": "62"},
+        ),
+        (
+            "delete_address",
+            {
+                "url": "https://api.skroutz.gr/user/addresses/48937",
+                "method": "DELETE",
+            },
+            (48937,),
+            {},
+        ),
+        (
+            "saved_orders",
+            {
+                "url": "https://api.skroutz.gr/user/saved_orders",
+                "method": "GET",
+            },
+            None,
+            {},
+        ),
+        (
+            "logout",
+            {
+                "url": "https://api.skroutz.gr/user/logout",
+                "method": "DELETE",
+            },
+            None,
+            {},
+        ),
+    ],
+)
+def test_user(method, req_attr, args, kwargs):
+    util_test_endpoint(client, pyskroutz.user, method, args, kwargs, req_attr)
+
+
+@pytest.mark.parametrize(
+    "method,req_attr,args,kwargs",
+    [
+        (
+            "get_lists",
+            {
+                "url": "https://api.skroutz.gr/favorite_lists",
+                "method": "GET",
+            },
+            None,
+            {},
+        ),
+        (
+            "create_list",
+            {
+                "url": "https://api.skroutz.gr/favorite_lists",
+                "method": "POST",
+                "body": b'{"favorite_list": {"name": "test name"}}',
+            },
+            None,
+            {"name": "test name"},
+        ),
+        (
+            "destroy_list",
+            {
+                "url": "https://api.skroutz.gr/favorite_lists/973812",
+                "method": "DELETE",
+            },
+            (973812,),
+            {},
+        ),
+        (
+            "list_favorites",
+            {
+                "url": "https://api.skroutz.gr/favorites",
+                "method": "GET",
+            },
+            None,
+            {},
+        ),
+        (
+            "list_favorites",
+            {
+                "url": "https://api.skroutz.gr/favorite_lists/861839/favorites",
+                "method": "GET",
+            },
+            (861839,),
+            {},
+        ),
+        (
+            "get_favorite",
+            {
+                "url": "https://api.skroutz.gr/favorites/5896665",
+                "method": "GET",
+            },
+            (5896665,),
+            {},
+        ),
+        (
+            "create_favorite",
+            {
+                "url": "https://api.skroutz.gr/favorites",
+                "method": "POST",
+                "body": b'{"favorite": {"sku_id": 7957675}}',
+            },
+            (7957675,),
+            {},
+        ),
+        (
+            "destroy_favorite",
+            {
+                "url": "https://api.skroutz.gr/favorites/5896665",
+                "method": "DELETE",
+            },
+            (5896665,),
+            {},
+        ),
+    ],
+)
+def test_favorites(method, req_attr, args, kwargs):
+    util_test_endpoint(client, pyskroutz.favorites, method, args, kwargs, req_attr)

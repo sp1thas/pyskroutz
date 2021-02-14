@@ -2,7 +2,7 @@ import functools
 from typing import Any
 
 
-def rsetattr(obj: object, attr: str, val):
+def rsetattr(obj: object, attr: str, val) -> Any:
     """Set attribute recursively.
 
     Examples:
@@ -19,9 +19,6 @@ def rsetattr(obj: object, attr: str, val):
         obj: Object.
         attr: Attribute name (period separated for nested attributes).
         val: Attribute value.
-
-    Returns:
-
     """
     pre, _, post = attr.rpartition(".")
     return setattr(rgetattr(obj, pre) if pre else obj, post, val)

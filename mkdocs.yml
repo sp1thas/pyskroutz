@@ -44,10 +44,16 @@ nav:
         - Actions: 'api/resources/manufacturers.md'
         - Responses: 'api/models/manufacturers.md'
       - Search: 'api/resources/search.md'
-      - Flag: 'api/resources/flags.md'
+      - Flag:
+          - Actions: 'api/resources/flags.md'
+          - Responses: 'api/models/flags.md'
       - Filter Groups: 'api/resources/filter_groups.md'
-      - User Profile: 'api/resources/user_profile.md'
-      - User Favorite: 'api/resources/user_favorites.md'
+      - User Profile:
+          - Actions: 'api/resources/user_profile.md'
+          - Responses: 'api/models/user_profile.md'
+      - User Favorite:
+          - Actions: 'api/resources/user_favorites.md'
+          - Responses: 'api/models/user_favorites.md'
       - User Notifications: 'api/resources/user_notifications.md'
     - Utilities: 'api/utils.md'
 

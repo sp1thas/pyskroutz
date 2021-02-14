@@ -1,10 +1,7 @@
-from typing import Any, Type, Dict, Optional, Type
+from typing import Type
 
 import requests
 from pydantic import BaseModel
-
-from pyskroutz.exceptions import SkroutzApiError
-from pyskroutz.utils import rsetattr
 from pyskroutz.client import SkroutzClient
 
 
@@ -58,4 +55,5 @@ class ApiResource:
         if not hasattr(self, "_prepared_request"):
             raise ValueError("You have to select the retrieve method first")
         resp = self._client._session.send(self._prepared_request).json()
-        return self._model(**resp)
+        if self._model is not None:
+            return self._model(**resp)

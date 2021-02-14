@@ -36,6 +36,8 @@ first_category = pyskroutz.categories(client).get(per=1).execute()
  - Products
  - Manufacturers
  - Flags
+ - User profile
+ - User favorites
 
 
 ### Note

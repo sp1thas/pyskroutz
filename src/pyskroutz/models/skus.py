@@ -1,9 +1,9 @@
 """Response models for SKUs resources
 """
 import datetime
+from typing import Optional
 
 from .base import *
-from typing import Optional
 
 
 class SkuItem(ItemBase, BuyableItemBase, WebUriBaseItem):
