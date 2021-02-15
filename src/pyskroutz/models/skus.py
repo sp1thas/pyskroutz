@@ -1,20 +1,19 @@
 """Response models for SKUs resources
 """
 import datetime
-from typing import Optional
 
 from .base import *
 
 
 class SkuItem(ItemBase, BuyableItemBase, WebUriBaseItem):
-    ean: str
-    pn: str
+    ean: Optional[str]
+    pn: Optional[str]
     display_name: str
     category_id: int
     first_product_shop_info: Optional[str]
     click_url: Optional[HttpUrl]
-    plain_spec_summary: str
-    manufacturer_id: int
+    plain_spec_summary: Optional[str]
+    manufacturer_id: Optional[int]
     future: bool
     virtual: bool
     images: ImageItemBase
@@ -44,17 +43,17 @@ class ReviewItem(BaseModel):
     review: str
     rating: int
     created_at: datetime.datetime
-    demoted: bool
-    votes_count: int
-    helpful_votes_count: int
-    voted: bool
-    flagged: bool
-    helpful: bool
+    demoted: Optional[bool]
+    votes_count: Optional[int]
+    helpful_votes_count: Optional[int]
+    voted: Optional[bool]
+    flagged: Optional[bool]
+    helpful: Optional[bool]
     sentiments: Optional[SentimentItem]
 
 
 class ReviewList(BaseModel):
-    reviews: List[ReviewItem]
+    reviews: Optional[List[ReviewItem]]
     meta: MetaItemBase
 
 

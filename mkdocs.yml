@@ -39,15 +39,21 @@ nav:
       - Product:
         - Actions: 'api/resources/products.md'
         - Responses: 'api/models/products.md'
-      - Shop: 'api/resources/shops.md'
+      - Shop:
+          - Actions: 'api/resources/shops.md'
+          - Responses: 'api/models/shops.md'
       - Manufacturer:
         - Actions: 'api/resources/manufacturers.md'
         - Responses: 'api/models/manufacturers.md'
-      - Search: 'api/resources/search.md'
+      - Search:
+          - Actions: 'api/resources/search.md'
+          - Responses: 'api/models/search.md'
       - Flag:
           - Actions: 'api/resources/flags.md'
           - Responses: 'api/models/flags.md'
-      - Filter Groups: 'api/resources/filter_groups.md'
+      - Filter Groups:
+          - Actions: 'api/resources/filters.md'
+          - Responses: 'api/models/filters.md'
       - User Profile:
           - Actions: 'api/resources/user_profile.md'
           - Responses: 'api/models/user_profile.md'

@@ -1,0 +1,58 @@
+{
+  "locations": [
+    {
+      "id": 2500,
+      "headquarter": true,
+      "phones": [
+        "2102899999"
+      ],
+      "pickup_point": false,
+      "store": false,
+      "full_address": "14ο ΧΛΜ ΕΟ ΑΘΗΝΩΝ ΛΑΜΙΑΣ 14, Τ.Κ. 14452, ΜΕΤΑΜΟΡΦΩΣΗ, Αττικής",
+      "format": "structured",
+      "lat": "38.062297",
+      "lng": "23.75991",
+      "info": "",
+      "address": {
+        "id": 2500,
+        "street_number": "14",
+        "street": "14ο ΧΛΜ ΕΟ ΑΘΗΝΩΝ ΛΑΜΙΑΣ",
+        "postcode": "14452",
+        "city": "ΜΕΤΑΜΟΡΦΩΣΗ",
+        "region": "Αττικής",
+        "country": "Ελλάδα"
+      }
+    },
+    {
+      "id": 1696,
+      "headquarter": false,
+      "phones": [
+        "2102899999"
+      ],
+      "pickup_point": true,
+      "store": true,
+      "full_address": "ΛΕΩΦΟΡΟΣ ΗΡΑΚΛΕΙΟΥ 271, Τ.Κ. 14231, ΝΕΑ ΙΩΝΙΑ, Αττικής",
+      "format": "structured",
+      "lat": "38.044771",
+      "lng": "23.756156",
+      "info": "",
+      "address": {
+        "id": 1696,
+        "street_number": "271",
+        "street": "ΛΕΩΦΟΡΟΣ ΗΡΑΚΛΕΙΟΥ",
+        "postcode": "14231",
+        "city": "ΝΕΑ ΙΩΝΙΑ",
+        "region": "Αττικής",
+        "country": "Ελλάδα"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "total_results": 69,
+      "total_pages": 35,
+      "page": 1,
+      "per": 2
+    }
+  }
+}

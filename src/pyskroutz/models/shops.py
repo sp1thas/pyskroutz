@@ -1,10 +1,11 @@
 """Response models for shop resources
 """
-from typing import List
+from typing import List, Optional
 
 from pydantic import BaseModel, HttpUrl
 
-from .base import ItemBase, WebUriBaseItem
+from .base import ItemBase, WebUriBaseItem, MetaItemBase
+from .users import AddressItem
 
 
 class PaymentMethodsItem(BaseModel):
@@ -40,3 +41,35 @@ class ShopItem(ItemBase, WebUriBaseItem):
     shipping: ShippingItem
     extra_info: ExtraInfoItem
     top_positive_reasons: List[str]
+
+
+class ShopRetrieve(BaseModel):
+    shop: ShopItem
+
+
+class ShopList(BaseModel):
+    shops: Optional[List[ShopItem]]
+    meta: MetaItemBase
+
+
+class LocationItem(BaseModel):
+    id: int
+    headquarter: bool
+    phones: Optional[List[str]]
+    pickup_point: bool
+    store: bool
+    full_address: str
+    format: str
+    lat: Optional[str]
+    lng: Optional[str]
+    info: str
+    address: Optional[AddressItem]
+
+
+class LocationList(BaseModel):
+    locations: List[LocationItem]
+    meta: MetaItemBase
+
+
+class LocationRetrieve(BaseModel):
+    location: LocationItem

@@ -1,0 +1,56 @@
+{
+  "autocomplete": [
+    {
+      "k": "iphone 7",
+      "i": 3
+    },
+    {
+      "k": "iphone 7",
+      "i": 3,
+      "d": {
+        "n": "Κινητά Τηλέφωνα",
+        "id": 40
+      }
+    },
+    {
+      "k": "iphone 6s",
+      "i": 3
+    },
+    {
+      "k": "iphone 5s",
+      "i": 3
+    },
+    {
+      "k": "iphone",
+      "i": 3
+    },
+    {
+      "k": "iphone 7 plus",
+      "i": 3
+    },
+    {
+      "k": "iphone 6",
+      "i": 3
+    },
+    {
+      "k": "iphone se",
+      "i": 3
+    },
+    {
+      "k": "iphone 6s plus",
+      "i": 3
+    },
+    {
+      "k": "iphone 5",
+      "i": 3
+    },
+    {
+      "k": "iphone 4s",
+      "i": 3
+    },
+    {
+      "k": "iphone 7 jet black",
+      "i": 3
+    }
+  ]
+}

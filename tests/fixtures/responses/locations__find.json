@@ -1,0 +1,43 @@
+{
+  "locations": [
+    {
+      "id": 5729,
+      "headquarter": true,
+      "phones": [
+        "2310457486"
+      ],
+      "pickup_point": true,
+      "store": true,
+      "full_address": "25ΗΣ ΜΑΡΤΙΟΥ 44, Τ.Κ. 54248, Θεσσαλονίκη, Θεσσαλονίκης",
+      "format": "structured",
+      "lat": "40.60031",
+      "lng": "22.957736",
+      "info": "",
+      "distance": 87.0
+    },
+    {
+      "id": 4972,
+      "headquarter": true,
+      "phones": [
+        "2311242775",
+        "2311242776"
+      ],
+      "pickup_point": true,
+      "store": true,
+      "full_address": "25ΗΣ ΜΑΡΤΙΟΥ 31, Τ.Κ. 54645, Θεσσαλονίκη, Θεσσαλονίκης",
+      "format": "structured",
+      "lat": "40.599921",
+      "lng": "22.955776",
+      "info": "",
+      "distance": 125.0
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "total_results": 2,
+      "total_pages": 1,
+      "page": 1,
+      "per": 25
+    }
+  }
+}

@@ -104,7 +104,7 @@ class ItemBase(BaseModel):
     """
 
     id: PositiveInt
-    name: str
+    name: Optional[str]
 
 
 class BuyableItemBase(BaseModel):
@@ -119,12 +119,12 @@ class BuyableItemBase(BaseModel):
         reviewable:
     """
 
-    price_max: float
-    price_min: float
+    price_max: Optional[float]
+    price_min: Optional[float]
     reviewable: Optional[bool]
-    reviews_count: int
-    reviewscore: float
-    shop_count: int
+    reviews_count: Optional[int]
+    reviewscore: Optional[float]
+    shop_count: Optional[int]
 
 
 class ImageItemBase(BaseModel):

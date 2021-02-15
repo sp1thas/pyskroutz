@@ -1,0 +1,48 @@
+{
+  "categories": [
+    {
+      "id": 40,
+      "name": "Κινητά Τηλέφωνα",
+      "children_count": 0,
+      "image_url": "https://d.scdn.gr/ds/categories/40/20150508124644_bd07441b.jpg",
+      "parent_id": 86,
+      "fashion": false,
+      "layout_mode": "list",
+      "web_uri": "https://www.skroutz.gr/c/40/kinhta-thlefwna.html",
+      "code": "mobile",
+      "path": "76,1269,86,40",
+      "show_specifications": true,
+      "manufacturer_title": "Κατασκευαστές",
+      "match_count": 24
+    },
+    {
+      "id": 579,
+      "name": "Θήκες Κινητών Τηλεφώνων",
+      "children_count": 0,
+      "image_url": "https://b.scdn.gr/ds/categories/579/20150408173958_42b293c7.jpg",
+      "parent_id": 86,
+      "fashion": true,
+      "layout_mode": "wide_tiles",
+      "web_uri": "https://www.skroutz.gr/c/579/thikes-kinhtwn-thlefwnwn.html",
+      "code": "thikes-kinhtwn-thlefwnwn",
+      "path": "76,1269,86,579",
+      "show_specifications": false,
+      "manufacturer_title": "Κατασκευαστές",
+      "match_count": 11055
+    }
+  ],
+  "meta": {
+    "q": "iphone",
+    "alternatives": [
+
+    ],
+    "strong_matches": {
+    },
+    "pagination": {
+      "total_results": 134,
+      "total_pages": 67,
+      "page": 1,
+      "per": 2
+    }
+  }
+}

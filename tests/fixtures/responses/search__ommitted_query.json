@@ -1,0 +1,42 @@
+{
+  "categories": [
+
+  ],
+  "meta": {
+    "q": "wrong iphone",
+    "alternatives": [
+      {
+        "term": "wrong",
+        "count": 26,
+        "drop": [
+          {
+            "token": "wrong",
+            "dropped": false
+          },
+          {
+            "token": "iphone",
+            "dropped": true
+          }
+        ],
+        "important": false
+      },
+      {
+        "term": "iphone",
+        "count": 29834,
+        "drop": [
+          {
+            "token": "wrong",
+            "dropped": true
+          },
+          {
+            "token": "iphone",
+            "dropped": false
+          }
+        ],
+        "important": false
+      }
+    ],
+    "strong_matches": {
+    }
+  }
+}

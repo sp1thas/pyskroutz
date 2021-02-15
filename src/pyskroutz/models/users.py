@@ -51,18 +51,18 @@ class AvatarList(BaseModel):
 
 class AddressItem(BaseModel):
     id: int
-    label: str
-    first_name: str
-    last_name: str
-    street_name: str
+    label: Optional[str]
+    first_name: Optional[str]
+    last_name: Optional[str]
+    street_name: Optional[str]
     street_number: int
     city: str
-    zip: str
+    zip: Optional[str]
     region: str
-    phone: str
-    mobile: str
-    lng: str
-    lat: str
+    phone: Optional[str]
+    mobile: Optional[str]
+    lng: Optional[str]
+    lat: Optional[str]
 
 
 class AddressList(BaseModel):

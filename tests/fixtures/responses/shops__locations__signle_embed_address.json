@@ -1,0 +1,25 @@
+{
+  "location": {
+    "id": 2500,
+    "headquarter": true,
+    "phones": [
+      "2102899999"
+    ],
+    "pickup_point": false,
+    "store": false,
+    "full_address": "14ο ΧΛΜ ΕΟ ΑΘΗΝΩΝ ΛΑΜΙΑΣ 14, Τ.Κ. 14452, ΜΕΤΑΜΟΡΦΩΣΗ, Αττικής",
+    "format": "structured",
+    "lat": "38.062297",
+    "lng": "23.75991",
+    "info": "",
+    "address": {
+      "id": 2500,
+      "street_number": "14",
+      "street": "14ο ΧΛΜ ΕΟ ΑΘΗΝΩΝ ΛΑΜΙΑΣ",
+      "postcode": "14452",
+      "city": "ΜΕΤΑΜΟΡΦΩΣΗ",
+      "region": "Αττικής",
+      "country": "Ελλάδα"
+    }
+  }
+}

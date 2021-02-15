@@ -1,0 +1,48 @@
+{
+  "categories": [
+    {
+      "id": 1257,
+      "name": "Καθαρισμός & Περιποίηση Μοτοσυκλέτας",
+      "children_count": 0,
+      "image_url": "https://b.scdn.gr/ds/categories/1257/20160513125857_4d310050.jpeg",
+      "parent_id": 577,
+      "fashion": false,
+      "layout_mode": "list",
+      "web_uri": "https://www.skroutz.gr/c/1257/moto_cleaning.html",
+      "code": "moto_cleaning",
+      "path": "76,33,382,577,1257",
+      "show_specifications": false,
+      "manufacturer_title": "Κατασκευαστές",
+      "match_count": 9
+    },
+    {
+      "id": 1229,
+      "name": "Λιπαντικά Moto",
+      "children_count": 0,
+      "image_url": "https://c.scdn.gr/ds/categories/1229/1229.jpg",
+      "parent_id": 1227,
+      "fashion": false,
+      "layout_mode": "list",
+      "web_uri": "https://www.skroutz.gr/c/1229/lipantika-moto.html",
+      "code": "moto_lub",
+      "path": "76,33,382,1227,1229",
+      "show_specifications": false,
+      "manufacturer_title": "Κατασκευαστές",
+      "match_count": 2
+    }
+  ],
+  "meta": {
+    "q": "ipone",
+    "alternatives": [
+
+    ],
+    "strong_matches": {
+    },
+    "pagination": {
+      "total_results": 4,
+      "total_pages": 2,
+      "page": 1,
+      "per": 2
+    }
+  }
+}

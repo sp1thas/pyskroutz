@@ -1,15 +1,7 @@
 from typing import Optional
 
 from .base import ApiResource
-from ..models.books import (
-    BookCategoriesList,
-    BookCategoryRetrieve,
-    PublisherRetrieve,
-    BooksRetrieve,
-    BooksList,
-    BookDetailsRetrieve,
-    BookAuthorRetrieve,
-)
+from ..models import books
 from ..utils import fluent
 
 
@@ -34,7 +26,7 @@ class Books(ApiResource):
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}",
             method="GET",
-            model=BooksRetrieve,
+            model=books.BooksRetrieve,
         )
 
     @fluent
@@ -51,7 +43,7 @@ class Books(ApiResource):
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/details",
             method="GET",
-            model=BookDetailsRetrieve,
+            model=books.BookDetailsRetrieve,
         )
 
     @fluent
@@ -67,7 +59,7 @@ class Books(ApiResource):
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/author/{id}",
-            model=BookAuthorRetrieve,
+            model=books.BookAuthorRetrieve,
         )
 
     @fluent
@@ -82,7 +74,7 @@ class Books(ApiResource):
             >>> pyskroutz.books(client).get_author_books(385).execute()
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/author/{id}/books", model=BooksList
+            url=f"{self.BASE_URL}/author/{id}/books", model=books.BooksList
         )
 
     @fluent
@@ -98,7 +90,7 @@ class Books(ApiResource):
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/similar_by_author",
-            model=BooksList,
+            model=books.BooksList,
         )
 
     @fluent
@@ -113,7 +105,7 @@ class Books(ApiResource):
             >>> pyskroutz.books(client).get_publisher(78).execute()
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/publisher/{id}", model=PublisherRetrieve
+            url=f"{self.BASE_URL}/publisher/{id}", model=books.PublisherRetrieve
         )
 
     @fluent
@@ -128,7 +120,7 @@ class Books(ApiResource):
             >>> pyskroutz.books(client).get_publisher_books(78).execute()
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/publisher/{id}/books", model=BooksList
+            url=f"{self.BASE_URL}/publisher/{id}/books", model=books.BooksList
         )
 
     @fluent
@@ -140,7 +132,7 @@ class Books(ApiResource):
             >>> pyskroutz.books(client).get_book_categories().execute()
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/book_categories", model=BookCategoriesList
+            url=f"{self.BASE_URL}/book_categories", model=books.BookCategoriesList
         )
 
     def get_category(self, id: int) -> None:
@@ -154,7 +146,8 @@ class Books(ApiResource):
             >>> pyskroutz.books(client).get_category(1857).execute()
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/book_categories/{id}", model=BookCategoryRetrieve
+            url=f"{self.BASE_URL}/book_categories/{id}",
+            model=books.BookCategoryRetrieve,
         )
 
     def get_category_books(
@@ -170,5 +163,5 @@ class Books(ApiResource):
             >>> pyskroutz.books(client).get_category_books(1857).execute()
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/book_categories/{id}/books", model=BooksList
+            url=f"{self.BASE_URL}/book_categories/{id}/books", model=books.BooksList
         )
