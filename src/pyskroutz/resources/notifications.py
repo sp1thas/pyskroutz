@@ -33,7 +33,7 @@ class Notifications(ApiResource):
         )
 
     @fluent
-    def mark_as_viewed(self, ids: List[int]):
+    def mark_as_viewed(self, ids: List[int]) -> None:
         """Mark notifications as viewed
 
         Args:
