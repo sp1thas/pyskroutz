@@ -16,7 +16,7 @@ class SkroutzClient:
         Check out the available endpoints for further details.
 
     Attributes:
-        BASE_URL: The base url of Skroutz API.
+        BASE_URL (str): The base url of Skroutz API.
     """
 
     _access_token: str
