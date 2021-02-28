@@ -43,7 +43,7 @@ class Users(ApiResource):
         )
 
     @fluent
-    def update(self, **kwargs):
+    def update(self, **kwargs) -> None:
         """
         Update profile information
 
@@ -62,7 +62,7 @@ class Users(ApiResource):
         )
 
     @fluent
-    def get_avatars(self):
+    def get_avatars(self) -> None:
         """Retrieve the selection of predefined avatars
 
         Examples:
@@ -74,7 +74,7 @@ class Users(ApiResource):
         )
 
     @fluent
-    def get_addresses(self):
+    def get_addresses(self) -> None:
         """Retrieve user addresses
 
         Examples:
@@ -87,7 +87,7 @@ class Users(ApiResource):
         )
 
     @fluent
-    def get_address_form(self):
+    def get_address_form(self) -> None:
         """Retrieve user address form
 
         Examples:
@@ -184,7 +184,7 @@ class Users(ApiResource):
         )
 
     @fluent
-    def saved_orders(self):
+    def saved_orders(self) -> None:
         """User saved orders
 
         Examples
@@ -197,7 +197,7 @@ class Users(ApiResource):
         )
 
     @fluent
-    def logout(self):
+    def logout(self) -> None:
         """User logout
 
         Examples:
