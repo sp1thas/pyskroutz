@@ -65,8 +65,8 @@ class BookAuthorRetrieve(BaseModel):
 
 
 class BooksList(BaseModel):
-    books: List[BookItem]
-    meta: MetaItemBase
+    books: Optional[List[BookItem]]
+    meta: Optional[MetaItemBase]
 
 
 class PublisherItem(ItemBase):
@@ -90,7 +90,7 @@ class BookCategory(BaseModel):
 
 
 class BookCategoryRetrieve(BaseModel):
-    category: BookCategory
+    category: Optional[BookCategory]
 
 
 class BookCategoriesList(BaseModel):

@@ -21,6 +21,8 @@ plugins:
 markdown_extensions:
   - admonition
   - pymdownx.keys
+  - pymdownx.superfences
+  - pymdownx.tabbed
 
 nav:
   - Home: 'index.md'

@@ -23,10 +23,6 @@ class Categories(ApiResource):
         Args:
             id: category identifier
             pag_params: pagination parameters
-
-        Examples:
-
-            >>> pyskroutz.categories(client).get(88).execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}"
@@ -42,10 +38,6 @@ class Categories(ApiResource):
 
         Args:
             id: category identifier.
-
-        Examples:
-
-            >>> pyskroutz.categories(client).get_parent(88).execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/parent",
@@ -54,12 +46,7 @@ class Categories(ApiResource):
 
     @fluent
     def get_root(self) -> None:
-        """Retrieve the root category.
-
-        Examples:
-
-            >>> pyskroutz.categories(client).get_root().execute()
-        """
+        """Retrieve the root category."""
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/root", model=CategoryRetrieve
         )
@@ -71,10 +58,6 @@ class Categories(ApiResource):
         Args:
             id: category identifier.
             **pag_params: pagination params.
-
-        Examples:
-
-            >>> pyskroutz.categories(client).list_children(252).execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/children",
@@ -92,10 +75,6 @@ class Categories(ApiResource):
             id: category identifier.
             include_group: Include group.
             **pag_params: pagination params.
-
-        Examples:
-
-            >>> pyskroutz.categories(client).get_specifications(40, include_group=True).execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/specifications",
@@ -115,10 +94,6 @@ class Categories(ApiResource):
             id: category identifier.
             order_dir: Order ascending or descending (`asc`, `desc` default)
             **pag_params: pagination params.
-
-        Examples:
-
-            >>> pyskroutz.categories(client).get_manufacturers(2).execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/manufacturers",
@@ -134,10 +109,6 @@ class Categories(ApiResource):
 
         Args:
             id: category identifier.
-
-        Examples:
-
-            >>> pyskroutz.categories(client).get_favorites(40).execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/favorites",
