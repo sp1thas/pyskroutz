@@ -181,7 +181,7 @@ CategoryList(
 book = pyskroutz.books(client).get(242327).execute()
 ```
 <details>
-    <summary><code>book.dict()</code></summary>
+    <summary><code>book</code></summary>
 
 ```python
 BooksRetrieve(
