@@ -13,7 +13,7 @@ class PaymentMethodsItem(BaseModel):
     paypal: bool
     bank: bool
     spot_cash: bool
-    installments: str
+    installments: Optional[str]
 
 
 class ShippingItem(BaseModel):

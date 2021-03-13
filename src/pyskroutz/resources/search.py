@@ -12,12 +12,7 @@ class Search(ApiResource):
 
     @fluent
     def __call__(self, q: str) -> None:
-        """Search
-
-        Examples:
-
-            >>> pyskroutz.search(client)("iphone").execute()
-        """
+        """Search"""
 
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}",
@@ -27,12 +22,7 @@ class Search(ApiResource):
 
     @fluent
     def autocomplete(self, q: str) -> None:
-        """Autocomplete
-
-        Examples:
-
-            >>> pyskroutz.search(client).autocomplete("iph").execute()
-        """
+        """Autocomplete"""
 
         self._set_prepared_request(
             url=f"{self.BASE_URL}/autocomplete",

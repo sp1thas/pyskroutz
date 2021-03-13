@@ -1,4 +1,4 @@
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Any
 
 from pydantic import BaseModel, HttpUrl, PositiveInt
 
@@ -61,7 +61,7 @@ class LocationItem(BaseModel):
 
 
 class PaymentMethodTypeItem(BaseModel):
-    type: str
+    type: Any
 
 
 class PersonalizationItem(BaseModel):

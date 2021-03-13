@@ -12,12 +12,7 @@ class Flags(ApiResource):
 
     @fluent
     def get(self) -> None:
-        """List all flags
-
-        Examples:
-
-            >>> pyskroutz.flags(client).get().execute()
-        """
+        """List all flags"""
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}",
             method="GET",

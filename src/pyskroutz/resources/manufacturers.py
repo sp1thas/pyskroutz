@@ -3,6 +3,7 @@ from typing import Optional
 from .base import ApiResource
 from ..models.categories import CategoryList
 from ..models.manufacturers import ManufacturerRetrieve, ManufacturersList
+from ..resources import PaginationParams
 from ..utils import fluent
 
 
@@ -17,10 +18,6 @@ class Manufacturers(ApiResource):
 
         Args:
             id: manufacturer identifier
-
-        Examples:
-
-            >>> pyskroutz.manufacturers(client).get(12907).execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}"
@@ -31,18 +28,18 @@ class Manufacturers(ApiResource):
         )
 
     @fluent
-    def get_manufacturer_categories(self, id: int) -> None:
+    def get_manufacturer_categories(
+        self, id: int, **pag_params: PaginationParams
+    ) -> None:
         """
 
         Args:
             id: Manufacturer identifier
-
-        Examples:
-
-            >>> pyskroutz.manufacturers(client).get_manufacturer_categories(12907).execute()
+            pag_params: Pagination parameters
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/categories",
             method="GET",
             model=CategoryList,
+            params=pag_params,
         )

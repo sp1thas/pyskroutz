@@ -29,8 +29,8 @@ class ProductItem(ItemBase, WebUriBaseItem):
 
 
 class ProductRetrieve(BaseModel):
-    product: ProductItem
-    meta: MetaItemBase
+    product: Optional[ProductItem]
+    meta: Optional[MetaItemBase]
 
 
 class ProductsList(BaseModel):

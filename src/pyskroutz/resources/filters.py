@@ -15,10 +15,6 @@ class Filters(ApiResource):
 
         Args:
             category_id: Category identifier
-
-        Examples:
-
-            >>> pyskroutz.filters(client).get(40).execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/categories/{category_id}/filter_groups",

@@ -1,6 +1,7 @@
 from .base import ApiResource
 from ..models import shops, skus
 from ..utils import fluent
+from ..resources import PaginationParams
 
 
 class Shops(ApiResource):
@@ -12,12 +13,7 @@ class Shops(ApiResource):
 
     @fluent
     def get(self, id: int) -> None:
-        """Retrieve a single shop
-
-        Examples:
-
-            >>> pyskroutz.shops(client).get(452).execute()
-        """
+        """Retrieve a single shop"""
 
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}",
@@ -25,16 +21,18 @@ class Shops(ApiResource):
         )
 
     @fluent
-    def get_reviews(self, id: int) -> None:
+    def get_reviews(self, id: int, **pag_params: PaginationParams) -> None:
         """Retrieve a shop's reviews
 
         Args:
             id: shop identifier
+            pag_params: pagination parameters
 
         Examples:
-            >>> pyskroutz.shops(client).get_reviews(452).execute()
+            >>> pyskroutz.shops(client).get_reviews(452, per=2).execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/reviews",
             model=skus.ReviewList,
+            params=pag_params,
         )
