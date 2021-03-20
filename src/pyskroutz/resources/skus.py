@@ -37,10 +37,6 @@ class Skus(ApiResource):
             manufacturer_ids: The ids of the manufacturers of the SKUs.
             filter_ids: The ids of the filters to be applied on the SKUs.
             **pag_params: pagination parameters
-
-        Examples:
-
-            >>> pyskroutz.skus(client).list(40).execute()
         """
         params: dict = dict(**pag_params)
 
@@ -66,27 +62,23 @@ class Skus(ApiResource):
 
         Args:
             id: SKU identifier.
-
-        Examples:
-            >>> pyskroutz.skus(client).get(3443837).execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}", model=SkuRetrieve
         )
 
     @fluent
-    def get_similar(self, id: int) -> None:
+    def get_similar(self, id: int, **pag_params: PaginationParams) -> None:
         """Retrieve similar SKUs.
 
         Args:
             id: SKU identifier.
-
-        Examples:
-
-            >>> pyskroutz.skus(client).get_similar(3034682).execute()
+            pag_params: pagination parameters.
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/similar", model=SkuList
+            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/similar",
+            model=SkuList,
+            params=pag_params,
         )
 
     @fluent
@@ -102,10 +94,6 @@ class Skus(ApiResource):
             id: sku identifier
             include_meta: You may choose to include extra meta information using the following parameters: (sku_rating_breakdown, sku_reviews_aggregation)
             **pag_params: pagination params
-
-        Examples:
-
-            >>> pyskroutz.skus(client).get_reviews(3783654, include_meta='sku_rating_breakdown').execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/reviews",
@@ -123,10 +111,6 @@ class Skus(ApiResource):
             id: SKU Identifier.
             review_id: Review identifier.
             helpful: Helpful or not.
-
-        Examples:
-
-            >>> pyskroutz.skus(client).vote_review(3982592, 21943, True).execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/reviews/{review_id}/votes",
@@ -143,10 +127,6 @@ class Skus(ApiResource):
             id: SKU Identifier.
             review_id: Review identifier.
             reason: bad_language, wrong_section or spam
-
-        Examples:
-
-            >>> pyskroutz.skus(client).flag_review(9783213, 240896, "spam").execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/reviews/{review_id}/flags",
@@ -161,9 +141,6 @@ class Skus(ApiResource):
 
         Args:
             id: SKU Identifier
-
-        Examples:
-            >>> pyskroutz.skus(client).get_review_form(3783654).execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/reviews/new",

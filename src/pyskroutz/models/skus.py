@@ -67,7 +67,7 @@ class VoteItem(BaseModel):
 
 
 class VoteRetrieve(BaseModel):
-    sku_review_vote: VoteItem
+    sku_review_vote: Optional[VoteItem]
 
 
 class AnswerItem(BaseModel):
