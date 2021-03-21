@@ -16,11 +16,6 @@ class Notifications(ApiResource):
 
         Args:
             id: manufacturer identifier
-
-        Examples:
-
-            >>> pyskroutz.notifications(client).get().execute()
-            >>> pyskroutz.manufacturers(client).get(314233664).execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}"
@@ -38,11 +33,6 @@ class Notifications(ApiResource):
 
         Args:
             id:notification identifier
-
-        Examples:
-
-            >>> pyskroutz.notifications(client).mark_as_viewed([314083116]).execute()
-
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/view",

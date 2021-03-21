@@ -32,12 +32,7 @@ class Users(ApiResource):
     def get(
         self,
     ) -> None:
-        """Retrieve the profile of the authenticated user
-
-        Examples:
-
-            >>> pyskroutz.users(client).get().execute()
-        """
+        """Retrieve the profile of the authenticated user"""
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}", model=users.UserRetrieve
         )
@@ -49,10 +44,6 @@ class Users(ApiResource):
 
         Args:
             **kwargs: Pass the field name and the new value.
-
-        Examples:
-
-            >>> pyskroutz.users(client).update(sex="male", birthyear=1980).execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}",
@@ -63,24 +54,14 @@ class Users(ApiResource):
 
     @fluent
     def get_avatars(self) -> None:
-        """Retrieve the selection of predefined avatars
-
-        Examples:
-
-            >>> pyskroutz.users(client).get_avatars().execute()
-        """
+        """Retrieve the selection of predefined avatars"""
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/avatars", model=users.AvatarList
         )
 
     @fluent
     def get_addresses(self) -> None:
-        """Retrieve user addresses
-
-        Examples:
-
-            >>> pyskroutz.users(client).get_addresses().execute()
-        """
+        """Retrieve user addresses"""
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/addresses",
             model=users.AddressList,
@@ -88,12 +69,7 @@ class Users(ApiResource):
 
     @fluent
     def get_address_form(self) -> None:
-        """Retrieve user address form
-
-        Examples:
-
-            >>> pyskroutz.users(client).get_address_form().execute()
-        """
+        """Retrieve user address form"""
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/addresses/new",
             model=users.AddressFormRetrieve,
@@ -117,14 +93,6 @@ class Users(ApiResource):
                 mobile: mobile number
                 lng: longtitude
                 lat: latitude
-
-        Examples:
-
-            >>> pyskroutz.users(client).new_address_form(
-            ...     label="home", first_name="bill", last_name="Testopoulos",
-            ...     street_name="Panagouli", street_number="61",
-            ...     city="Nea Ionia", zip=14123, reqion_id=5
-            ... ).execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/addresses",
@@ -152,12 +120,6 @@ class Users(ApiResource):
                 mobile: mobile number
                 lng: longtitude
                 lat: latitude
-
-        Examples:
-
-            >>> pyskroutz.users(client).update_address(
-            ...     48937, street_number=62
-            ... ).execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/addresses/{id}",
@@ -172,10 +134,6 @@ class Users(ApiResource):
 
         Args:
             id: Address identifier
-
-        Examples:
-
-            >>> pyskroutz.users(client).delete_address(48937).execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/addresses/{id}",
@@ -185,12 +143,7 @@ class Users(ApiResource):
 
     @fluent
     def saved_orders(self) -> None:
-        """User saved orders
-
-        Examples
-
-            >>> pyskroutz.user(client).saved_orders().execute()
-        """
+        """User saved orders"""
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/saved_orders",
             model=users.SavedOdersList,
@@ -198,12 +151,7 @@ class Users(ApiResource):
 
     @fluent
     def logout(self) -> None:
-        """User logout
-
-        Examples:
-
-            >>> pyskroutz.users(client).logout().execute()
-        """
+        """User logout"""
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/logout",
             model=None,

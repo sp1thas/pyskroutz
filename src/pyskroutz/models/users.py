@@ -42,7 +42,7 @@ class UserItem(BaseModel):
 
 
 class UserRetrieve(BaseModel):
-    user: UserItem
+    user: Optional[UserItem]
 
 
 class AvatarList(BaseModel):

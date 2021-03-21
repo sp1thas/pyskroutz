@@ -20,7 +20,7 @@ class FavoriteListsRetrieve(BaseModel):
 
 
 class FavoriteListRetrieve(BaseModel):
-    favorite_list: FavoriteListItem
+    favorite_list: Optional[FavoriteListItem]
 
 
 class FavoriteItem(BaseModel):
@@ -36,7 +36,7 @@ class FavoriteItem(BaseModel):
 
 class FavoriteList(BaseModel):
     favorites: Optional[List[FavoriteItem]]
-    meta: MetaItemBase
+    meta: Optional[MetaItemBase]
 
 
 class FavoriteRetrieve(BaseModel):

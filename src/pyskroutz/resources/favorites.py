@@ -16,12 +16,7 @@ class Favorites(ApiResource):
     def get_lists(
         self,
     ) -> None:
-        """List favorite lists
-
-        Examples:
-
-            >>> pyskroutz.favorites(client).get_lists().execute()
-        """
+        """List favorite lists"""
         self._set_prepared_request(
             url=f"{self.BASE_URL}/favorite_lists", model=favorites.FavoriteList
         )
@@ -34,11 +29,6 @@ class Favorites(ApiResource):
 
         Args:
             name: favorite list name
-
-
-        Examples:
-
-            >>> pyskroutz.favorites(client).create_list("test name").execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/favorite_lists",
@@ -55,11 +45,6 @@ class Favorites(ApiResource):
 
         Args:
             id: favorite list identifier
-
-
-        Examples:
-
-            >>> pyskroutz.favorites(client).destroy_list(973812).execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/favorite_lists/{id}", model=None, method="DELETE"
@@ -67,12 +52,7 @@ class Favorites(ApiResource):
 
     @fluent
     def list_favorites(self, favorite_list: Optional[int] = None) -> None:
-        """List favorites (all or specify a favorite list
-
-        Examples:
-            >>> pyskroutz.favorites(client).list_favorites().execute()
-            >>> pyskroutz.favorites(client).list_favorites(861839).execute()
-        """
+        """List favorites (all or specify a favorite list)"""
         self._set_prepared_request(
             url=f"{self.BASE_URL}/favorites"
             if favorite_list is None
@@ -86,10 +66,6 @@ class Favorites(ApiResource):
 
         Args:
             id: favorite identifier
-
-        Examples:
-
-            >>> pyskroutz.favorites(client).get_favorite(5896665).execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/favorites/{id}", model=favorites.FavoriteRetrieve
@@ -101,10 +77,6 @@ class Favorites(ApiResource):
 
         Args:
             sku_id: SKU identifier
-
-        Examples:
-
-            >>> pyskroutz.favorites(client).create_favorite(7957675).execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/favorites",
@@ -119,10 +91,6 @@ class Favorites(ApiResource):
 
         Args:
             id: Favorite identifier
-
-        Examples:
-
-            >>> pyskroutz.favorites(client).destroy_favorite(5896665).execute()
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/favorites/{id}",
