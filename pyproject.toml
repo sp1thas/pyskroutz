@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "pyskroutz"
+version = "0.1.0"
+description = "A Python client for Skroutz API."
+authors = ["Panagiotis Simakis <sp1thas@autistici.org>"]
+maintainers = ["Panagiotis Simakis <sp1thas@autistici.org>"]
+readme = "README.md"
+documentation = "https://dropboxignore.readthedocs.io/"
+repository = "https://github.com/sp1thas/pyskroutz"
+keywords = ["skroutz", "skroutz-api", "api-client"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: Pytest",
+    "Framework :: Sphinx",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Natural Language :: English",
+    "Natural Language :: Greek"
+]
+packages = [{ include = "pyskroutz", from = "src" }]
+license = "GPL-3.0-only"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/python-poetry/poetry/issues"
+
+[tool.poetry.dependencies]
+python = ">=3.6.2,<4.0"
+requests = "^2.25.1"
+pydantic = {extras = ["email"], version = "^1.8.2"}
+typing-extensions = "^3.10.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.5b2"
+twine = "^3.4.1"
+mypy = "^0.900"
+pytest = "^6.2.4"
+pytest-cov = "^2.12.1"
+mkdocs = "^1.2"
+mkdocs-material = "^7.1.7"
+mkdocstrings = "^0.15.1"
+mock = "^4.0.3"
+responses = "^0.13.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
