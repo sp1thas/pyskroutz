@@ -28,7 +28,10 @@ jobs:
       uses: jpetrucciani/mypy-check@0.761
       with:
         path: 'src'
-    - name: Install package
+    - name: Install poetry
       run: |
-        pip install '.[dev]'
-        python -c 'from pyskroutz import client'
+        python -m pip install --upgrade pip
+        python -m pip install poetry
+    - name: Build package
+      run: |
+        poetry build
