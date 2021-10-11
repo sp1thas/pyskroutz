@@ -220,7 +220,7 @@ BooksRetrieve(
 ```
 </details>
 
-For further usage details navigate to [API Documentation](https://pyskroutz.readthedocs.io/en/latest/). Almost every endpoint of Skroutz API is supported by this client.
+For further usage details navigate to [Resources](https://pyskroutz.readthedocs.io/en/latest/). Almost every endpoint of Skroutz API is supported by this client.
 
 ## How to contribute
 

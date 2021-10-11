@@ -223,7 +223,7 @@ The `client` object will be passed as parameter in order to retrieve data from a
     )
     ```
 
-For further usage details navigate to [API Documentation](https://github.com/sp1thas/pyskroutz/blob/master/docs/contributing.md). Almost every endpoint of Skroutz API is supported by this client.
+For further usage details navigate to [Resources](https://github.com/sp1thas/pyskroutz/blob/master/docs/contributing.md). Almost every endpoint of Skroutz API is supported by this client.
 
 ## How to contribute
 
