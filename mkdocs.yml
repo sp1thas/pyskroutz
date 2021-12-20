@@ -1,6 +1,7 @@
 site_name: pyskroutz
 site_description: pyskroutz documentation page
 site_author: Panagiotis Simakis
+site_url: https://pyskroutz.simakis.me
 
 theme:
   name: "material"
