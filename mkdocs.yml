@@ -7,6 +7,7 @@ theme:
   name: "material"
   palette:
     primary: orange
+  custom_dir: "docs/overrides"
 
   features:
     - navigation.sections
@@ -14,10 +15,10 @@ theme:
 repo_url: https://github.com/sp1thas/pyskroutz/
 
 plugins:
-- search
-- mkdocstrings:
-    watch:
-      - src/pyskroutz
+  - search
+  - mkdocstrings:
+      watch:
+        - src/pyskroutz
 
 markdown_extensions:
   - admonition
@@ -26,25 +27,25 @@ markdown_extensions:
   - pymdownx.tabbed
 
 nav:
-  - Home: 'index.md'
+  - Home: "index.md"
   - API:
-    - Client: 'api/client.md'
-    - Resources:
-      - Categories: 'api/resources/categories.md'
-      - SKUs: 'api/resources/skus.md'
-      - Books: 'api/resources/books.md'
-      - Products: 'api/resources/products.md'
-      - Shops: 'api/resources/shops.md'
-      - Manufacturers: 'api/resources/manufacturers.md'
-      - Search: 'api/resources/search.md'
-      - Flags: 'api/resources/flags.md'
-      - Filter Groups: 'api/resources/filter_groups.md'
-      - User Profile: 'api/resources/user_profile.md'
-      - User Favorite: 'api/resources/user_favorites.md'
-      - User Notifications: 'api/resources/user_notifications.md'
-    - Utilities: 'api/utils.md'
+      - Client: "api/client.md"
+      - Resources:
+          - Categories: "api/resources/categories.md"
+          - SKUs: "api/resources/skus.md"
+          - Books: "api/resources/books.md"
+          - Products: "api/resources/products.md"
+          - Shops: "api/resources/shops.md"
+          - Manufacturers: "api/resources/manufacturers.md"
+          - Search: "api/resources/search.md"
+          - Flags: "api/resources/flags.md"
+          - Filter Groups: "api/resources/filter_groups.md"
+          - User Profile: "api/resources/user_profile.md"
+          - User Favorite: "api/resources/user_favorites.md"
+          - User Notifications: "api/resources/user_notifications.md"
+      - Utilities: "api/utils.md"
 
-  - 'Developer Documentation':
-      - Contributing: 'contributing.md'
+  - "Developer Documentation":
+      - Contributing: "contributing.md"
   - About:
-      - License: 'license.md'
+      - License: "license.md"

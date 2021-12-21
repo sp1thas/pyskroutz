@@ -33,6 +33,7 @@ python = ">=3.6.2,<4.0"
 requests = "^2.25.1"
 pydantic = {extras = ["email"], version = "^1.8.2"}
 typing-extensions = "^3.10.0"
+mkdocs = "^1.2.3"
 
 [tool.poetry.dev-dependencies]
 black = "^21.5b2"
