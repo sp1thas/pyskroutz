@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "pyskroutz"
-version = "0.1.12"
+version = "0.1.13"
 description = "A Python client for Skroutz API."
 authors = ["Panagiotis Simakis <sp1thas@autistici.org>"]
 maintainers = ["Panagiotis Simakis <sp1thas@autistici.org>"]
 readme = "README.md"
-documentation = "https://dropboxignore.readthedocs.io/"
+documentation = "https://pyskroutz.simakis.me/en/latest/"
 repository = "https://github.com/sp1thas/pyskroutz"
 keywords = ["skroutz", "skroutz-api", "api-client"]
 classifiers = [
