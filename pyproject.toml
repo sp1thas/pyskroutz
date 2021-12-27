@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyskroutz"
-version = "0.1.13"
+version = "0.1.14"
 description = "A Python client for Skroutz API."
 authors = ["Panagiotis Simakis"]
 maintainers = ["Panagiotis Simakis"]
