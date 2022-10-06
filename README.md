@@ -3,7 +3,9 @@
     <p>A Python client for <a href="https://developer.skroutz.gr/api/v3/">Skroutz API</a>.</p>
     <img src="https://github.com/sp1thas/pyskroutz/workflows/testing/badge.svg" alt="testing badge">
     <img src="https://github.com/sp1thas/pyskroutz/workflows/build/badge.svg" alt="build badge">
-    <img src="https://readthedocs.org/projects/pyskroutz/badge/?version=latest" alt="docs badge">
+    <a href="https://pyskroutz.simakis.me/?utm=gh">
+       <img src="https://readthedocs.org/projects/pyskroutz/badge/?version=latest" alt="docs badge">
+    </a>
     <a href="https://pypi.python.org/pypi/pyskroutz/">
         <img src="https://img.shields.io/pypi/v/pyskroutz.svg" alt="pypi badge" />
     </a>
