@@ -10,10 +10,12 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
     strategy:
       matrix:
+        operating-system: [ubuntu-latest, windows-latest, macos-latest]
         python-version: [3.6, 3.7, 3.8, 3.9, '3.10']
+
+    runs-on: ${{ matrix.operating-system }}
 
     steps:
     - uses: actions/checkout@v2
