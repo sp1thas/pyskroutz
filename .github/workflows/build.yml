@@ -27,6 +27,7 @@ jobs:
       uses: lgeiger/black-action@v1.0.1
       with:
         args: ". --check"
+      if: ${{ matrix.operating-system }} == 'ubuntu-latest'
     - name: Mypy Check
       uses: jpetrucciani/mypy-check@0.761
       with:
