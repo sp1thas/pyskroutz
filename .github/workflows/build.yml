@@ -8,8 +8,24 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  check:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
 
+    - name: Black Code Formatter
+      uses: lgeiger/black-action@v1.0.1
+      with:
+        args: ". --check"
+
+    - name: Mypy Check
+      uses: jpetrucciani/mypy-check@0.761
+      with:
+        path: 'src'
+    
+  build:
+    needs: [check]
     strategy:
       fail-fast: false
       matrix:
@@ -20,28 +36,22 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
         python-version: ${{ matrix.python-version }}
-    - name: Black Code Formatter
-      uses: lgeiger/black-action@v1.0.1
-      with:
-        args: ". --check"
-      if: runner.os == 'Linux'
-    - name: Mypy Check
-      uses: jpetrucciani/mypy-check@0.761
-      with:
-        path: 'src'
-      if: runner.os == 'Linux'
+
     - name: Install poetry
       run: |
         python -m pip install --upgrade pip
         python -m pip install poetry
+    
     - name: Install dependencies
       run: |
         poetry install
         poetry check
+    
     - name: Build package
       run: |
         poetry build
