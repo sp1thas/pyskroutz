@@ -2,273 +2,213 @@
   "specifications": [
     {
       "id": 1792,
-      "name": "Τύπος Κινητού",
-      "values": [
-
-      ],
+      "name": "\u03a4\u03cd\u03c0\u03bf\u03c2 \u039a\u03b9\u03bd\u03b7\u03c4\u03bf\u03cd",
       "order": 5,
-      "unit": ""
+      "unit": "",
+      "values": []
     },
     {
       "id": 906,
-      "name": "Τύπος SIM",
-      "values": [
-
-      ],
+      "name": "\u03a4\u03cd\u03c0\u03bf\u03c2 SIM",
       "order": 10,
-      "unit": ""
+      "unit": "",
+      "values": []
     },
     {
       "id": 575,
-      "name": "Λειτουργικό Σύστημα",
-      "values": [
-
-      ],
+      "name": "\u039b\u03b5\u03b9\u03c4\u03bf\u03c5\u03c1\u03b3\u03b9\u03ba\u03cc \u03a3\u03cd\u03c3\u03c4\u03b7\u03bc\u03b1",
       "order": 20,
-      "unit": ""
+      "unit": "",
+      "values": []
     },
     {
       "id": 1528,
-      "name": "Έτος Κυκλοφορίας",
-      "values": [
-
-      ],
+      "name": "\u0388\u03c4\u03bf\u03c2 \u039a\u03c5\u03ba\u03bb\u03bf\u03c6\u03bf\u03c1\u03af\u03b1\u03c2",
       "order": 30,
-      "unit": ""
+      "unit": "",
+      "values": []
     },
     {
       "id": 573,
-      "name": "Ισχύς Βασικού Επεξεργαστή",
-      "values": [
-
-      ],
+      "name": "\u0399\u03c3\u03c7\u03cd\u03c2 \u0392\u03b1\u03c3\u03b9\u03ba\u03bf\u03cd \u0395\u03c0\u03b5\u03be\u03b5\u03c1\u03b3\u03b1\u03c3\u03c4\u03ae",
       "order": 40,
-      "unit": "MHz"
+      "unit": "MHz",
+      "values": []
     },
     {
       "id": 1424,
-      "name": "Πυρήνες Επεξεργαστή",
-      "values": [
-
-      ],
+      "name": "\u03a0\u03c5\u03c1\u03ae\u03bd\u03b5\u03c2 \u0395\u03c0\u03b5\u03be\u03b5\u03c1\u03b3\u03b1\u03c3\u03c4\u03ae",
       "order": 50,
-      "unit": ""
+      "unit": "",
+      "values": []
     },
     {
       "id": 2066,
-      "name": "Εσωτερική Μνήμη RAM",
-      "values": [
-
-      ],
+      "name": "\u0395\u03c3\u03c9\u03c4\u03b5\u03c1\u03b9\u03ba\u03ae \u039c\u03bd\u03ae\u03bc\u03b7 RAM",
       "order": 55,
-      "unit": "MB"
+      "unit": "MB",
+      "values": []
     },
     {
       "id": 579,
-      "name": "Εσωτερική Μνήμη Αποθήκευσης",
-      "values": [
-
-      ],
+      "name": "\u0395\u03c3\u03c9\u03c4\u03b5\u03c1\u03b9\u03ba\u03ae \u039c\u03bd\u03ae\u03bc\u03b7 \u0391\u03c0\u03bf\u03b8\u03ae\u03ba\u03b5\u03c5\u03c3\u03b7\u03c2",
       "order": 60,
-      "unit": "GB"
+      "unit": "GB",
+      "values": []
     },
     {
       "id": 580,
       "name": "Card Slot",
-      "values": [
-
-      ],
       "order": 70,
-      "unit": ""
+      "unit": "",
+      "values": []
     },
     {
       "id": 1526,
-      "name": "Μέγεθος Οθόνης",
-      "values": [
-
-      ],
+      "name": "\u039c\u03ad\u03b3\u03b5\u03b8\u03bf\u03c2 \u039f\u03b8\u03cc\u03bd\u03b7\u03c2",
       "order": 5,
-      "unit": "\""
+      "unit": "\"",
+      "values": []
     },
     {
       "id": 1522,
-      "name": "Ανάλυση Οθόνης",
-      "values": [
-
-      ],
+      "name": "\u0391\u03bd\u03ac\u03bb\u03c5\u03c3\u03b7 \u039f\u03b8\u03cc\u03bd\u03b7\u03c2",
       "order": 10,
-      "unit": "pixels"
+      "unit": "pixels",
+      "values": []
     },
     {
       "id": 569,
-      "name": "Τύπος Οθόνης",
-      "values": [
-
-      ],
+      "name": "\u03a4\u03cd\u03c0\u03bf\u03c2 \u039f\u03b8\u03cc\u03bd\u03b7\u03c2",
       "order": 15,
-      "unit": ""
+      "unit": "",
+      "values": []
     },
     {
       "id": 1530,
-      "name": "Τρόπος Χειρισμού",
-      "values": [
-
-      ],
+      "name": "\u03a4\u03c1\u03cc\u03c0\u03bf\u03c2 \u03a7\u03b5\u03b9\u03c1\u03b9\u03c3\u03bc\u03bf\u03cd",
       "order": 20,
-      "unit": ""
+      "unit": "",
+      "values": []
     },
     {
       "id": 574,
-      "name": "Βασική Κάμερα",
-      "values": [
-
-      ],
+      "name": "\u0392\u03b1\u03c3\u03b9\u03ba\u03ae \u039a\u03ac\u03bc\u03b5\u03c1\u03b1",
       "order": 5,
-      "unit": "MP"
+      "unit": "MP",
+      "values": []
     },
     {
       "id": 5098,
-      "name": "Διπλή Πίσω Κάμερα",
-      "values": [
-
-      ],
+      "name": "\u0394\u03b9\u03c0\u03bb\u03ae \u03a0\u03af\u03c3\u03c9 \u039a\u03ac\u03bc\u03b5\u03c1\u03b1",
       "order": 20,
-      "unit": ""
+      "unit": "",
+      "values": []
     },
     {
       "id": 583,
-      "name": "Εμπρόσθια Κάμερα",
-      "values": [
-
-      ],
+      "name": "\u0395\u03bc\u03c0\u03c1\u03cc\u03c3\u03b8\u03b9\u03b1 \u039a\u03ac\u03bc\u03b5\u03c1\u03b1",
       "order": 35,
-      "unit": "MP"
+      "unit": "MP",
+      "values": []
     },
     {
       "id": 2067,
-      "name": "Ενσωματωμένο Flash",
-      "values": [
-
-      ],
+      "name": "\u0395\u03bd\u03c3\u03c9\u03bc\u03b1\u03c4\u03c9\u03bc\u03ad\u03bd\u03bf Flash",
       "order": 50,
-      "unit": ""
+      "unit": "",
+      "values": []
     },
     {
       "id": 4321,
-      "name": "Δίκτυο Σύνδεσης",
-      "values": [
-
-      ],
+      "name": "\u0394\u03af\u03ba\u03c4\u03c5\u03bf \u03a3\u03cd\u03bd\u03b4\u03b5\u03c3\u03b7\u03c2",
       "order": 0,
-      "unit": ""
+      "unit": "",
+      "values": []
     },
     {
       "id": 1426,
-      "name": "Δείκτης SAR (Head)",
-      "values": [
-
-      ],
+      "name": "\u0394\u03b5\u03af\u03ba\u03c4\u03b7\u03c2 SAR (Head)",
       "order": 10,
-      "unit": "W/kg"
+      "unit": "W/kg",
+      "values": []
     },
     {
       "id": 589,
       "name": "WiFi",
-      "values": [
-
-      ],
       "order": 15,
-      "unit": ""
+      "unit": "",
+      "values": []
     },
     {
       "id": 1521,
-      "name": "Τύπος Διασύνδεσης",
-      "values": [
-
-      ],
+      "name": "\u03a4\u03cd\u03c0\u03bf\u03c2 \u0394\u03b9\u03b1\u03c3\u03cd\u03bd\u03b4\u03b5\u03c3\u03b7\u03c2",
       "order": 20,
-      "unit": ""
+      "unit": "",
+      "values": []
     },
     {
       "id": 3737,
-      "name": "Χωρητικότητα Μπαταρίας",
-      "values": [
-
-      ],
+      "name": "\u03a7\u03c9\u03c1\u03b7\u03c4\u03b9\u03ba\u03cc\u03c4\u03b7\u03c4\u03b1 \u039c\u03c0\u03b1\u03c4\u03b1\u03c1\u03af\u03b1\u03c2",
       "order": 5,
-      "unit": "mAh"
+      "unit": "mAh",
+      "values": []
     },
     {
       "id": 3738,
-      "name": "Αποσπώμενη Μπαταρία",
-      "values": [
-
-      ],
+      "name": "\u0391\u03c0\u03bf\u03c3\u03c0\u03ce\u03bc\u03b5\u03bd\u03b7 \u039c\u03c0\u03b1\u03c4\u03b1\u03c1\u03af\u03b1",
       "order": 15,
-      "unit": ""
+      "unit": "",
+      "values": []
     },
     {
       "id": 4319,
-      "name": "Λειτουργία",
-      "values": [
-
-      ],
+      "name": "\u039b\u03b5\u03b9\u03c4\u03bf\u03c5\u03c1\u03b3\u03af\u03b1",
       "order": 20,
-      "unit": ""
+      "unit": "",
+      "values": []
     },
     {
       "id": 601,
-      "name": "Διάρκεια Αναμονής",
-      "values": [
-
-      ],
+      "name": "\u0394\u03b9\u03ac\u03c1\u03ba\u03b5\u03b9\u03b1 \u0391\u03bd\u03b1\u03bc\u03bf\u03bd\u03ae\u03c2",
       "order": 25,
-      "unit": "hrs"
+      "unit": "hrs",
+      "values": []
     },
     {
       "id": 602,
-      "name": "Διάρκεια Ομιλίας",
-      "values": [
-
-      ],
+      "name": "\u0394\u03b9\u03ac\u03c1\u03ba\u03b5\u03b9\u03b1 \u039f\u03bc\u03b9\u03bb\u03af\u03b1\u03c2",
       "order": 30,
-      "unit": "hrs"
+      "unit": "hrs",
+      "values": []
     },
     {
       "id": 4315,
-      "name": "Προστασία",
-      "values": [
-
-      ],
+      "name": "\u03a0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c3\u03af\u03b1",
       "order": 5,
-      "unit": ""
+      "unit": "",
+      "values": []
     },
     {
       "id": 4316,
-      "name": "Αισθητήρες",
-      "values": [
-
-      ],
+      "name": "\u0391\u03b9\u03c3\u03b8\u03b7\u03c4\u03ae\u03c1\u03b5\u03c2",
       "order": 10,
-      "unit": ""
+      "unit": "",
+      "values": []
     },
     {
       "id": 603,
-      "name": "Διαστάσεις",
-      "values": [
-
-      ],
+      "name": "\u0394\u03b9\u03b1\u03c3\u03c4\u03ac\u03c3\u03b5\u03b9\u03c2",
       "order": 5,
-      "unit": "mm"
+      "unit": "mm",
+      "values": []
     },
     {
       "id": 604,
-      "name": "Βάρος",
-      "values": [
-
-      ],
+      "name": "\u0392\u03ac\u03c1\u03bf\u03c2",
       "order": 10,
-      "unit": "gr"
+      "unit": "gr",
+      "values": []
     }
   ]
 }

@@ -1,57 +1,47 @@
 name: build
 
 on:
-  workflow_dispatch:
   push:
     branches: [ master ]
+    paths:
+      - 'src/**.py'
+      - 'tests/**.py'
+      - '.github/workflows/build.yml'
   pull_request:
     branches: [ master ]
+    paths:
+      - 'src/**.py'
+      - 'tests/**.py'
+      - '.github/workflows/build.yml'
+  workflow_run:
+    workflows:
+      - 'pre-commit.ci'
+      - 'testing'
+    types:
+      - completed
 
 jobs:
-  check:
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v3
-
-    - name: Black Code Formatter
-      uses: lgeiger/black-action@v1.0.1
-      with:
-        args: ". --check"
-
-    - name: Mypy Check
-      uses: jpetrucciani/mypy-check@0.761
-      with:
-        path: 'src'
 
   build:
-    needs: [check]
     strategy:
-      fail-fast: false
+      fail-fast: true
       matrix:
         operating-system: [ubuntu-latest, windows-latest, macos-latest]
-        python-version: [3.6, 3.7, 3.8, 3.9, '3.10']
+        python-version: ['3.7', '3.8', '3.9', '3.10']
 
     runs-on: ${{ matrix.operating-system }}
 
     steps:
     - uses: actions/checkout@v3
-
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v4
+    - name: Install poetry
+      run: pipx install poetry
+    - uses: actions/setup-python@v4
       with:
         python-version: ${{ matrix.python-version }}
-
-    - name: Install poetry
-      run: |
-        python -m pip install --upgrade pip
-        python -m pip install poetry
-
-    - name: Install dependencies
-      run: |
-        poetry install
-        poetry check
-
+        cache: 'poetry'
+    - name: Install poetry dependencies
+      run: poetry install --without dev
+    - name: Check dependencies
+      run: poetry check
     - name: Build package
-      run: |
-        poetry build
+      run: poetry build

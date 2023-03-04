@@ -1,35 +1,35 @@
 {
   "sku": {
-    "id": 3443837,
-    "ean": "5202888271014",
-    "pn": "5202888271014",
-    "name": "Hydrating & Restructuring Moisturizing Plus 30+ Cream 50ml",
-    "display_name": "Frezyderm Hydrating & Restructuring Moisturizing Plus 30+ Cream 50ml",
     "category_id": 835,
-    "first_product_shop_info": null,
     "click_url": null,
-    "price_max": 24.27,
-    "price_min": 14.71,
-    "reviewscore": 4.46667,
-    "shop_count": 164,
-    "plain_spec_summary": "Δράση: Ενυδάτωση, Τύπος Επιδερμίδας: Ξηρή, Είδος: 24ωρη, Περιοχή: Πρoσώπου",
-    "manufacturer_id": 7444,
+    "comparable": true,
+    "description": "\u03a0\u03bb\u03bf\u03cd\u03c3\u03b9\u03b1 \u03ba\u03b1\u03b9 \u03b1\u03c0\u03b1\u03bb\u03ae \u03b5\u03bd\u03c5\u03b4\u03b1\u03c4\u03b9\u03ba\u03ae \u03ba\u03c1\u03ad\u03bc\u03b1 \u03b3\u03b9\u03b1 \u03c4\u03bf \u03c0\u03c1\u03cc\u03c3\u03c9\u03c0\u03bf \u03ba\u03b1\u03b9 \u03c4\u03bf \u03bb\u03b1\u03b9\u03bc\u03cc, \u03b3\u03b9\u03b1 \u03c4\u03b7\u03bd \u03ba\u03b1\u03b8\u03b7\u03bc\u03b5\u03c1\u03b9\u03bd\u03ae \u03c0\u03b5\u03c1\u03b9\u03c0\u03bf\u03af\u03b7\u03c3\u03b7 \u03c4\u03b7\u03c2 \u03b3\u03c5\u03bd\u03b1\u03b9\u03ba\u03b5\u03af\u03b1\u03c2 \u03b5\u03c0\u03b9\u03b4\u03b5\u03c1\u03bc\u03af\u03b4\u03b1\u03c2. \u03a0\u03c1\u03bf\u03c3\u03c6\u03ad\u03c1\u03b5\u03b9 \u03b5\u03bd\u03c5\u03b4\u03ac\u03c4\u03c9\u03c3\u03b7 \u03c3\u03c4\u03bf \u03be\u03b7\u03c1\u03cc \u03ba\u03b1\u03b9 \u03bc\u03ad\u03c4\u03c1\u03b9\u03b1 \u03b1\u03c6\u03c5\u03b4\u03b1\u03c4\u03c9\u03bc\u03ad\u03bd\u03bf \u03b4\u03ad\u03c1\u03bc\u03b1, \u03c7\u03ac\u03c1\u03b7 \u03c3\u03c4\u03bf \u03c3\u03cd\u03bc\u03c0\u03bb\u03b5\u03b3\u03bc...",
+    "display_name": "Frezyderm Hydrating & Restructuring Moisturizing Plus 30+ Cream 50ml",
+    "ean": "5202888271014",
+    "ecommerce_available": true,
+    "ecommerce_enabled": true,
+    "first_product_shop_info": null,
     "future": false,
-    "reviews_count": 30,
-    "virtual": false,
+    "id": 3443837,
     "images": {
-      "main": "https://d.scdn.gr/images/sku_main_images/003443/3443837/medium_11707429-orig.jpg",
       "alternatives": [
         "https://a.scdn.gr/images/sku_images/017574/17574475/20170726164235_071f0bdf.jpeg"
-      ]
+      ],
+      "main": "https://d.scdn.gr/images/sku_main_images/003443/3443837/medium_11707429-orig.jpg"
     },
-    "web_uri": "https://www.skroutz.gr/s/3443837/Frezyderm-Hydrating-Restructuring-Moisturizing-Plus-30-Cream-50ml.html",
-    "comparable": true,
-    "reviewable": true,
+    "manufacturer_id": 7444,
+    "name": "Hydrating & Restructuring Moisturizing Plus 30+ Cream 50ml",
     "name_source": "display_name",
+    "plain_spec_summary": "\u0394\u03c1\u03ac\u03c3\u03b7: \u0395\u03bd\u03c5\u03b4\u03ac\u03c4\u03c9\u03c3\u03b7, \u03a4\u03cd\u03c0\u03bf\u03c2 \u0395\u03c0\u03b9\u03b4\u03b5\u03c1\u03bc\u03af\u03b4\u03b1\u03c2: \u039e\u03b7\u03c1\u03ae, \u0395\u03af\u03b4\u03bf\u03c2: 24\u03c9\u03c1\u03b7, \u03a0\u03b5\u03c1\u03b9\u03bf\u03c7\u03ae: \u03a0\u03c1o\u03c3\u03ce\u03c0\u03bf\u03c5",
+    "pn": "5202888271014",
+    "price_max": 24.27,
+    "price_min": 14.71,
+    "reviewable": true,
+    "reviews_count": 30,
+    "reviewscore": 4.46667,
+    "shop_count": 164,
     "sizes": null,
-    "description": "Πλούσια και απαλή ενυδατική κρέμα για το πρόσωπο και το λαιμό, για την καθημερινή περιποίηση της γυναικείας επιδερμίδας. Προσφέρει ενυδάτωση στο ξηρό και μέτρια αφυδατωμένο δέρμα, χάρη στο σύμπλεγμ...",
-    "ecommerce_enabled": true,
-    "ecommerce_available": true
+    "virtual": false,
+    "web_uri": "https://www.skroutz.gr/s/3443837/Frezyderm-Hydrating-Restructuring-Moisturizing-Plus-30-Cream-50ml.html"
   }
 }

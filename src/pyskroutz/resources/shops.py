@@ -1,7 +1,7 @@
 from .base import ApiResource
 from ..models import shops, skus
-from ..utils import fluent
 from ..resources import PaginationParams
+from ..utils import fluent
 
 
 class Shops(ApiResource):

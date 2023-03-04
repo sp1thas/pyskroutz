@@ -1,43 +1,43 @@
 {
   "locations": [
     {
-      "id": 5729,
+      "distance": 87.0,
+      "format": "structured",
+      "full_address": "25\u0397\u03a3 \u039c\u0391\u03a1\u03a4\u0399\u039f\u03a5 44, \u03a4.\u039a. 54248, \u0398\u03b5\u03c3\u03c3\u03b1\u03bb\u03bf\u03bd\u03af\u03ba\u03b7, \u0398\u03b5\u03c3\u03c3\u03b1\u03bb\u03bf\u03bd\u03af\u03ba\u03b7\u03c2",
       "headquarter": true,
+      "id": 5729,
+      "info": "",
+      "lat": "40.60031",
+      "lng": "22.957736",
       "phones": [
         "2310457486"
       ],
       "pickup_point": true,
-      "store": true,
-      "full_address": "25ΗΣ ΜΑΡΤΙΟΥ 44, Τ.Κ. 54248, Θεσσαλονίκη, Θεσσαλονίκης",
-      "format": "structured",
-      "lat": "40.60031",
-      "lng": "22.957736",
-      "info": "",
-      "distance": 87.0
+      "store": true
     },
     {
-      "id": 4972,
+      "distance": 125.0,
+      "format": "structured",
+      "full_address": "25\u0397\u03a3 \u039c\u0391\u03a1\u03a4\u0399\u039f\u03a5 31, \u03a4.\u039a. 54645, \u0398\u03b5\u03c3\u03c3\u03b1\u03bb\u03bf\u03bd\u03af\u03ba\u03b7, \u0398\u03b5\u03c3\u03c3\u03b1\u03bb\u03bf\u03bd\u03af\u03ba\u03b7\u03c2",
       "headquarter": true,
+      "id": 4972,
+      "info": "",
+      "lat": "40.599921",
+      "lng": "22.955776",
       "phones": [
         "2311242775",
         "2311242776"
       ],
       "pickup_point": true,
-      "store": true,
-      "full_address": "25ΗΣ ΜΑΡΤΙΟΥ 31, Τ.Κ. 54645, Θεσσαλονίκη, Θεσσαλονίκης",
-      "format": "structured",
-      "lat": "40.599921",
-      "lng": "22.955776",
-      "info": "",
-      "distance": 125.0
+      "store": true
     }
   ],
   "meta": {
     "pagination": {
-      "total_results": 2,
-      "total_pages": 1,
       "page": 1,
-      "per": 25
+      "per": 25,
+      "total_pages": 1,
+      "total_results": 2
     }
   }
 }

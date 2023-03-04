@@ -1,25 +1,24 @@
 {
+  "meta": {
+    "ordered_by": "price",
+    "pagination": {
+      "page": 1,
+      "per": 2,
+      "total_pages": 12,
+      "total_results": 24
+    }
+  },
   "skus": [
     {
-      "id": 3783654,
-      "ean": "",
-      "pn": "ME432GB/A ME433GB/A ME434GB/A ME432DN/A ME433DN/A ME434DN/A ME432B/A ME433B/A ME434B/A ME432KS/A ME307LL/A ME298LL/A ME432CS/A ME306LL/A ME323LL/A ME2",
-      "name": "iPhone 5S (16GB)",
-      "display_name": "Apple iPhone 5S (16GB)",
       "category_id": 40,
-      "first_product_shop_info": null,
       "click_url": null,
-      "price_max": 567.0,
-      "price_min": 275.3,
-      "reviewscore": 4.22026,
-      "shop_count": 62,
-      "plain_spec_summary": "SmartPhone, SIM: Single, Οθόνη: 4\", 1136 x 640 pixels, CPU: 1300 MHz, Πυρήνες CPU: 2, RAM: 1 GB, Μνήμη Αποθήκευσης: 16 GB, Δίκτυο: 4G, Κάμερα: 8 MP, Λειτουργικό: iOS, Μπαταρία: 1560 mAh",
-      "manufacturer_id": 356,
+      "display_name": "Apple iPhone 5S (16GB)",
+      "ean": "",
+      "favorited": true,
+      "first_product_shop_info": null,
       "future": false,
-      "reviews_count": 227,
-      "virtual": false,
+      "id": 3783654,
       "images": {
-        "main": "https://d.scdn.gr/images/sku_main_images/003783/3783654/medium_20160802142646_apple_iphone_5s_16gb.jpeg",
         "alternatives": [
           "https://c.scdn.gr/images/sku_images/015749/15749455/20160804130145_bd138128.jpeg",
           "https://c.scdn.gr/images/sku_images/015730/15730415/20160801174234_b1f375b2.jpeg",
@@ -37,50 +36,51 @@
           "https://a.scdn.gr/images/sku_images/012279/12279003/iphone5s-gallery4-2013",
           "https://b.scdn.gr/images/sku_images/012176/12176660/iphone5s-gallery6-2013",
           "https://c.scdn.gr/images/sku_images/012176/12176664/iphone5s-gallery8-2013"
-        ]
+        ],
+        "main": "https://d.scdn.gr/images/sku_main_images/003783/3783654/medium_20160802142646_apple_iphone_5s_16gb.jpeg"
       },
-      "web_uri": "https://www.skroutz.gr/s/3783654/Apple-iPhone-5S-16GB.html",
-      "favorited": true
+      "manufacturer_id": 356,
+      "name": "iPhone 5S (16GB)",
+      "plain_spec_summary": "SmartPhone, SIM: Single, \u039f\u03b8\u03cc\u03bd\u03b7: 4\", 1136 x 640 pixels, CPU: 1300 MHz, \u03a0\u03c5\u03c1\u03ae\u03bd\u03b5\u03c2 CPU: 2, RAM: 1 GB, \u039c\u03bd\u03ae\u03bc\u03b7 \u0391\u03c0\u03bf\u03b8\u03ae\u03ba\u03b5\u03c5\u03c3\u03b7\u03c2: 16 GB, \u0394\u03af\u03ba\u03c4\u03c5\u03bf: 4G, \u039a\u03ac\u03bc\u03b5\u03c1\u03b1: 8 MP, \u039b\u03b5\u03b9\u03c4\u03bf\u03c5\u03c1\u03b3\u03b9\u03ba\u03cc: iOS, \u039c\u03c0\u03b1\u03c4\u03b1\u03c1\u03af\u03b1: 1560 mAh",
+      "pn": "ME432GB/A ME433GB/A ME434GB/A ME432DN/A ME433DN/A ME434DN/A ME432B/A ME433B/A ME434B/A ME432KS/A ME307LL/A ME298LL/A ME432CS/A ME306LL/A ME323LL/A ME2",
+      "price_max": 567.0,
+      "price_min": 275.3,
+      "reviews_count": 227,
+      "reviewscore": 4.22026,
+      "shop_count": 62,
+      "virtual": false,
+      "web_uri": "https://www.skroutz.gr/s/3783654/Apple-iPhone-5S-16GB.html"
     },
     {
-      "id": 4763156,
-      "ean": "",
-      "pn": "MG902GB/A MG902DN/A MG902KS/A MG8X2KS/A MG8X2DN/A MG8X2GB/A",
-      "name": "iPhone 5C (8GB)",
-      "display_name": "Apple iPhone 5C (8GB)",
       "category_id": 40,
-      "first_product_shop_info": null,
       "click_url": null,
-      "price_max": 344.0,
-      "price_min": 319.0,
-      "reviewscore": 3.80769,
-      "shop_count": 7,
-      "plain_spec_summary": "SmartPhone, SIM: Single, Οθόνη: 4\", 1136 x 640 pixels, CPU: 1300 MHz, Πυρήνες CPU: 2, RAM: 1 GB, Μνήμη Αποθήκευσης: 8 GB, Δίκτυο: 4G, Κάμερα: 8 MP, Λειτουργικό: iOS, Μπαταρία: 1510 mAh",
-      "manufacturer_id": 356,
+      "display_name": "Apple iPhone 5C (8GB)",
+      "ean": "",
+      "favorited": true,
+      "first_product_shop_info": null,
       "future": false,
-      "reviews_count": 26,
-      "virtual": false,
+      "id": 4763156,
       "images": {
-        "main": "https://a.scdn.gr/images/sku_main_images/004763/4763156/medium_iPhone5c_34L_AllColors_PRINT_verge_super_wide.jpg",
         "alternatives": [
           "https://a.scdn.gr/images/sku_images/012656/12656398/design_materials.jpg",
           "https://c.scdn.gr/images/sku_images/012656/12656407/N48-Blue_PB-PF-PSL-LockUp_v3_TZ_w-PRINT_verge_super_wide.jpg",
           "https://c.scdn.gr/images/sku_images/012656/12656409/iphone5c-selection-green-2013",
           "https://a.scdn.gr/images/sku_images/012656/12656414/iphone5c-selection-yellow-2013",
           "https://b.scdn.gr/images/sku_images/012656/12656422/iphone5c-selection-white-2013"
-        ]
+        ],
+        "main": "https://a.scdn.gr/images/sku_main_images/004763/4763156/medium_iPhone5c_34L_AllColors_PRINT_verge_super_wide.jpg"
       },
-      "web_uri": "https://www.skroutz.gr/s/4763156/Apple-iPhone-5C-8GB.html",
-      "favorited": true
+      "manufacturer_id": 356,
+      "name": "iPhone 5C (8GB)",
+      "plain_spec_summary": "SmartPhone, SIM: Single, \u039f\u03b8\u03cc\u03bd\u03b7: 4\", 1136 x 640 pixels, CPU: 1300 MHz, \u03a0\u03c5\u03c1\u03ae\u03bd\u03b5\u03c2 CPU: 2, RAM: 1 GB, \u039c\u03bd\u03ae\u03bc\u03b7 \u0391\u03c0\u03bf\u03b8\u03ae\u03ba\u03b5\u03c5\u03c3\u03b7\u03c2: 8 GB, \u0394\u03af\u03ba\u03c4\u03c5\u03bf: 4G, \u039a\u03ac\u03bc\u03b5\u03c1\u03b1: 8 MP, \u039b\u03b5\u03b9\u03c4\u03bf\u03c5\u03c1\u03b3\u03b9\u03ba\u03cc: iOS, \u039c\u03c0\u03b1\u03c4\u03b1\u03c1\u03af\u03b1: 1510 mAh",
+      "pn": "MG902GB/A MG902DN/A MG902KS/A MG8X2KS/A MG8X2DN/A MG8X2GB/A",
+      "price_max": 344.0,
+      "price_min": 319.0,
+      "reviews_count": 26,
+      "reviewscore": 3.80769,
+      "shop_count": 7,
+      "virtual": false,
+      "web_uri": "https://www.skroutz.gr/s/4763156/Apple-iPhone-5C-8GB.html"
     }
-  ],
-  "meta": {
-    "ordered_by": "price",
-    "pagination": {
-      "total_results": 24,
-      "total_pages": 12,
-      "page": 1,
-      "per": 2
-    }
-  }
+  ]
 }

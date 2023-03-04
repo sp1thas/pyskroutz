@@ -1,47 +1,45 @@
 {
-  "notifications": [
-    {
-      "id": 314233664,
-      "etype": "price_drop",
-      "eventable_id": 4672057,
-      "eventable_type": "Sku",
-      "eventable_name": "Omron M6 HEM-7321",
-      "eventable_url": "https://api.skroutz.gr/s/4672057/Omron-M6-HEM-7321.html?from=account_notifications",
-      "event_text": null,
-      "snapshot": {
-        "price_min": 56.19,
-        "latest_price": 56.89,
-        "change_rate": 0.012,
-        "from_threshold": false
-      },
-      "is_viewed": true,
-      "aggregated": false,
-      "created_at": "2016-10-05T16:16:29+03:00",
-      "updated_at": "2016-10-05T16:46:32+03:00",
-      "sku": {
-        "id": 4672057,
-        "category_id": 1339,
-        "display_name": "Omron M6 HEM-7321",
-        "images": {
-          "main": "https://d.scdn.gr/images/sku_main_images/004672/4672057/medium_14967045-orig.jpg",
-          "alternatives": [
-
-          ]
-        },
-        "click_url": null,
-        "virtual": false,
-        "future": false,
-        "first_product_shop_info": null
-      },
-      "category_name": "Πιεσόμετρα"
-    }
-  ],
   "meta": {
     "pagination": {
-      "total_results": 100,
-      "total_pages": 100,
       "page": 1,
-      "per": 1
+      "per": 1,
+      "total_pages": 100,
+      "total_results": 100
     }
-  }
+  },
+  "notifications": [
+    {
+      "aggregated": false,
+      "category_name": "\u03a0\u03b9\u03b5\u03c3\u03cc\u03bc\u03b5\u03c4\u03c1\u03b1",
+      "created_at": "2016-10-05T16:16:29+03:00",
+      "etype": "price_drop",
+      "event_text": null,
+      "eventable_id": 4672057,
+      "eventable_name": "Omron M6 HEM-7321",
+      "eventable_type": "Sku",
+      "eventable_url": "https://api.skroutz.gr/s/4672057/Omron-M6-HEM-7321.html?from=account_notifications",
+      "id": 314233664,
+      "is_viewed": true,
+      "sku": {
+        "category_id": 1339,
+        "click_url": null,
+        "display_name": "Omron M6 HEM-7321",
+        "first_product_shop_info": null,
+        "future": false,
+        "id": 4672057,
+        "images": {
+          "alternatives": [],
+          "main": "https://d.scdn.gr/images/sku_main_images/004672/4672057/medium_14967045-orig.jpg"
+        },
+        "virtual": false
+      },
+      "snapshot": {
+        "change_rate": 0.012,
+        "from_threshold": false,
+        "latest_price": 56.89,
+        "price_min": 56.19
+      },
+      "updated_at": "2016-10-05T16:46:32+03:00"
+    }
+  ]
 }

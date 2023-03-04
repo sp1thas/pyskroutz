@@ -1,16 +1,13 @@
 {
-  "categories": [
-
-  ],
+  "categories": [],
   "meta": {
-    "q": "ιπηονε",
     "alternatives": [
       {
-        "term": "iphone",
-        "important": true
+        "important": true,
+        "term": "iphone"
       }
     ],
-    "strong_matches": {
-    }
+    "q": "\u03b9\u03c0\u03b7\u03bf\u03bd\u03b5",
+    "strong_matches": {}
   }
 }

@@ -1,6 +1,6 @@
+import unittest
 from argparse import Namespace
 from pyskroutz.utils import rgetattr, rsetattr
-import unittest
 
 
 class TestUtils(unittest.TestCase):

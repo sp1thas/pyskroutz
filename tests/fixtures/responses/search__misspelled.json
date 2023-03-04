@@ -1,48 +1,45 @@
 {
   "categories": [
     {
-      "id": 1257,
-      "name": "Καθαρισμός & Περιποίηση Μοτοσυκλέτας",
       "children_count": 0,
-      "image_url": "https://b.scdn.gr/ds/categories/1257/20160513125857_4d310050.jpeg",
-      "parent_id": 577,
-      "fashion": false,
-      "layout_mode": "list",
-      "web_uri": "https://www.skroutz.gr/c/1257/moto_cleaning.html",
       "code": "moto_cleaning",
+      "fashion": false,
+      "id": 1257,
+      "image_url": "https://b.scdn.gr/ds/categories/1257/20160513125857_4d310050.jpeg",
+      "layout_mode": "list",
+      "manufacturer_title": "\u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ad\u03c2",
+      "match_count": 9,
+      "name": "\u039a\u03b1\u03b8\u03b1\u03c1\u03b9\u03c3\u03bc\u03cc\u03c2 & \u03a0\u03b5\u03c1\u03b9\u03c0\u03bf\u03af\u03b7\u03c3\u03b7 \u039c\u03bf\u03c4\u03bf\u03c3\u03c5\u03ba\u03bb\u03ad\u03c4\u03b1\u03c2",
+      "parent_id": 577,
       "path": "76,33,382,577,1257",
       "show_specifications": false,
-      "manufacturer_title": "Κατασκευαστές",
-      "match_count": 9
+      "web_uri": "https://www.skroutz.gr/c/1257/moto_cleaning.html"
     },
     {
-      "id": 1229,
-      "name": "Λιπαντικά Moto",
       "children_count": 0,
-      "image_url": "https://c.scdn.gr/ds/categories/1229/1229.jpg",
-      "parent_id": 1227,
-      "fashion": false,
-      "layout_mode": "list",
-      "web_uri": "https://www.skroutz.gr/c/1229/lipantika-moto.html",
       "code": "moto_lub",
+      "fashion": false,
+      "id": 1229,
+      "image_url": "https://c.scdn.gr/ds/categories/1229/1229.jpg",
+      "layout_mode": "list",
+      "manufacturer_title": "\u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ad\u03c2",
+      "match_count": 2,
+      "name": "\u039b\u03b9\u03c0\u03b1\u03bd\u03c4\u03b9\u03ba\u03ac Moto",
+      "parent_id": 1227,
       "path": "76,33,382,1227,1229",
       "show_specifications": false,
-      "manufacturer_title": "Κατασκευαστές",
-      "match_count": 2
+      "web_uri": "https://www.skroutz.gr/c/1229/lipantika-moto.html"
     }
   ],
   "meta": {
-    "q": "ipone",
-    "alternatives": [
-
-    ],
-    "strong_matches": {
-    },
+    "alternatives": [],
     "pagination": {
-      "total_results": 4,
-      "total_pages": 2,
       "page": 1,
-      "per": 2
-    }
+      "per": 2,
+      "total_pages": 2,
+      "total_results": 4
+    },
+    "q": "ipone",
+    "strong_matches": {}
   }
 }

@@ -1,16 +1,16 @@
 {
   "category": {
-    "id": 76,
-    "name": "Skroutz",
     "children_count": 7,
-    "image_url": "https://a.scdn.gr/ds/categories/76/76.jpg",
-    "parent_id": 0,
-    "fashion": false,
-    "layout_mode": "list",
-    "web_uri": "https://www.skroutz.gr/c/76/skroutz.html",
     "code": "skroutz",
+    "fashion": false,
+    "id": 76,
+    "image_url": "https://a.scdn.gr/ds/categories/76/76.jpg",
+    "layout_mode": "list",
+    "manufacturer_title": "\u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ad\u03c2",
+    "name": "Skroutz",
+    "parent_id": 0,
     "path": "76",
     "show_specifications": false,
-    "manufacturer_title": "Κατασκευαστές"
+    "web_uri": "https://www.skroutz.gr/c/76/skroutz.html"
   }
 }

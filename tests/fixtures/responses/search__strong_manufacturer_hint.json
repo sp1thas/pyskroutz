@@ -1,98 +1,96 @@
 {
   "categories": [
     {
-      "id": 40,
-      "name": "Κινητά Τηλέφωνα",
       "children_count": 0,
-      "image_url": "https://d.scdn.gr/ds/categories/40/20150508124644_bd07441b.jpg",
-      "parent_id": 86,
-      "fashion": false,
-      "layout_mode": "list",
-      "web_uri": "https://www.skroutz.gr/c/40/kinhta-thlefwna.html",
       "code": "mobile",
+      "fashion": false,
+      "id": 40,
+      "image_url": "https://d.scdn.gr/ds/categories/40/20150508124644_bd07441b.jpg",
+      "layout_mode": "list",
+      "manufacturer_title": "\u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ad\u03c2",
+      "match_count": 24,
+      "name": "\u039a\u03b9\u03bd\u03b7\u03c4\u03ac \u03a4\u03b7\u03bb\u03ad\u03c6\u03c9\u03bd\u03b1",
+      "parent_id": 86,
       "path": "76,1269,86,40",
       "show_specifications": true,
-      "manufacturer_title": "Κατασκευαστές",
-      "match_count": 24
+      "web_uri": "https://www.skroutz.gr/c/40/kinhta-thlefwna.html"
     },
     {
-      "id": 1705,
-      "name": "Smartwatches",
       "children_count": 0,
-      "image_url": "https://a.scdn.gr/ds/categories/1705/20150508163903_9d5810ce.jpg",
-      "parent_id": 1912,
-      "fashion": false,
-      "layout_mode": "tiles",
-      "web_uri": "https://www.skroutz.gr/c/1705/Smartwatches.html",
       "code": "smartwatch",
+      "fashion": false,
+      "id": 1705,
+      "image_url": "https://a.scdn.gr/ds/categories/1705/20150508163903_9d5810ce.jpg",
+      "layout_mode": "tiles",
+      "manufacturer_title": "\u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ad\u03c2",
+      "match_count": 12,
+      "name": "Smartwatches",
+      "parent_id": 1912,
       "path": "76,1269,1912,1705",
       "show_specifications": true,
-      "manufacturer_title": "Κατασκευαστές",
-      "match_count": 12
+      "web_uri": "https://www.skroutz.gr/c/1705/Smartwatches.html"
     },
     {
-      "id": 579,
-      "name": "Θήκες Κινητών Τηλεφώνων",
       "children_count": 0,
-      "image_url": "https://b.scdn.gr/ds/categories/579/20150408173958_42b293c7.jpg",
-      "parent_id": 86,
-      "fashion": true,
-      "layout_mode": "wide_tiles",
-      "web_uri": "https://www.skroutz.gr/c/579/thikes-kinhtwn-thlefwnwn.html",
       "code": "thikes-kinhtwn-thlefwnwn",
+      "fashion": true,
+      "id": 579,
+      "image_url": "https://b.scdn.gr/ds/categories/579/20150408173958_42b293c7.jpg",
+      "layout_mode": "wide_tiles",
+      "manufacturer_title": "\u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ad\u03c2",
+      "match_count": 6451,
+      "name": "\u0398\u03ae\u03ba\u03b5\u03c2 \u039a\u03b9\u03bd\u03b7\u03c4\u03ce\u03bd \u03a4\u03b7\u03bb\u03b5\u03c6\u03ce\u03bd\u03c9\u03bd",
+      "parent_id": 86,
       "path": "76,1269,86,579",
       "show_specifications": false,
-      "manufacturer_title": "Κατασκευαστές",
-      "match_count": 6451
+      "web_uri": "https://www.skroutz.gr/c/579/thikes-kinhtwn-thlefwnwn.html"
     },
     {
-      "id": 1105,
-      "name": "Tablets",
       "children_count": 0,
-      "image_url": "https://a.scdn.gr/ds/categories/1105/20150127170004_1105.jpg",
-      "parent_id": 1612,
-      "fashion": false,
-      "layout_mode": "list",
-      "web_uri": "https://www.skroutz.gr/c/1105/tablet.html",
       "code": "tablet",
+      "fashion": false,
+      "id": 1105,
+      "image_url": "https://a.scdn.gr/ds/categories/1105/20150127170004_1105.jpg",
+      "layout_mode": "list",
+      "manufacturer_title": "\u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ad\u03c2",
+      "match_count": 50,
+      "name": "Tablets",
+      "parent_id": 1612,
       "path": "76,1269,1612,1105",
       "show_specifications": true,
-      "manufacturer_title": "Κατασκευαστές",
-      "match_count": 50
+      "web_uri": "https://www.skroutz.gr/c/1105/tablet.html"
     },
     {
-      "id": 25,
-      "name": "Laptops",
       "children_count": 0,
-      "image_url": "https://c.scdn.gr/ds/categories/25/20150127165806_25.jpg",
-      "parent_id": 769,
-      "fashion": false,
-      "layout_mode": "list",
-      "web_uri": "https://www.skroutz.gr/c/25/laptop.html",
       "code": "laptop",
+      "fashion": false,
+      "id": 25,
+      "image_url": "https://c.scdn.gr/ds/categories/25/20150127165806_25.jpg",
+      "layout_mode": "list",
+      "manufacturer_title": "\u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ad\u03c2",
+      "match_count": 21,
+      "name": "Laptops",
+      "parent_id": 769,
       "path": "76,1269,22,769,25",
       "show_specifications": true,
-      "manufacturer_title": "Κατασκευαστές",
-      "match_count": 21
+      "web_uri": "https://www.skroutz.gr/c/25/laptop.html"
     }
   ],
   "meta": {
+    "alternatives": [],
+    "pagination": {
+      "page": 1,
+      "per": 5,
+      "total_pages": 59,
+      "total_results": 292
+    },
     "q": "apple",
-    "alternatives": [
-
-    ],
     "strong_matches": {
       "manufacturer": {
         "id": 356,
-        "name": "Apple",
-        "image_url": "https://a.scdn.gr/ds/manufacturers/356/20160322115406_ae6f9a87.png"
+        "image_url": "https://a.scdn.gr/ds/manufacturers/356/20160322115406_ae6f9a87.png",
+        "name": "Apple"
       }
-    },
-    "pagination": {
-      "total_results": 292,
-      "total_pages": 59,
-      "page": 1,
-      "per": 5
     }
   }
 }

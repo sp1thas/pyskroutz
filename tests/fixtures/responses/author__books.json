@@ -1,300 +1,300 @@
 {
   "books": [
     {
+      "favorited": true,
+      "first_product_shop_info": null,
       "id": 242327,
-      "name": "Ο Χάρι Πότερ και η φιλοσοφική λίθος",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://d.scdn.gr/images/sku_main_images/000242/242327/medium_20160722014855_o_chari_poter_kai_i_filosofiki_lithos.jpeg"
       },
-      "price_min": 6.82,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u039f \u03a7\u03ac\u03c1\u03b9 \u03a0\u03cc\u03c4\u03b5\u03c1 \u03ba\u03b1\u03b9 \u03b7 \u03c6\u03b9\u03bb\u03bf\u03c3\u03bf\u03c6\u03b9\u03ba\u03ae \u03bb\u03af\u03b8\u03bf\u03c2",
       "price_max": 15.79,
-      "shop_count": 13,
-      "reviewscore": 5.0,
+      "price_min": 6.82,
       "reviews_count": 2,
-      "favorited": true,
-      "first_product_shop_info": null
+      "reviewscore": 5.0,
+      "shop_count": 13
     },
     {
+      "favorited": true,
+      "first_product_shop_info": null,
       "id": 145771,
-      "name": "Ο Χάρι Πότερ και ο ημίαιμος πρίγκιψ",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://a.scdn.gr/images/sku_main_images/000145/145771/medium_20160720135644_o_chari_poter_kai_o_imiaimos_prigips.jpeg"
       },
-      "price_min": 9.9,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u039f \u03a7\u03ac\u03c1\u03b9 \u03a0\u03cc\u03c4\u03b5\u03c1 \u03ba\u03b1\u03b9 \u03bf \u03b7\u03bc\u03af\u03b1\u03b9\u03bc\u03bf\u03c2 \u03c0\u03c1\u03af\u03b3\u03ba\u03b9\u03c8",
       "price_max": 25.48,
-      "shop_count": 13,
-      "reviewscore": 0.0,
+      "price_min": 9.9,
       "reviews_count": 0,
-      "favorited": true,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 13
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 228697,
-      "name": "Ο Χάρι Πότερ και ο αιχμάλωτος του Αζκαμπάν",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://b.scdn.gr/images/sku_main_images/000228/228697/medium_20160721212828_o_chari_poter_kai_o_aichmalotos_tou_azkampan.jpeg"
       },
-      "price_min": 10.68,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u039f \u03a7\u03ac\u03c1\u03b9 \u03a0\u03cc\u03c4\u03b5\u03c1 \u03ba\u03b1\u03b9 \u03bf \u03b1\u03b9\u03c7\u03bc\u03ac\u03bb\u03c9\u03c4\u03bf\u03c2 \u03c4\u03bf\u03c5 \u0391\u03b6\u03ba\u03b1\u03bc\u03c0\u03ac\u03bd",
       "price_max": 19.16,
-      "shop_count": 13,
-      "reviewscore": 0.0,
+      "price_min": 10.68,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 13
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 242082,
-      "name": "Ο Χάρι Πότερ και η κάμαρα με τα μυστικά",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://c.scdn.gr/images/sku_main_images/000242/242082/medium_20160722014135_o_chari_poter_kai_i_kamara_me_ta_mystika.jpeg"
       },
-      "price_min": 9.92,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u039f \u03a7\u03ac\u03c1\u03b9 \u03a0\u03cc\u03c4\u03b5\u03c1 \u03ba\u03b1\u03b9 \u03b7 \u03ba\u03ac\u03bc\u03b1\u03c1\u03b1 \u03bc\u03b5 \u03c4\u03b1 \u03bc\u03c5\u03c3\u03c4\u03b9\u03ba\u03ac",
       "price_max": 15.79,
-      "shop_count": 14,
-      "reviewscore": 0.0,
+      "price_min": 9.92,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 14
     },
     {
+      "favorited": true,
+      "first_product_shop_info": null,
       "id": 121274,
-      "name": "Ο Χάρι Πότερ και οι κλήροι του θανάτου",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://a.scdn.gr/images/sku_main_images/000121/121274/medium_20160720003521_o_chari_poter_kai_oi_kliroi_tou_thanatou.jpeg"
       },
-      "price_min": 10.69,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u039f \u03a7\u03ac\u03c1\u03b9 \u03a0\u03cc\u03c4\u03b5\u03c1 \u03ba\u03b1\u03b9 \u03bf\u03b9 \u03ba\u03bb\u03ae\u03c1\u03bf\u03b9 \u03c4\u03bf\u03c5 \u03b8\u03b1\u03bd\u03ac\u03c4\u03bf\u03c5",
       "price_max": 28.02,
-      "shop_count": 14,
-      "reviewscore": 0.0,
+      "price_min": 10.69,
       "reviews_count": 0,
-      "favorited": true,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 14
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 199084,
-      "name": "Ο Χάρι Πότερ και το κύπελλο της φωτιάς",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://b.scdn.gr/images/sku_main_images/000199/199084/medium_20160721133819_o_chari_poter_kai_to_kypello_tis_fotias.jpeg"
       },
-      "price_min": 10.68,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u039f \u03a7\u03ac\u03c1\u03b9 \u03a0\u03cc\u03c4\u03b5\u03c1 \u03ba\u03b1\u03b9 \u03c4\u03bf \u03ba\u03cd\u03c0\u03b5\u03bb\u03bb\u03bf \u03c4\u03b7\u03c2 \u03c6\u03c9\u03c4\u03b9\u03ac\u03c2",
       "price_max": 22.53,
-      "shop_count": 13,
-      "reviewscore": 0.0,
+      "price_min": 10.68,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 13
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 9815018,
-      "name": "Ο Χάρι Πότερ και το καταραμένο παιδί",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://d.scdn.gr/images/sku_main_images/009815/9815018/medium_20160910011920_o_chari_poter_kai_to_katarameno_paidi.jpeg"
       },
-      "price_min": 10.72,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u039f \u03a7\u03ac\u03c1\u03b9 \u03a0\u03cc\u03c4\u03b5\u03c1 \u03ba\u03b1\u03b9 \u03c4\u03bf \u03ba\u03b1\u03c4\u03b1\u03c1\u03b1\u03bc\u03ad\u03bd\u03bf \u03c0\u03b1\u03b9\u03b4\u03af",
       "price_max": 16.6,
-      "shop_count": 13,
-      "reviewscore": 5.0,
+      "price_min": 10.72,
       "reviews_count": 1,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 5.0,
+      "shop_count": 13
     },
     {
+      "favorited": true,
+      "first_product_shop_info": null,
       "id": 163443,
-      "name": "Ο Χάρι Πότερ και το τάγμα του Φοίνικα",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://a.scdn.gr/images/sku_main_images/000163/163443/medium_20160720234149_o_chari_poter_kai_to_tagma_tou_foinika.jpeg"
       },
-      "price_min": 11.44,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u039f \u03a7\u03ac\u03c1\u03b9 \u03a0\u03cc\u03c4\u03b5\u03c1 \u03ba\u03b1\u03b9 \u03c4\u03bf \u03c4\u03ac\u03b3\u03bc\u03b1 \u03c4\u03bf\u03c5 \u03a6\u03bf\u03af\u03bd\u03b9\u03ba\u03b1",
       "price_max": 16.6,
-      "shop_count": 14,
-      "reviewscore": 0.0,
+      "price_min": 11.44,
       "reviews_count": 0,
-      "favorited": true,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 14
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 4174816,
-      "name": "Φανταστικά ζώα και πού βρίσκονται",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://c.scdn.gr/images/sku_main_images/004174/4174816/medium_20160723103818_fantastika_zoa_kai_poy_vriskontai.jpeg"
       },
-      "price_min": 7.9,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u03a6\u03b1\u03bd\u03c4\u03b1\u03c3\u03c4\u03b9\u03ba\u03ac \u03b6\u03ce\u03b1 \u03ba\u03b1\u03b9 \u03c0\u03bf\u03cd \u03b2\u03c1\u03af\u03c3\u03ba\u03bf\u03bd\u03c4\u03b1\u03b9",
       "price_max": 8.91,
-      "shop_count": 3,
-      "reviewscore": 0.0,
+      "price_min": 7.9,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 3
     },
     {
+      "favorited": false,
+      "first_product_shop_info": "2508|Bibliotopia|bibliotopia",
       "id": 120625,
-      "name": "Ο Χάρι Πότερ και οι κλήροι του θανάτου",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://c.scdn.gr/images/sku_main_images/000120/120625/medium_20160720002139_o_chari_poter_kai_oi_kliroi_tou_thanatou.jpeg"
       },
-      "price_min": 10.79,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u039f \u03a7\u03ac\u03c1\u03b9 \u03a0\u03cc\u03c4\u03b5\u03c1 \u03ba\u03b1\u03b9 \u03bf\u03b9 \u03ba\u03bb\u03ae\u03c1\u03bf\u03b9 \u03c4\u03bf\u03c5 \u03b8\u03b1\u03bd\u03ac\u03c4\u03bf\u03c5",
       "price_max": 10.79,
-      "shop_count": 1,
-      "reviewscore": 0.0,
+      "price_min": 10.79,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": "2508|Bibliotopia|bibliotopia"
+      "reviewscore": 0.0,
+      "shop_count": 1
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 107865,
-      "name": "Οι ιστορίες του Μπιντλ του Βάρδου",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://d.scdn.gr/images/sku_main_images/000107/107865/medium_20160719175022_oi_istories_tou_mpintl_tou_vardou.jpeg"
       },
-      "price_min": 6.73,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u039f\u03b9 \u03b9\u03c3\u03c4\u03bf\u03c1\u03af\u03b5\u03c2 \u03c4\u03bf\u03c5 \u039c\u03c0\u03b9\u03bd\u03c4\u03bb \u03c4\u03bf\u03c5 \u0392\u03ac\u03c1\u03b4\u03bf\u03c5",
       "price_max": 12.44,
-      "shop_count": 10,
-      "reviewscore": 0.0,
+      "price_min": 6.73,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 10
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 12029212,
-      "name": "Οι ιστορίες του Μπιντλ του Βάρδου",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://d.scdn.gr/images/sku_main_images/012029/12029212/medium_20170528010633_oi_istories_tou_mpintl_tou_vardou.jpeg"
       },
-      "price_min": 6.79,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u039f\u03b9 \u03b9\u03c3\u03c4\u03bf\u03c1\u03af\u03b5\u03c2 \u03c4\u03bf\u03c5 \u039c\u03c0\u03b9\u03bd\u03c4\u03bb \u03c4\u03bf\u03c5 \u0392\u03ac\u03c1\u03b4\u03bf\u03c5",
       "price_max": 9.9,
-      "shop_count": 8,
-      "reviewscore": 0.0,
+      "price_min": 6.79,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 8
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 12029215,
-      "name": "Το Κουίντιτς ανά τους αιώνες",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://d.scdn.gr/images/sku_main_images/012029/12029215/medium_20170528010633_to_kouintits_ana_tous_aiones.jpeg"
       },
-      "price_min": 6.79,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u03a4\u03bf \u039a\u03bf\u03c5\u03af\u03bd\u03c4\u03b9\u03c4\u03c2 \u03b1\u03bd\u03ac \u03c4\u03bf\u03c5\u03c2 \u03b1\u03b9\u03ce\u03bd\u03b5\u03c2",
       "price_max": 9.9,
-      "shop_count": 8,
-      "reviewscore": 0.0,
+      "price_min": 6.79,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 8
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 2473861,
-      "name": "Ένας ξαφνικός θάνατος",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://c.scdn.gr/images/sku_main_images/002473/2473861/medium_20160723050112_enas_xafnikos_thanatos.jpeg"
       },
-      "price_min": 5.8,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u0388\u03bd\u03b1\u03c2 \u03be\u03b1\u03c6\u03bd\u03b9\u03ba\u03cc\u03c2 \u03b8\u03ac\u03bd\u03b1\u03c4\u03bf\u03c2",
       "price_max": 17.91,
-      "shop_count": 14,
-      "reviewscore": 0.0,
+      "price_min": 5.8,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 14
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 11097723,
-      "name": "Φανταστικά ζώα και βρίσκονται",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://c.scdn.gr/images/sku_main_images/011097/11097723/medium_20170219010109_fantastika_zoa_kai_vriskontai.jpeg"
       },
-      "price_min": 10.63,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u03a6\u03b1\u03bd\u03c4\u03b1\u03c3\u03c4\u03b9\u03ba\u03ac \u03b6\u03ce\u03b1 \u03ba\u03b1\u03b9 \u03b2\u03c1\u03af\u03c3\u03ba\u03bf\u03bd\u03c4\u03b1\u03b9",
       "price_max": 15.5,
-      "shop_count": 12,
-      "reviewscore": 5.0,
+      "price_min": 10.63,
       "reviews_count": 1,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 5.0,
+      "shop_count": 12
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 4174813,
-      "name": "Το Κουίντιτς ανά τους αιώνες",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://b.scdn.gr/images/sku_main_images/004174/4174813/medium_20160723103814_to_kouintits_ana_tous_aiones.jpeg"
       },
-      "price_min": 7.33,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u03a4\u03bf \u039a\u03bf\u03c5\u03af\u03bd\u03c4\u03b9\u03c4\u03c2 \u03b1\u03bd\u03ac \u03c4\u03bf\u03c5\u03c2 \u03b1\u03b9\u03ce\u03bd\u03b5\u03c2",
       "price_max": 9.9,
-      "shop_count": 7,
-      "reviewscore": 0.0,
+      "price_min": 7.33,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 7
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 12029211,
-      "name": "Φανταστικά ζώα και που βρίσκονται",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://c.scdn.gr/images/sku_main_images/012029/12029211/medium_20170528010633_fantastika_zoa_kai_pou_vriskontai.jpeg"
       },
-      "price_min": 6.79,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u03a6\u03b1\u03bd\u03c4\u03b1\u03c3\u03c4\u03b9\u03ba\u03ac \u03b6\u03ce\u03b1 \u03ba\u03b1\u03b9 \u03c0\u03bf\u03c5 \u03b2\u03c1\u03af\u03c3\u03ba\u03bf\u03bd\u03c4\u03b1\u03b9",
       "price_max": 9.9,
-      "shop_count": 7,
-      "reviewscore": 0.0,
+      "price_min": 6.79,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 7
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 2767055,
-      "name": "Ένας ξαφνικός θάνατος (e-book)",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://b.scdn.gr/images/sku_main_images/002767/2767055/medium_20160723061527_enas_xafnikos_thanatos.jpeg"
       },
-      "price_min": 7.99,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u0388\u03bd\u03b1\u03c2 \u03be\u03b1\u03c6\u03bd\u03b9\u03ba\u03cc\u03c2 \u03b8\u03ac\u03bd\u03b1\u03c4\u03bf\u03c2 (e-book)",
       "price_max": 15.99,
-      "shop_count": 2,
-      "reviewscore": 0.0,
+      "price_min": 7.99,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 2
     }
   ],
   "meta": {
     "pagination": {
-      "total_results": 18,
-      "total_pages": 1,
       "page": 1,
-      "per": 25
+      "per": 25,
+      "total_pages": 1,
+      "total_results": 18
     }
   }
 }

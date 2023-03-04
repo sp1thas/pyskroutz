@@ -1,21 +1,24 @@
 {
   "shop": {
-    "id": 452,
-    "name": "Kotsovolos",
-    "link": "http://www.kotsovolos.gr",
-    "phone": "2102899999",
-    "image_url": "https://b.scdn.gr/ds/shops/logos/452/mid_20160829183952_bfbba903.jpeg",
-    "thumbshot_url": "https://d.scdn.gr/ds/shops/screenshots/452/20150731105054_75756119.png",
-    "reviews_count": 492,
-    "latest_reviews_count": 127,
-    "review_score": 4.3,
-    "payment_methods": {
-      "credit_card": true,
-      "paypal": false,
-      "bank": true,
-      "spot_cash": true,
-      "installments": "Εώς 12 άτοκες δόσεις μέσω πιστωτικής κάρτας για αγορές άνω των 60 Ευρω.\r\nΕώς 48 δόσεις μέσω δανειοδότησης Κωτσόβολου."
+    "extra_info": {
+      "orders_per_week": "500+",
+      "time_on_platform": "3+ \u03c7\u03c1\u03cc\u03bd\u03b9\u03b1"
     },
+    "id": 452,
+    "image_url": "https://b.scdn.gr/ds/shops/logos/452/mid_20160829183952_bfbba903.jpeg",
+    "latest_reviews_count": 127,
+    "link": "http://www.kotsovolos.gr",
+    "name": "Kotsovolos",
+    "payment_methods": {
+      "bank": true,
+      "credit_card": true,
+      "installments": "\u0395\u03ce\u03c2 12 \u03ac\u03c4\u03bf\u03ba\u03b5\u03c2 \u03b4\u03cc\u03c3\u03b5\u03b9\u03c2 \u03bc\u03ad\u03c3\u03c9 \u03c0\u03b9\u03c3\u03c4\u03c9\u03c4\u03b9\u03ba\u03ae\u03c2 \u03ba\u03ac\u03c1\u03c4\u03b1\u03c2 \u03b3\u03b9\u03b1 \u03b1\u03b3\u03bf\u03c1\u03ad\u03c2 \u03ac\u03bd\u03c9 \u03c4\u03c9\u03bd 60 \u0395\u03c5\u03c1\u03c9.\r\n\u0395\u03ce\u03c2 48 \u03b4\u03cc\u03c3\u03b5\u03b9\u03c2 \u03bc\u03ad\u03c3\u03c9 \u03b4\u03b1\u03bd\u03b5\u03b9\u03bf\u03b4\u03cc\u03c4\u03b7\u03c3\u03b7\u03c2 \u039a\u03c9\u03c4\u03c3\u03cc\u03b2\u03bf\u03bb\u03bf\u03c5.",
+      "paypal": false,
+      "spot_cash": true
+    },
+    "phone": "2102899999",
+    "review_score": 4.3,
+    "reviews_count": 492,
     "shipping": {
       "free": true,
       "free_from": 85,
@@ -23,15 +26,12 @@
       "min_price": "3.99",
       "shipping_cost_enabled": true
     },
-    "web_uri": "https://www.skroutz.gr/m/452/Kotsovolos",
-    "extra_info": {
-      "time_on_platform": "3+ χρόνια",
-      "orders_per_week": "500+"
-    },
+    "thumbshot_url": "https://d.scdn.gr/ds/shops/screenshots/452/20150731105054_75756119.png",
     "top_positive_reasons": [
-      "Καταρτισμένο προσωπικό",
-      "Προσεγμένη συσκευασία προϊόντων",
-      "Φιλική εξυπηρέτηση"
-    ]
+      "\u039a\u03b1\u03c4\u03b1\u03c1\u03c4\u03b9\u03c3\u03bc\u03ad\u03bd\u03bf \u03c0\u03c1\u03bf\u03c3\u03c9\u03c0\u03b9\u03ba\u03cc",
+      "\u03a0\u03c1\u03bf\u03c3\u03b5\u03b3\u03bc\u03ad\u03bd\u03b7 \u03c3\u03c5\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03af\u03b1 \u03c0\u03c1\u03bf\u03ca\u03cc\u03bd\u03c4\u03c9\u03bd",
+      "\u03a6\u03b9\u03bb\u03b9\u03ba\u03ae \u03b5\u03be\u03c5\u03c0\u03b7\u03c1\u03ad\u03c4\u03b7\u03c3\u03b7"
+    ],
+    "web_uri": "https://www.skroutz.gr/m/452/Kotsovolos"
   }
 }

@@ -1,23 +1,23 @@
 {
   "sku_review_vote": {
-    "id": 562156,
-    "sku_review_id": 18689,
-    "user_id": 334941,
-    "helpful": false,
     "created_at": "2018-01-31T13:06:51+02:00",
+    "helpful": false,
+    "id": 562156,
     "sku_review": {
-      "id": 18689,
-      "sku_id": 3982592,
-      "user_id": 180286,
-      "review": "Ευκολοχρηστο δικαρτο με απιστευτες δυνατοτητες,(bluetooth-φακο-καμερα) για την κατηγορια τιμης του.Δυνατη αναπαραγωγη ηχων κλησης -ραδιοφωνου-βιντεο-mp3 και απιστευτη μπαταρια με μολις 25 ευρω!",
-      "rating": 4,
       "created_at": "2014-02-21T13:03:32+02:00",
       "demoted": false,
-      "votes_count": 10,
-      "helpful_votes_count": 9,
-      "voted": true,
       "flagged": false,
-      "helpful": false
-    }
+      "helpful": false,
+      "helpful_votes_count": 9,
+      "id": 18689,
+      "rating": 4,
+      "review": "\u0395\u03c5\u03ba\u03bf\u03bb\u03bf\u03c7\u03c1\u03b7\u03c3\u03c4\u03bf \u03b4\u03b9\u03ba\u03b1\u03c1\u03c4\u03bf \u03bc\u03b5 \u03b1\u03c0\u03b9\u03c3\u03c4\u03b5\u03c5\u03c4\u03b5\u03c2 \u03b4\u03c5\u03bd\u03b1\u03c4\u03bf\u03c4\u03b7\u03c4\u03b5\u03c2,(bluetooth-\u03c6\u03b1\u03ba\u03bf-\u03ba\u03b1\u03bc\u03b5\u03c1\u03b1) \u03b3\u03b9\u03b1 \u03c4\u03b7\u03bd \u03ba\u03b1\u03c4\u03b7\u03b3\u03bf\u03c1\u03b9\u03b1 \u03c4\u03b9\u03bc\u03b7\u03c2 \u03c4\u03bf\u03c5.\u0394\u03c5\u03bd\u03b1\u03c4\u03b7 \u03b1\u03bd\u03b1\u03c0\u03b1\u03c1\u03b1\u03b3\u03c9\u03b3\u03b7 \u03b7\u03c7\u03c9\u03bd \u03ba\u03bb\u03b7\u03c3\u03b7\u03c2 -\u03c1\u03b1\u03b4\u03b9\u03bf\u03c6\u03c9\u03bd\u03bf\u03c5-\u03b2\u03b9\u03bd\u03c4\u03b5\u03bf-mp3 \u03ba\u03b1\u03b9 \u03b1\u03c0\u03b9\u03c3\u03c4\u03b5\u03c5\u03c4\u03b7 \u03bc\u03c0\u03b1\u03c4\u03b1\u03c1\u03b9\u03b1 \u03bc\u03b5 \u03bc\u03bf\u03bb\u03b9\u03c2 25 \u03b5\u03c5\u03c1\u03c9!",
+      "sku_id": 3982592,
+      "user_id": 180286,
+      "voted": true,
+      "votes_count": 10
+    },
+    "sku_review_id": 18689,
+    "user_id": 334941
   }
 }

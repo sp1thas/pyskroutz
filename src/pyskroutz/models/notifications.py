@@ -2,9 +2,8 @@
 """
 import datetime
 from enum import Enum
-from typing import List, Optional
-
 from pydantic import BaseModel, HttpUrl
+from typing import List, Optional
 
 from .base import MetaItemBase
 from .skus import SkuItem

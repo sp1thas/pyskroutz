@@ -1,82 +1,82 @@
 {
   "categories": [
     {
-      "id": 1,
-      "name": "Σταθερή Τηλεφωνία",
       "children_count": 5,
-      "image_url": "https://c.scdn.gr/ds/categories/1/20150508125916_c7ffab14.jpg",
-      "parent_id": 2,
-      "fashion": false,
-      "layout_mode": "list",
-      "web_uri": "https://www.skroutz.gr/c/1/statherh-tilefwnia.html",
       "code": "statherh-tilefwnia",
+      "fashion": false,
+      "id": 1,
+      "image_url": "https://c.scdn.gr/ds/categories/1/20150508125916_c7ffab14.jpg",
+      "layout_mode": "list",
+      "manufacturer_title": "\u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ad\u03c2",
+      "name": "\u03a3\u03c4\u03b1\u03b8\u03b5\u03c1\u03ae \u03a4\u03b7\u03bb\u03b5\u03c6\u03c9\u03bd\u03af\u03b1",
+      "parent_id": 2,
       "path": "76,1269,2,1",
       "show_specifications": false,
-      "manufacturer_title": "Κατασκευαστές"
+      "web_uri": "https://www.skroutz.gr/c/1/statherh-tilefwnia.html"
     },
     {
-      "id": 2,
-      "name": "Τηλεφωνία",
       "children_count": 2,
-      "image_url": "https://b.scdn.gr/ds/categories/2/20151204131758_3e2f9f76.jpg",
-      "parent_id": 1269,
-      "fashion": false,
-      "layout_mode": "list",
-      "web_uri": "https://www.skroutz.gr/c/2/tilefwnia.html",
       "code": "tilefwnia",
+      "fashion": false,
+      "id": 2,
+      "image_url": "https://b.scdn.gr/ds/categories/2/20151204131758_3e2f9f76.jpg",
+      "layout_mode": "list",
+      "manufacturer_title": "\u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ad\u03c2",
+      "name": "\u03a4\u03b7\u03bb\u03b5\u03c6\u03c9\u03bd\u03af\u03b1",
+      "parent_id": 1269,
       "path": "76,1269,2",
       "show_specifications": false,
-      "manufacturer_title": "Κατασκευαστές"
+      "web_uri": "https://www.skroutz.gr/c/2/tilefwnia.html"
     },
     {
-      "id": 5,
-      "name": "Φωτογραφία & Video",
       "children_count": 4,
-      "image_url": "https://a.scdn.gr/ds/categories/5/20160401163038_16e146a2.jpg",
-      "parent_id": 1269,
-      "fashion": false,
-      "layout_mode": "list",
-      "web_uri": "https://www.skroutz.gr/c/5/photografia-video.html",
       "code": "photografia-video",
+      "fashion": false,
+      "id": 5,
+      "image_url": "https://a.scdn.gr/ds/categories/5/20160401163038_16e146a2.jpg",
+      "layout_mode": "list",
+      "manufacturer_title": "\u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ad\u03c2",
+      "name": "\u03a6\u03c9\u03c4\u03bf\u03b3\u03c1\u03b1\u03c6\u03af\u03b1 & Video",
+      "parent_id": 1269,
       "path": "76,1269,5",
       "show_specifications": false,
-      "manufacturer_title": "Κατασκευαστές"
+      "web_uri": "https://www.skroutz.gr/c/5/photografia-video.html"
     },
     {
-      "id": 6,
-      "name": "Διάφορα Εικόνας",
       "children_count": 2,
-      "image_url": "https://a.scdn.gr/ds/categories/6/20150127155831_5_VL88_withWave.jpg",
-      "parent_id": 309,
-      "fashion": false,
-      "layout_mode": "list",
-      "web_uri": "https://www.skroutz.gr/c/6/diafora_eikonas.html",
       "code": "aksesouar-hxou-kai-eikonas",
+      "fashion": false,
+      "id": 6,
+      "image_url": "https://a.scdn.gr/ds/categories/6/20150127155831_5_VL88_withWave.jpg",
+      "layout_mode": "list",
+      "manufacturer_title": "\u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ad\u03c2",
+      "name": "\u0394\u03b9\u03ac\u03c6\u03bf\u03c1\u03b1 \u0395\u03b9\u03ba\u03cc\u03bd\u03b1\u03c2",
+      "parent_id": 309,
       "path": "76,1269,309,6",
       "show_specifications": false,
-      "manufacturer_title": "Κατασκευαστές"
+      "web_uri": "https://www.skroutz.gr/c/6/diafora_eikonas.html"
     },
     {
-      "id": 10,
-      "name": "Projectors",
       "children_count": 0,
-      "image_url": "https://c.scdn.gr/ds/categories/10/20150118013550_benq_sp920p.jpg",
-      "parent_id": 79,
-      "fashion": false,
-      "layout_mode": "list",
-      "web_uri": "https://www.skroutz.gr/c/10/protzektores.html",
       "code": "protzektores",
+      "fashion": false,
+      "id": 10,
+      "image_url": "https://c.scdn.gr/ds/categories/10/20150118013550_benq_sp920p.jpg",
+      "layout_mode": "list",
+      "manufacturer_title": "\u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ad\u03c2",
+      "name": "Projectors",
+      "parent_id": 79,
       "path": "76,1269,309,79,10",
       "show_specifications": true,
-      "manufacturer_title": "Κατασκευαστές"
+      "web_uri": "https://www.skroutz.gr/c/10/protzektores.html"
     }
   ],
   "meta": {
     "pagination": {
-      "total_results": 2344,
-      "total_pages": 469,
       "page": 1,
-      "per": 5
+      "per": 5,
+      "total_pages": 469,
+      "total_results": 2344
     }
   }
 }

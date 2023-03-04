@@ -1,418 +1,418 @@
 {
   "books": [
     {
+      "favorited": true,
+      "first_product_shop_info": null,
       "id": 242327,
-      "name": "Ο Χάρι Πότερ και η φιλοσοφική λίθος",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://d.scdn.gr/images/sku_main_images/000242/242327/medium_20160722014855_o_chari_poter_kai_i_filosofiki_lithos.jpeg"
       },
-      "price_min": 6.82,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u039f \u03a7\u03ac\u03c1\u03b9 \u03a0\u03cc\u03c4\u03b5\u03c1 \u03ba\u03b1\u03b9 \u03b7 \u03c6\u03b9\u03bb\u03bf\u03c3\u03bf\u03c6\u03b9\u03ba\u03ae \u03bb\u03af\u03b8\u03bf\u03c2",
       "price_max": 15.79,
-      "shop_count": 13,
-      "reviewscore": 5.0,
+      "price_min": 6.82,
       "reviews_count": 2,
-      "favorited": true,
-      "first_product_shop_info": null
+      "reviewscore": 5.0,
+      "shop_count": 13
     },
     {
+      "favorited": true,
+      "first_product_shop_info": null,
       "id": 145771,
-      "name": "Ο Χάρι Πότερ και ο ημίαιμος πρίγκιψ",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://a.scdn.gr/images/sku_main_images/000145/145771/medium_20160720135644_o_chari_poter_kai_o_imiaimos_prigips.jpeg"
       },
-      "price_min": 9.9,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u039f \u03a7\u03ac\u03c1\u03b9 \u03a0\u03cc\u03c4\u03b5\u03c1 \u03ba\u03b1\u03b9 \u03bf \u03b7\u03bc\u03af\u03b1\u03b9\u03bc\u03bf\u03c2 \u03c0\u03c1\u03af\u03b3\u03ba\u03b9\u03c8",
       "price_max": 25.48,
-      "shop_count": 13,
-      "reviewscore": 0.0,
+      "price_min": 9.9,
       "reviews_count": 0,
-      "favorited": true,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 13
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 228697,
-      "name": "Ο Χάρι Πότερ και ο αιχμάλωτος του Αζκαμπάν",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://b.scdn.gr/images/sku_main_images/000228/228697/medium_20160721212828_o_chari_poter_kai_o_aichmalotos_tou_azkampan.jpeg"
       },
-      "price_min": 10.68,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u039f \u03a7\u03ac\u03c1\u03b9 \u03a0\u03cc\u03c4\u03b5\u03c1 \u03ba\u03b1\u03b9 \u03bf \u03b1\u03b9\u03c7\u03bc\u03ac\u03bb\u03c9\u03c4\u03bf\u03c2 \u03c4\u03bf\u03c5 \u0391\u03b6\u03ba\u03b1\u03bc\u03c0\u03ac\u03bd",
       "price_max": 19.16,
-      "shop_count": 13,
-      "reviewscore": 0.0,
+      "price_min": 10.68,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 13
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 242082,
-      "name": "Ο Χάρι Πότερ και η κάμαρα με τα μυστικά",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://c.scdn.gr/images/sku_main_images/000242/242082/medium_20160722014135_o_chari_poter_kai_i_kamara_me_ta_mystika.jpeg"
       },
-      "price_min": 9.92,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u039f \u03a7\u03ac\u03c1\u03b9 \u03a0\u03cc\u03c4\u03b5\u03c1 \u03ba\u03b1\u03b9 \u03b7 \u03ba\u03ac\u03bc\u03b1\u03c1\u03b1 \u03bc\u03b5 \u03c4\u03b1 \u03bc\u03c5\u03c3\u03c4\u03b9\u03ba\u03ac",
       "price_max": 15.79,
-      "shop_count": 14,
-      "reviewscore": 0.0,
+      "price_min": 9.92,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 14
     },
     {
+      "favorited": true,
+      "first_product_shop_info": null,
       "id": 121274,
-      "name": "Ο Χάρι Πότερ και οι κλήροι του θανάτου",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://a.scdn.gr/images/sku_main_images/000121/121274/medium_20160720003521_o_chari_poter_kai_oi_kliroi_tou_thanatou.jpeg"
       },
-      "price_min": 10.69,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u039f \u03a7\u03ac\u03c1\u03b9 \u03a0\u03cc\u03c4\u03b5\u03c1 \u03ba\u03b1\u03b9 \u03bf\u03b9 \u03ba\u03bb\u03ae\u03c1\u03bf\u03b9 \u03c4\u03bf\u03c5 \u03b8\u03b1\u03bd\u03ac\u03c4\u03bf\u03c5",
       "price_max": 28.02,
-      "shop_count": 14,
-      "reviewscore": 0.0,
+      "price_min": 10.69,
       "reviews_count": 0,
-      "favorited": true,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 14
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 199084,
-      "name": "Ο Χάρι Πότερ και το κύπελλο της φωτιάς",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://b.scdn.gr/images/sku_main_images/000199/199084/medium_20160721133819_o_chari_poter_kai_to_kypello_tis_fotias.jpeg"
       },
-      "price_min": 10.68,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u039f \u03a7\u03ac\u03c1\u03b9 \u03a0\u03cc\u03c4\u03b5\u03c1 \u03ba\u03b1\u03b9 \u03c4\u03bf \u03ba\u03cd\u03c0\u03b5\u03bb\u03bb\u03bf \u03c4\u03b7\u03c2 \u03c6\u03c9\u03c4\u03b9\u03ac\u03c2",
       "price_max": 22.53,
-      "shop_count": 13,
-      "reviewscore": 0.0,
+      "price_min": 10.68,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 13
     },
     {
+      "favorited": true,
+      "first_product_shop_info": null,
       "id": 163443,
-      "name": "Ο Χάρι Πότερ και το τάγμα του Φοίνικα",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://a.scdn.gr/images/sku_main_images/000163/163443/medium_20160720234149_o_chari_poter_kai_to_tagma_tou_foinika.jpeg"
       },
-      "price_min": 11.44,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u039f \u03a7\u03ac\u03c1\u03b9 \u03a0\u03cc\u03c4\u03b5\u03c1 \u03ba\u03b1\u03b9 \u03c4\u03bf \u03c4\u03ac\u03b3\u03bc\u03b1 \u03c4\u03bf\u03c5 \u03a6\u03bf\u03af\u03bd\u03b9\u03ba\u03b1",
       "price_max": 16.6,
-      "shop_count": 14,
-      "reviewscore": 0.0,
+      "price_min": 11.44,
       "reviews_count": 0,
-      "favorited": true,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 14
     },
     {
+      "favorited": false,
+      "first_product_shop_info": "2508|Bibliotopia|bibliotopia",
       "id": 179879,
-      "name": "Harry Potter: οι πιστοί και αγαπημένοι φίλοι του Χάρι Πότερ",
-      "main_author_id": 14256,
-      "main_author": "χ.ό.",
       "images": {
         "main": "https://b.scdn.gr/images/sku_main_images/000179/179879/medium_20160721090548_harry_potter_oi_pistoi_kai_agapimenoi_filoi_tou_chari_poter.jpeg"
       },
-      "price_min": 4.2,
+      "main_author": "\u03c7.\u03cc.",
+      "main_author_id": 14256,
+      "name": "Harry Potter: \u03bf\u03b9 \u03c0\u03b9\u03c3\u03c4\u03bf\u03af \u03ba\u03b1\u03b9 \u03b1\u03b3\u03b1\u03c0\u03b7\u03bc\u03ad\u03bd\u03bf\u03b9 \u03c6\u03af\u03bb\u03bf\u03b9 \u03c4\u03bf\u03c5 \u03a7\u03ac\u03c1\u03b9 \u03a0\u03cc\u03c4\u03b5\u03c1",
       "price_max": 4.2,
-      "shop_count": 1,
-      "reviewscore": 0.0,
+      "price_min": 4.2,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": "2508|Bibliotopia|bibliotopia"
+      "reviewscore": 0.0,
+      "shop_count": 1
     },
     {
+      "favorited": false,
+      "first_product_shop_info": "2508|Bibliotopia|bibliotopia",
       "id": 120625,
-      "name": "Ο Χάρι Πότερ και οι κλήροι του θανάτου",
-      "main_author_id": 385,
-      "main_author": "1965- J. K. Rowling",
       "images": {
         "main": "https://c.scdn.gr/images/sku_main_images/000120/120625/medium_20160720002139_o_chari_poter_kai_oi_kliroi_tou_thanatou.jpeg"
       },
-      "price_min": 10.79,
+      "main_author": "1965- J. K. Rowling",
+      "main_author_id": 385,
+      "name": "\u039f \u03a7\u03ac\u03c1\u03b9 \u03a0\u03cc\u03c4\u03b5\u03c1 \u03ba\u03b1\u03b9 \u03bf\u03b9 \u03ba\u03bb\u03ae\u03c1\u03bf\u03b9 \u03c4\u03bf\u03c5 \u03b8\u03b1\u03bd\u03ac\u03c4\u03bf\u03c5",
       "price_max": 10.79,
-      "shop_count": 1,
-      "reviewscore": 0.0,
+      "price_min": 10.79,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": "2508|Bibliotopia|bibliotopia"
+      "reviewscore": 0.0,
+      "shop_count": 1
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 246466,
-      "name": "Ασκήσεις και λύσεις για το μάθημα της μικροοικονομικής",
-      "main_author_id": 85799,
-      "main_author": "Χάρρυ Παπαπανάγος",
       "images": {
         "main": "https://a.scdn.gr/images/sku_main_images/000246/246466/medium_20160722025240_askiseis_kai_lyseis_gia_to_mathima_tis_mikrooikonomikis.jpeg"
       },
-      "price_min": 16.56,
+      "main_author": "\u03a7\u03ac\u03c1\u03c1\u03c5 \u03a0\u03b1\u03c0\u03b1\u03c0\u03b1\u03bd\u03ac\u03b3\u03bf\u03c2",
+      "main_author_id": 85799,
+      "name": "\u0391\u03c3\u03ba\u03ae\u03c3\u03b5\u03b9\u03c2 \u03ba\u03b1\u03b9 \u03bb\u03cd\u03c3\u03b5\u03b9\u03c2 \u03b3\u03b9\u03b1 \u03c4\u03bf \u03bc\u03ac\u03b8\u03b7\u03bc\u03b1 \u03c4\u03b7\u03c2 \u03bc\u03b9\u03ba\u03c1\u03bf\u03bf\u03b9\u03ba\u03bf\u03bd\u03bf\u03bc\u03b9\u03ba\u03ae\u03c2",
       "price_max": 24.0,
-      "shop_count": 7,
-      "reviewscore": 0.0,
+      "price_min": 16.56,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 7
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 5187385,
-      "name": "Η αλήθεια για την υπόθεση Χάρρυ Κέμπερτ",
-      "main_author_id": 109702,
-      "main_author": "Jo?l Dicker",
       "images": {
         "main": "https://d.scdn.gr/images/sku_main_images/005187/5187385/medium_20160723113035_i_alitheia_gia_tin_ypothesi_charry_kempert.jpeg"
       },
-      "price_min": 12.8,
+      "main_author": "Jo?l Dicker",
+      "main_author_id": 109702,
+      "name": "\u0397 \u03b1\u03bb\u03ae\u03b8\u03b5\u03b9\u03b1 \u03b3\u03b9\u03b1 \u03c4\u03b7\u03bd \u03c5\u03c0\u03cc\u03b8\u03b5\u03c3\u03b7 \u03a7\u03ac\u03c1\u03c1\u03c5 \u039a\u03ad\u03bc\u03c0\u03b5\u03c1\u03c4",
       "price_max": 19.9,
-      "shop_count": 12,
-      "reviewscore": 0.0,
+      "price_min": 12.8,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 12
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 246465,
-      "name": "Πολιτική οικονομία του καπιταλισμού",
-      "main_author_id": 7912,
-      "main_author": "Συλλογικό έργο",
       "images": {
         "main": "https://a.scdn.gr/images/sku_main_images/000246/246465/medium_20160722025237_politiki_oikonomia_tou_kapitalismoy.jpeg"
       },
-      "price_min": 44.16,
+      "main_author": "\u03a3\u03c5\u03bb\u03bb\u03bf\u03b3\u03b9\u03ba\u03cc \u03ad\u03c1\u03b3\u03bf",
+      "main_author_id": 7912,
+      "name": "\u03a0\u03bf\u03bb\u03b9\u03c4\u03b9\u03ba\u03ae \u03bf\u03b9\u03ba\u03bf\u03bd\u03bf\u03bc\u03af\u03b1 \u03c4\u03bf\u03c5 \u03ba\u03b1\u03c0\u03b9\u03c4\u03b1\u03bb\u03b9\u03c3\u03bc\u03bf\u03cd",
       "price_max": 64.0,
-      "shop_count": 9,
-      "reviewscore": 0.0,
+      "price_min": 44.16,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 9
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 235271,
-      "name": "Σύγχρονες ηλεκτρονικές κατασκευές",
-      "main_author_id": 10799,
-      "main_author": "Harry L. Helms",
       "images": {
         "main": "https://b.scdn.gr/assets/schwartz/books/no-cover-big.png"
       },
-      "price_min": 10.42,
+      "main_author": "Harry L. Helms",
+      "main_author_id": 10799,
+      "name": "\u03a3\u03cd\u03b3\u03c7\u03c1\u03bf\u03bd\u03b5\u03c2 \u03b7\u03bb\u03b5\u03ba\u03c4\u03c1\u03bf\u03bd\u03b9\u03ba\u03ad\u03c2 \u03ba\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03ad\u03c2",
       "price_max": 12.74,
-      "shop_count": 5,
-      "reviewscore": 0.0,
+      "price_min": 10.42,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 5
     },
     {
+      "favorited": false,
+      "first_product_shop_info": "4443|Happy Place|happyplace",
       "id": 185254,
-      "name": "Τζ. Κ. Ρόουλινγκ",
-      "main_author_id": 38715,
-      "main_author": "Marc Shapiro",
       "images": {
         "main": "https://a.scdn.gr/images/sku_main_images/000185/185254/medium_20160721104148_tz_k_roouling.jpeg"
       },
-      "price_min": 6.15,
+      "main_author": "Marc Shapiro",
+      "main_author_id": 38715,
+      "name": "\u03a4\u03b6. \u039a. \u03a1\u03cc\u03bf\u03c5\u03bb\u03b9\u03bd\u03b3\u03ba",
       "price_max": 6.15,
-      "shop_count": 1,
-      "reviewscore": 0.0,
+      "price_min": 6.15,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": "4443|Happy Place|happyplace"
+      "reviewscore": 0.0,
+      "shop_count": 1
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 4125566,
-      "name": "Άι Βασίλη θέλω... έναν φίλο!",
-      "main_author_id": 50725,
-      "main_author": "Rebecca Harry",
       "images": {
         "main": "https://a.scdn.gr/images/sku_main_images/004125/4125566/medium_20160723102718_ai_vasili_thelo_enan_filo.jpeg"
       },
-      "price_min": 8.74,
+      "main_author": "Rebecca Harry",
+      "main_author_id": 50725,
+      "name": "\u0386\u03b9 \u0392\u03b1\u03c3\u03af\u03bb\u03b7 \u03b8\u03ad\u03bb\u03c9... \u03ad\u03bd\u03b1\u03bd \u03c6\u03af\u03bb\u03bf!",
       "price_max": 11.61,
-      "shop_count": 7,
-      "reviewscore": 0.0,
+      "price_min": 8.74,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 7
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 154512,
-      "name": "Επιστήμη και μαγεία",
-      "main_author_id": 18050,
-      "main_author": "Roger Highfield",
       "images": {
         "main": "https://a.scdn.gr/images/sku_main_images/000154/154512/medium_20160720185639_epistimi_kai_mageia.jpeg"
       },
-      "price_min": 16.44,
+      "main_author": "Roger Highfield",
+      "main_author_id": 18050,
+      "name": "\u0395\u03c0\u03b9\u03c3\u03c4\u03ae\u03bc\u03b7 \u03ba\u03b1\u03b9 \u03bc\u03b1\u03b3\u03b5\u03af\u03b1",
       "price_max": 23.83,
-      "shop_count": 11,
-      "reviewscore": 0.0,
+      "price_min": 16.44,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 11
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 223565,
-      "name": "Τι τρελό κυνηγητό",
-      "main_author_id": 18045,
-      "main_author": "1916-2004 Francis Harry Compton Crick",
       "images": {
         "main": "https://b.scdn.gr/images/sku_main_images/000223/223565/medium_20160721202232_ti_trelo_kynigito.jpeg"
       },
-      "price_min": 15.71,
+      "main_author": "1916-2004 Francis Harry Compton Crick",
+      "main_author_id": 18045,
+      "name": "\u03a4\u03b9 \u03c4\u03c1\u03b5\u03bb\u03cc \u03ba\u03c5\u03bd\u03b7\u03b3\u03b7\u03c4\u03cc",
       "price_max": 18.13,
-      "shop_count": 7,
-      "reviewscore": 0.0,
+      "price_min": 15.71,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 7
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 1948678,
-      "name": "Η ανάπτυξη των βρεφών",
-      "main_author_id": 7912,
-      "main_author": "Συλλογικό έργο",
       "images": {
         "main": "https://d.scdn.gr/images/sku_main_images/001948/1948678/medium_20160722184803_i_anaptyxi_ton_vrefon.jpeg"
       },
-      "price_min": 21.47,
+      "main_author": "\u03a3\u03c5\u03bb\u03bb\u03bf\u03b3\u03b9\u03ba\u03cc \u03ad\u03c1\u03b3\u03bf",
+      "main_author_id": 7912,
+      "name": "\u0397 \u03b1\u03bd\u03ac\u03c0\u03c4\u03c5\u03be\u03b7 \u03c4\u03c9\u03bd \u03b2\u03c1\u03b5\u03c6\u03ce\u03bd",
       "price_max": 34.08,
-      "shop_count": 8,
-      "reviewscore": 0.0,
+      "price_min": 21.47,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 8
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 235137,
-      "name": "Encyclopédie de la Pléiade. Ιστορία της φιλοσοφίας",
-      "main_author_id": 11054,
-      "main_author": "Harry Burrows Acton",
       "images": {
         "main": "https://a.scdn.gr/images/sku_main_images/000235/235137/medium_8233-1678.jpg"
       },
-      "price_min": 11.92,
+      "main_author": "Harry Burrows Acton",
+      "main_author_id": 11054,
+      "name": "Encyclop\u00e9die de la Pl\u00e9iade. \u0399\u03c3\u03c4\u03bf\u03c1\u03af\u03b1 \u03c4\u03b7\u03c2 \u03c6\u03b9\u03bb\u03bf\u03c3\u03bf\u03c6\u03af\u03b1\u03c2",
       "price_max": 13.69,
-      "shop_count": 5,
-      "reviewscore": 0.0,
+      "price_min": 11.92,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 5
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 238156,
-      "name": "NLP νευρο-γλωσσικός προγραμματισμός",
-      "main_author_id": 8140,
-      "main_author": "Harry Alder",
       "images": {
         "main": "https://a.scdn.gr/images/sku_main_images/000238/238156/medium_20160722001441_nlp_neyro_glossikos_programmatismos.jpeg"
       },
-      "price_min": 7.18,
+      "main_author": "Harry Alder",
+      "main_author_id": 8140,
+      "name": "NLP \u03bd\u03b5\u03c5\u03c1\u03bf-\u03b3\u03bb\u03c9\u03c3\u03c3\u03b9\u03ba\u03cc\u03c2 \u03c0\u03c1\u03bf\u03b3\u03c1\u03b1\u03bc\u03bc\u03b1\u03c4\u03b9\u03c3\u03bc\u03cc\u03c2",
       "price_max": 11.74,
-      "shop_count": 8,
-      "reviewscore": 0.0,
+      "price_min": 7.18,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 8
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 342865,
-      "name": "Ο Βέγγος δεν είναι κιτς -ο Χάρρυ Κλυν, δυστυχώς είναι... Η λογοτεχνία ως σινεμά (και το σινεμά ως λογοτεχνία...)",
-      "main_author_id": 7912,
-      "main_author": "Συλλογικό έργο",
       "images": {
         "main": "https://d.scdn.gr/images/sku_main_images/000342/342865/medium_20160722130045_o_vegos_den_einai_kits_o_charry_klyn_dystychos_einai_i_logotechnia_os_sinema_kai_to_sinema_os_logotechnia.jpeg"
       },
-      "price_min": 5.96,
+      "main_author": "\u03a3\u03c5\u03bb\u03bb\u03bf\u03b3\u03b9\u03ba\u03cc \u03ad\u03c1\u03b3\u03bf",
+      "main_author_id": 7912,
+      "name": "\u039f \u0392\u03ad\u03b3\u03b3\u03bf\u03c2 \u03b4\u03b5\u03bd \u03b5\u03af\u03bd\u03b1\u03b9 \u03ba\u03b9\u03c4\u03c2 -\u03bf \u03a7\u03ac\u03c1\u03c1\u03c5 \u039a\u03bb\u03c5\u03bd, \u03b4\u03c5\u03c3\u03c4\u03c5\u03c7\u03ce\u03c2 \u03b5\u03af\u03bd\u03b1\u03b9... \u0397 \u03bb\u03bf\u03b3\u03bf\u03c4\u03b5\u03c7\u03bd\u03af\u03b1 \u03c9\u03c2 \u03c3\u03b9\u03bd\u03b5\u03bc\u03ac (\u03ba\u03b1\u03b9 \u03c4\u03bf \u03c3\u03b9\u03bd\u03b5\u03bc\u03ac \u03c9\u03c2 \u03bb\u03bf\u03b3\u03bf\u03c4\u03b5\u03c7\u03bd\u03af\u03b1...)",
       "price_max": 8.52,
-      "shop_count": 7,
-      "reviewscore": 0.0,
+      "price_min": 5.96,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 7
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 166426,
-      "name": "Ψάρια",
-      "main_author_id": 47631,
-      "main_author": "Stephen C. Lundin",
       "images": {
         "main": "https://d.scdn.gr/images/sku_main_images/000166/166426/medium_20160721011936_psaria.jpeg"
       },
-      "price_min": 8.67,
+      "main_author": "Stephen C. Lundin",
+      "main_author_id": 47631,
+      "name": "\u03a8\u03ac\u03c1\u03b9\u03b1",
       "price_max": 10.55,
-      "shop_count": 8,
-      "reviewscore": 0.0,
+      "price_min": 8.67,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 8
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 168094,
-      "name": "Πώς να πουλάτε υπηρεσίες",
-      "main_author_id": 46813,
-      "main_author": "Harry Beckwith",
       "images": {
         "main": "https://c.scdn.gr/images/sku_main_images/000168/168094/medium_20160721021627_pos_na_poulate_ypiresies.jpeg"
       },
-      "price_min": 13.11,
+      "main_author": "Harry Beckwith",
+      "main_author_id": 46813,
+      "name": "\u03a0\u03ce\u03c2 \u03bd\u03b1 \u03c0\u03bf\u03c5\u03bb\u03ac\u03c4\u03b5 \u03c5\u03c0\u03b7\u03c1\u03b5\u03c3\u03af\u03b5\u03c2",
       "price_max": 19.0,
-      "shop_count": 10,
-      "reviewscore": 0.0,
+      "price_min": 13.11,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 10
     },
     {
+      "favorited": false,
+      "first_product_shop_info": null,
       "id": 102803,
-      "name": "Κίνα, ο δράκος της Ασίας",
-      "main_author_id": 82257,
-      "main_author": "Harry G. Gelber",
       "images": {
         "main": "https://d.scdn.gr/images/sku_main_images/000102/102803/medium_20160719145956_kina_o_drakos_tis_asias.jpeg"
       },
-      "price_min": 13.7,
+      "main_author": "Harry G. Gelber",
+      "main_author_id": 82257,
+      "name": "\u039a\u03af\u03bd\u03b1, \u03bf \u03b4\u03c1\u03ac\u03ba\u03bf\u03c2 \u03c4\u03b7\u03c2 \u0391\u03c3\u03af\u03b1\u03c2",
       "price_max": 25.48,
-      "shop_count": 11,
-      "reviewscore": 0.0,
+      "price_min": 13.7,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": null
+      "reviewscore": 0.0,
+      "shop_count": 11
     },
     {
+      "favorited": false,
+      "first_product_shop_info": "698|Ebooks|ebooks",
       "id": 239970,
-      "name": "Ένα σπίτι κρεμαστό",
-      "main_author_id": 4130,
-      "main_author": "Harry Alexander",
       "images": {
         "main": "https://d.scdn.gr/images/sku_main_images/000239/239970/medium_20160722010406_ena_spiti_kremasto.jpeg"
       },
-      "price_min": 5.45,
+      "main_author": "Harry Alexander",
+      "main_author_id": 4130,
+      "name": "\u0388\u03bd\u03b1 \u03c3\u03c0\u03af\u03c4\u03b9 \u03ba\u03c1\u03b5\u03bc\u03b1\u03c3\u03c4\u03cc",
       "price_max": 5.45,
-      "shop_count": 1,
-      "reviewscore": 0.0,
+      "price_min": 5.45,
       "reviews_count": 0,
-      "favorited": false,
-      "first_product_shop_info": "698|Ebooks|ebooks"
+      "reviewscore": 0.0,
+      "shop_count": 1
     }
   ],
   "meta": {
-    "pagination": {
-      "total_results": 67,
-      "total_pages": 3,
-      "page": 1,
-      "per": 25
+    "order_by_methods": {
+      "created_on": "\u0391\u03cd\u03be\u03bf\u03c5\u03c3\u03b1 \u03b7\u03bc/\u03bd\u03af\u03b1 \u03ad\u03ba\u03b4\u03bf\u03c3\u03b7\u03c2",
+      "popularity": "\u0394\u03b7\u03bc\u03bf\u03c4\u03b9\u03ba\u03cc\u03c4\u03b7\u03c4\u03b1",
+      "pricevat": "\u0391\u03cd\u03be\u03bf\u03c5\u03c3\u03b1 \u03c4\u03b9\u03bc\u03ae"
     },
     "ordered_by": "popularity",
-    "order_by_methods": {
-      "pricevat": "Αύξουσα τιμή",
-      "popularity": "Δημοτικότητα",
-      "created_on": "Αύξουσα ημ/νία έκδοσης"
+    "pagination": {
+      "page": 1,
+      "per": 25,
+      "total_pages": 3,
+      "total_results": 67
     }
   }
 }

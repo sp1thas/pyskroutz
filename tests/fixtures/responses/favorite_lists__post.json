@@ -1,8 +1,8 @@
 {
   "favorite_list": {
+    "category_id": null,
     "id": 973812,
     "name": "test name",
-    "category_id": null,
     "type": "custom"
   }
 }

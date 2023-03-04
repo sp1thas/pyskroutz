@@ -1,62 +1,60 @@
 {
   "categories": [
     {
-      "id": 1105,
-      "name": "Tablets",
       "children_count": 0,
-      "image_url": "https://a.scdn.gr/ds/categories/1105/20150127170004_1105.jpg",
-      "parent_id": 1612,
-      "fashion": false,
-      "layout_mode": "list",
-      "web_uri": "https://www.skroutz.gr/c/1105/tablet.html",
       "code": "tablet",
+      "fashion": false,
+      "id": 1105,
+      "image_url": "https://a.scdn.gr/ds/categories/1105/20150127170004_1105.jpg",
+      "layout_mode": "list",
+      "manufacturer_title": "\u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ad\u03c2",
+      "match_count": 601,
+      "name": "Tablets",
+      "parent_id": 1612,
       "path": "76,1269,1612,1105",
       "show_specifications": true,
-      "manufacturer_title": "Κατασκευαστές",
-      "match_count": 601
+      "web_uri": "https://www.skroutz.gr/c/1105/tablet.html"
     },
     {
-      "id": 1608,
-      "name": "Θήκες Tablet",
       "children_count": 0,
-      "image_url": "https://c.scdn.gr/ds/categories/1608/1608.jpg",
-      "parent_id": 1612,
-      "fashion": false,
-      "layout_mode": "tiles",
-      "web_uri": "https://www.skroutz.gr/c/1608/thikes-tablet.html",
       "code": "tablet-cases",
+      "fashion": false,
+      "id": 1608,
+      "image_url": "https://c.scdn.gr/ds/categories/1608/1608.jpg",
+      "layout_mode": "tiles",
+      "manufacturer_title": "\u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ad\u03c2",
+      "match_count": 6149,
+      "name": "\u0398\u03ae\u03ba\u03b5\u03c2 Tablet",
+      "parent_id": 1612,
       "path": "76,1269,1612,1608",
       "show_specifications": true,
-      "manufacturer_title": "Κατασκευαστές",
-      "match_count": 6149
+      "web_uri": "https://www.skroutz.gr/c/1608/thikes-tablet.html"
     }
   ],
   "meta": {
+    "alternatives": [],
+    "pagination": {
+      "page": 1,
+      "per": 2,
+      "total_pages": 58,
+      "total_results": 115
+    },
     "q": "Tablets",
-    "alternatives": [
-
-    ],
     "strong_matches": {
       "category": {
-        "id": 1105,
-        "name": "Tablets",
         "children_count": 0,
-        "image_url": "https://a.scdn.gr/ds/categories/1105/20150127170004_1105.jpg",
-        "parent_id": 1612,
-        "fashion": false,
-        "layout_mode": "list",
-        "web_uri": "https://www.skroutz.gr/c/1105/tablet.html",
         "code": "tablet",
+        "fashion": false,
+        "id": 1105,
+        "image_url": "https://a.scdn.gr/ds/categories/1105/20150127170004_1105.jpg",
+        "layout_mode": "list",
+        "manufacturer_title": "\u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ad\u03c2",
+        "name": "Tablets",
+        "parent_id": 1612,
         "path": "76,1269,1612,1105",
         "show_specifications": true,
-        "manufacturer_title": "Κατασκευαστές"
+        "web_uri": "https://www.skroutz.gr/c/1105/tablet.html"
       }
-    },
-    "pagination": {
-      "total_results": 115,
-      "total_pages": 58,
-      "page": 1,
-      "per": 2
     }
   }
 }

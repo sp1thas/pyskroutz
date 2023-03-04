@@ -1,25 +1,22 @@
 {
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "per": 25,
+      "total_pages": 1,
+      "total_results": 5
+    }
+  },
   "skus": [
     {
-      "id": 6260915,
-      "ean": "8806086915007 8806086738576",
-      "pn": "SM-G920F 32GB",
-      "name": "Galaxy S6 (32GB)",
-      "display_name": "Samsung Galaxy S6 (32GB)",
       "category_id": 40,
-      "first_product_shop_info": null,
       "click_url": null,
-      "price_max": 854.0,
-      "price_min": 360.9,
-      "reviewscore": 4.46667,
-      "shop_count": 44,
-      "plain_spec_summary": "SmartPhone, SIM: Single, Οθόνη: 5.1\", 2560 x 1440 pixels, CPU: 2100 MHz, Πυρήνες CPU: 4+4, RAM: 3 GB, Μνήμη Αποθήκευσης: 32 GB, Δίκτυο: 4G, Κάμερα: 16 MP, Λειτουργικό: Android, Μπαταρία: 2550 mAh",
-      "manufacturer_id": 28,
+      "display_name": "Samsung Galaxy S6 (32GB)",
+      "ean": "8806086915007 8806086738576",
+      "first_product_shop_info": null,
       "future": false,
-      "reviews_count": 135,
-      "virtual": false,
+      "id": 6260915,
       "images": {
-        "main": "https://c.scdn.gr/images/sku_main_images/006260/6260915/medium_20160802141618_samsung_galaxy_s6_32gb.jpeg",
         "alternatives": [
           "https://b.scdn.gr/images/sku_images/014782/14782538/20150302104558_5384a7b1.jpeg",
           "https://b.scdn.gr/images/sku_images/015730/15730353/20160801172505_9e14023d.jpeg",
@@ -52,30 +49,30 @@
           "https://d.scdn.gr/images/sku_images/015730/15730387/20160801172850_7a728bf0.jpeg",
           "https://d.scdn.gr/images/sku_images/015730/15730388/20160801172850_3458023d.jpeg",
           "https://d.scdn.gr/images/sku_images/015730/15730384/20160801172841_8a9dc67d.jpeg"
-        ]
+        ],
+        "main": "https://c.scdn.gr/images/sku_main_images/006260/6260915/medium_20160802141618_samsung_galaxy_s6_32gb.jpeg"
       },
+      "manufacturer_id": 28,
+      "name": "Galaxy S6 (32GB)",
+      "plain_spec_summary": "SmartPhone, SIM: Single, \u039f\u03b8\u03cc\u03bd\u03b7: 5.1\", 2560 x 1440 pixels, CPU: 2100 MHz, \u03a0\u03c5\u03c1\u03ae\u03bd\u03b5\u03c2 CPU: 4+4, RAM: 3 GB, \u039c\u03bd\u03ae\u03bc\u03b7 \u0391\u03c0\u03bf\u03b8\u03ae\u03ba\u03b5\u03c5\u03c3\u03b7\u03c2: 32 GB, \u0394\u03af\u03ba\u03c4\u03c5\u03bf: 4G, \u039a\u03ac\u03bc\u03b5\u03c1\u03b1: 16 MP, \u039b\u03b5\u03b9\u03c4\u03bf\u03c5\u03c1\u03b3\u03b9\u03ba\u03cc: Android, \u039c\u03c0\u03b1\u03c4\u03b1\u03c1\u03af\u03b1: 2550 mAh",
+      "pn": "SM-G920F 32GB",
+      "price_max": 854.0,
+      "price_min": 360.9,
+      "reviews_count": 135,
+      "reviewscore": 4.46667,
+      "shop_count": 44,
+      "virtual": false,
       "web_uri": "https://www.skroutz.gr/s/6260915/Samsung-Galaxy-S6-32GB.html"
     },
     {
-      "id": 8221632,
-      "ean": "",
-      "pn": "SM-A510F SM-A510FZWAEUR SM-A510FZKAEUR SM-A510FZDAEUR",
-      "name": "Galaxy A5 2016 (16GB)",
-      "display_name": "Samsung Galaxy A5 2016 (16GB)",
       "category_id": 40,
-      "first_product_shop_info": null,
       "click_url": null,
-      "price_max": 373.07,
-      "price_min": 249.9,
-      "reviewscore": 4.50413,
-      "shop_count": 67,
-      "plain_spec_summary": "SmartPhone, SIM: Single, Οθόνη: 5.2\", 1920 x 1080 pixels, CPU: 1600 MHz, Πυρήνες CPU: 8, RAM: 2 GB, Μνήμη Αποθήκευσης: 16 GB, Δίκτυο: 4G, Κάμερα: 13 MP, Λειτουργικό: Android, Μπαταρία: 2900 mAh",
-      "manufacturer_id": 28,
+      "display_name": "Samsung Galaxy A5 2016 (16GB)",
+      "ean": "",
+      "first_product_shop_info": null,
       "future": false,
-      "reviews_count": 121,
-      "virtual": false,
+      "id": 8221632,
       "images": {
-        "main": "https://b.scdn.gr/images/sku_main_images/008221/8221632/medium_20160123162557_samsung_galaxy_a5_2016_16gb.jpeg",
         "alternatives": [
           "https://d.scdn.gr/images/sku_images/014900/14900956/20160123162559_c9985c7b.jpeg",
           "https://c.scdn.gr/images/sku_images/014900/14900955/20160123162558_1d1428e1.jpeg",
@@ -102,30 +99,30 @@
           "https://d.scdn.gr/images/sku_images/014900/14900974/20160123162641_77cabb19.jpeg",
           "https://a.scdn.gr/images/sku_images/014900/14900975/20160123162643_00b36ee5.jpeg",
           "https://b.scdn.gr/images/sku_images/015735/15735359/20160802103848_0cf4f8b5.jpeg"
-        ]
+        ],
+        "main": "https://b.scdn.gr/images/sku_main_images/008221/8221632/medium_20160123162557_samsung_galaxy_a5_2016_16gb.jpeg"
       },
+      "manufacturer_id": 28,
+      "name": "Galaxy A5 2016 (16GB)",
+      "plain_spec_summary": "SmartPhone, SIM: Single, \u039f\u03b8\u03cc\u03bd\u03b7: 5.2\", 1920 x 1080 pixels, CPU: 1600 MHz, \u03a0\u03c5\u03c1\u03ae\u03bd\u03b5\u03c2 CPU: 8, RAM: 2 GB, \u039c\u03bd\u03ae\u03bc\u03b7 \u0391\u03c0\u03bf\u03b8\u03ae\u03ba\u03b5\u03c5\u03c3\u03b7\u03c2: 16 GB, \u0394\u03af\u03ba\u03c4\u03c5\u03bf: 4G, \u039a\u03ac\u03bc\u03b5\u03c1\u03b1: 13 MP, \u039b\u03b5\u03b9\u03c4\u03bf\u03c5\u03c1\u03b3\u03b9\u03ba\u03cc: Android, \u039c\u03c0\u03b1\u03c4\u03b1\u03c1\u03af\u03b1: 2900 mAh",
+      "pn": "SM-A510F SM-A510FZWAEUR SM-A510FZKAEUR SM-A510FZDAEUR",
+      "price_max": 373.07,
+      "price_min": 249.9,
+      "reviews_count": 121,
+      "reviewscore": 4.50413,
+      "shop_count": 67,
+      "virtual": false,
       "web_uri": "https://www.skroutz.gr/s/8221632/Samsung-Galaxy-A5-2016-16GB.html"
     },
     {
-      "id": 9001596,
-      "ean": "8806088350721 8806088350691 8806088350714",
-      "pn": "SM-J710F SM-J710FN SM-J710FZKNEUR SM-J710FZWNEUR",
-      "name": "Galaxy J7 2016 (16GB)",
-      "display_name": "Samsung Galaxy J7 2016 (16GB)",
       "category_id": 40,
-      "first_product_shop_info": null,
       "click_url": null,
-      "price_max": 329.67,
-      "price_min": 226.0,
-      "reviewscore": 4.42857,
-      "shop_count": 46,
-      "plain_spec_summary": "SmartPhone, SIM: Single, Οθόνη: 5.5\", 1280 x 720 pixels, CPU: 1600 MHz, Πυρήνες CPU: 8, RAM: 2 GB, Μνήμη Αποθήκευσης: 16 GB, Δίκτυο: 4G, Κάμερα: 13 MP, Λειτουργικό: Android, Μπαταρία: 3300 mAh",
-      "manufacturer_id": 28,
+      "display_name": "Samsung Galaxy J7 2016 (16GB)",
+      "ean": "8806088350721 8806088350691 8806088350714",
+      "first_product_shop_info": null,
       "future": false,
-      "reviews_count": 35,
-      "virtual": false,
+      "id": 9001596,
       "images": {
-        "main": "https://a.scdn.gr/images/sku_main_images/009001/9001596/medium_20160511121221_samsung_galaxy_j7_2016_16gb.jpeg",
         "alternatives": [
           "https://d.scdn.gr/images/sku_images/014951/14951247/20160511124313_b3200276.jpeg",
           "https://c.scdn.gr/images/sku_images/014951/14951137/20160511121220_3bdd3952.jpeg",
@@ -139,30 +136,30 @@
           "https://a.scdn.gr/images/sku_images/015730/15730323/20160801172016_25da69e2.jpeg",
           "https://c.scdn.gr/images/sku_images/015730/15730324/20160801172023_5e110714.jpeg",
           "https://d.scdn.gr/images/sku_images/015730/15730325/20160801172029_f0f64aaa.jpeg"
-        ]
+        ],
+        "main": "https://a.scdn.gr/images/sku_main_images/009001/9001596/medium_20160511121221_samsung_galaxy_j7_2016_16gb.jpeg"
       },
+      "manufacturer_id": 28,
+      "name": "Galaxy J7 2016 (16GB)",
+      "plain_spec_summary": "SmartPhone, SIM: Single, \u039f\u03b8\u03cc\u03bd\u03b7: 5.5\", 1280 x 720 pixels, CPU: 1600 MHz, \u03a0\u03c5\u03c1\u03ae\u03bd\u03b5\u03c2 CPU: 8, RAM: 2 GB, \u039c\u03bd\u03ae\u03bc\u03b7 \u0391\u03c0\u03bf\u03b8\u03ae\u03ba\u03b5\u03c5\u03c3\u03b7\u03c2: 16 GB, \u0394\u03af\u03ba\u03c4\u03c5\u03bf: 4G, \u039a\u03ac\u03bc\u03b5\u03c1\u03b1: 13 MP, \u039b\u03b5\u03b9\u03c4\u03bf\u03c5\u03c1\u03b3\u03b9\u03ba\u03cc: Android, \u039c\u03c0\u03b1\u03c4\u03b1\u03c1\u03af\u03b1: 3300 mAh",
+      "pn": "SM-J710F SM-J710FN SM-J710FZKNEUR SM-J710FZWNEUR",
+      "price_max": 329.67,
+      "price_min": 226.0,
+      "reviews_count": 35,
+      "reviewscore": 4.42857,
+      "shop_count": 46,
+      "virtual": false,
       "web_uri": "https://www.skroutz.gr/s/9001596/Samsung-Galaxy-J7-2016-16GB.html"
     },
     {
-      "id": 8864706,
-      "ean": "",
-      "pn": "SM-J510FN",
-      "name": "Galaxy J5 2016 (16GB)",
-      "display_name": "Samsung Galaxy J5 2016 (16GB)",
       "category_id": 40,
-      "first_product_shop_info": null,
       "click_url": null,
-      "price_max": 282.79,
-      "price_min": 180.3,
-      "reviewscore": 3.95238,
-      "shop_count": 32,
-      "plain_spec_summary": "SmartPhone, SIM: Single, Οθόνη: 5.2\", 1280 x 720 pixels, CPU: 1200 MHz, Πυρήνες CPU: 4, RAM: 2 GB, Μνήμη Αποθήκευσης: 16 GB, Δίκτυο: 4G, Κάμερα: 13 MP, Λειτουργικό: Android, Μπαταρία: 3100 mAh",
-      "manufacturer_id": 28,
+      "display_name": "Samsung Galaxy J5 2016 (16GB)",
+      "ean": "",
+      "first_product_shop_info": null,
       "future": false,
-      "reviews_count": 21,
-      "virtual": false,
+      "id": 8864706,
       "images": {
-        "main": "https://c.scdn.gr/images/sku_main_images/008864/8864706/medium_20160801164957_samsung_galaxy_j5_2016_16gb.jpeg",
         "alternatives": [
           "https://d.scdn.gr/images/sku_images/015730/15730208/20160801164736_c456731c.jpeg",
           "https://c.scdn.gr/images/sku_images/015730/15730240/20160801165716_2c482704.jpeg",
@@ -178,30 +175,30 @@
           "https://b.scdn.gr/images/sku_images/015730/15730198/20160801164620_efd64449.jpeg",
           "https://d.scdn.gr/images/sku_images/015730/15730203/20160801164643_3e3f8a8c.jpeg",
           "https://c.scdn.gr/images/sku_images/015730/15730204/20160801164646_5bc87b2f.jpeg"
-        ]
+        ],
+        "main": "https://c.scdn.gr/images/sku_main_images/008864/8864706/medium_20160801164957_samsung_galaxy_j5_2016_16gb.jpeg"
       },
+      "manufacturer_id": 28,
+      "name": "Galaxy J5 2016 (16GB)",
+      "plain_spec_summary": "SmartPhone, SIM: Single, \u039f\u03b8\u03cc\u03bd\u03b7: 5.2\", 1280 x 720 pixels, CPU: 1200 MHz, \u03a0\u03c5\u03c1\u03ae\u03bd\u03b5\u03c2 CPU: 4, RAM: 2 GB, \u039c\u03bd\u03ae\u03bc\u03b7 \u0391\u03c0\u03bf\u03b8\u03ae\u03ba\u03b5\u03c5\u03c3\u03b7\u03c2: 16 GB, \u0394\u03af\u03ba\u03c4\u03c5\u03bf: 4G, \u039a\u03ac\u03bc\u03b5\u03c1\u03b1: 13 MP, \u039b\u03b5\u03b9\u03c4\u03bf\u03c5\u03c1\u03b3\u03b9\u03ba\u03cc: Android, \u039c\u03c0\u03b1\u03c4\u03b1\u03c1\u03af\u03b1: 3100 mAh",
+      "pn": "SM-J510FN",
+      "price_max": 282.79,
+      "price_min": 180.3,
+      "reviews_count": 21,
+      "reviewscore": 3.95238,
+      "shop_count": 32,
+      "virtual": false,
       "web_uri": "https://www.skroutz.gr/s/8864706/Samsung-Galaxy-J5-2016-16GB.html"
     },
     {
-      "id": 8332719,
-      "ean": "5060464380112",
-      "pn": "SM-G930F SM-G930FZKAEUR SM-G930FZDAEUR SM-G930FZWAEUR",
-      "name": "Galaxy S7 (32GB)",
-      "display_name": "Samsung Galaxy S7 (32GB)",
       "category_id": 40,
-      "first_product_shop_info": null,
       "click_url": null,
-      "price_max": 729.0,
-      "price_min": 482.8,
-      "reviewscore": 4.375,
-      "shop_count": 55,
-      "plain_spec_summary": "SmartPhone, SIM: Single, Οθόνη: 5.1\", 2560 x 1440 pixels, CPU: 2300 MHz, Πυρήνες CPU: 4+4, RAM: 4 GB, Μνήμη Αποθήκευσης: 32 GB, Δίκτυο: 4G, Κάμερα: 12 MP, Λειτουργικό: Android, Μπαταρία: 3000 mAh, Προστασία: Αδιάβροχο",
-      "manufacturer_id": 28,
+      "display_name": "Samsung Galaxy S7 (32GB)",
+      "ean": "5060464380112",
+      "first_product_shop_info": null,
       "future": false,
-      "reviews_count": 56,
-      "virtual": false,
+      "id": 8332719,
       "images": {
-        "main": "https://a.scdn.gr/images/sku_main_images/008332/8332719/medium_20160802133603_samsung_galaxy_s7_32gb.jpeg",
         "alternatives": [
           "https://b.scdn.gr/images/sku_images/015736/15736083/20160802133534_b54ad233.jpeg",
           "https://c.scdn.gr/images/sku_images/015736/15736081/20160802133527_3194dce9.jpeg",
@@ -232,17 +229,20 @@
           "https://b.scdn.gr/images/sku_images/015736/15736166/20160802135018_3849c86e.jpeg",
           "https://c.scdn.gr/images/sku_images/015736/15736168/20160802135025_59209db3.jpeg",
           "https://a.scdn.gr/images/sku_images/015736/15736169/20160802135029_b9327376.jpeg"
-        ]
+        ],
+        "main": "https://a.scdn.gr/images/sku_main_images/008332/8332719/medium_20160802133603_samsung_galaxy_s7_32gb.jpeg"
       },
+      "manufacturer_id": 28,
+      "name": "Galaxy S7 (32GB)",
+      "plain_spec_summary": "SmartPhone, SIM: Single, \u039f\u03b8\u03cc\u03bd\u03b7: 5.1\", 2560 x 1440 pixels, CPU: 2300 MHz, \u03a0\u03c5\u03c1\u03ae\u03bd\u03b5\u03c2 CPU: 4+4, RAM: 4 GB, \u039c\u03bd\u03ae\u03bc\u03b7 \u0391\u03c0\u03bf\u03b8\u03ae\u03ba\u03b5\u03c5\u03c3\u03b7\u03c2: 32 GB, \u0394\u03af\u03ba\u03c4\u03c5\u03bf: 4G, \u039a\u03ac\u03bc\u03b5\u03c1\u03b1: 12 MP, \u039b\u03b5\u03b9\u03c4\u03bf\u03c5\u03c1\u03b3\u03b9\u03ba\u03cc: Android, \u039c\u03c0\u03b1\u03c4\u03b1\u03c1\u03af\u03b1: 3000 mAh, \u03a0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c3\u03af\u03b1: \u0391\u03b4\u03b9\u03ac\u03b2\u03c1\u03bf\u03c7\u03bf",
+      "pn": "SM-G930F SM-G930FZKAEUR SM-G930FZDAEUR SM-G930FZWAEUR",
+      "price_max": 729.0,
+      "price_min": 482.8,
+      "reviews_count": 56,
+      "reviewscore": 4.375,
+      "shop_count": 55,
+      "virtual": false,
       "web_uri": "https://www.skroutz.gr/s/8332719/Samsung-Galaxy-S7-32GB.html"
     }
-  ],
-  "meta": {
-    "pagination": {
-      "total_results": 5,
-      "total_pages": 1,
-      "page": 1,
-      "per": 25
-    }
-  }
+  ]
 }

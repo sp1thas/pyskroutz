@@ -1,6 +1,5 @@
-from typing import Dict
-
 import requests
+from typing import Dict
 
 
 class SkroutzClient:

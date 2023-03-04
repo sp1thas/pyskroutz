@@ -1,8 +1,7 @@
-from typing import Type
-
 import requests
 from pydantic import BaseModel
 from pyskroutz.client import SkroutzClient
+from typing import Type
 
 
 class ApiResource:

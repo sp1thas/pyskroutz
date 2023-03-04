@@ -1,42 +1,39 @@
 {
-  "categories": [
-
-  ],
+  "categories": [],
   "meta": {
-    "q": "wrong iphone",
     "alternatives": [
       {
-        "term": "wrong",
         "count": 26,
         "drop": [
           {
-            "token": "wrong",
-            "dropped": false
+            "dropped": false,
+            "token": "wrong"
           },
           {
-            "token": "iphone",
-            "dropped": true
+            "dropped": true,
+            "token": "iphone"
           }
         ],
-        "important": false
+        "important": false,
+        "term": "wrong"
       },
       {
-        "term": "iphone",
         "count": 29834,
         "drop": [
           {
-            "token": "wrong",
-            "dropped": true
+            "dropped": true,
+            "token": "wrong"
           },
           {
-            "token": "iphone",
-            "dropped": false
+            "dropped": false,
+            "token": "iphone"
           }
         ],
-        "important": false
+        "important": false,
+        "term": "iphone"
       }
     ],
-    "strong_matches": {
-    }
+    "q": "wrong iphone",
+    "strong_matches": {}
   }
 }

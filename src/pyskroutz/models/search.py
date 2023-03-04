@@ -1,8 +1,7 @@
 """Response models for search
 """
-from typing import List, Optional
-
 from pydantic import BaseModel, AnyHttpUrl
+from typing import List, Optional
 
 from .base import (
     PaginationItem,
