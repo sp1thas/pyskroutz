@@ -1,16 +1,17 @@
 <div align="center">
     <h1>pyskroutz</h1>
     <p>A Python client for <a href="https://developer.skroutz.gr/api/v3/">Skroutz API</a>.</p>
-    <img src="https://github.com/sp1thas/pyskroutz/workflows/testing/badge.svg" alt="testing badge">
+    <a href="https://results.pre-commit.ci/latest/github/sp1thas/pyskroutz/master">
+        <img src="https://results.pre-commit.ci/badge/github/sp1thas/pyskroutz/master.svg" alt="pre-commit.ci status">
+    </a>
     <img src="https://github.com/sp1thas/pyskroutz/workflows/build/badge.svg" alt="build badge">
-    <img src="https://readthedocs.org/projects/pyskroutz/badge/?version=latest" alt="docs badge">
+    <img src="https://github.com/sp1thas/pyskroutz/workflows/testing/badge.svg" alt="testing badge">
     <a href="https://pypi.python.org/pypi/pyskroutz/">
         <img src="https://img.shields.io/pypi/v/pyskroutz.svg" alt="pypi badge" />
     </a>
     <a href="https://codecov.io/gh/sp1thas/pyskroutz">
         <img alt="code coverage badge" src="https://codecov.io/gh/sp1thas/pyskroutz/branch/master/graph/badge.svg?token=WTYZU0ENYX" />
     </a>
-    <img src="https://img.shields.io/badge/code%20style-black-black">
 </div>
 <hr>
 
