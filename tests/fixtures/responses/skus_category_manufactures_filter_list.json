@@ -1,25 +1,24 @@
 {
+  "meta": {
+    "ordered_by": "price",
+    "pagination": {
+      "page": 1,
+      "per": 4,
+      "total_pages": 25,
+      "total_results": 99
+    }
+  },
   "skus": [
     {
-      "id": 2119391,
-      "ean": "",
-      "pn": "GT-E1200i",
-      "name": "E1200",
-      "display_name": "Samsung E1200",
       "category_id": 40,
-      "first_product_shop_info": null,
       "click_url": null,
-      "price_max": 26.0,
-      "price_min": 22.0,
-      "reviewscore": 4.40541,
-      "shop_count": 6,
-      "plain_spec_summary": "Feature Phone, SIM: Single, Οθόνη: 1.52\", 128 x 128 pixels, Πυρήνες CPU: 1, Μνήμη Αποθήκευσης: 100 MB, Δίκτυο: 2G, Λειτουργικό: Κατασκευαστή, Μπαταρία: 800 mAh",
-      "manufacturer_id": 28,
+      "display_name": "Samsung E1200",
+      "ean": "",
+      "favorited": true,
+      "first_product_shop_info": null,
       "future": false,
-      "reviews_count": 37,
-      "virtual": false,
+      "id": 2119391,
       "images": {
-        "main": "https://d.scdn.gr/images/sku_main_images/002119/2119391/medium_gr_GT-E1200ZWMVGR_301_Front",
         "alternatives": [
           "https://a.scdn.gr/images/sku_images/012918/12918567/gr_GT-E1200ZWMVGR_309_Dynamic",
           "https://b.scdn.gr/images/sku_images/012918/12918568/gr_GT-E1200ZWMVGR_304_Left",
@@ -28,31 +27,31 @@
           "https://c.scdn.gr/images/sku_images/012918/12918572/gr_GT-E1200ZWMVGR_329_Dynamic",
           "https://a.scdn.gr/images/sku_images/012918/12918573/gr_GT-E1200ZWMVGR_323_Right",
           "https://c.scdn.gr/images/sku_images/012918/12918574/gr_GT-E1200ZWMVGR_322_Back"
-        ]
+        ],
+        "main": "https://d.scdn.gr/images/sku_main_images/002119/2119391/medium_gr_GT-E1200ZWMVGR_301_Front"
       },
-      "web_uri": "https://www.skroutz.gr/s/2119391/Samsung-E1200.html",
-      "favorited": true
+      "manufacturer_id": 28,
+      "name": "E1200",
+      "plain_spec_summary": "Feature Phone, SIM: Single, \u039f\u03b8\u03cc\u03bd\u03b7: 1.52\", 128 x 128 pixels, \u03a0\u03c5\u03c1\u03ae\u03bd\u03b5\u03c2 CPU: 1, \u039c\u03bd\u03ae\u03bc\u03b7 \u0391\u03c0\u03bf\u03b8\u03ae\u03ba\u03b5\u03c5\u03c3\u03b7\u03c2: 100 MB, \u0394\u03af\u03ba\u03c4\u03c5\u03bf: 2G, \u039b\u03b5\u03b9\u03c4\u03bf\u03c5\u03c1\u03b3\u03b9\u03ba\u03cc: \u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ae, \u039c\u03c0\u03b1\u03c4\u03b1\u03c1\u03af\u03b1: 800 mAh",
+      "pn": "GT-E1200i",
+      "price_max": 26.0,
+      "price_min": 22.0,
+      "reviews_count": 37,
+      "reviewscore": 4.40541,
+      "shop_count": 6,
+      "virtual": false,
+      "web_uri": "https://www.skroutz.gr/s/2119391/Samsung-E1200.html"
     },
     {
-      "id": 9092823,
-      "ean": "",
-      "pn": "GT-E1200R",
-      "name": "E1200R",
-      "display_name": "Samsung E1200R",
       "category_id": 40,
-      "first_product_shop_info": "3766|Fotocom|fotocom",
       "click_url": null,
-      "price_max": 22.9,
-      "price_min": 22.9,
-      "reviewscore": 0.0,
-      "shop_count": 1,
-      "plain_spec_summary": "Feature Phone, SIM: Single, Οθόνη: 1.52\", 128 x 128 pixels, CPU: 208 MHz, Πυρήνες CPU: 1, RAM: 4 MB, Δίκτυο: 2G, Λειτουργικό: Κατασκευαστή, Μπαταρία: 800 mAh",
-      "manufacturer_id": 28,
+      "display_name": "Samsung E1200R",
+      "ean": "",
+      "favorited": false,
+      "first_product_shop_info": "3766|Fotocom|fotocom",
       "future": false,
-      "reviews_count": 0,
-      "virtual": false,
+      "id": 9092823,
       "images": {
-        "main": "https://a.scdn.gr/images/sku_main_images/009092/9092823/medium_20160524153553_samsung_e1200r.jpeg",
         "alternatives": [
           "https://c.scdn.gr/images/sku_images/014958/14958880/20160524153552_b4c84517.jpeg",
           "https://a.scdn.gr/images/sku_images/014958/14958881/20160524153558_d6eb49cc.jpeg",
@@ -64,62 +63,62 @@
           "https://d.scdn.gr/images/sku_images/014958/14958887/20160524153604_833612f1.jpeg",
           "https://c.scdn.gr/images/sku_images/014958/14958888/20160524153609_1723b39d.jpeg",
           "https://c.scdn.gr/images/sku_images/014958/14958889/20160524153609_473fbefc.jpeg"
-        ]
+        ],
+        "main": "https://a.scdn.gr/images/sku_main_images/009092/9092823/medium_20160524153553_samsung_e1200r.jpeg"
       },
-      "web_uri": "https://www.skroutz.gr/s/9092823/Samsung-E1200R.html",
-      "favorited": false
+      "manufacturer_id": 28,
+      "name": "E1200R",
+      "plain_spec_summary": "Feature Phone, SIM: Single, \u039f\u03b8\u03cc\u03bd\u03b7: 1.52\", 128 x 128 pixels, CPU: 208 MHz, \u03a0\u03c5\u03c1\u03ae\u03bd\u03b5\u03c2 CPU: 1, RAM: 4 MB, \u0394\u03af\u03ba\u03c4\u03c5\u03bf: 2G, \u039b\u03b5\u03b9\u03c4\u03bf\u03c5\u03c1\u03b3\u03b9\u03ba\u03cc: \u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ae, \u039c\u03c0\u03b1\u03c4\u03b1\u03c1\u03af\u03b1: 800 mAh",
+      "pn": "GT-E1200R",
+      "price_max": 22.9,
+      "price_min": 22.9,
+      "reviews_count": 0,
+      "reviewscore": 0.0,
+      "shop_count": 1,
+      "virtual": false,
+      "web_uri": "https://www.skroutz.gr/s/9092823/Samsung-E1200R.html"
     },
     {
-      "id": 4589761,
-      "ean": "",
-      "pn": "D2005 1280-0649 1280-0650 1280-3931 1280-0651",
-      "name": "Xperia E1 (4GB)",
-      "display_name": "Sony Xperia E1 (4GB)",
       "category_id": 40,
-      "first_product_shop_info": null,
       "click_url": null,
-      "price_max": 109.19,
-      "price_min": 74.9,
-      "reviewscore": 3.47059,
-      "shop_count": 13,
-      "plain_spec_summary": "SmartPhone, SIM: Single, Οθόνη: 4\", 800 x 480 pixels, CPU: 1200 MHz, Πυρήνες CPU: 2, RAM: 512 MB, Μνήμη Αποθήκευσης: 4 GB, Δίκτυο: 3G, Κάμερα: 3.15 MP, Λειτουργικό: Android, Μπαταρία: 1700 mAh",
-      "manufacturer_id": 2,
+      "display_name": "Sony Xperia E1 (4GB)",
+      "ean": "",
+      "favorited": false,
+      "first_product_shop_info": null,
       "future": false,
-      "reviews_count": 68,
-      "virtual": false,
+      "id": 4589761,
       "images": {
-        "main": "https://d.scdn.gr/images/sku_main_images/004589/4589761/medium_xperia-e1-hero-black-1240x840-5f95d7ef7d74b55fc6da26dbabf9ca35.jpg",
         "alternatives": [
           "https://a.scdn.gr/images/sku_images/012388/12388708/xperia-e1-hero-purple-1240x840-050d5d57f815bf576f9572923eb84428.jpg",
           "https://d.scdn.gr/images/sku_images/012388/12388709/xperia-e1-hero-white-1240x840-1a823694841bc38b045bbad747494b85.jpg",
           "https://c.scdn.gr/images/sku_images/012388/12388710/xperia-E1-play-it-loud-02-1240x840-262ec1e7823910d3a2302a4e9efcd677.jpg",
           "https://c.scdn.gr/images/sku_images/012388/12388712/xperia-E1-stay-in-touch-03-1240x840-dc4d1f4ab2c501705c99178515ce6348.jpg",
           "https://d.scdn.gr/images/sku_images/012388/12388714/xperia-E1-enjoy-entertainment-04-1240x840-150be1a6c55c23fafcc62d933b22f8eb.jpg"
-        ]
+        ],
+        "main": "https://d.scdn.gr/images/sku_main_images/004589/4589761/medium_xperia-e1-hero-black-1240x840-5f95d7ef7d74b55fc6da26dbabf9ca35.jpg"
       },
-      "web_uri": "https://www.skroutz.gr/s/4589761/Sony-Xperia-E1-4GB.html",
-      "favorited": false
+      "manufacturer_id": 2,
+      "name": "Xperia E1 (4GB)",
+      "plain_spec_summary": "SmartPhone, SIM: Single, \u039f\u03b8\u03cc\u03bd\u03b7: 4\", 800 x 480 pixels, CPU: 1200 MHz, \u03a0\u03c5\u03c1\u03ae\u03bd\u03b5\u03c2 CPU: 2, RAM: 512 MB, \u039c\u03bd\u03ae\u03bc\u03b7 \u0391\u03c0\u03bf\u03b8\u03ae\u03ba\u03b5\u03c5\u03c3\u03b7\u03c2: 4 GB, \u0394\u03af\u03ba\u03c4\u03c5\u03bf: 3G, \u039a\u03ac\u03bc\u03b5\u03c1\u03b1: 3.15 MP, \u039b\u03b5\u03b9\u03c4\u03bf\u03c5\u03c1\u03b3\u03b9\u03ba\u03cc: Android, \u039c\u03c0\u03b1\u03c4\u03b1\u03c1\u03af\u03b1: 1700 mAh",
+      "pn": "D2005 1280-0649 1280-0650 1280-3931 1280-0651",
+      "price_max": 109.19,
+      "price_min": 74.9,
+      "reviews_count": 68,
+      "reviewscore": 3.47059,
+      "shop_count": 13,
+      "virtual": false,
+      "web_uri": "https://www.skroutz.gr/s/4589761/Sony-Xperia-E1-4GB.html"
     },
     {
-      "id": 4681936,
-      "ean": "",
-      "pn": "GT-S5611",
-      "name": "Utopia S5611",
-      "display_name": "Samsung Utopia S5611",
       "category_id": 40,
-      "first_product_shop_info": null,
       "click_url": null,
-      "price_max": 90.0,
-      "price_min": 78.95,
-      "reviewscore": 2.72727,
-      "shop_count": 5,
-      "plain_spec_summary": "Feature Phone, SIM: Single, Οθόνη: 2.4\", 320 x 240 pixels, CPU: 460 MHz, Πυρήνες CPU: 1, Μνήμη Αποθήκευσης: 100 MB, Δίκτυο: 3G, Κάμερα: 5 MP, Λειτουργικό: Κατασκευαστή, Μπαταρία: 1000 mAh",
-      "manufacturer_id": 28,
+      "display_name": "Samsung Utopia S5611",
+      "ean": "",
+      "favorited": false,
+      "first_product_shop_info": null,
       "future": false,
-      "reviews_count": 11,
-      "virtual": false,
+      "id": 4681936,
       "images": {
-        "main": "https://d.scdn.gr/images/sku_main_images/004681/4681936/medium_sk_GT-S5611MSAORX_000000001_Front",
         "alternatives": [
           "https://b.scdn.gr/images/sku_images/012533/12533025/sk_GT-S5611MSAORX_000000002_Side",
           "https://c.scdn.gr/images/sku_images/012533/12533026/sk_GT-S5611MSAORX_000000003_Perspective",
@@ -128,19 +127,20 @@
           "https://d.scdn.gr/images/sku_images/012533/12533029/sk_GT-S5611MSAORX_000169255_gallery",
           "https://c.scdn.gr/images/sku_images/013098/13098265/ru_GT-S5611ZWASER_005_Dynamic_white",
           "https://d.scdn.gr/images/sku_images/013098/13098266/ru_GT-S5611ZWASER_001_Front_white_10039309054891"
-        ]
+        ],
+        "main": "https://d.scdn.gr/images/sku_main_images/004681/4681936/medium_sk_GT-S5611MSAORX_000000001_Front"
       },
-      "web_uri": "https://www.skroutz.gr/s/4681936/Samsung-Utopia-S5611.html",
-      "favorited": false
+      "manufacturer_id": 28,
+      "name": "Utopia S5611",
+      "plain_spec_summary": "Feature Phone, SIM: Single, \u039f\u03b8\u03cc\u03bd\u03b7: 2.4\", 320 x 240 pixels, CPU: 460 MHz, \u03a0\u03c5\u03c1\u03ae\u03bd\u03b5\u03c2 CPU: 1, \u039c\u03bd\u03ae\u03bc\u03b7 \u0391\u03c0\u03bf\u03b8\u03ae\u03ba\u03b5\u03c5\u03c3\u03b7\u03c2: 100 MB, \u0394\u03af\u03ba\u03c4\u03c5\u03bf: 3G, \u039a\u03ac\u03bc\u03b5\u03c1\u03b1: 5 MP, \u039b\u03b5\u03b9\u03c4\u03bf\u03c5\u03c1\u03b3\u03b9\u03ba\u03cc: \u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ae, \u039c\u03c0\u03b1\u03c4\u03b1\u03c1\u03af\u03b1: 1000 mAh",
+      "pn": "GT-S5611",
+      "price_max": 90.0,
+      "price_min": 78.95,
+      "reviews_count": 11,
+      "reviewscore": 2.72727,
+      "shop_count": 5,
+      "virtual": false,
+      "web_uri": "https://www.skroutz.gr/s/4681936/Samsung-Utopia-S5611.html"
     }
-  ],
-  "meta": {
-    "ordered_by": "price",
-    "pagination": {
-      "total_results": 99,
-      "total_pages": 25,
-      "page": 1,
-      "per": 4
-    }
-  }
+  ]
 }

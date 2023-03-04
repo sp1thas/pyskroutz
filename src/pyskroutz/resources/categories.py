@@ -1,6 +1,5 @@
-from typing import Optional
-
 from pyskroutz.resources.base import ApiResource
+from typing import Optional
 
 from ..models.categories import (
     CategoryList,

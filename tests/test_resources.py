@@ -1,9 +1,8 @@
 import importlib
-from typing import Union
-
 import pyskroutz
 import pytest
 from pyskroutz.utils import rgetattr
+from typing import Union
 
 client = pyskroutz.client("123", "123", raise_auth_error=False)
 

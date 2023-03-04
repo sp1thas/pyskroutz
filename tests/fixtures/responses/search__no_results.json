@@ -1,13 +1,8 @@
 {
-  "categories": [
-
-  ],
+  "categories": [],
   "meta": {
+    "alternatives": [],
     "q": "asdf",
-    "alternatives": [
-
-    ],
-    "strong_matches": {
-    }
+    "strong_matches": {}
   }
 }

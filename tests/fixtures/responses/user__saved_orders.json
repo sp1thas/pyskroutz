@@ -1,59 +1,59 @@
 {
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "per": 25,
+      "total_pages": 1,
+      "total_results": 2
+    }
+  },
   "saved_orders": [
     {
       "date": "2017-10-06T11:37:36+00:00",
-      "products_cost": 21.0,
-      "shipping_cost": 5.0,
-      "total_cost": 26.0,
       "line_items": [
         {
-          "name": "Φίμωτρο Flex Σιλικόνης XL Trixie 39cm",
-          "quantity": 1,
-          "price": 21.0,
+          "category_id": 1665,
           "image": "https://d.scdn.gr/images/sku_main_images/012831/12831032/medium_20170920075526_fimotro_flex_silikonis_xl_trixie_39cm.jpeg",
-          "sku_id": 12831032,
+          "name": "\u03a6\u03af\u03bc\u03c9\u03c4\u03c1\u03bf Flex \u03a3\u03b9\u03bb\u03b9\u03ba\u03cc\u03bd\u03b7\u03c2 XL Trixie 39cm",
+          "price": 21.0,
           "product_id": 31088776,
-          "category_id": 1665
+          "quantity": 1,
+          "sku_id": 12831032
         }
       ],
+      "order_code": "935812",
+      "products_cost": 21.0,
+      "shipping_cost": 5.0,
       "shop_id": 4163,
-      "order_code": "935812"
+      "total_cost": 26.0
     },
     {
       "date": "2017-06-16T08:20:33+00:00",
-      "products_cost": 441.2,
-      "shipping_cost": 0.0,
-      "total_cost": 441.2,
       "line_items": [
         {
-          "name": "HUAWEI P10 64GB GRAPHITE BLACK EU",
-          "quantity": 1,
-          "price": 433.2,
+          "category_id": 40,
           "image": "https://b.scdn.gr/images/sku_main_images/011407/11407671/medium_20170711142032_huawei_p10_64gb.jpeg",
-          "sku_id": 11407671,
+          "name": "HUAWEI P10 64GB GRAPHITE BLACK EU",
+          "price": 433.2,
           "product_id": 28419471,
-          "category_id": 40
+          "quantity": 1,
+          "sku_id": 11407671
         },
         {
-          "name": "Θήκη για Huawei P10 TPU Clear",
-          "quantity": 1,
-          "price": 8.0,
+          "category_id": null,
           "image": null,
-          "sku_id": null,
+          "name": "\u0398\u03ae\u03ba\u03b7 \u03b3\u03b9\u03b1 Huawei P10 TPU Clear",
+          "price": 8.0,
           "product_id": null,
-          "category_id": null
+          "quantity": 1,
+          "sku_id": null
         }
       ],
+      "order_code": "229100",
+      "products_cost": 441.2,
+      "shipping_cost": 0.0,
       "shop_id": 1521,
-      "order_code": "229100"
+      "total_cost": 441.2
     }
-  ],
-  "meta": {
-    "pagination": {
-      "total_results": 2,
-      "total_pages": 1,
-      "page": 1,
-      "per": 25
-    }
-  }
+  ]
 }

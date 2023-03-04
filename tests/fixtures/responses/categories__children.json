@@ -1,54 +1,54 @@
 {
   "categories": [
     {
-      "id": 372,
-      "name": "Γυναικεία Παπούτσια",
       "children_count": 18,
-      "image_url": "https://d.scdn.gr/ds/categories/372/372.jpg",
-      "parent_id": 252,
-      "fashion": false,
-      "layout_mode": "tiles",
-      "web_uri": "https://www.skroutz.gr/c/372/gynaikeia-ypodhmata.html",
       "code": "gynaikeia-ypodhmata",
+      "fashion": false,
+      "id": 372,
+      "image_url": "https://d.scdn.gr/ds/categories/372/372.jpg",
+      "layout_mode": "tiles",
+      "manufacturer_title": "Brands",
+      "name": "\u0393\u03c5\u03bd\u03b1\u03b9\u03ba\u03b5\u03af\u03b1 \u03a0\u03b1\u03c0\u03bf\u03cd\u03c4\u03c3\u03b9\u03b1",
+      "parent_id": 252,
       "path": "76,274,252,372",
       "show_specifications": false,
-      "manufacturer_title": "Brands"
+      "web_uri": "https://www.skroutz.gr/c/372/gynaikeia-ypodhmata.html"
     },
     {
-      "id": 283,
-      "name": "Γυναικεία Ρούχα",
       "children_count": 23,
-      "image_url": "https://a.scdn.gr/ds/categories/283/283.jpg",
-      "parent_id": 252,
-      "fashion": false,
-      "layout_mode": "list",
-      "web_uri": "https://www.skroutz.gr/c/283/gynaikeia-rouxa.html",
       "code": "gynaikeia-endysh",
+      "fashion": false,
+      "id": 283,
+      "image_url": "https://a.scdn.gr/ds/categories/283/283.jpg",
+      "layout_mode": "list",
+      "manufacturer_title": "\u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ad\u03c2",
+      "name": "\u0393\u03c5\u03bd\u03b1\u03b9\u03ba\u03b5\u03af\u03b1 \u03a1\u03bf\u03cd\u03c7\u03b1",
+      "parent_id": 252,
       "path": "76,274,252,283",
       "show_specifications": false,
-      "manufacturer_title": "Κατασκευαστές"
+      "web_uri": "https://www.skroutz.gr/c/283/gynaikeia-rouxa.html"
     },
     {
-      "id": 281,
-      "name": "Γυναικεία Αξεσουάρ",
       "children_count": 3,
-      "image_url": "https://c.scdn.gr/ds/categories/281/281.jpg",
-      "parent_id": 252,
-      "fashion": false,
-      "layout_mode": "list",
-      "web_uri": "https://www.skroutz.gr/c/281/gynakeia-aksesouar-endyshs-ypo.html",
       "code": "gynakeia-aksesouar-endyshs-ypo",
+      "fashion": false,
+      "id": 281,
+      "image_url": "https://c.scdn.gr/ds/categories/281/281.jpg",
+      "layout_mode": "list",
+      "manufacturer_title": "\u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ad\u03c2",
+      "name": "\u0393\u03c5\u03bd\u03b1\u03b9\u03ba\u03b5\u03af\u03b1 \u0391\u03be\u03b5\u03c3\u03bf\u03c5\u03ac\u03c1",
+      "parent_id": 252,
       "path": "76,274,252,281",
       "show_specifications": false,
-      "manufacturer_title": "Κατασκευαστές"
+      "web_uri": "https://www.skroutz.gr/c/281/gynakeia-aksesouar-endyshs-ypo.html"
     }
   ],
   "meta": {
     "pagination": {
-      "total_results": 3,
-      "total_pages": 1,
       "page": 1,
-      "per": 25
+      "per": 25,
+      "total_pages": 1,
+      "total_results": 3
     }
   }
 }

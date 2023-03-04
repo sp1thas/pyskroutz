@@ -1,106 +1,34 @@
 {
-  "reviews": [
-    {
-      "id": 157637,
-      "user_id": 514694,
-      "review": "Το κινητό είναι πολύ αξιόπιστο για τα λεφτά του είναι πολύ γρήγορο στις λειτουργίες του.Επίσης οι κάμερες του είναι πολύ καλές και οι δύο μάλιστα η selfie έχει flash.Το προτείνω ανεπιφύλακτα!!!!!!",
-      "rating": 5,
-      "created_at": "2017-02-16T18:01:56+02:00",
-      "demoted": false,
-      "votes_count": 0,
-      "helpful_votes_count": 0,
-      "voted": false,
-      "flagged": false,
-      "helpful": false,
-      "sentiments": {
-        "positive": [
-          "Ποιότητα κλήσης",
-          "Φωτογραφίες",
-          "Καταγραφή Video",
-          "Μουσική",
-          "GPS",
-          "Ταχύτητα",
-          "Σχέση ποιότητας τιμής",
-          "Ανάλυση οθόνης"
-        ]
-      }
-    },
-    {
-      "id": 157450,
-      "user_id": 536848,
-      "review": "",
-      "rating": 5,
-      "created_at": "2017-02-15T18:23:30+02:00",
-      "demoted": false,
-      "votes_count": 0,
-      "helpful_votes_count": 0,
-      "voted": false,
-      "flagged": false,
-      "helpful": false,
-      "sentiments": {
-        "positive": [
-          "Ποιότητα κλήσης",
-          "Φωτογραφίες",
-          "Καταγραφή Video",
-          "Μουσική",
-          "GPS",
-          "Ταχύτητα",
-          "Σχέση ποιότητας τιμής",
-          "Ανάλυση οθόνης"
-        ]
-      }
-    },
-    {
-      "id": 157306,
-      "user_id": 650818,
-      "review": "",
-      "rating": 5,
-      "created_at": "2017-02-15T00:54:31+02:00",
-      "demoted": false,
-      "votes_count": 0,
-      "helpful_votes_count": 0,
-      "voted": false,
-      "flagged": false,
-      "helpful": false,
-      "sentiments": {
-        "positive": [
-          "Ποιότητα κλήσης",
-          "Φωτογραφίες",
-          "GPS",
-          "Ταχύτητα",
-          "Σχέση ποιότητας τιμής",
-          "Ανάλυση οθόνης"
-        ],
-        "mediocre": [
-          "Μουσική"
-        ]
-      }
-    }
-  ],
   "meta": {
+    "pagination": {
+      "page": 1,
+      "per": 3,
+      "total_pages": 85,
+      "total_results": 253
+    },
     "sku_reviews_aggregation": [
       {
-        "label": "Ανάλυση οθόνης",
+        "label": "\u0391\u03bd\u03ac\u03bb\u03c5\u03c3\u03b7 \u03bf\u03b8\u03cc\u03bd\u03b7\u03c2",
         "score": 100,
         "style": "good"
       },
       {
-        "label": "Ποιότητα κλήσης",
+        "label": "\u03a0\u03bf\u03b9\u03cc\u03c4\u03b7\u03c4\u03b1 \u03ba\u03bb\u03ae\u03c3\u03b7\u03c2",
         "score": 100,
         "style": "good"
       },
       {
-        "label": "Φωτογραφίες",
+        "label": "\u03a6\u03c9\u03c4\u03bf\u03b3\u03c1\u03b1\u03c6\u03af\u03b5\u03c2",
         "score": 100,
         "style": "good"
       },
       {
-        "label": "Σχέση ποιότητας τιμής",
+        "label": "\u03a3\u03c7\u03ad\u03c3\u03b7 \u03c0\u03bf\u03b9\u03cc\u03c4\u03b7\u03c4\u03b1\u03c2 \u03c4\u03b9\u03bc\u03ae\u03c2",
         "score": 100,
         "style": "good"
       },
       {
-        "label": "Ταχύτητα",
+        "label": "\u03a4\u03b1\u03c7\u03cd\u03c4\u03b7\u03c4\u03b1",
         "score": 100,
         "style": "good"
       },
@@ -110,21 +38,93 @@
         "style": "good"
       },
       {
-        "label": "Καταγραφή Video",
+        "label": "\u039a\u03b1\u03c4\u03b1\u03b3\u03c1\u03b1\u03c6\u03ae Video",
         "score": 90,
         "style": "good"
       },
       {
-        "label": "Μουσική",
+        "label": "\u039c\u03bf\u03c5\u03c3\u03b9\u03ba\u03ae",
         "score": 80,
         "style": "good"
       }
-    ],
-    "pagination": {
-      "total_results": 253,
-      "total_pages": 85,
-      "page": 1,
-      "per": 3
+    ]
+  },
+  "reviews": [
+    {
+      "created_at": "2017-02-16T18:01:56+02:00",
+      "demoted": false,
+      "flagged": false,
+      "helpful": false,
+      "helpful_votes_count": 0,
+      "id": 157637,
+      "rating": 5,
+      "review": "\u03a4\u03bf \u03ba\u03b9\u03bd\u03b7\u03c4\u03cc \u03b5\u03af\u03bd\u03b1\u03b9 \u03c0\u03bf\u03bb\u03cd \u03b1\u03be\u03b9\u03cc\u03c0\u03b9\u03c3\u03c4\u03bf \u03b3\u03b9\u03b1 \u03c4\u03b1 \u03bb\u03b5\u03c6\u03c4\u03ac \u03c4\u03bf\u03c5 \u03b5\u03af\u03bd\u03b1\u03b9 \u03c0\u03bf\u03bb\u03cd \u03b3\u03c1\u03ae\u03b3\u03bf\u03c1\u03bf \u03c3\u03c4\u03b9\u03c2 \u03bb\u03b5\u03b9\u03c4\u03bf\u03c5\u03c1\u03b3\u03af\u03b5\u03c2 \u03c4\u03bf\u03c5.\u0395\u03c0\u03af\u03c3\u03b7\u03c2 \u03bf\u03b9 \u03ba\u03ac\u03bc\u03b5\u03c1\u03b5\u03c2 \u03c4\u03bf\u03c5 \u03b5\u03af\u03bd\u03b1\u03b9 \u03c0\u03bf\u03bb\u03cd \u03ba\u03b1\u03bb\u03ad\u03c2 \u03ba\u03b1\u03b9 \u03bf\u03b9 \u03b4\u03cd\u03bf \u03bc\u03ac\u03bb\u03b9\u03c3\u03c4\u03b1 \u03b7 selfie \u03ad\u03c7\u03b5\u03b9 flash.\u03a4\u03bf \u03c0\u03c1\u03bf\u03c4\u03b5\u03af\u03bd\u03c9 \u03b1\u03bd\u03b5\u03c0\u03b9\u03c6\u03cd\u03bb\u03b1\u03ba\u03c4\u03b1!!!!!!",
+      "sentiments": {
+        "positive": [
+          "\u03a0\u03bf\u03b9\u03cc\u03c4\u03b7\u03c4\u03b1 \u03ba\u03bb\u03ae\u03c3\u03b7\u03c2",
+          "\u03a6\u03c9\u03c4\u03bf\u03b3\u03c1\u03b1\u03c6\u03af\u03b5\u03c2",
+          "\u039a\u03b1\u03c4\u03b1\u03b3\u03c1\u03b1\u03c6\u03ae Video",
+          "\u039c\u03bf\u03c5\u03c3\u03b9\u03ba\u03ae",
+          "GPS",
+          "\u03a4\u03b1\u03c7\u03cd\u03c4\u03b7\u03c4\u03b1",
+          "\u03a3\u03c7\u03ad\u03c3\u03b7 \u03c0\u03bf\u03b9\u03cc\u03c4\u03b7\u03c4\u03b1\u03c2 \u03c4\u03b9\u03bc\u03ae\u03c2",
+          "\u0391\u03bd\u03ac\u03bb\u03c5\u03c3\u03b7 \u03bf\u03b8\u03cc\u03bd\u03b7\u03c2"
+        ]
+      },
+      "user_id": 514694,
+      "voted": false,
+      "votes_count": 0
+    },
+    {
+      "created_at": "2017-02-15T18:23:30+02:00",
+      "demoted": false,
+      "flagged": false,
+      "helpful": false,
+      "helpful_votes_count": 0,
+      "id": 157450,
+      "rating": 5,
+      "review": "",
+      "sentiments": {
+        "positive": [
+          "\u03a0\u03bf\u03b9\u03cc\u03c4\u03b7\u03c4\u03b1 \u03ba\u03bb\u03ae\u03c3\u03b7\u03c2",
+          "\u03a6\u03c9\u03c4\u03bf\u03b3\u03c1\u03b1\u03c6\u03af\u03b5\u03c2",
+          "\u039a\u03b1\u03c4\u03b1\u03b3\u03c1\u03b1\u03c6\u03ae Video",
+          "\u039c\u03bf\u03c5\u03c3\u03b9\u03ba\u03ae",
+          "GPS",
+          "\u03a4\u03b1\u03c7\u03cd\u03c4\u03b7\u03c4\u03b1",
+          "\u03a3\u03c7\u03ad\u03c3\u03b7 \u03c0\u03bf\u03b9\u03cc\u03c4\u03b7\u03c4\u03b1\u03c2 \u03c4\u03b9\u03bc\u03ae\u03c2",
+          "\u0391\u03bd\u03ac\u03bb\u03c5\u03c3\u03b7 \u03bf\u03b8\u03cc\u03bd\u03b7\u03c2"
+        ]
+      },
+      "user_id": 536848,
+      "voted": false,
+      "votes_count": 0
+    },
+    {
+      "created_at": "2017-02-15T00:54:31+02:00",
+      "demoted": false,
+      "flagged": false,
+      "helpful": false,
+      "helpful_votes_count": 0,
+      "id": 157306,
+      "rating": 5,
+      "review": "",
+      "sentiments": {
+        "mediocre": [
+          "\u039c\u03bf\u03c5\u03c3\u03b9\u03ba\u03ae"
+        ],
+        "positive": [
+          "\u03a0\u03bf\u03b9\u03cc\u03c4\u03b7\u03c4\u03b1 \u03ba\u03bb\u03ae\u03c3\u03b7\u03c2",
+          "\u03a6\u03c9\u03c4\u03bf\u03b3\u03c1\u03b1\u03c6\u03af\u03b5\u03c2",
+          "GPS",
+          "\u03a4\u03b1\u03c7\u03cd\u03c4\u03b7\u03c4\u03b1",
+          "\u03a3\u03c7\u03ad\u03c3\u03b7 \u03c0\u03bf\u03b9\u03cc\u03c4\u03b7\u03c4\u03b1\u03c2 \u03c4\u03b9\u03bc\u03ae\u03c2",
+          "\u0391\u03bd\u03ac\u03bb\u03c5\u03c3\u03b7 \u03bf\u03b8\u03cc\u03bd\u03b7\u03c2"
+        ]
+      },
+      "user_id": 650818,
+      "voted": false,
+      "votes_count": 0
     }
-  }
+  ]
 }

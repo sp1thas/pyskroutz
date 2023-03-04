@@ -1,10 +1,9 @@
 import json
 import os
-from typing import Type
-
 import pyskroutz
 import pytest
 from pydantic import BaseModel
+from typing import Type
 
 
 def load_response(path):

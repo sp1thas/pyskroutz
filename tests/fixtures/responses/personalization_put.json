@@ -2,11 +2,11 @@
   "personalization": {
     "location": {
       "address_id": 38572,
+      "country_code": "GR",
       "label": "grafio",
       "lat": "38.043322",
       "lng": "23.760006",
-      "type": "address",
-      "country_code": "GR"
+      "type": "address"
     },
     "payment_method": {
       "type": "spot_cash"

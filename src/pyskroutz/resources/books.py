@@ -2,8 +2,8 @@ from typing import Optional
 
 from .base import ApiResource
 from ..models import books
-from ..utils import fluent
 from ..resources import PaginationParams
+from ..utils import fluent
 
 
 class Books(ApiResource):

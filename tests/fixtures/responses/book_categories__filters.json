@@ -2,49 +2,49 @@
   "categories": [
     {
       "id": 805,
-      "name": "Γνώση"
+      "name": "\u0393\u03bd\u03ce\u03c3\u03b7"
     },
     {
       "id": 978,
-      "name": "Ηθική"
+      "name": "\u0397\u03b8\u03b9\u03ba\u03ae"
     },
     {
       "id": 1599,
-      "name": "Λογική"
+      "name": "\u039b\u03bf\u03b3\u03b9\u03ba\u03ae"
     },
     {
       "id": 234,
-      "name": "Μεταφυσική"
+      "name": "\u039c\u03b5\u03c4\u03b1\u03c6\u03c5\u03c3\u03b9\u03ba\u03ae"
     },
     {
       "id": 2686,
-      "name": "Παραφυσικά φαινόμενα"
+      "name": "\u03a0\u03b1\u03c1\u03b1\u03c6\u03c5\u03c3\u03b9\u03ba\u03ac \u03c6\u03b1\u03b9\u03bd\u03cc\u03bc\u03b5\u03bd\u03b1"
     },
     {
       "id": 8340,
-      "name": "Φιλοσοφία - Γενικά έργα"
+      "name": "\u03a6\u03b9\u03bb\u03bf\u03c3\u03bf\u03c6\u03af\u03b1 - \u0393\u03b5\u03bd\u03b9\u03ba\u03ac \u03ad\u03c1\u03b3\u03b1"
     },
     {
       "id": 1926,
-      "name": "Φιλοσοφία, Αρχαία"
+      "name": "\u03a6\u03b9\u03bb\u03bf\u03c3\u03bf\u03c6\u03af\u03b1, \u0391\u03c1\u03c7\u03b1\u03af\u03b1"
     },
     {
       "id": 860,
-      "name": "Φιλοσοφία, Νεότερη"
+      "name": "\u03a6\u03b9\u03bb\u03bf\u03c3\u03bf\u03c6\u03af\u03b1, \u039d\u03b5\u03cc\u03c4\u03b5\u03c1\u03b7"
     },
     {
       "id": 291,
-      "name": "Φιλοσοφικά συστήματα και διδασκαλίες"
+      "name": "\u03a6\u03b9\u03bb\u03bf\u03c3\u03bf\u03c6\u03b9\u03ba\u03ac \u03c3\u03c5\u03c3\u03c4\u03ae\u03bc\u03b1\u03c4\u03b1 \u03ba\u03b1\u03b9 \u03b4\u03b9\u03b4\u03b1\u03c3\u03ba\u03b1\u03bb\u03af\u03b5\u03c2"
     },
     {
       "id": 502,
-      "name": "Ψυχολογία"
+      "name": "\u03a8\u03c5\u03c7\u03bf\u03bb\u03bf\u03b3\u03af\u03b1"
     }
   ],
   "meta": {
     "ancestor": {
       "id": 1857,
-      "name": "Φιλοσοφία"
+      "name": "\u03a6\u03b9\u03bb\u03bf\u03c3\u03bf\u03c6\u03af\u03b1"
     }
   }
 }

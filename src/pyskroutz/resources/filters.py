@@ -1,6 +1,6 @@
 from .base import ApiResource
-from ..resources import PaginationParams
 from ..models import filters
+from ..resources import PaginationParams
 from ..utils import fluent
 
 

@@ -1,39 +1,37 @@
 {
-  "product": {
-    "id": 29878439,
-    "name": "Apple iPhone 5S Space Grey 16 GB EU ( ✔ΔΩΡΟ ΘΗΚΗ + ✔TEMPERED GLASS )",
-    "sku_id": 3783654,
-    "shop_id": 4102,
-    "category_id": 40,
-    "availability": "Παράδοση 1 έως 3 ημέρες",
-    "click_url": "https://www.skroutz.gr/products/show/29878439?client_id=XIbz2_n2p94JTskRpHu9wQ%3D%3D&from=api",
-    "shop_uid": "548",
-    "expenses": null,
-    "web_uri": "http://skroutz.gr:3000/products/show/29878439",
-    "sizes": [
-
-    ],
-    "blp": {
-      "shipping_cost": 4.41,
-      "payment_method_cost": 3.5,
-      "final_price": 297.81
-    },
-    "price": 289.9,
-    "immediate_pickup": false
-  },
   "meta": {
     "personalization": {
       "location": {
         "address_id": 25522,
-        "label": "Αλέκου Παναγούλη 91, Νέα Ιωνία",
+        "country_code": "GR",
+        "label": "\u0391\u03bb\u03ad\u03ba\u03bf\u03c5 \u03a0\u03b1\u03bd\u03b1\u03b3\u03bf\u03cd\u03bb\u03b7 91, \u039d\u03ad\u03b1 \u0399\u03c9\u03bd\u03af\u03b1",
         "lat": "38.043322",
         "lng": "23.760006",
-        "type": "address",
-        "country_code": "GR"
+        "type": "address"
       },
       "payment_method": {
         "type": "spot_cash"
       }
     }
+  },
+  "product": {
+    "availability": "\u03a0\u03b1\u03c1\u03ac\u03b4\u03bf\u03c3\u03b7 1 \u03ad\u03c9\u03c2 3 \u03b7\u03bc\u03ad\u03c1\u03b5\u03c2",
+    "blp": {
+      "final_price": 297.81,
+      "payment_method_cost": 3.5,
+      "shipping_cost": 4.41
+    },
+    "category_id": 40,
+    "click_url": "https://www.skroutz.gr/products/show/29878439?client_id=XIbz2_n2p94JTskRpHu9wQ%3D%3D&from=api",
+    "expenses": null,
+    "id": 29878439,
+    "immediate_pickup": false,
+    "name": "Apple iPhone 5S Space Grey 16 GB EU ( \u2714\u0394\u03a9\u03a1\u039f \u0398\u0397\u039a\u0397 + \u2714TEMPERED GLASS )",
+    "price": 289.9,
+    "shop_id": 4102,
+    "shop_uid": "548",
+    "sizes": [],
+    "sku_id": 3783654,
+    "web_uri": "http://skroutz.gr:3000/products/show/29878439"
   }
 }

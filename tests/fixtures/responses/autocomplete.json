@@ -1,56 +1,56 @@
 {
   "autocomplete": [
     {
-      "k": "iphone 7",
-      "i": 3
-    },
-    {
-      "k": "iphone 7",
       "i": 3,
+      "k": "iphone 7"
+    },
+    {
       "d": {
-        "n": "Κινητά Τηλέφωνα",
-        "id": 40
-      }
+        "id": 40,
+        "n": "\u039a\u03b9\u03bd\u03b7\u03c4\u03ac \u03a4\u03b7\u03bb\u03ad\u03c6\u03c9\u03bd\u03b1"
+      },
+      "i": 3,
+      "k": "iphone 7"
     },
     {
-      "k": "iphone 6s",
-      "i": 3
+      "i": 3,
+      "k": "iphone 6s"
     },
     {
-      "k": "iphone 5s",
-      "i": 3
+      "i": 3,
+      "k": "iphone 5s"
     },
     {
-      "k": "iphone",
-      "i": 3
+      "i": 3,
+      "k": "iphone"
     },
     {
-      "k": "iphone 7 plus",
-      "i": 3
+      "i": 3,
+      "k": "iphone 7 plus"
     },
     {
-      "k": "iphone 6",
-      "i": 3
+      "i": 3,
+      "k": "iphone 6"
     },
     {
-      "k": "iphone se",
-      "i": 3
+      "i": 3,
+      "k": "iphone se"
     },
     {
-      "k": "iphone 6s plus",
-      "i": 3
+      "i": 3,
+      "k": "iphone 6s plus"
     },
     {
-      "k": "iphone 5",
-      "i": 3
+      "i": 3,
+      "k": "iphone 5"
     },
     {
-      "k": "iphone 4s",
-      "i": 3
+      "i": 3,
+      "k": "iphone 4s"
     },
     {
-      "k": "iphone 7 jet black",
-      "i": 3
+      "i": 3,
+      "k": "iphone 7 jet black"
     }
   ]
 }

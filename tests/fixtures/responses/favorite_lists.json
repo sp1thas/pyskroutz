@@ -1,63 +1,63 @@
 {
   "favorite_lists": [
     {
+      "category_id": null,
       "id": 679365,
-      "name": "test",
-      "category_id": null
+      "name": "test"
     },
     {
+      "category_id": null,
       "id": 861839,
-      "name": "mobile",
-      "category_id": null
+      "name": "mobile"
     },
     {
+      "category_id": null,
       "id": 881601,
-      "name": "a new list name",
-      "category_id": null
+      "name": "a new list name"
     },
     {
       "id": -1448,
-      "name": "Γυναικεία Πέδιλα"
+      "name": "\u0393\u03c5\u03bd\u03b1\u03b9\u03ba\u03b5\u03af\u03b1 \u03a0\u03ad\u03b4\u03b9\u03bb\u03b1"
     },
     {
       "id": -828,
-      "name": "Ανδρικές Ζώνες"
+      "name": "\u0391\u03bd\u03b4\u03c1\u03b9\u03ba\u03ad\u03c2 \u0396\u03ce\u03bd\u03b5\u03c2"
     },
     {
       "id": -1577,
-      "name": "Ανδρικά T-shirts"
+      "name": "\u0391\u03bd\u03b4\u03c1\u03b9\u03ba\u03ac T-shirts"
     },
     {
       "id": -821,
-      "name": "Γυναικείες Τσάντες"
+      "name": "\u0393\u03c5\u03bd\u03b1\u03b9\u03ba\u03b5\u03af\u03b5\u03c2 \u03a4\u03c3\u03ac\u03bd\u03c4\u03b5\u03c2"
     },
     {
       "id": -790,
-      "name": "Γυαλιά Ηλίου"
+      "name": "\u0393\u03c5\u03b1\u03bb\u03b9\u03ac \u0397\u03bb\u03af\u03bf\u03c5"
     },
     {
       "id": -1763,
-      "name": "Flat Μποτάκια"
+      "name": "Flat \u039c\u03c0\u03bf\u03c4\u03ac\u03ba\u03b9\u03b1"
     },
     {
       "id": -1776,
-      "name": "Ανδρικά Αρώματα"
+      "name": "\u0391\u03bd\u03b4\u03c1\u03b9\u03ba\u03ac \u0391\u03c1\u03ce\u03bc\u03b1\u03c4\u03b1"
     },
     {
       "id": -334,
-      "name": "Ανδρικά Ρολόγια"
+      "name": "\u0391\u03bd\u03b4\u03c1\u03b9\u03ba\u03ac \u03a1\u03bf\u03bb\u03cc\u03b3\u03b9\u03b1"
     },
     {
       "id": -40,
-      "name": "Κινητά Τηλέφωνα"
+      "name": "\u039a\u03b9\u03bd\u03b7\u03c4\u03ac \u03a4\u03b7\u03bb\u03ad\u03c6\u03c9\u03bd\u03b1"
     },
     {
       "id": -712,
-      "name": "Βάσεις & Docking Stations"
+      "name": "\u0392\u03ac\u03c3\u03b5\u03b9\u03c2 & Docking Stations"
     },
     {
       "id": -34,
-      "name": "Βιβλία"
+      "name": "\u0392\u03b9\u03b2\u03bb\u03af\u03b1"
     },
     {
       "id": -435,
@@ -65,15 +65,15 @@
     },
     {
       "id": -12,
-      "name": "Τηλεοράσεις"
+      "name": "\u03a4\u03b7\u03bb\u03b5\u03bf\u03c1\u03ac\u03c3\u03b5\u03b9\u03c2"
     },
     {
       "id": -582,
-      "name": "Μπαταρίες Κινητών Τηλεφώνων"
+      "name": "\u039c\u03c0\u03b1\u03c4\u03b1\u03c1\u03af\u03b5\u03c2 \u039a\u03b9\u03bd\u03b7\u03c4\u03ce\u03bd \u03a4\u03b7\u03bb\u03b5\u03c6\u03ce\u03bd\u03c9\u03bd"
     },
     {
       "id": -1632,
-      "name": "Διάφορα Αξεσουάρ Tablet"
+      "name": "\u0394\u03b9\u03ac\u03c6\u03bf\u03c1\u03b1 \u0391\u03be\u03b5\u03c3\u03bf\u03c5\u03ac\u03c1 Tablet"
     },
     {
       "id": -1413,
@@ -85,15 +85,15 @@
     },
     {
       "id": -1373,
-      "name": "Γυαλιά 3D"
+      "name": "\u0393\u03c5\u03b1\u03bb\u03b9\u03ac 3D"
     },
     {
       "id": -88,
-      "name": "SSD Σκληροί Δίσκοι"
+      "name": "SSD \u03a3\u03ba\u03bb\u03b7\u03c1\u03bf\u03af \u0394\u03af\u03c3\u03ba\u03bf\u03b9"
     },
     {
       "id": -345,
-      "name": "Μίκτες & Κονσόλες"
+      "name": "\u039c\u03af\u03ba\u03c4\u03b5\u03c2 & \u039a\u03bf\u03bd\u03c3\u03cc\u03bb\u03b5\u03c2"
     },
     {
       "id": -1743,
@@ -101,15 +101,15 @@
     },
     {
       "id": -1511,
-      "name": "Πιστολάκια Μαλλιών"
+      "name": "\u03a0\u03b9\u03c3\u03c4\u03bf\u03bb\u03ac\u03ba\u03b9\u03b1 \u039c\u03b1\u03bb\u03bb\u03b9\u03ce\u03bd"
     }
   ],
   "meta": {
     "pagination": {
-      "total_results": 48,
-      "total_pages": 2,
       "page": 1,
-      "per": 25
+      "per": 25,
+      "total_pages": 2,
+      "total_results": 48
     }
   }
 }

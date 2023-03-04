@@ -1,48 +1,42 @@
 {
   "categories": [
     {
-      "id": 40,
-      "name": "Κινητά Τηλέφωνα",
       "children_count": 0,
-      "image_url": "https://d.scdn.gr/ds/categories/40/20150508124644_bd07441b.jpg",
-      "parent_id": 86,
-      "fashion": false,
-      "layout_mode": "list",
-      "web_uri": "https://www.skroutz.gr/c/40/kinhta-thlefwna.html",
       "code": "mobile",
       "family_id": 1269,
-      "show_manufacturers_filter": true,
+      "fashion": false,
+      "id": 40,
+      "image_url": "https://d.scdn.gr/ds/categories/40/20150508124644_bd07441b.jpg",
+      "layout_mode": "list",
+      "manufacturer_title": "\u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ad\u03c2",
+      "name": "\u039a\u03b9\u03bd\u03b7\u03c4\u03ac \u03a4\u03b7\u03bb\u03ad\u03c6\u03c9\u03bd\u03b1",
+      "parent_id": 86,
       "path": "76,1269,86,40",
+      "show_manufacturers_filter": true,
       "show_specifications": true,
-      "manufacturer_title": "Κατασκευαστές"
+      "web_uri": "https://www.skroutz.gr/c/40/kinhta-thlefwna.html"
     }
   ],
   "meta": {
+    "alternatives": [],
+    "pagination": {
+      "page": 1,
+      "per": 25,
+      "total_pages": 1,
+      "total_results": 1
+    },
     "q": "samsung s7 edge duos",
-    "alternatives": [
-
-    ],
     "strong_matches": {
       "sku": {
-        "id": 8688868,
-        "ean": "",
-        "pn": "SM-G935FD",
-        "name": "Galaxy S7 Edge Duos (32GB)",
-        "display_name": "Samsung Galaxy S7 Edge Duos (32GB)",
         "category_id": 40,
-        "first_product_shop_info": null,
         "click_url": null,
-        "price_max": 725.0,
-        "price_min": 695.0,
-        "reviewscore": 5.0,
-        "shop_count": 4,
-        "plain_spec_summary": "SmartPhone, SIM: Dual, Οθόνη: 5.5\", 2560 x 1440 pixels, CPU: 2300 MHz, Πυρήνες CPU: 4+4, RAM: 4 GB, Μνήμη Αποθήκευσης: 32 GB, Δίκτυο: 4G, Κάμερα: 12 MP, Λειτουργικό: Android, Μπαταρία: 3600 mAh, Προστασία: Αδιάβροχο",
-        "manufacturer_id": 28,
+        "comparable": true,
+        "display_name": "Samsung Galaxy S7 Edge Duos (32GB)",
+        "ean": "",
+        "first_product_shop_info": null,
         "future": false,
-        "reviews_count": 12,
-        "virtual": false,
+        "id": 8688868,
         "images": {
-          "main": "https://d.scdn.gr/images/sku_main_images/008688/8688868/medium_20161010131812_samsung_galaxy_s7_edge_duos_32gb.jpeg",
           "alternatives": [
             "https://b.scdn.gr/images/sku_images/016108/16108117/20161010131710_cdc3deb2.jpeg",
             "https://b.scdn.gr/images/sku_images/016108/16108118/20161010131710_afb57771.jpeg",
@@ -73,17 +67,21 @@
             "https://d.scdn.gr/images/sku_images/015736/15736249/20160802135947_f2aea247.jpeg",
             "https://a.scdn.gr/images/sku_images/015736/15736251/20160802135953_9bd478df.jpeg",
             "https://b.scdn.gr/images/sku_images/015736/15736252/20160802135957_7615de02.jpeg"
-          ]
+          ],
+          "main": "https://d.scdn.gr/images/sku_main_images/008688/8688868/medium_20161010131812_samsung_galaxy_s7_edge_duos_32gb.jpeg"
         },
-        "web_uri": "https://www.skroutz.gr/s/8688868/Samsung-Galaxy-S7-Edge-Duos-32GB.html",
-        "comparable": true
+        "manufacturer_id": 28,
+        "name": "Galaxy S7 Edge Duos (32GB)",
+        "plain_spec_summary": "SmartPhone, SIM: Dual, \u039f\u03b8\u03cc\u03bd\u03b7: 5.5\", 2560 x 1440 pixels, CPU: 2300 MHz, \u03a0\u03c5\u03c1\u03ae\u03bd\u03b5\u03c2 CPU: 4+4, RAM: 4 GB, \u039c\u03bd\u03ae\u03bc\u03b7 \u0391\u03c0\u03bf\u03b8\u03ae\u03ba\u03b5\u03c5\u03c3\u03b7\u03c2: 32 GB, \u0394\u03af\u03ba\u03c4\u03c5\u03bf: 4G, \u039a\u03ac\u03bc\u03b5\u03c1\u03b1: 12 MP, \u039b\u03b5\u03b9\u03c4\u03bf\u03c5\u03c1\u03b3\u03b9\u03ba\u03cc: Android, \u039c\u03c0\u03b1\u03c4\u03b1\u03c1\u03af\u03b1: 3600 mAh, \u03a0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c3\u03af\u03b1: \u0391\u03b4\u03b9\u03ac\u03b2\u03c1\u03bf\u03c7\u03bf",
+        "pn": "SM-G935FD",
+        "price_max": 725.0,
+        "price_min": 695.0,
+        "reviews_count": 12,
+        "reviewscore": 5.0,
+        "shop_count": 4,
+        "virtual": false,
+        "web_uri": "https://www.skroutz.gr/s/8688868/Samsung-Galaxy-S7-Edge-Duos-32GB.html"
       }
-    },
-    "pagination": {
-      "total_results": 1,
-      "total_pages": 1,
-      "page": 1,
-      "per": 25
     }
   }
 }

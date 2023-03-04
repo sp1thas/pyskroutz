@@ -1,14 +1,11 @@
 {
   "review_form": {
-    "requires_body": false,
     "questions": [
       {
-        "text": "Πως χρησιμοποιείς το κινητό σου τηλέφωνο;",
-        "type": "profiling_multiple",
         "answers": [
           {
             "id": 546,
-            "text": "Κλήσεις"
+            "text": "\u039a\u03bb\u03ae\u03c3\u03b5\u03b9\u03c2"
           },
           {
             "id": 547,
@@ -16,7 +13,7 @@
           },
           {
             "id": 548,
-            "text": "Φωτογραφίες - Video"
+            "text": "\u03a6\u03c9\u03c4\u03bf\u03b3\u03c1\u03b1\u03c6\u03af\u03b5\u03c2 - Video"
           },
           {
             "id": 549,
@@ -24,158 +21,161 @@
           },
           {
             "id": 550,
-            "text": "Παιχνίδια"
+            "text": "\u03a0\u03b1\u03b9\u03c7\u03bd\u03af\u03b4\u03b9\u03b1"
           },
           {
             "id": 551,
-            "text": "Μουσική"
+            "text": "\u039c\u03bf\u03c5\u03c3\u03b9\u03ba\u03ae"
           }
-        ]
+        ],
+        "text": "\u03a0\u03c9\u03c2 \u03c7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03b5\u03af\u03c2 \u03c4\u03bf \u03ba\u03b9\u03bd\u03b7\u03c4\u03cc \u03c3\u03bf\u03c5 \u03c4\u03b7\u03bb\u03ad\u03c6\u03c9\u03bd\u03bf;",
+        "type": "profiling_multiple"
       },
       {
-        "text": "Μιλάς και ακούγεσαι καθαρά κατά την κλήση;",
-        "type": "eval_sentiment",
         "answers": [
           {
             "id": 504,
-            "text": "Ναι"
+            "text": "\u039d\u03b1\u03b9"
           },
           {
             "id": 505,
-            "text": "Έτσι κι έτσι"
+            "text": "\u0388\u03c4\u03c3\u03b9 \u03ba\u03b9 \u03ad\u03c4\u03c3\u03b9"
           },
           {
             "id": 506,
-            "text": "Όχι"
+            "text": "\u038c\u03c7\u03b9"
           }
-        ]
+        ],
+        "text": "\u039c\u03b9\u03bb\u03ac\u03c2 \u03ba\u03b1\u03b9 \u03b1\u03ba\u03bf\u03cd\u03b3\u03b5\u03c3\u03b1\u03b9 \u03ba\u03b1\u03b8\u03b1\u03c1\u03ac \u03ba\u03b1\u03c4\u03ac \u03c4\u03b7\u03bd \u03ba\u03bb\u03ae\u03c3\u03b7;",
+        "type": "eval_sentiment"
       },
       {
-        "text": "Βγάζει καλές φωτογραφίες;",
-        "type": "eval_sentiment",
         "answers": [
           {
             "id": 507,
-            "text": "Ναι"
+            "text": "\u039d\u03b1\u03b9"
           },
           {
             "id": 508,
-            "text": "Έτσι κι έτσι"
+            "text": "\u0388\u03c4\u03c3\u03b9 \u03ba\u03b9 \u03ad\u03c4\u03c3\u03b9"
           },
           {
             "id": 509,
-            "text": "Όχι"
+            "text": "\u038c\u03c7\u03b9"
           }
-        ]
+        ],
+        "text": "\u0392\u03b3\u03ac\u03b6\u03b5\u03b9 \u03ba\u03b1\u03bb\u03ad\u03c2 \u03c6\u03c9\u03c4\u03bf\u03b3\u03c1\u03b1\u03c6\u03af\u03b5\u03c2;",
+        "type": "eval_sentiment"
       },
       {
-        "text": "Τραβάει καλής ποιότητας video;",
-        "type": "eval_sentiment",
         "answers": [
           {
             "id": 510,
-            "text": "Ναι"
+            "text": "\u039d\u03b1\u03b9"
           },
           {
             "id": 511,
-            "text": "Έτσι κι έτσι"
+            "text": "\u0388\u03c4\u03c3\u03b9 \u03ba\u03b9 \u03ad\u03c4\u03c3\u03b9"
           },
           {
             "id": 512,
-            "text": "Όχι"
+            "text": "\u038c\u03c7\u03b9"
           }
-        ]
+        ],
+        "text": "\u03a4\u03c1\u03b1\u03b2\u03ac\u03b5\u03b9 \u03ba\u03b1\u03bb\u03ae\u03c2 \u03c0\u03bf\u03b9\u03cc\u03c4\u03b7\u03c4\u03b1\u03c2 video;",
+        "type": "eval_sentiment"
       },
       {
-        "text": "To ηχείο έχει καλή ποιότητα για μουσική;",
-        "type": "eval_sentiment",
         "answers": [
           {
             "id": 537,
-            "text": "Ναι"
+            "text": "\u039d\u03b1\u03b9"
           },
           {
             "id": 538,
-            "text": "Έτσι κι έτσι"
+            "text": "\u0388\u03c4\u03c3\u03b9 \u03ba\u03b9 \u03ad\u03c4\u03c3\u03b9"
           },
           {
             "id": 539,
-            "text": "Όχι"
+            "text": "\u038c\u03c7\u03b9"
           }
-        ]
+        ],
+        "text": "To \u03b7\u03c7\u03b5\u03af\u03bf \u03ad\u03c7\u03b5\u03b9 \u03ba\u03b1\u03bb\u03ae \u03c0\u03bf\u03b9\u03cc\u03c4\u03b7\u03c4\u03b1 \u03b3\u03b9\u03b1 \u03bc\u03bf\u03c5\u03c3\u03b9\u03ba\u03ae;",
+        "type": "eval_sentiment"
       },
       {
-        "text": "Συντονίζεται άμεσα το GPS;",
-        "type": "eval_sentiment",
         "answers": [
           {
             "id": 552,
-            "text": "Ναι"
+            "text": "\u039d\u03b1\u03b9"
           },
           {
             "id": 553,
-            "text": "Έτσι κι έτσι"
+            "text": "\u0388\u03c4\u03c3\u03b9 \u03ba\u03b9 \u03ad\u03c4\u03c3\u03b9"
           },
           {
             "id": 554,
-            "text": "Όχι"
+            "text": "\u038c\u03c7\u03b9"
           }
-        ]
+        ],
+        "text": "\u03a3\u03c5\u03bd\u03c4\u03bf\u03bd\u03af\u03b6\u03b5\u03c4\u03b1\u03b9 \u03ac\u03bc\u03b5\u03c3\u03b1 \u03c4\u03bf GPS;",
+        "type": "eval_sentiment"
       },
       {
-        "text": "Είναι γρήγορο κατά τη λειτουργία του;",
-        "type": "eval_sentiment",
         "answers": [
           {
             "id": 555,
-            "text": "Ναι"
+            "text": "\u039d\u03b1\u03b9"
           },
           {
             "id": 556,
-            "text": "Έτσι κι έτσι"
+            "text": "\u0388\u03c4\u03c3\u03b9 \u03ba\u03b9 \u03ad\u03c4\u03c3\u03b9"
           },
           {
             "id": 557,
-            "text": "Όχι"
+            "text": "\u038c\u03c7\u03b9"
           }
-        ]
+        ],
+        "text": "\u0395\u03af\u03bd\u03b1\u03b9 \u03b3\u03c1\u03ae\u03b3\u03bf\u03c1\u03bf \u03ba\u03b1\u03c4\u03ac \u03c4\u03b7 \u03bb\u03b5\u03b9\u03c4\u03bf\u03c5\u03c1\u03b3\u03af\u03b1 \u03c4\u03bf\u03c5;",
+        "type": "eval_sentiment"
       },
       {
-        "text": "Αξίζει τα χρήματά του;",
-        "type": "eval_sentiment",
         "answers": [
           {
             "id": 561,
-            "text": "Ναι"
+            "text": "\u039d\u03b1\u03b9"
           },
           {
             "id": 562,
-            "text": "Έτσι κι έτσι"
+            "text": "\u0388\u03c4\u03c3\u03b9 \u03ba\u03b9 \u03ad\u03c4\u03c3\u03b9"
           },
           {
             "id": 563,
-            "text": "Όχι"
+            "text": "\u038c\u03c7\u03b9"
           }
-        ]
+        ],
+        "text": "\u0391\u03be\u03af\u03b6\u03b5\u03b9 \u03c4\u03b1 \u03c7\u03c1\u03ae\u03bc\u03b1\u03c4\u03ac \u03c4\u03bf\u03c5;",
+        "type": "eval_sentiment"
       },
       {
-        "text": "Η οθόνη του έχει καλή ανάλυση;",
-        "type": "eval_sentiment",
         "answers": [
           {
             "id": 3944,
-            "text": "Ναι"
+            "text": "\u039d\u03b1\u03b9"
           },
           {
             "id": 3945,
-            "text": "Έτσι κι έτσι"
+            "text": "\u0388\u03c4\u03c3\u03b9 \u03ba\u03b9 \u03ad\u03c4\u03c3\u03b9"
           },
           {
             "id": 3946,
-            "text": "Όχι"
+            "text": "\u038c\u03c7\u03b9"
           }
-        ]
+        ],
+        "text": "\u0397 \u03bf\u03b8\u03cc\u03bd\u03b7 \u03c4\u03bf\u03c5 \u03ad\u03c7\u03b5\u03b9 \u03ba\u03b1\u03bb\u03ae \u03b1\u03bd\u03ac\u03bb\u03c5\u03c3\u03b7;",
+        "type": "eval_sentiment"
       }
-    ]
+    ],
+    "requires_body": false
   }
 }

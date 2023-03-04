@@ -1,91 +1,96 @@
 {
+  "meta": {
+    "order_by_methods": {
+      "pricevat": "\u0391\u03cd\u03be\u03bf\u03c5\u03c3\u03b1 \u03c4\u03b9\u03bc\u03ae",
+      "rank": "\u0394\u03b7\u03bc\u03bf\u03c4\u03b9\u03ba\u03cc\u03c4\u03b7\u03c4\u03b1",
+      "rating": "\u0392\u03b1\u03b8\u03bc\u03bf\u03bb\u03bf\u03b3\u03af\u03b1"
+    },
+    "ordered_by": "rank",
+    "pagination": {
+      "page": 1,
+      "per": 3,
+      "total_pages": 292,
+      "total_results": 875
+    }
+  },
   "skus": [
     {
-      "id": 11425408,
-      "ean": "6954176833938",
-      "pn": "",
-      "name": "Redmi 4x (32GB)",
-      "display_name": "Xiaomi Redmi 4x (32GB)",
       "category_id": 40,
-      "first_product_shop_info": null,
       "click_url": null,
-      "price_max": 199.0,
-      "price_min": 122.5,
-      "reviewscore": 4.63393,
-      "shop_count": 70,
-      "plain_spec_summary": "Οθόνη: 5\", RAM: 3GB, Μνήμη: 32GB, Κάμερα: 13MP, Selfie: 5MP, Πυρήνες CPU: 8",
-      "manufacturer_id": 15053,
+      "comparable": true,
+      "display_name": "Xiaomi Redmi 4x (32GB)",
+      "ean": "6954176833938",
+      "favorited": true,
+      "first_product_shop_info": null,
       "future": false,
-      "reviews_count": 224,
-      "virtual": false,
+      "id": 11425408,
       "images": {
-        "main": "https://a.scdn.gr/images/sku_main_images/011425/11425408/medium_20171103170952_xiaomi_redmi_4x_32gb.jpeg",
         "alternatives": [
           "https://a.scdn.gr/images/sku_images/016974/16974425/20170322101106_a6850db4.jpeg",
           "https://b.scdn.gr/images/sku_images/016974/16974423/20170322101106_f7a955e4.jpeg",
           "https://a.scdn.gr/images/sku_images/016974/16974424/20170322101106_ae16e57d.jpeg",
           "https://d.scdn.gr/images/sku_images/016974/16974426/20170322101106_c5774fce.jpeg"
-        ]
+        ],
+        "main": "https://a.scdn.gr/images/sku_main_images/011425/11425408/medium_20171103170952_xiaomi_redmi_4x_32gb.jpeg"
       },
-      "web_uri": "https://skroutz.gr/s/11425408/Xiaomi-Redmi-4x-32GB.html",
-      "favorited": true,
-      "comparable": true,
+      "manufacturer_id": 15053,
+      "name": "Redmi 4x (32GB)",
+      "name_source": "display_name",
+      "plain_spec_summary": "\u039f\u03b8\u03cc\u03bd\u03b7: 5\", RAM: 3GB, \u039c\u03bd\u03ae\u03bc\u03b7: 32GB, \u039a\u03ac\u03bc\u03b5\u03c1\u03b1: 13MP, Selfie: 5MP, \u03a0\u03c5\u03c1\u03ae\u03bd\u03b5\u03c2 CPU: 8",
+      "pn": "",
+      "price_max": 199.0,
+      "price_min": 122.5,
       "reviewable": true,
-      "name_source": "display_name"
+      "reviews_count": 224,
+      "reviewscore": 4.63393,
+      "shop_count": 70,
+      "virtual": false,
+      "web_uri": "https://skroutz.gr/s/11425408/Xiaomi-Redmi-4x-32GB.html"
     },
     {
-      "id": 11069307,
-      "ean": "",
-      "pn": "",
-      "name": "Redmi Note 4X (Snapdragon) (32GB)",
-      "display_name": "Xiaomi Redmi Note 4X (Snapdragon) (32GB)",
       "category_id": 40,
-      "first_product_shop_info": null,
       "click_url": null,
-      "price_max": 245.0,
-      "price_min": 145.99,
-      "reviewscore": 4.69018,
-      "shop_count": 45,
-      "plain_spec_summary": "Οθόνη: 5.5\", RAM: 3GB, Μνήμη: 32GB, Κάμερα: 13MP, Selfie: 5MP, Πυρήνες CPU: 8",
-      "manufacturer_id": 15053,
+      "comparable": true,
+      "display_name": "Xiaomi Redmi Note 4X (Snapdragon) (32GB)",
+      "ean": "",
+      "favorited": true,
+      "first_product_shop_info": null,
       "future": false,
-      "reviews_count": 326,
-      "virtual": false,
+      "id": 11069307,
       "images": {
-        "main": "https://c.scdn.gr/images/sku_main_images/011069/11069307/medium_20170215120338_xiaomi_redmi_note_4x_32gb.jpeg",
         "alternatives": [
           "https://c.scdn.gr/images/sku_images/016893/16893439/20170215120328_65f7fe50.jpeg",
           "https://b.scdn.gr/images/sku_images/016893/16893440/20170215120329_99420f00.jpeg",
           "https://d.scdn.gr/images/sku_images/016893/16893438/20170215120339_297183ef.jpeg",
           "https://b.scdn.gr/images/sku_images/016893/16893441/20170215120411_543a9f26.jpeg"
-        ]
+        ],
+        "main": "https://c.scdn.gr/images/sku_main_images/011069/11069307/medium_20170215120338_xiaomi_redmi_note_4x_32gb.jpeg"
       },
-      "web_uri": "https://skroutz.gr/s/11069307/Xiaomi-Redmi-Note-4X-Snapdragon-32GB.html",
-      "favorited": true,
-      "comparable": true,
+      "manufacturer_id": 15053,
+      "name": "Redmi Note 4X (Snapdragon) (32GB)",
+      "name_source": "display_name",
+      "plain_spec_summary": "\u039f\u03b8\u03cc\u03bd\u03b7: 5.5\", RAM: 3GB, \u039c\u03bd\u03ae\u03bc\u03b7: 32GB, \u039a\u03ac\u03bc\u03b5\u03c1\u03b1: 13MP, Selfie: 5MP, \u03a0\u03c5\u03c1\u03ae\u03bd\u03b5\u03c2 CPU: 8",
+      "pn": "",
+      "price_max": 245.0,
+      "price_min": 145.99,
       "reviewable": true,
-      "name_source": "display_name"
+      "reviews_count": 326,
+      "reviewscore": 4.69018,
+      "shop_count": 45,
+      "virtual": false,
+      "web_uri": "https://skroutz.gr/s/11069307/Xiaomi-Redmi-Note-4X-Snapdragon-32GB.html"
     },
     {
-      "id": 9783213,
-      "ean": "",
-      "pn": "MN902GH/A",
-      "name": "iPhone 7 (32GB)",
-      "display_name": "Apple iPhone 7 (32GB)",
       "category_id": 40,
-      "first_product_shop_info": null,
       "click_url": null,
-      "price_max": 819.0,
-      "price_min": 569.79,
-      "reviewscore": 4.71771,
-      "shop_count": 66,
-      "plain_spec_summary": "Οθόνη: 4.7\", RAM: 2GB, Μνήμη: 32GB, Κάμερα: 12MP, Selfie: 7MP, Πυρήνες CPU: 4",
-      "manufacturer_id": 356,
+      "comparable": true,
+      "display_name": "Apple iPhone 7 (32GB)",
+      "ean": "",
+      "favorited": false,
+      "first_product_shop_info": null,
       "future": false,
-      "reviews_count": 542,
-      "virtual": false,
+      "id": 9783213,
       "images": {
-        "main": "https://c.scdn.gr/images/sku_main_images/009783/9783213/medium_20160909145853_apple_iphone_7_32gb.jpeg",
         "alternatives": [
           "https://d.scdn.gr/images/sku_images/015955/15955339/20160909151510_55657ecb.jpeg",
           "https://b.scdn.gr/images/sku_images/015955/15955297/20160909145854_6aff90d2.jpeg",
@@ -118,27 +123,22 @@
           "https://a.scdn.gr/images/sku_images/016001/16001554/20160919095011_7d0f014f.jpeg",
           "https://a.scdn.gr/images/sku_images/016001/16001555/20160919095011_759bd9c0.jpeg",
           "https://b.scdn.gr/images/sku_images/016001/16001556/20160919095013_09feb434.jpeg"
-        ]
+        ],
+        "main": "https://c.scdn.gr/images/sku_main_images/009783/9783213/medium_20160909145853_apple_iphone_7_32gb.jpeg"
       },
-      "web_uri": "https://skroutz.gr/s/9783213/Apple-iPhone-7-32GB.html",
-      "favorited": false,
-      "comparable": true,
+      "manufacturer_id": 356,
+      "name": "iPhone 7 (32GB)",
+      "name_source": "display_name",
+      "plain_spec_summary": "\u039f\u03b8\u03cc\u03bd\u03b7: 4.7\", RAM: 2GB, \u039c\u03bd\u03ae\u03bc\u03b7: 32GB, \u039a\u03ac\u03bc\u03b5\u03c1\u03b1: 12MP, Selfie: 7MP, \u03a0\u03c5\u03c1\u03ae\u03bd\u03b5\u03c2 CPU: 4",
+      "pn": "MN902GH/A",
+      "price_max": 819.0,
+      "price_min": 569.79,
       "reviewable": true,
-      "name_source": "display_name"
+      "reviews_count": 542,
+      "reviewscore": 4.71771,
+      "shop_count": 66,
+      "virtual": false,
+      "web_uri": "https://skroutz.gr/s/9783213/Apple-iPhone-7-32GB.html"
     }
-  ],
-  "meta": {
-    "ordered_by": "rank",
-    "order_by_methods": {
-      "pricevat": "Αύξουσα τιμή",
-      "rank": "Δημοτικότητα",
-      "rating": "Βαθμολογία"
-    },
-    "pagination": {
-      "total_results": 875,
-      "total_pages": 292,
-      "page": 1,
-      "per": 3
-    }
-  }
+  ]
 }

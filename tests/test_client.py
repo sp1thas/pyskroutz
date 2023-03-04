@@ -1,5 +1,5 @@
-import pytest
 import pyskroutz
+import pytest
 from requests.exceptions import RequestException
 
 

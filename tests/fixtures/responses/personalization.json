@@ -2,11 +2,11 @@
   "personalization": {
     "location": {
       "address_id": 25522,
-      "label": "Αλέκου Παναγούλη 91, Νέα Ιωνία",
+      "country_code": "GR",
+      "label": "\u0391\u03bb\u03ad\u03ba\u03bf\u03c5 \u03a0\u03b1\u03bd\u03b1\u03b3\u03bf\u03cd\u03bb\u03b7 91, \u039d\u03ad\u03b1 \u0399\u03c9\u03bd\u03af\u03b1",
       "lat": "38.043322",
       "lng": "23.760006",
-      "type": "address",
-      "country_code": "GR"
+      "type": "address"
     },
     "payment_method": {
       "type": "spot_cash"

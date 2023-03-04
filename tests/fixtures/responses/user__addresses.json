@@ -1,19 +1,19 @@
 {
   "addresses": [
     {
+      "city": "\u039d\u03ad\u03b1 \u0399\u03c9\u03bd\u03af\u03b1",
+      "first_name": "\u0392\u03b1\u03c3\u03af\u03bb\u03b7\u03c2",
       "id": 25522,
-      "label": "Αλέκου Παναγούλη 91, Νέα Ιωνία",
-      "first_name": "Βασίλης",
-      "last_name": "Τεστοπουλος",
-      "street_name": "Αλέκου Παναγούλη",
-      "street_number": "91",
-      "city": "Νέα Ιωνία",
-      "zip": "14234",
-      "region": "Αττικής",
-      "phone": "",
-      "mobile": "6941234567",
+      "label": "\u0391\u03bb\u03ad\u03ba\u03bf\u03c5 \u03a0\u03b1\u03bd\u03b1\u03b3\u03bf\u03cd\u03bb\u03b7 91, \u039d\u03ad\u03b1 \u0399\u03c9\u03bd\u03af\u03b1",
+      "last_name": "\u03a4\u03b5\u03c3\u03c4\u03bf\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+      "lat": "38.043322",
       "lng": "23.760006",
-      "lat": "38.043322"
+      "mobile": "6941234567",
+      "phone": "",
+      "region": "\u0391\u03c4\u03c4\u03b9\u03ba\u03ae\u03c2",
+      "street_name": "\u0391\u03bb\u03ad\u03ba\u03bf\u03c5 \u03a0\u03b1\u03bd\u03b1\u03b3\u03bf\u03cd\u03bb\u03b7",
+      "street_number": "91",
+      "zip": "14234"
     }
   ]
 }

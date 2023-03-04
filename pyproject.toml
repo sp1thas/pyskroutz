@@ -32,20 +32,10 @@ license = "GPL-3.0-only"
 python = ">=3.6.2,<4.0"
 requests = "^2.25.1"
 pydantic = {extras = ["email"], version = "^1.8.2"}
-typing-extensions = "^3.10.0"
-mkdocs = "^1.2.3"
 
 [tool.poetry.dev-dependencies]
-black = "^21.5b2"
 twine = "^3.4.1"
-mypy = "^0.900"
-pytest = "^6.2.4"
-pytest-cov = "^2.12.1"
-mkdocs = "^1.2"
-mkdocs-material = "^7.1.7"
-mkdocstrings = "^0.15.1"
-mock = "^4.0.3"
-responses = "^0.13.3"
+pytest-cov = "^4.0.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

@@ -2,7 +2,6 @@
 """
 import datetime
 from enum import Enum
-
 from pydantic import AnyHttpUrl, EmailStr
 
 from .base import *

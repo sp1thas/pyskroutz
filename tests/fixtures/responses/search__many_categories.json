@@ -1,48 +1,45 @@
 {
   "categories": [
     {
-      "id": 40,
-      "name": "Κινητά Τηλέφωνα",
       "children_count": 0,
-      "image_url": "https://d.scdn.gr/ds/categories/40/20150508124644_bd07441b.jpg",
-      "parent_id": 86,
-      "fashion": false,
-      "layout_mode": "list",
-      "web_uri": "https://www.skroutz.gr/c/40/kinhta-thlefwna.html",
       "code": "mobile",
+      "fashion": false,
+      "id": 40,
+      "image_url": "https://d.scdn.gr/ds/categories/40/20150508124644_bd07441b.jpg",
+      "layout_mode": "list",
+      "manufacturer_title": "\u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ad\u03c2",
+      "match_count": 24,
+      "name": "\u039a\u03b9\u03bd\u03b7\u03c4\u03ac \u03a4\u03b7\u03bb\u03ad\u03c6\u03c9\u03bd\u03b1",
+      "parent_id": 86,
       "path": "76,1269,86,40",
       "show_specifications": true,
-      "manufacturer_title": "Κατασκευαστές",
-      "match_count": 24
+      "web_uri": "https://www.skroutz.gr/c/40/kinhta-thlefwna.html"
     },
     {
-      "id": 579,
-      "name": "Θήκες Κινητών Τηλεφώνων",
       "children_count": 0,
-      "image_url": "https://b.scdn.gr/ds/categories/579/20150408173958_42b293c7.jpg",
-      "parent_id": 86,
-      "fashion": true,
-      "layout_mode": "wide_tiles",
-      "web_uri": "https://www.skroutz.gr/c/579/thikes-kinhtwn-thlefwnwn.html",
       "code": "thikes-kinhtwn-thlefwnwn",
+      "fashion": true,
+      "id": 579,
+      "image_url": "https://b.scdn.gr/ds/categories/579/20150408173958_42b293c7.jpg",
+      "layout_mode": "wide_tiles",
+      "manufacturer_title": "\u039a\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03b1\u03c3\u03c4\u03ad\u03c2",
+      "match_count": 11055,
+      "name": "\u0398\u03ae\u03ba\u03b5\u03c2 \u039a\u03b9\u03bd\u03b7\u03c4\u03ce\u03bd \u03a4\u03b7\u03bb\u03b5\u03c6\u03ce\u03bd\u03c9\u03bd",
+      "parent_id": 86,
       "path": "76,1269,86,579",
       "show_specifications": false,
-      "manufacturer_title": "Κατασκευαστές",
-      "match_count": 11055
+      "web_uri": "https://www.skroutz.gr/c/579/thikes-kinhtwn-thlefwnwn.html"
     }
   ],
   "meta": {
-    "q": "iphone",
-    "alternatives": [
-
-    ],
-    "strong_matches": {
-    },
+    "alternatives": [],
     "pagination": {
-      "total_results": 134,
-      "total_pages": 67,
       "page": 1,
-      "per": 2
-    }
+      "per": 2,
+      "total_pages": 67,
+      "total_results": 134
+    },
+    "q": "iphone",
+    "strong_matches": {}
   }
 }

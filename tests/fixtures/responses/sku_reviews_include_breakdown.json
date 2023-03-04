@@ -1,92 +1,92 @@
 {
-  "reviews": [
-    {
-      "id": 104344,
-      "user_id": 194319,
-      "review": "για τηλέφωνο που θέλεις μπαταρία για μια βδομάδα είναι ότι πρέπει",
-      "rating": 4,
-      "created_at": "2016-11-13T22:54:03+02:00",
-      "demoted": false,
-      "votes_count": 0,
-      "helpful_votes_count": 0,
-      "voted": false,
-      "flagged": false,
-      "helpful": false,
-      "sentiments": {
-        "positive": [
-          "Ποιότητα κλήσης",
-          "Ταχύτητα",
-          "Σχέση ποιότητας τιμής"
-        ],
-        "negative": [
-          "Φωτογραφίες",
-          "Καταγραφή Video",
-          "Μουσική",
-          "GPS",
-          "Ανάλυση οθόνης"
-        ]
-      }
-    },
-    {
-      "id": 90673,
-      "user_id": 489698,
-      "review": "Πάρα πολύ καλό στη χρήση του, πολύ βολικό και κρατάει οπάρα πολύ ή μπαταρία του. Άριστο!",
-      "rating": 5,
-      "created_at": "2016-07-27T14:10:45+03:00",
-      "demoted": false,
-      "votes_count": 1,
-      "helpful_votes_count": 1,
-      "voted": false,
-      "flagged": false,
-      "helpful": false
-    },
-    {
-      "id": 30182,
-      "user_id": 59043,
-      "review": "Γενικά πολύ μέτρια κατασκευή. Οι επιλογές του μενού είναι πολύ περιορισμένες: λίγα ringtones, λίγες επιλογές εμφάνισης. Υπενθυμίσεις μέχρι 10 (και όχι με διάκριση σε γενέθλια,συνάντηση κλπ). Γενικά προορίζεται για άτομα που θέλουν ένα κινητό μόνο για να μιλάνε και δεν ασχολούνται με επιμέρους ρυθμίσεις. Η μπαταρία του πάντως φαίνεται πολύ δυντατή (για να μη λέμε μόνο τα αρνητικά)",
-      "rating": 3,
-      "created_at": "2014-11-28T17:47:07+02:00",
-      "demoted": false,
-      "votes_count": 11,
-      "helpful_votes_count": 8,
-      "voted": true,
-      "flagged": false,
-      "helpful": true
-    }
-  ],
   "meta": {
+    "pagination": {
+      "page": 1,
+      "per": 3,
+      "total_pages": 4,
+      "total_results": 10
+    },
     "sku_rating_breakdown": [
       {
-        "star": 5,
+        "count": 3,
         "percentage": 30,
-        "count": 3
+        "star": 5
       },
       {
-        "star": 4,
+        "count": 3,
         "percentage": 30,
-        "count": 3
+        "star": 4
       },
       {
-        "star": 3,
+        "count": 3,
         "percentage": 30,
-        "count": 3
+        "star": 3
       },
       {
-        "star": 2,
+        "count": 0,
         "percentage": 0,
-        "count": 0
+        "star": 2
       },
       {
-        "star": 1,
+        "count": 1,
         "percentage": 10,
-        "count": 1
+        "star": 1
       }
-    ],
-    "pagination": {
-      "total_results": 10,
-      "total_pages": 4,
-      "page": 1,
-      "per": 3
+    ]
+  },
+  "reviews": [
+    {
+      "created_at": "2016-11-13T22:54:03+02:00",
+      "demoted": false,
+      "flagged": false,
+      "helpful": false,
+      "helpful_votes_count": 0,
+      "id": 104344,
+      "rating": 4,
+      "review": "\u03b3\u03b9\u03b1 \u03c4\u03b7\u03bb\u03ad\u03c6\u03c9\u03bd\u03bf \u03c0\u03bf\u03c5 \u03b8\u03ad\u03bb\u03b5\u03b9\u03c2 \u03bc\u03c0\u03b1\u03c4\u03b1\u03c1\u03af\u03b1 \u03b3\u03b9\u03b1 \u03bc\u03b9\u03b1 \u03b2\u03b4\u03bf\u03bc\u03ac\u03b4\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03cc\u03c4\u03b9 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9",
+      "sentiments": {
+        "negative": [
+          "\u03a6\u03c9\u03c4\u03bf\u03b3\u03c1\u03b1\u03c6\u03af\u03b5\u03c2",
+          "\u039a\u03b1\u03c4\u03b1\u03b3\u03c1\u03b1\u03c6\u03ae Video",
+          "\u039c\u03bf\u03c5\u03c3\u03b9\u03ba\u03ae",
+          "GPS",
+          "\u0391\u03bd\u03ac\u03bb\u03c5\u03c3\u03b7 \u03bf\u03b8\u03cc\u03bd\u03b7\u03c2"
+        ],
+        "positive": [
+          "\u03a0\u03bf\u03b9\u03cc\u03c4\u03b7\u03c4\u03b1 \u03ba\u03bb\u03ae\u03c3\u03b7\u03c2",
+          "\u03a4\u03b1\u03c7\u03cd\u03c4\u03b7\u03c4\u03b1",
+          "\u03a3\u03c7\u03ad\u03c3\u03b7 \u03c0\u03bf\u03b9\u03cc\u03c4\u03b7\u03c4\u03b1\u03c2 \u03c4\u03b9\u03bc\u03ae\u03c2"
+        ]
+      },
+      "user_id": 194319,
+      "voted": false,
+      "votes_count": 0
+    },
+    {
+      "created_at": "2016-07-27T14:10:45+03:00",
+      "demoted": false,
+      "flagged": false,
+      "helpful": false,
+      "helpful_votes_count": 1,
+      "id": 90673,
+      "rating": 5,
+      "review": "\u03a0\u03ac\u03c1\u03b1 \u03c0\u03bf\u03bb\u03cd \u03ba\u03b1\u03bb\u03cc \u03c3\u03c4\u03b7 \u03c7\u03c1\u03ae\u03c3\u03b7 \u03c4\u03bf\u03c5, \u03c0\u03bf\u03bb\u03cd \u03b2\u03bf\u03bb\u03b9\u03ba\u03cc \u03ba\u03b1\u03b9 \u03ba\u03c1\u03b1\u03c4\u03ac\u03b5\u03b9 \u03bf\u03c0\u03ac\u03c1\u03b1 \u03c0\u03bf\u03bb\u03cd \u03ae \u03bc\u03c0\u03b1\u03c4\u03b1\u03c1\u03af\u03b1 \u03c4\u03bf\u03c5. \u0386\u03c1\u03b9\u03c3\u03c4\u03bf!",
+      "user_id": 489698,
+      "voted": false,
+      "votes_count": 1
+    },
+    {
+      "created_at": "2014-11-28T17:47:07+02:00",
+      "demoted": false,
+      "flagged": false,
+      "helpful": true,
+      "helpful_votes_count": 8,
+      "id": 30182,
+      "rating": 3,
+      "review": "\u0393\u03b5\u03bd\u03b9\u03ba\u03ac \u03c0\u03bf\u03bb\u03cd \u03bc\u03ad\u03c4\u03c1\u03b9\u03b1 \u03ba\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03ae. \u039f\u03b9 \u03b5\u03c0\u03b9\u03bb\u03bf\u03b3\u03ad\u03c2 \u03c4\u03bf\u03c5 \u03bc\u03b5\u03bd\u03bf\u03cd \u03b5\u03af\u03bd\u03b1\u03b9 \u03c0\u03bf\u03bb\u03cd \u03c0\u03b5\u03c1\u03b9\u03bf\u03c1\u03b9\u03c3\u03bc\u03ad\u03bd\u03b5\u03c2: \u03bb\u03af\u03b3\u03b1 ringtones, \u03bb\u03af\u03b3\u03b5\u03c2 \u03b5\u03c0\u03b9\u03bb\u03bf\u03b3\u03ad\u03c2 \u03b5\u03bc\u03c6\u03ac\u03bd\u03b9\u03c3\u03b7\u03c2. \u03a5\u03c0\u03b5\u03bd\u03b8\u03c5\u03bc\u03af\u03c3\u03b5\u03b9\u03c2 \u03bc\u03ad\u03c7\u03c1\u03b9 10 (\u03ba\u03b1\u03b9 \u03cc\u03c7\u03b9 \u03bc\u03b5 \u03b4\u03b9\u03ac\u03ba\u03c1\u03b9\u03c3\u03b7 \u03c3\u03b5 \u03b3\u03b5\u03bd\u03ad\u03b8\u03bb\u03b9\u03b1,\u03c3\u03c5\u03bd\u03ac\u03bd\u03c4\u03b7\u03c3\u03b7 \u03ba\u03bb\u03c0). \u0393\u03b5\u03bd\u03b9\u03ba\u03ac \u03c0\u03c1\u03bf\u03bf\u03c1\u03af\u03b6\u03b5\u03c4\u03b1\u03b9 \u03b3\u03b9\u03b1 \u03ac\u03c4\u03bf\u03bc\u03b1 \u03c0\u03bf\u03c5 \u03b8\u03ad\u03bb\u03bf\u03c5\u03bd \u03ad\u03bd\u03b1 \u03ba\u03b9\u03bd\u03b7\u03c4\u03cc \u03bc\u03cc\u03bd\u03bf \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03bc\u03b9\u03bb\u03ac\u03bd\u03b5 \u03ba\u03b1\u03b9 \u03b4\u03b5\u03bd \u03b1\u03c3\u03c7\u03bf\u03bb\u03bf\u03cd\u03bd\u03c4\u03b1\u03b9 \u03bc\u03b5 \u03b5\u03c0\u03b9\u03bc\u03ad\u03c1\u03bf\u03c5\u03c2 \u03c1\u03c5\u03b8\u03bc\u03af\u03c3\u03b5\u03b9\u03c2. \u0397 \u03bc\u03c0\u03b1\u03c4\u03b1\u03c1\u03af\u03b1 \u03c4\u03bf\u03c5 \u03c0\u03ac\u03bd\u03c4\u03c9\u03c2 \u03c6\u03b1\u03af\u03bd\u03b5\u03c4\u03b1\u03b9 \u03c0\u03bf\u03bb\u03cd \u03b4\u03c5\u03bd\u03c4\u03b1\u03c4\u03ae (\u03b3\u03b9\u03b1 \u03bd\u03b1 \u03bc\u03b7 \u03bb\u03ad\u03bc\u03b5 \u03bc\u03cc\u03bd\u03bf \u03c4\u03b1 \u03b1\u03c1\u03bd\u03b7\u03c4\u03b9\u03ba\u03ac)",
+      "user_id": 59043,
+      "voted": true,
+      "votes_count": 11
     }
-  }
+  ]
 }

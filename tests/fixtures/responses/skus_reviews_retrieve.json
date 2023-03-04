@@ -1,91 +1,91 @@
 {
-  "reviews": [
-    {
-      "id": 155965,
-      "user_id": 352028,
-      "review": "Το μονο κακο με το καινουριο IOS 10 ειναι οτι τελειωνει ΠΑΡΑ ΠΟΛΥ ΓΡΗΓΟΡΑ Η ΜΠΑΤΑΡΙΑ (εγω με χρηση browse,music,youtube,facebook κτλ ... χρειαζομαι 2 φορες την ημερα φορτιση ). Κατα τ αλλα παρα πολυ καλο κινητο ! με ποιοτητα κλησης και φωτογραφιας . Αξιζει τα λεφτα του :)",
-      "rating": 5,
-      "created_at": "2017-02-08T21:37:46+02:00",
-      "demoted": false,
-      "votes_count": 4,
-      "helpful_votes_count": 1,
-      "voted": false,
-      "flagged": false,
-      "helpful": false,
-      "sentiments": {
-        "positive": [
-          "Ποιότητα κλήσης",
-          "Φωτογραφίες",
-          "Καταγραφή Video",
-          "GPS",
-          "Ταχύτητα",
-          "Σχέση ποιότητας τιμής",
-          "Ανάλυση οθόνης"
-        ],
-        "mediocre": [
-          "Μουσική"
-        ]
-      }
-    },
-    {
-      "id": 154332,
-      "user_id": 643457,
-      "review": "Το αγορασα προχτες το κινητο απο καιζερστορε ηρθε σε 2 ημερες θεσσαλονικη σφραγισμενο ολα κομπλε !ηρθε με ios 10.1.1 και το αναβαθμησα αμεσως σε 10.2.1 και δεν εχω κανενα προβλημα η μπαταρια σχετικα με το j5 που ειχα ειναι μικροτερη αλλα οχι τοσο κακη για μενα μ εβγαλε 1 μιση ημερα με μετρια χρηση αλλα ειναι και ολοκαινουριο οπωτε βλεπουμε .. το κινητο αξιζει για οποιον θελει 4 ιντσο κινητο και δεν εχει μεγαλες απαιτησεις απο την καμερα ! Ηχος εκπλητικος !",
-      "rating": 5,
-      "created_at": "2017-02-03T13:53:44+02:00",
-      "demoted": false,
-      "votes_count": 3,
-      "helpful_votes_count": 2,
-      "voted": false,
-      "flagged": false,
-      "helpful": false,
-      "sentiments": {
-        "positive": [
-          "Ποιότητα κλήσης",
-          "Καταγραφή Video",
-          "Μουσική",
-          "Ταχύτητα",
-          "Σχέση ποιότητας τιμής",
-          "Ανάλυση οθόνης"
-        ],
-        "mediocre": [
-          "Φωτογραφίες"
-        ]
-      }
-    },
-    {
-      "id": 153790,
-      "user_id": 589451,
-      "review": "Το κινητό είναι παρά πολύ καλό το έχω 3 μήνες και πετάει μιλάμε ότι είναι πιο γρήγορο από κάθε άλλο κινητό που είχα το συνιστώ ανεπιφύλακτα",
-      "rating": 4,
-      "created_at": "2017-02-01T07:59:50+02:00",
-      "demoted": false,
-      "votes_count": 5,
-      "helpful_votes_count": 3,
-      "voted": false,
-      "flagged": false,
-      "helpful": false,
-      "sentiments": {
-        "positive": [
-          "Ποιότητα κλήσης",
-          "Φωτογραφίες",
-          "Καταγραφή Video",
-          "Μουσική",
-          "Ταχύτητα",
-          "Σχέση ποιότητας τιμής"
-        ],
-        "mediocre": [
-          "GPS"
-        ]
-      }
-    }
-  ],
   "meta": {
     "pagination": {
-      "total_results": 396,
-      "total_pages": 132,
       "page": 1,
-      "per": 3
+      "per": 3,
+      "total_pages": 132,
+      "total_results": 396
     }
-  }
+  },
+  "reviews": [
+    {
+      "created_at": "2017-02-08T21:37:46+02:00",
+      "demoted": false,
+      "flagged": false,
+      "helpful": false,
+      "helpful_votes_count": 1,
+      "id": 155965,
+      "rating": 5,
+      "review": "\u03a4\u03bf \u03bc\u03bf\u03bd\u03bf \u03ba\u03b1\u03ba\u03bf \u03bc\u03b5 \u03c4\u03bf \u03ba\u03b1\u03b9\u03bd\u03bf\u03c5\u03c1\u03b9\u03bf IOS 10 \u03b5\u03b9\u03bd\u03b1\u03b9 \u03bf\u03c4\u03b9 \u03c4\u03b5\u03bb\u03b5\u03b9\u03c9\u03bd\u03b5\u03b9 \u03a0\u0391\u03a1\u0391 \u03a0\u039f\u039b\u03a5 \u0393\u03a1\u0397\u0393\u039f\u03a1\u0391 \u0397 \u039c\u03a0\u0391\u03a4\u0391\u03a1\u0399\u0391 (\u03b5\u03b3\u03c9 \u03bc\u03b5 \u03c7\u03c1\u03b7\u03c3\u03b7 browse,music,youtube,facebook \u03ba\u03c4\u03bb ... \u03c7\u03c1\u03b5\u03b9\u03b1\u03b6\u03bf\u03bc\u03b1\u03b9 2 \u03c6\u03bf\u03c1\u03b5\u03c2 \u03c4\u03b7\u03bd \u03b7\u03bc\u03b5\u03c1\u03b1 \u03c6\u03bf\u03c1\u03c4\u03b9\u03c3\u03b7 ). \u039a\u03b1\u03c4\u03b1 \u03c4 \u03b1\u03bb\u03bb\u03b1 \u03c0\u03b1\u03c1\u03b1 \u03c0\u03bf\u03bb\u03c5 \u03ba\u03b1\u03bb\u03bf \u03ba\u03b9\u03bd\u03b7\u03c4\u03bf ! \u03bc\u03b5 \u03c0\u03bf\u03b9\u03bf\u03c4\u03b7\u03c4\u03b1 \u03ba\u03bb\u03b7\u03c3\u03b7\u03c2 \u03ba\u03b1\u03b9 \u03c6\u03c9\u03c4\u03bf\u03b3\u03c1\u03b1\u03c6\u03b9\u03b1\u03c2 . \u0391\u03be\u03b9\u03b6\u03b5\u03b9 \u03c4\u03b1 \u03bb\u03b5\u03c6\u03c4\u03b1 \u03c4\u03bf\u03c5 :)",
+      "sentiments": {
+        "mediocre": [
+          "\u039c\u03bf\u03c5\u03c3\u03b9\u03ba\u03ae"
+        ],
+        "positive": [
+          "\u03a0\u03bf\u03b9\u03cc\u03c4\u03b7\u03c4\u03b1 \u03ba\u03bb\u03ae\u03c3\u03b7\u03c2",
+          "\u03a6\u03c9\u03c4\u03bf\u03b3\u03c1\u03b1\u03c6\u03af\u03b5\u03c2",
+          "\u039a\u03b1\u03c4\u03b1\u03b3\u03c1\u03b1\u03c6\u03ae Video",
+          "GPS",
+          "\u03a4\u03b1\u03c7\u03cd\u03c4\u03b7\u03c4\u03b1",
+          "\u03a3\u03c7\u03ad\u03c3\u03b7 \u03c0\u03bf\u03b9\u03cc\u03c4\u03b7\u03c4\u03b1\u03c2 \u03c4\u03b9\u03bc\u03ae\u03c2",
+          "\u0391\u03bd\u03ac\u03bb\u03c5\u03c3\u03b7 \u03bf\u03b8\u03cc\u03bd\u03b7\u03c2"
+        ]
+      },
+      "user_id": 352028,
+      "voted": false,
+      "votes_count": 4
+    },
+    {
+      "created_at": "2017-02-03T13:53:44+02:00",
+      "demoted": false,
+      "flagged": false,
+      "helpful": false,
+      "helpful_votes_count": 2,
+      "id": 154332,
+      "rating": 5,
+      "review": "\u03a4\u03bf \u03b1\u03b3\u03bf\u03c1\u03b1\u03c3\u03b1 \u03c0\u03c1\u03bf\u03c7\u03c4\u03b5\u03c2 \u03c4\u03bf \u03ba\u03b9\u03bd\u03b7\u03c4\u03bf \u03b1\u03c0\u03bf \u03ba\u03b1\u03b9\u03b6\u03b5\u03c1\u03c3\u03c4\u03bf\u03c1\u03b5 \u03b7\u03c1\u03b8\u03b5 \u03c3\u03b5 2 \u03b7\u03bc\u03b5\u03c1\u03b5\u03c2 \u03b8\u03b5\u03c3\u03c3\u03b1\u03bb\u03bf\u03bd\u03b9\u03ba\u03b7 \u03c3\u03c6\u03c1\u03b1\u03b3\u03b9\u03c3\u03bc\u03b5\u03bd\u03bf \u03bf\u03bb\u03b1 \u03ba\u03bf\u03bc\u03c0\u03bb\u03b5 !\u03b7\u03c1\u03b8\u03b5 \u03bc\u03b5 ios 10.1.1 \u03ba\u03b1\u03b9 \u03c4\u03bf \u03b1\u03bd\u03b1\u03b2\u03b1\u03b8\u03bc\u03b7\u03c3\u03b1 \u03b1\u03bc\u03b5\u03c3\u03c9\u03c2 \u03c3\u03b5 10.2.1 \u03ba\u03b1\u03b9 \u03b4\u03b5\u03bd \u03b5\u03c7\u03c9 \u03ba\u03b1\u03bd\u03b5\u03bd\u03b1 \u03c0\u03c1\u03bf\u03b2\u03bb\u03b7\u03bc\u03b1 \u03b7 \u03bc\u03c0\u03b1\u03c4\u03b1\u03c1\u03b9\u03b1 \u03c3\u03c7\u03b5\u03c4\u03b9\u03ba\u03b1 \u03bc\u03b5 \u03c4\u03bf j5 \u03c0\u03bf\u03c5 \u03b5\u03b9\u03c7\u03b1 \u03b5\u03b9\u03bd\u03b1\u03b9 \u03bc\u03b9\u03ba\u03c1\u03bf\u03c4\u03b5\u03c1\u03b7 \u03b1\u03bb\u03bb\u03b1 \u03bf\u03c7\u03b9 \u03c4\u03bf\u03c3\u03bf \u03ba\u03b1\u03ba\u03b7 \u03b3\u03b9\u03b1 \u03bc\u03b5\u03bd\u03b1 \u03bc \u03b5\u03b2\u03b3\u03b1\u03bb\u03b5 1 \u03bc\u03b9\u03c3\u03b7 \u03b7\u03bc\u03b5\u03c1\u03b1 \u03bc\u03b5 \u03bc\u03b5\u03c4\u03c1\u03b9\u03b1 \u03c7\u03c1\u03b7\u03c3\u03b7 \u03b1\u03bb\u03bb\u03b1 \u03b5\u03b9\u03bd\u03b1\u03b9 \u03ba\u03b1\u03b9 \u03bf\u03bb\u03bf\u03ba\u03b1\u03b9\u03bd\u03bf\u03c5\u03c1\u03b9\u03bf \u03bf\u03c0\u03c9\u03c4\u03b5 \u03b2\u03bb\u03b5\u03c0\u03bf\u03c5\u03bc\u03b5 .. \u03c4\u03bf \u03ba\u03b9\u03bd\u03b7\u03c4\u03bf \u03b1\u03be\u03b9\u03b6\u03b5\u03b9 \u03b3\u03b9\u03b1 \u03bf\u03c0\u03bf\u03b9\u03bf\u03bd \u03b8\u03b5\u03bb\u03b5\u03b9 4 \u03b9\u03bd\u03c4\u03c3\u03bf \u03ba\u03b9\u03bd\u03b7\u03c4\u03bf \u03ba\u03b1\u03b9 \u03b4\u03b5\u03bd \u03b5\u03c7\u03b5\u03b9 \u03bc\u03b5\u03b3\u03b1\u03bb\u03b5\u03c2 \u03b1\u03c0\u03b1\u03b9\u03c4\u03b7\u03c3\u03b5\u03b9\u03c2 \u03b1\u03c0\u03bf \u03c4\u03b7\u03bd \u03ba\u03b1\u03bc\u03b5\u03c1\u03b1 ! \u0397\u03c7\u03bf\u03c2 \u03b5\u03ba\u03c0\u03bb\u03b7\u03c4\u03b9\u03ba\u03bf\u03c2 !",
+      "sentiments": {
+        "mediocre": [
+          "\u03a6\u03c9\u03c4\u03bf\u03b3\u03c1\u03b1\u03c6\u03af\u03b5\u03c2"
+        ],
+        "positive": [
+          "\u03a0\u03bf\u03b9\u03cc\u03c4\u03b7\u03c4\u03b1 \u03ba\u03bb\u03ae\u03c3\u03b7\u03c2",
+          "\u039a\u03b1\u03c4\u03b1\u03b3\u03c1\u03b1\u03c6\u03ae Video",
+          "\u039c\u03bf\u03c5\u03c3\u03b9\u03ba\u03ae",
+          "\u03a4\u03b1\u03c7\u03cd\u03c4\u03b7\u03c4\u03b1",
+          "\u03a3\u03c7\u03ad\u03c3\u03b7 \u03c0\u03bf\u03b9\u03cc\u03c4\u03b7\u03c4\u03b1\u03c2 \u03c4\u03b9\u03bc\u03ae\u03c2",
+          "\u0391\u03bd\u03ac\u03bb\u03c5\u03c3\u03b7 \u03bf\u03b8\u03cc\u03bd\u03b7\u03c2"
+        ]
+      },
+      "user_id": 643457,
+      "voted": false,
+      "votes_count": 3
+    },
+    {
+      "created_at": "2017-02-01T07:59:50+02:00",
+      "demoted": false,
+      "flagged": false,
+      "helpful": false,
+      "helpful_votes_count": 3,
+      "id": 153790,
+      "rating": 4,
+      "review": "\u03a4\u03bf \u03ba\u03b9\u03bd\u03b7\u03c4\u03cc \u03b5\u03af\u03bd\u03b1\u03b9 \u03c0\u03b1\u03c1\u03ac \u03c0\u03bf\u03bb\u03cd \u03ba\u03b1\u03bb\u03cc \u03c4\u03bf \u03ad\u03c7\u03c9 3 \u03bc\u03ae\u03bd\u03b5\u03c2 \u03ba\u03b1\u03b9 \u03c0\u03b5\u03c4\u03ac\u03b5\u03b9 \u03bc\u03b9\u03bb\u03ac\u03bc\u03b5 \u03cc\u03c4\u03b9 \u03b5\u03af\u03bd\u03b1\u03b9 \u03c0\u03b9\u03bf \u03b3\u03c1\u03ae\u03b3\u03bf\u03c1\u03bf \u03b1\u03c0\u03cc \u03ba\u03ac\u03b8\u03b5 \u03ac\u03bb\u03bb\u03bf \u03ba\u03b9\u03bd\u03b7\u03c4\u03cc \u03c0\u03bf\u03c5 \u03b5\u03af\u03c7\u03b1 \u03c4\u03bf \u03c3\u03c5\u03bd\u03b9\u03c3\u03c4\u03ce \u03b1\u03bd\u03b5\u03c0\u03b9\u03c6\u03cd\u03bb\u03b1\u03ba\u03c4\u03b1",
+      "sentiments": {
+        "mediocre": [
+          "GPS"
+        ],
+        "positive": [
+          "\u03a0\u03bf\u03b9\u03cc\u03c4\u03b7\u03c4\u03b1 \u03ba\u03bb\u03ae\u03c3\u03b7\u03c2",
+          "\u03a6\u03c9\u03c4\u03bf\u03b3\u03c1\u03b1\u03c6\u03af\u03b5\u03c2",
+          "\u039a\u03b1\u03c4\u03b1\u03b3\u03c1\u03b1\u03c6\u03ae Video",
+          "\u039c\u03bf\u03c5\u03c3\u03b9\u03ba\u03ae",
+          "\u03a4\u03b1\u03c7\u03cd\u03c4\u03b7\u03c4\u03b1",
+          "\u03a3\u03c7\u03ad\u03c3\u03b7 \u03c0\u03bf\u03b9\u03cc\u03c4\u03b7\u03c4\u03b1\u03c2 \u03c4\u03b9\u03bc\u03ae\u03c2"
+        ]
+      },
+      "user_id": 589451,
+      "voted": false,
+      "votes_count": 5
+    }
+  ]
 }
