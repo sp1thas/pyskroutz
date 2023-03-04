@@ -5,9 +5,7 @@
         <img src="https://results.pre-commit.ci/badge/github/sp1thas/pyskroutz/master.svg" alt="pre-commit.ci status">
     </a>
     <img src="https://github.com/sp1thas/pyskroutz/workflows/build/badge.svg" alt="build badge">
-    <a href="https://pyskroutz.simakis.me/?utm=gh">
-       <img src="https://readthedocs.org/projects/pyskroutz/badge/?version=latest" alt="docs badge">
-    </a>
+    <img src="https://github.com/sp1thas/pyskroutz/workflows/testing/badge.svg" alt="testing badge">
     <a href="https://pypi.python.org/pypi/pyskroutz/">
         <img src="https://img.shields.io/pypi/v/pyskroutz.svg" alt="pypi badge" />
     </a>
