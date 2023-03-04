@@ -29,13 +29,16 @@ license = "GPL-3.0-only"
 "Bug Tracker" = "https://github.com/sp1thas/pyskroutz/issues"
 
 [tool.poetry.dependencies]
-python = ">=3.6.2,<4.0"
+python = ">=3.7"
 requests = "^2.25.1"
 pydantic = {extras = ["email"], version = "^1.8.2"}
 
 [tool.poetry.dev-dependencies]
-twine = "^3.4.1"
 pytest-cov = "^4.0.0"
+
+[tool.poetry.group.docs.dependencies]
+mkdocs-material = "^9.1.0"
+mkdocstrings = {extras = ["python"], version = "^0.20.0"}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
