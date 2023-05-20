@@ -1,10 +1,11 @@
 """Response models for User resources
 """
 import datetime
-from enum import Enum
-from pydantic import AnyHttpUrl, EmailStr
+from typing import List, Optional
 
-from .base import *
+from pydantic import BaseModel
+
+from pyskroutz.models.base import MetaItemBase
 
 
 class FavoriteListItem(BaseModel):

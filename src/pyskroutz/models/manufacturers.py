@@ -1,9 +1,10 @@
 """Response models for manufacturer resources
 """
-from pydantic import BaseModel, HttpUrl
 from typing import List, Optional
 
-from .base import ItemBase, MetaItemBase
+from pydantic import BaseModel, HttpUrl
+
+from pyskroutz.models.base import ItemBase, MetaItemBase
 
 
 class ManufacturerItem(ItemBase):

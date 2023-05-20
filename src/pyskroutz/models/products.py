@@ -1,10 +1,16 @@
 """Response models for product resources
 """
-from pydantic import BaseModel, HttpUrl
-from typing import List, Any, Optional
+from typing import Any, List, Optional
 
-from .base import WebUriBaseItem, ItemBase, MetaItemBase, PersonalizationItem
-from .shops import ShopItem
+from pydantic import BaseModel, HttpUrl
+
+from pyskroutz.models.base import (
+    ItemBase,
+    MetaItemBase,
+    PersonalizationItem,
+    WebUriBaseItem,
+)
+from pyskroutz.models.shops import ShopItem
 
 
 class BlpItem(BaseModel):

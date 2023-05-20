@@ -1,8 +1,9 @@
 """Response models for flag resources
 """
 import datetime
-from pydantic import BaseModel
 from typing import List
+
+from pydantic import BaseModel
 
 
 class FlagBaseItem(BaseModel):

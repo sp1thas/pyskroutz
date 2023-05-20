@@ -1,29 +1,32 @@
-from typing import Optional, List
+from typing import List, Optional
 
-from .base import ApiResource
-from ..models import notifications
-from ..utils import fluent
+from pyskroutz.models import notifications
+from pyskroutz.resources.base import ApiResource
+from pyskroutz.utils import fluent
 
 
 class Notifications(ApiResource):
-    """This Class holds the group of Notifications related endpoints. More details in [category](https://developer.skroutz.gr/api/v3/notifications/) section."""
+    """
+    This Class holds the group of Notifications related endpoints.
+    More details in [category](https://developer.skroutz.gr/api/v3/notifications/) section.
+    """
 
     ENDPOINT_PATH: str = "notifications"
 
     @fluent
-    def get(self, id: Optional[int] = None) -> None:
+    def get(self, _id: Optional[int] = None) -> None:
         """List notifications or retrieve a single notification
 
         Args:
-            id: manufacturer identifier
+            _id: manufacturer identifier
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}"
-            if id is not None
+            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{_id}"
+            if _id is not None
             else f"{self.BASE_URL}/{self.ENDPOINT_PATH}",
             method="GET",
             model=notifications.NotificationRetrieve
-            if id is not None
+            if _id is not None
             else notifications.NotificationList,
         )
 
@@ -32,7 +35,7 @@ class Notifications(ApiResource):
         """Mark notifications as viewed
 
         Args:
-            id:notification identifier
+            ids: Notification identifiers
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/view",

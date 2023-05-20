@@ -1,8 +1,8 @@
 from typing import Optional
 
-from .base import ApiResource
-from ..models import favorites
-from ..utils import fluent
+from pyskroutz.models import favorites
+from pyskroutz.resources.base import ApiResource
+from pyskroutz.utils import fluent
 
 
 class Favorites(ApiResource):
@@ -24,7 +24,7 @@ class Favorites(ApiResource):
     @fluent
     def create_list(self, name: str) -> None:
         """Create a favorite_list.
-        It trying to create a custom list with the same name as an
+        It's trying to create a custom list with the same name as an
         existing custom list you will be presented with an error message.
 
         Args:
@@ -38,16 +38,16 @@ class Favorites(ApiResource):
         )
 
     @fluent
-    def destroy_list(self, id: int) -> None:
+    def destroy_list(self, _id: int) -> None:
         """Destroy a favorite_list.
         The response status is 204 and with an empty response body when resource is destroyed.
         Status code is 404 when the resource does not exist.
 
         Args:
-            id: favorite list identifier
+            _id: favorite list identifier
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/favorite_lists/{id}", model=None, method="DELETE"
+            url=f"{self.BASE_URL}/favorite_lists/{_id}", model=None, method="DELETE"
         )
 
     @fluent
@@ -61,14 +61,14 @@ class Favorites(ApiResource):
         )
 
     @fluent
-    def get_favorite(self, id: int) -> None:
+    def get_favorite(self, _id: int) -> None:
         """Retrieve a single favorite
 
         Args:
-            id: favorite identifier
+            _id: favorite identifier
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/favorites/{id}", model=favorites.FavoriteRetrieve
+            url=f"{self.BASE_URL}/favorites/{_id}", model=favorites.FavoriteRetrieve
         )
 
     @fluent
@@ -86,14 +86,14 @@ class Favorites(ApiResource):
         )
 
     @fluent
-    def destroy_favorite(self, id: int) -> None:
+    def destroy_favorite(self, _id: int) -> None:
         """Destroy a favorite
 
         Args:
-            id: Favorite identifier
+            _id: Favorite identifier
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/favorites/{id}",
+            url=f"{self.BASE_URL}/favorites/{_id}",
             model=None,
             method="DELETE",
         )

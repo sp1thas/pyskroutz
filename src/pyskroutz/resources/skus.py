@@ -1,16 +1,16 @@
 from typing import List, Optional
 
-from . import PaginationParams
-from .base import ApiResource
-from .categories import Categories
-from ..models.skus import (
+from pyskroutz.models.skus import (
+    ReviewFormRetrieve,
+    ReviewList,
     SkuList,
     SkuRetrieve,
-    ReviewList,
-    ReviewFormRetrieve,
     VoteRetrieve,
 )
-from ..utils import fluent
+from pyskroutz.resources import PaginationParams
+from pyskroutz.resources.base import ApiResource
+from pyskroutz.resources.categories import Categories
+from pyskroutz.utils import fluent
 
 
 class Skus(ApiResource):
@@ -23,7 +23,7 @@ class Skus(ApiResource):
     @fluent
     def list(
         self,
-        id: int,
+        _id: int,
         q: Optional[str] = None,
         manufacturer_ids: Optional[List[int]] = None,
         filter_ids: Optional[List[int]] = None,
@@ -32,7 +32,7 @@ class Skus(ApiResource):
         """List SKUs of specific category
 
         Args:
-            id: Category identifier.
+            _id: Category identifier.
             q: The keyword to search by.
             manufacturer_ids: The ids of the manufacturers of the SKUs.
             filter_ids: The ids of the filters to be applied on the SKUs.
@@ -51,32 +51,32 @@ class Skus(ApiResource):
             }
         )
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/{Categories.ENDPOINT_PATH}/{id}/skus",
+            url=f"{self.BASE_URL}/{Categories.ENDPOINT_PATH}/{_id}/skus",
             model=SkuList,
             params=params,
         )
 
     @fluent
-    def get(self, id: int) -> None:
+    def get(self, _id: int) -> None:
         """Retrieve a single SKU.
 
         Args:
-            id: SKU identifier.
+            _id: SKU identifier.
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}", model=SkuRetrieve
+            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{_id}", model=SkuRetrieve
         )
 
     @fluent
-    def get_similar(self, id: int, **pag_params: PaginationParams) -> None:
+    def get_similar(self, _id: int, **pag_params: PaginationParams) -> None:
         """Retrieve similar SKUs.
 
         Args:
-            id: SKU identifier.
+            _id: SKU identifier.
             pag_params: pagination parameters.
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/similar",
+            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{_id}/similar",
             model=SkuList,
             params=pag_params,
         )
@@ -84,19 +84,19 @@ class Skus(ApiResource):
     @fluent
     def get_reviews(
         self,
-        id: int,
+        _id: int,
         include_meta: Optional[str] = None,
         **pag_params: PaginationParams,
     ) -> None:
         """Retrieve a SKU's reviews
 
         Args:
-            id: sku identifier
+            _id: sku identifier
             include_meta: You may choose to include extra meta information using the following parameters: (sku_rating_breakdown, sku_reviews_aggregation)
             **pag_params: pagination params
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/reviews",
+            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{_id}/reviews",
             params=dict(**pag_params)
             if include_meta is None
             else dict(include_meta=include_meta, **pag_params),
@@ -104,45 +104,45 @@ class Skus(ApiResource):
         )
 
     @fluent
-    def vote_review(self, id: int, review_id: int, helpful: bool) -> None:
+    def vote_review(self, _id: int, review_id: int, helpful: bool) -> None:
         """Vote a SKU's review
 
         Args:
-            id: SKU Identifier.
+            _id: SKU Identifier.
             review_id: Review identifier.
             helpful: Helpful or not.
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/reviews/{review_id}/votes",
+            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{_id}/reviews/{review_id}/votes",
             method="POST",
             json={"vote": {"helpful": helpful}},
             model=VoteRetrieve,
         )
 
     @fluent
-    def flag_review(self, id: int, review_id: int, reason: str) -> None:
+    def flag_review(self, _id: int, review_id: int, reason: str) -> None:
         """Flag a SKU's review
 
         Args:
-            id: SKU Identifier.
+            _id: SKU Identifier.
             review_id: Review identifier.
             reason: bad_language, wrong_section or spam
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/reviews/{review_id}/flags",
+            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{_id}/reviews/{review_id}/flags",
             method="POST",
             model=VoteRetrieve,
             json={"vote": {"reason": reason}},
         )
 
     @fluent
-    def get_review_form(self, id: int) -> None:
+    def get_review_form(self, _id: int) -> None:
         """Retrieve a SKU review form
 
         Args:
-            id: SKU Identifier
+            _id: SKU Identifier
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/reviews/new",
+            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{_id}/reviews/new",
             model=ReviewFormRetrieve,
         )

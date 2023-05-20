@@ -1,8 +1,18 @@
 """Response models for SKUs resources
 """
 import datetime
+from typing import List, Optional
 
-from .base import *
+from pydantic import BaseModel, HttpUrl
+
+from pyskroutz.models.base import (
+    AvailabilityFilterItem,
+    BuyableItemBase,
+    ImageItemBase,
+    ItemBase,
+    MetaItemBase,
+    WebUriBaseItem,
+)
 
 
 class SkuItem(ItemBase, BuyableItemBase, WebUriBaseItem):

@@ -1,6 +1,7 @@
-import pyskroutz
 import pytest
 from requests.exceptions import RequestException
+
+import pyskroutz
 
 
 def test_failed_init():

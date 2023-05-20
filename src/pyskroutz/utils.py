@@ -30,7 +30,7 @@ def rgetattr(obj, attr: str, *args) -> Any:
     Examples:
 
         >>> from argparse import Namespace
-        >>>from pyskroutz.utils import rgetattr
+        >>> from pyskroutz.utils import rgetattr
         >>> ns_obj = Namespace()
         >>> ns_obj.a = Namespace()
         >>> ns_obj.a.b = 1
@@ -43,7 +43,6 @@ def rgetattr(obj, attr: str, *args) -> Any:
         *args:
 
     Returns: Attribute value
-
     """
 
     def _getattr(obj, attr) -> Any:

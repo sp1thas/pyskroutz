@@ -1,6 +1,6 @@
-from .base import ApiResource
-from ..models import search
-from ..utils import fluent
+from pyskroutz.models import search
+from pyskroutz.resources.base import ApiResource
+from pyskroutz.utils import fluent
 
 
 class Search(ApiResource):

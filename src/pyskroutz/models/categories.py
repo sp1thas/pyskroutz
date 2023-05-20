@@ -1,14 +1,10 @@
 """Response models for category resources
 """
-from pydantic import BaseModel
 from typing import List, Optional
 
-from ..models.base import (
-    MetaItemBase,
-    ItemBase,
-    WebUriBaseItem,
-    HttpUrl,
-)
+from pydantic import BaseModel
+
+from pyskroutz.models.base import HttpUrl, ItemBase, MetaItemBase, WebUriBaseItem
 
 
 class GroupItem(BaseModel):

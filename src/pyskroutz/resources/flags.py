@@ -1,6 +1,6 @@
-from .base import ApiResource
-from ..models.flags import FlagList
-from ..utils import fluent
+from pyskroutz.models.flags import FlagList
+from pyskroutz.resources.base import ApiResource
+from pyskroutz.utils import fluent
 
 
 class Flags(ApiResource):
