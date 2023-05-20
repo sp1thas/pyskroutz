@@ -19,7 +19,7 @@ A clear and concise description of what you expected to happen.
 **System details (please complete the following information):**
  - OS: [e.g. Ubuntu 18.04]
  - Python version [e.g. 3.7]
- - pyskroutz version [e.g. 0.1.8]
+ - pyskroutz version [e.g. 0.2.0]
 
 **Additional context**
 Add any other context about the problem here.
