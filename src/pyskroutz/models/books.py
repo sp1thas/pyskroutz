@@ -1,15 +1,17 @@
 """Response models for book resources
 """
 
-from pydantic import BaseModel, PositiveInt, HttpUrl, EmailStr
+from typing import Any, List, Optional
+
+from pydantic import BaseModel, EmailStr, HttpUrl, PositiveInt
+
 from pyskroutz.models.base import (
-    ItemBase,
     BuyableItemBase,
-    WebUriBaseItem,
     ImageItemBase,
+    ItemBase,
     MetaItemBase,
+    WebUriBaseItem,
 )
-from typing import List, Optional, Any
 
 
 class BookItem(ItemBase, BuyableItemBase, WebUriBaseItem):

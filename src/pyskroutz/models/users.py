@@ -2,9 +2,9 @@
 """
 import datetime
 from enum import Enum
-from pydantic import AnyHttpUrl, EmailStr
+from typing import Dict, List, Optional
 
-from .base import *
+from pydantic import AnyHttpUrl, BaseModel, EmailStr
 
 
 class SexEnum(Enum):
@@ -102,5 +102,5 @@ class OrderItem(BaseModel):
     order_code: str
 
 
-class SavedOdersList(BaseModel):
+class SavedOrdersList(BaseModel):
     saved_orders: Optional[List[OrderItem]]

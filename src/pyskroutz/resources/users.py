@@ -1,7 +1,6 @@
-from .base import ApiResource
-from .categories import Categories
-from ..models import users
-from ..utils import fluent
+from pyskroutz.models import users
+from pyskroutz.resources.base import ApiResource
+from pyskroutz.utils import fluent
 
 
 class Users(ApiResource):
@@ -102,11 +101,11 @@ class Users(ApiResource):
         )
 
     @fluent
-    def update_address(self, id, **address_kwargs) -> None:
+    def update_address(self, _id, **address_kwargs) -> None:
         """Update an existing user address
 
         Args:
-            id: Addres identifier
+            _id: Addres identifier
             **address_kwargs:
                 label: address label
                 first_name: first name
@@ -122,21 +121,21 @@ class Users(ApiResource):
                 lat: latitude
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/addresses/{id}",
+            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/addresses/{_id}",
             model=users.AddressItem,
             json=address_kwargs,
             method="POST",
         )
 
     @fluent
-    def delete_address(self, id) -> None:
+    def delete_address(self, _id) -> None:
         """Delete an existing user address
 
         Args:
-            id: Address identifier
+            _id: Address identifier
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/addresses/{id}",
+            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/addresses/{_id}",
             method="DELETE",
             model=None,
         )
@@ -146,7 +145,7 @@ class Users(ApiResource):
         """User saved orders"""
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/saved_orders",
-            model=users.SavedOdersList,
+            model=users.SavedOrdersList,
         )
 
     @fluent

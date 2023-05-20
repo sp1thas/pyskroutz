@@ -2,20 +2,21 @@
 """
 import datetime
 from enum import Enum
-from pydantic import BaseModel, HttpUrl
 from typing import List, Optional
+
+from pydantic import BaseModel, HttpUrl
 
 from .base import MetaItemBase
 from .skus import SkuItem
 
 
 class NotificationType(Enum):
-    price_drop = "price_drop"
-    availability_true = "availability_true"
-    sku_release = "sku_release"
-    sku_review = "sku_review"
-    sku_review_rephrase_request = "sku_review_rephrase_request"
-    sku_review_approve_after_update = "sku_review_approve_after_update"
+    PRICE_DROP = "price_drop"
+    AVAILABILITY_TRUE = "availability_true"
+    SKU_RELEASE = "sku_release"
+    SKU_REVIEW = "sku_review"
+    SKU_REVIEW_REPHRASE_REQUEST = "sku_review_rephrase_request"
+    SKU_REVIEW_APPROVE_AFTER_UPDATE = "sku_review_approve_after_update"
 
 
 class SnapshotItem(BaseModel):

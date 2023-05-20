@@ -1,7 +1,7 @@
-from .base import ApiResource
-from ..models import filters
-from ..resources import PaginationParams
-from ..utils import fluent
+from pyskroutz.models import filters
+from pyskroutz.resources import PaginationParams
+from pyskroutz.resources.base import ApiResource
+from pyskroutz.utils import fluent
 
 
 class Filters(ApiResource):

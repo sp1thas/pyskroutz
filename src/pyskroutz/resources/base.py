@@ -1,17 +1,19 @@
+from typing import Type
+
 import requests
 from pydantic import BaseModel
+
 from pyskroutz.client import SkroutzClient
-from typing import Type
 
 
 class ApiResource:
     _session: requests.Session
-    _client: SkroutzClient
+    client: SkroutzClient
 
     BASE_URL: str = "https://api.skroutz.gr"
 
     def __init__(self, client: SkroutzClient) -> None:
-        self._client = client
+        self.client = client
 
     def _set_prepared_request(
         self,
@@ -37,12 +39,12 @@ class ApiResource:
 
         """
         self._model = model
-        self._prepared_request = self._client._session.prepare_request(
+        self._prepared_request = self.client.session.prepare_request(
             requests.Request(
                 method=method,
                 url=url,
                 data=data,
-                headers=self._client._headers,
+                headers=self.client.headers,
                 params=params,
                 json=json,
             )
@@ -53,6 +55,6 @@ class ApiResource:
     ):
         if not hasattr(self, "_prepared_request"):
             raise ValueError("You have to select the retrieve method first")
-        resp = self._client._session.send(self._prepared_request).json()
+        resp = self.client.session.send(self._prepared_request).json()
         if self._model is not None:
             return self._model(**resp)

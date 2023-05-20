@@ -7,6 +7,7 @@ from . import (
     books,
     categories,
     favorites,
+    filters,
     flags,
     manufacturers,
     notifications,
@@ -15,5 +16,4 @@ from . import (
     shops,
     skus,
     users,
-    filters,
 )

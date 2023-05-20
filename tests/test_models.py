@@ -1,9 +1,11 @@
 import json
 import os
-import pyskroutz
+from typing import Type
+
 import pytest
 from pydantic import BaseModel
-from typing import Type
+
+import pyskroutz
 
 
 def load_response(path):
@@ -70,7 +72,7 @@ fixtures_list = [
     ("user__avatars", pyskroutz.models.users.AvatarList),
     ("user__addresses", pyskroutz.models.users.AddressList),
     ("user__addresses__new", pyskroutz.models.users.AddressFormRetrieve),
-    ("user__saved_orders", pyskroutz.models.users.SavedOdersList),
+    ("user__saved_orders", pyskroutz.models.users.SavedOrdersList),
     # User Favorites
     ("favorite_lists", pyskroutz.models.favorites.FavoriteListsRetrieve),
     ("favorite_lists__post", pyskroutz.models.favorites.FavoriteListRetrieve),

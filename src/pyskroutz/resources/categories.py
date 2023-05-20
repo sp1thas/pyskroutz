@@ -1,45 +1,48 @@
-from pyskroutz.resources.base import ApiResource
 from typing import Optional
 
-from ..models.categories import (
+from pyskroutz.models.categories import (
     CategoryList,
     CategoryRetrieve,
     SpecificationList,
 )
-from ..resources import PaginationParams
-from ..utils import fluent
+from pyskroutz.resources import PaginationParams
+from pyskroutz.resources.base import ApiResource
+from pyskroutz.utils import fluent
 
 
 class Categories(ApiResource):
-    """This Class holds the group of Categories related endpoints. More details in [category](https://developer.skroutz.gr/api/v3/category/) section."""
+    """
+    This Class holds the group of Categories related endpoints.
+    More details in [category](https://developer.skroutz.gr/api/v3/category/) section.
+    """
 
     ENDPOINT_PATH: str = "categories"
 
     @fluent
-    def get(self, id: Optional[int] = None, **pag_params: PaginationParams) -> None:
+    def get(self, _id: Optional[int] = None, **pag_params: PaginationParams) -> None:
         """Retrieve a single category or list them all.
 
         Args:
-            id: category identifier
+            _id: category identifier
             pag_params: pagination parameters
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}"
-            if id is not None
+            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{_id}"
+            if _id is not None
             else f"{self.BASE_URL}/{self.ENDPOINT_PATH}",
-            model=CategoryRetrieve if id is not None else CategoryList,
+            model=CategoryRetrieve if _id is not None else CategoryList,
             params=pag_params,
         )
 
     @fluent
-    def get_parent(self, id: int) -> None:
+    def get_parent(self, _id: int) -> None:
         """Retrieve the parent of a category.
 
         Args:
-            id: category identifier.
+            _id: category identifier.
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/parent",
+            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{_id}/parent",
             model=CategoryRetrieve,
         )
 
@@ -51,32 +54,32 @@ class Categories(ApiResource):
         )
 
     @fluent
-    def list_children(self, id: int, **pag_params: PaginationParams) -> None:
+    def list_children(self, _id: int, **pag_params: PaginationParams) -> None:
         """List the children categories of a category.
 
         Args:
-            id: category identifier.
+            _id: category identifier.
             **pag_params: pagination params.
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/children",
+            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{_id}/children",
             model=CategoryList,
             params=pag_params,
         )
 
     @fluent
     def get_specifications(
-        self, id: int, include_group: bool = None, **pag_params: PaginationParams
+        self, _id: int, include_group: bool = None, **pag_params: PaginationParams
     ) -> None:
         """List a category's specifications.
 
         Args:
-            id: category identifier.
+            _id: category identifier.
             include_group: Include group.
             **pag_params: pagination params.
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/specifications",
+            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{_id}/specifications",
             model=SpecificationList,
             params=pag_params
             if include_group is None
@@ -85,17 +88,17 @@ class Categories(ApiResource):
 
     @fluent
     def get_manufacturers(
-        self, id: int, order_dir: str = None, **pag_params: PaginationParams
+        self, _id: int, order_dir: str = None, **pag_params: PaginationParams
     ) -> None:
         """List a category's manufacturers.
 
         Args:
-            id: category identifier.
+            _id: category identifier.
             order_dir: Order ascending or descending (`asc`, `desc` default)
             **pag_params: pagination params.
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/manufacturers",
+            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{_id}/manufacturers",
             model=SpecificationList,
             params=dict(**pag_params)
             if order_dir is None
@@ -103,13 +106,13 @@ class Categories(ApiResource):
         )
 
     @fluent
-    def get_favorites(self, id: int) -> None:
+    def get_favorites(self, _id: int) -> None:
         """List a category's favorites.
 
         Args:
-            id: category identifier.
+            _id: category identifier.
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{id}/favorites",
+            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{_id}/favorites",
             model=SpecificationList,
         )

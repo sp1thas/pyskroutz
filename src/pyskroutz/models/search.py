@@ -1,13 +1,12 @@
 """Response models for search
 """
-from pydantic import BaseModel, AnyHttpUrl
 from typing import List, Optional
 
-from .base import (
-    PaginationItem,
-)
-from .manufacturers import ManufacturerItem
-from .skus import SkuItem
+from pydantic import AnyHttpUrl, BaseModel
+
+from pyskroutz.models.base import PaginationItem
+from pyskroutz.models.manufacturers import ManufacturerItem
+from pyskroutz.models.skus import SkuItem
 
 
 class AlternativeItem(BaseModel):
@@ -15,7 +14,7 @@ class AlternativeItem(BaseModel):
     important: bool
 
 
-class StrongMatcheItem(BaseModel):
+class StrongMatchedItem(BaseModel):
     sku: Optional[SkuItem]
     manufacturer: Optional[ManufacturerItem]
 
@@ -23,7 +22,7 @@ class StrongMatcheItem(BaseModel):
 class SearchMeta(BaseModel):
     q: Optional[str]
     alternatives: Optional[List[AlternativeItem]]
-    strong_matches: Optional[StrongMatcheItem]
+    strong_matches: Optional[StrongMatchedItem]
     pagination: Optional[PaginationItem]
 
 

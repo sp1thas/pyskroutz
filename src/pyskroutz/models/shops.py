@@ -1,10 +1,11 @@
 """Response models for shop resources
 """
-from pydantic import BaseModel, HttpUrl
 from typing import List, Optional
 
-from .base import ItemBase, WebUriBaseItem, MetaItemBase
-from .users import AddressItem
+from pydantic import BaseModel, HttpUrl
+
+from pyskroutz.models.base import ItemBase, MetaItemBase, WebUriBaseItem
+from pyskroutz.models.users import AddressItem
 
 
 class PaymentMethodsItem(BaseModel):

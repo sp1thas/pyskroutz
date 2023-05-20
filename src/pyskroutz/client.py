@@ -1,9 +1,10 @@
-import requests
 from typing import Dict
+
+import requests
 
 
 class SkroutzClient:
-    """Skroutz Client Class. This is the main class that let's you interact with Skroutz API.
+    """Skroutz Client Class. This is the main class that lets you interact with Skroutz API.
 
     Examples:
         In order to interact with Skroutz API you have to initiate a `SkroutzClient` object.
@@ -13,9 +14,6 @@ class SkroutzClient:
         >>> client = pyskroutz.client("<client-id>", "<client-secret>")
 
         Check out the available endpoints for further details.
-
-    Attributes:
-        BASE_URL (str): The base url of Skroutz API.
     """
 
     _access_token: str
@@ -53,7 +51,7 @@ class SkroutzClient:
         self._access_token_type = req.json().get("token_type", "test")
 
     @property
-    def _headers(self) -> Dict[str, str]:
+    def headers(self) -> Dict[str, str]:
         """Get headers using the access token.
 
         Returns: Headers dictionary.
@@ -66,3 +64,11 @@ class SkroutzClient:
                 getattr(self, "_access_token", ""),
             ),
         }
+
+    @property
+    def session(self):
+        return self._session
+
+    @session.setter
+    def session(self, value):
+        self._session = value
