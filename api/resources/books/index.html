@@ -1,0 +1,2221 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="This the pyskroutz documentation page">
+      
+      
+        <meta name="author" content="Panagiotis Simakis">
+      
+      
+        <link rel="canonical" href="https://pyskroutz.simakis.me/api/resources/books/">
+      
+      
+        <link rel="prev" href="../skus/">
+      
+      
+        <link rel="next" href="../products/">
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.0">
+    
+    
+      
+        <title>Books - Welcome to pyskroutz Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.402914a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/_mkdocstrings.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+<script>
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_BjWCerM66GX1nxyHFvf1YWuWPtJI9rDRC08PZ2UNH4m',{api_host:'https://eu.posthog.com'})
+</script>
+
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#get" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Welcome to pyskroutz Documentation" class="md-header__button md-logo" aria-label="Welcome to pyskroutz Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Welcome to pyskroutz Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Books
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/sp1thas/pyskroutz/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Welcome to pyskroutz Documentation" class="md-nav__button md-logo" aria-label="Welcome to pyskroutz Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Welcome to pyskroutz Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/sp1thas/pyskroutz/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          API
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          API
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../client/" class="md-nav__link">
+        Client
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+          Resources
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Resources
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../categories/" class="md-nav__link">
+        Categories
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../skus/" class="md-nav__link">
+        SKUs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Books
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Books
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#get" class="md-nav__link">
+    get
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get_details" class="md-nav__link">
+    get_details
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get_author" class="md-nav__link">
+    get_author
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get_author_books" class="md-nav__link">
+    get_author_books
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get_similar_by_author" class="md-nav__link">
+    get_similar_by_author
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get_similar_by_author_1" class="md-nav__link">
+    get_similar_by_author
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get_publisher_books" class="md-nav__link">
+    get_publisher_books
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get_book_categories" class="md-nav__link">
+    get_book_categories
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get_category" class="md-nav__link">
+    get_category
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get_category_books" class="md-nav__link">
+    get_category_books
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#response-models" class="md-nav__link">
+    Response Models
+  </a>
+  
+    <nav class="md-nav" aria-label="Response Models">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pyskroutz.models.books.BookItem" class="md-nav__link">
+    BookItem
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pyskroutz.models.books.BooksRetrieve" class="md-nav__link">
+    BooksRetrieve
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../products/" class="md-nav__link">
+        Products
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../shops/" class="md-nav__link">
+        Shops
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../manufacturers/" class="md-nav__link">
+        Manufacturers
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../search/" class="md-nav__link">
+        Search
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../flags/" class="md-nav__link">
+        Flags
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../filter_groups/" class="md-nav__link">
+        Filter Groups
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user_profile/" class="md-nav__link">
+        User Profile
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user_favorites/" class="md-nav__link">
+        User Favorite
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user_notifications/" class="md-nav__link">
+        User Notifications
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../utils/" class="md-nav__link">
+        Utilities
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Developer Documentation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Developer Documentation
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contributing/" class="md-nav__link">
+        Contributing
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          About
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../license/" class="md-nav__link">
+        License
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#get" class="md-nav__link">
+    get
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get_details" class="md-nav__link">
+    get_details
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get_author" class="md-nav__link">
+    get_author
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get_author_books" class="md-nav__link">
+    get_author_books
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get_similar_by_author" class="md-nav__link">
+    get_similar_by_author
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get_similar_by_author_1" class="md-nav__link">
+    get_similar_by_author
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get_publisher_books" class="md-nav__link">
+    get_publisher_books
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get_book_categories" class="md-nav__link">
+    get_book_categories
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get_category" class="md-nav__link">
+    get_category
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#get_category_books" class="md-nav__link">
+    get_category_books
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#response-models" class="md-nav__link">
+    Response Models
+  </a>
+  
+    <nav class="md-nav" aria-label="Response Models">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pyskroutz.models.books.BookItem" class="md-nav__link">
+    BookItem
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pyskroutz.models.books.BooksRetrieve" class="md-nav__link">
+    BooksRetrieve
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>Books</h1>
+
+<h2 id="get"><code>get</code></h2>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+  <div class="doc doc-contents first">
+  
+      <p>Retrieve a single Book</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>_id</code></td>
+          <td>
+                <code>int</code>
+          </td>
+          <td><p>Book identifier</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>pyskroutz/resources/books.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@fluent</span>
+<span class="k">def</span> <span class="nf">get</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_id</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Retrieve a single Book</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        _id: Book identifier</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">_set_prepared_request</span><span class="p">(</span>
+        <span class="n">url</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">BASE_URL</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">ENDPOINT_PATH</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="n">_id</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span>
+        <span class="n">method</span><span class="o">=</span><span class="s2">&quot;GET&quot;</span><span class="p">,</span>
+        <span class="n">model</span><span class="o">=</span><span class="n">books</span><span class="o">.</span><span class="n">BooksRetrieve</span><span class="p">,</span>
+    <span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div><p><strong>Example</strong></p>
+<p>Retrieve the book with ID: <code>242327</code>.</p>
+<div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Request</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">pyskroutz</span><span class="o">.</span><span class="n">books</span><span class="p">(</span><span class="n">client</span><span class="p">)</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="mi">242327</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+</code></pre></div>
+</div>
+<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Response (pydantic object)</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">BooksRetrieve</span><span class="p">(</span>
+    <span class="n">book</span><span class="o">=</span><span class="n">BookItem</span><span class="p">(</span>
+        <span class="n">web_uri</span><span class="o">=</span><span class="n">HttpUrl</span><span class="p">(</span>
+            <span class="s2">&quot;https://www.skroutz.gr/books/242327.%CE</span><span class="si">%9F</span><span class="s2">-%CE%A7%CE%AC%CF</span><span class="si">%81%</span><span class="s2">CE%B9-%CE%A0%CF%8C%CF</span><span class="si">%84%</span><span class="s2">CE%B5%CF%81-%CE%BA%CE%B1%CE%B9-%CE%B7-%CF</span><span class="si">%86%</span><span class="s2">CE%B9%CE%BB%CE%BF%CF</span><span class="si">%83%</span><span class="s2">CE%BF%CF</span><span class="si">%86%</span><span class="s2">CE%B9%CE%BA%CE%AE-%CE%BB%CE%AF%CE%B8%CE%BF%CF%82.html&quot;</span><span class="p">,</span>
+            <span class="n">scheme</span><span class="o">=</span><span class="s2">&quot;https&quot;</span><span class="p">,</span>
+            <span class="n">host</span><span class="o">=</span><span class="s2">&quot;www.skroutz.gr&quot;</span><span class="p">,</span>
+            <span class="n">tld</span><span class="o">=</span><span class="s2">&quot;gr&quot;</span><span class="p">,</span>
+            <span class="n">host_type</span><span class="o">=</span><span class="s2">&quot;domain&quot;</span><span class="p">,</span>
+            <span class="n">path</span><span class="o">=</span><span class="s2">&quot;/books/242327.%CE</span><span class="si">%9F</span><span class="s2">-%CE%A7%CE%AC%CF</span><span class="si">%81%</span><span class="s2">CE%B9-%CE%A0%CF%8C%CF</span><span class="si">%84%</span><span class="s2">CE%B5%CF%81-%CE%BA%CE%B1%CE%B9-%CE%B7-%CF</span><span class="si">%86%</span><span class="s2">CE%B9%CE%BB%CE%BF%CF</span><span class="si">%83%</span><span class="s2">CE%BF%CF</span><span class="si">%86%</span><span class="s2">CE%B9%CE%BA%CE%AE-%CE%BB%CE%AF%CE%B8%CE%BF%CF%82.html&quot;</span><span class="p">,</span>
+        <span class="p">),</span>
+        <span class="n">price_max</span><span class="o">=</span><span class="mf">12.96</span><span class="p">,</span>
+        <span class="n">price_min</span><span class="o">=</span><span class="mf">6.61</span><span class="p">,</span>
+        <span class="n">reviewable</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+        <span class="n">reviews_count</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span>
+        <span class="n">reviewscore</span><span class="o">=</span><span class="mf">4.93333</span><span class="p">,</span>
+        <span class="n">shop_count</span><span class="o">=</span><span class="mi">42</span><span class="p">,</span>
+        <span class="nb">id</span><span class="o">=</span><span class="mi">242327</span><span class="p">,</span>
+        <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Ο Χάρι Πότερ και η φιλοσοφική λίθος&quot;</span><span class="p">,</span>
+        <span class="n">main_author_id</span><span class="o">=</span><span class="mi">385</span><span class="p">,</span>
+        <span class="n">main_author</span><span class="o">=</span><span class="s2">&quot;J. K. Rowling&quot;</span><span class="p">,</span>
+        <span class="n">images</span><span class="o">=</span><span class="n">ImageItemBase</span><span class="p">(</span>
+            <span class="n">alternatives</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+            <span class="n">main</span><span class="o">=</span><span class="n">HttpUrl</span><span class="p">(</span>
+                <span class="s2">&quot;https://b.scdn.gr/images/sku_main_images/000242/242327/medium_20200219102603_o_chari_poter_kai_i_filosofiki_lithos.jpeg&quot;</span><span class="p">,</span>
+                <span class="n">scheme</span><span class="o">=</span><span class="s2">&quot;https&quot;</span><span class="p">,</span>
+                <span class="n">host</span><span class="o">=</span><span class="s2">&quot;b.scdn.gr&quot;</span><span class="p">,</span>
+                <span class="n">tld</span><span class="o">=</span><span class="s2">&quot;gr&quot;</span><span class="p">,</span>
+                <span class="n">host_type</span><span class="o">=</span><span class="s2">&quot;domain&quot;</span><span class="p">,</span>
+                <span class="n">path</span><span class="o">=</span><span class="s2">&quot;/images/sku_main_images/000242/242327/medium_20200219102603_o_chari_poter_kai_i_filosofiki_lithos.jpeg&quot;</span><span class="p">,</span>
+            <span class="p">),</span>
+        <span class="p">),</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+</code></pre></div>
+</div>
+</div>
+<h2 id="get_details"><code>get_details</code></h2>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+  <div class="doc doc-contents first">
+  
+      <p>Retrieve Book details</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>_id</code></td>
+          <td>
+                <code>int</code>
+          </td>
+          <td><p>Book identifier.</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>pyskroutz/resources/books.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@fluent</span>
+<span class="k">def</span> <span class="nf">get_details</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_id</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Retrieve Book details</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        _id: Book identifier.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">_set_prepared_request</span><span class="p">(</span>
+        <span class="n">url</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">BASE_URL</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">ENDPOINT_PATH</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="n">_id</span><span class="si">}</span><span class="s2">/details&quot;</span><span class="p">,</span>
+        <span class="n">method</span><span class="o">=</span><span class="s2">&quot;GET&quot;</span><span class="p">,</span>
+        <span class="n">model</span><span class="o">=</span><span class="n">books</span><span class="o">.</span><span class="n">BookDetailsRetrieve</span><span class="p">,</span>
+    <span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div><p><strong>Example</strong></p>
+<p>Get details for the book with ID: <code>242327</code>.</p>
+<div class="tabbed-set" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><label for="__tabbed_2_1">Request</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">pyskroutz</span><span class="o">.</span><span class="n">books</span><span class="p">(</span><span class="n">client</span><span class="p">)</span><span class="o">.</span><span class="n">get_details</span><span class="p">(</span><span class="mi">242327</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+</code></pre></div>
+</div>
+<input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><label for="__tabbed_2_2">Response (pydantic object)</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">BookDetailsRetrieve</span><span class="p">(</span>
+    <span class="n">book_details</span><span class="o">=</span><span class="n">BookDetailsItem</span><span class="p">(</span>
+        <span class="n">series</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+        <span class="n">cover</span><span class="o">=</span><span class="s2">&quot;Μαλακό εξώφυλλο&quot;</span><span class="p">,</span>
+        <span class="n">pubyear</span><span class="o">=</span><span class="s2">&quot;2001&quot;</span><span class="p">,</span>
+        <span class="n">pages</span><span class="o">=</span><span class="mi">349</span><span class="p">,</span>
+        <span class="n">isbn</span><span class="o">=</span><span class="s2">&quot;9602743484&quot;</span><span class="p">,</span>
+        <span class="n">shape</span><span class="o">=</span><span class="s2">&quot;21×14&quot;</span><span class="p">,</span>
+        <span class="n">volume</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">ages</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">description</span><span class="o">=</span><span class="s2">&quot;Ο Χάρι Πότερ είναι ένα αξιαγάπητο μικρό αγόρι που η μοίρα του επιφυλάσσει μια ζωή διαφορετική από των άλλων παιδιών της ηλικίας του. Χάνει τους γονείς του και αναγκάζεται να μείνει με το θείο, τη θεία του και τον κακομαθημένο ξάδελφό του. Καθώς τα χρόνια περνούν και ο Χάρι συνεχίζει να υποφέρει κοντά στους συγγενείς του, λαμβάνει μια επιστολή, με την οποία τον καλούν να παρουσιαστεί στη Σχολή Χόγκουαρτς, μια σχολή αλλιώτικη από τις άλλες, σ&#39; έναν κόσμο αλλιώτικο. Έτσι, αρχίζουν οι περιπέτειες του μικρού Χάρι. Μαζί του, παρακολουθούμε κι εμείς μαθήματα ασυνήθιστα, διασκεδαστικά παιχνίδια, πολύτιμες σχέσεις φιλίας και αλληλοϋποστήριξης, καθώς ο Χάρι προσπαθεί να προστατέψει τον κόσμο από τον κίνδυνο που τον απειλεί. Η Αγγλίδα συγγραφέας μάς χαρίζει ένα ευφάνταστο, ξεκαρδιστικό, απολαυστικό, αστείο, πρωτότυπο βιβλίο για όλες τις ηλικίες. Μεγάλοι και μικροί θα μαγευτούν από τις περιπέτειες του Χάρι Πότερ. Οι διάλογοι είναι έξυπνοι και διασκεδαστικοί, οι ήρωες κατεργάρηδες αλλά αξιαγάπητοι. Πρόκειται για ένα συναρπαστικό βιβλίο που θα λατρέψουν όλοι οι αναγνώστες.&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+</code></pre></div>
+</div>
+</div>
+<h2 id="get_author"><code>get_author</code></h2>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+  <div class="doc doc-contents first">
+  
+      <p>Retrieve Book Author</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>_id</code></td>
+          <td>
+                <code>int</code>
+          </td>
+          <td><p>author identifier</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>pyskroutz/resources/books.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">42</span>
+<span class="normal">43</span>
+<span class="normal">44</span>
+<span class="normal">45</span>
+<span class="normal">46</span>
+<span class="normal">47</span>
+<span class="normal">48</span>
+<span class="normal">49</span>
+<span class="normal">50</span>
+<span class="normal">51</span>
+<span class="normal">52</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@fluent</span>
+<span class="k">def</span> <span class="nf">get_author</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_id</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Retrieve Book Author</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        _id: author identifier</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">_set_prepared_request</span><span class="p">(</span>
+        <span class="n">url</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">BASE_URL</span><span class="si">}</span><span class="s2">/author/</span><span class="si">{</span><span class="n">_id</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span>
+        <span class="n">model</span><span class="o">=</span><span class="n">books</span><span class="o">.</span><span class="n">BookAuthorRetrieve</span><span class="p">,</span>
+    <span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div><p><strong>Example</strong></p>
+<div class="tabbed-set" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><label for="__tabbed_3_1">Request</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">pyskroutz</span><span class="o">.</span><span class="n">books</span><span class="p">(</span><span class="n">client</span><span class="p">)</span><span class="o">.</span><span class="n">get_author</span><span class="p">(</span><span class="mi">385</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+</code></pre></div>
+</div>
+<input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><label for="__tabbed_3_2">Response (pydantic object)</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">BookAuthorRetrieve</span><span class="p">(</span>
+    <span class="n">author</span><span class="o">=</span><span class="n">BookAuthorItem</span><span class="p">(</span>
+        <span class="nb">id</span><span class="o">=</span><span class="mi">385</span><span class="p">,</span>
+        <span class="n">name</span><span class="o">=</span><span class="s2">&quot;J. K. Rowling&quot;</span><span class="p">,</span>
+        <span class="n">bio</span><span class="o">=</span><span class="s1">&#39;Η Joanne K. Rowling (Τζόαν Ρόουλινγκ) γεννήθηκε στο Μπρίστολ το 1965. Άρχισε να γράφει την ιστορία του &quot;Χάρι Πότερ&quot; σε ώρες πολύ δύσκολες. Ο &quot;Χάρι Πότερ&quot; εξελίχθηκε σε βιβλίο-φαινόμενο. Τα δικαιώματα μετάφρασης πουλήθηκαν σε ολόκληρο τον κόσμο και τα βραβεία ακολούθησαν το ένα το άλλο: τρία βραβεία Νεστλέ-Σμάρτις, Γκάρντιαν, Σέφιλντ, ΑΒΒΥ, Whitbread, Locus, Hugo, κ.ά., ενώ η συγγραφέας ανακηρύχτηκε Βρετανίδα Συγγραφέας της Χρονιάς το 2000 και τιμήθηκε για το σύνολο του έργου της το 2008. Οι ταινίες με ήρωα τον &quot;Χάρι Πότερ&quot; έκαναν επίσης ρεκόρ εισιτηρίων όπου προβλήθηκαν. Τα βιβλία του &quot;Χάρι Πότερ&quot; πούλησαν περισσότερα από 250 εκατομμύρια αντίτυπα σε όλο τον κόσμο, έχοντας μεταφραστεί σε 60 γλώσσες. H επιτυχία, μάλιστα, τη συνοδεύει, μετά την ολοκλήρωση της σειράς, και στο πρώτο της μυθιστόρημα για ενηλίκους, με τίτλο &quot;The Casual Vacancy&quot;, 2012 (ελλ. έκδ. &quot;Ένας ξαφνικός θάνατος&quot;), καθώς και στο πρώτο της αστυνομικό μυθιστόρημα με ήρωα τον ντετέκτιβ Κόρμοραν Στράικ, &quot;The Cuckoo</span><span class="se">\&#39;</span><span class="s1">s Calling&quot; (&quot;Το κάλεσμα του κούκου&quot;, 2013), που εξέδωσε με το ψευδώνυμο Ρόμπερτ Γκαλμπρέιθ. Στηρίζει πολλούς φιλανθρωπικούς σκοπούς μέσω του Φιλανθρωπικού Καταπιστεύματος Volant και έχει ιδρύσει το Lumos, που στόχο έχει να βελτιώσει τη ζωή των απόρων -και όχι μόνο- παιδιών. Για περισσότερες πληροφορίες μπορείτε να επισκεφθείτε την προσωπική ιστοσελίδα της συγγραφέως: www.jkrowling.com, καθώς και την ιστοσελίδα: www.volanttrust.com&#39;</span><span class="p">,</span>
+        <span class="n">image</span><span class="o">=</span><span class="n">HttpUrl</span><span class="p">(</span>
+            <span class="s2">&quot;https://d.scdn.gr/ds/books/authors/385/20160721172728_1f8fd6c7.jpeg&quot;</span><span class="p">,</span>
+            <span class="n">scheme</span><span class="o">=</span><span class="s2">&quot;https&quot;</span><span class="p">,</span>
+            <span class="n">host</span><span class="o">=</span><span class="s2">&quot;d.scdn.gr&quot;</span><span class="p">,</span>
+            <span class="n">tld</span><span class="o">=</span><span class="s2">&quot;gr&quot;</span><span class="p">,</span>
+            <span class="n">host_type</span><span class="o">=</span><span class="s2">&quot;domain&quot;</span><span class="p">,</span>
+            <span class="n">path</span><span class="o">=</span><span class="s2">&quot;/ds/books/authors/385/20160721172728_1f8fd6c7.jpeg&quot;</span><span class="p">,</span>
+        <span class="p">),</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+</code></pre></div>
+</div>
+</div>
+<h2 id="get_author_books"><code>get_author_books</code></h2>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+  <div class="doc doc-contents first">
+  
+      <p>Retrieve Author Books</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>_id</code></td>
+          <td>
+                <code>int</code>
+          </td>
+          <td><p>author identifier</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>pag_params</code></td>
+          <td>
+                <code><span title="pyskroutz.resources.PaginationParams">PaginationParams</span></code>
+          </td>
+          <td><p>pagination parameters</p></td>
+          <td>
+                <code>{}</code>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>pyskroutz/resources/books.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">54</span>
+<span class="normal">55</span>
+<span class="normal">56</span>
+<span class="normal">57</span>
+<span class="normal">58</span>
+<span class="normal">59</span>
+<span class="normal">60</span>
+<span class="normal">61</span>
+<span class="normal">62</span>
+<span class="normal">63</span>
+<span class="normal">64</span>
+<span class="normal">65</span>
+<span class="normal">66</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@fluent</span>
+<span class="k">def</span> <span class="nf">get_author_books</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="o">**</span><span class="n">pag_params</span><span class="p">:</span> <span class="n">PaginationParams</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Retrieve Author Books</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        _id: author identifier</span>
+<span class="sd">        pag_params: pagination parameters</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">_set_prepared_request</span><span class="p">(</span>
+        <span class="n">url</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">BASE_URL</span><span class="si">}</span><span class="s2">/author/</span><span class="si">{</span><span class="n">_id</span><span class="si">}</span><span class="s2">/books&quot;</span><span class="p">,</span>
+        <span class="n">model</span><span class="o">=</span><span class="n">books</span><span class="o">.</span><span class="n">BooksList</span><span class="p">,</span>
+        <span class="n">params</span><span class="o">=</span><span class="n">pag_params</span><span class="p">,</span>
+    <span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div><p><strong>Example</strong></p>
+<p>Get the first two books from author with ID: <code>385</code>.</p>
+<div class="tabbed-set" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><label for="__tabbed_4_1">Request</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">pyskroutz</span><span class="o">.</span><span class="n">books</span><span class="p">(</span><span class="n">client</span><span class="p">)</span><span class="o">.</span><span class="n">get_author_books</span><span class="p">(</span><span class="mi">385</span><span class="p">,</span> <span class="n">per</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+</code></pre></div>
+</div>
+<input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><label for="__tabbed_4_2">Response (pydantic object)</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">BooksList</span><span class="p">(</span>
+    <span class="n">books</span><span class="o">=</span><span class="p">[</span>
+        <span class="n">BookItem</span><span class="p">(</span>
+            <span class="n">web_uri</span><span class="o">=</span><span class="n">HttpUrl</span><span class="p">(</span>
+                <span class="s2">&quot;https://www.skroutz.gr/books/242327.%CE</span><span class="si">%9F</span><span class="s2">-%CE%A7%CE%AC%CF</span><span class="si">%81%</span><span class="s2">CE%B9-%CE%A0%CF%8C%CF</span><span class="si">%84%</span><span class="s2">CE%B5%CF%81-%CE%BA%CE%B1%CE%B9-%CE%B7-%CF</span><span class="si">%86%</span><span class="s2">CE%B9%CE%BB%CE%BF%CF</span><span class="si">%83%</span><span class="s2">CE%BF%CF</span><span class="si">%86%</span><span class="s2">CE%B9%CE%BA%CE%AE-%CE%BB%CE%AF%CE%B8%CE%BF%CF%82.html&quot;</span><span class="p">,</span>
+                <span class="n">scheme</span><span class="o">=</span><span class="s2">&quot;https&quot;</span><span class="p">,</span>
+                <span class="n">host</span><span class="o">=</span><span class="s2">&quot;www.skroutz.gr&quot;</span><span class="p">,</span>
+                <span class="n">tld</span><span class="o">=</span><span class="s2">&quot;gr&quot;</span><span class="p">,</span>
+                <span class="n">host_type</span><span class="o">=</span><span class="s2">&quot;domain&quot;</span><span class="p">,</span>
+                <span class="n">path</span><span class="o">=</span><span class="s2">&quot;/books/242327.%CE</span><span class="si">%9F</span><span class="s2">-%CE%A7%CE%AC%CF</span><span class="si">%81%</span><span class="s2">CE%B9-%CE%A0%CF%8C%CF</span><span class="si">%84%</span><span class="s2">CE%B5%CF%81-%CE%BA%CE%B1%CE%B9-%CE%B7-%CF</span><span class="si">%86%</span><span class="s2">CE%B9%CE%BB%CE%BF%CF</span><span class="si">%83%</span><span class="s2">CE%BF%CF</span><span class="si">%86%</span><span class="s2">CE%B9%CE%BA%CE%AE-%CE%BB%CE%AF%CE%B8%CE%BF%CF%82.html&quot;</span><span class="p">,</span>
+            <span class="p">),</span>
+            <span class="n">price_max</span><span class="o">=</span><span class="mf">12.96</span><span class="p">,</span>
+            <span class="n">price_min</span><span class="o">=</span><span class="mf">6.61</span><span class="p">,</span>
+            <span class="n">reviewable</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+            <span class="n">reviews_count</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span>
+            <span class="n">reviewscore</span><span class="o">=</span><span class="mf">4.93333</span><span class="p">,</span>
+            <span class="n">shop_count</span><span class="o">=</span><span class="mi">42</span><span class="p">,</span>
+            <span class="nb">id</span><span class="o">=</span><span class="mi">242327</span><span class="p">,</span>
+            <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Ο Χάρι Πότερ και η φιλοσοφική λίθος&quot;</span><span class="p">,</span>
+            <span class="n">main_author_id</span><span class="o">=</span><span class="mi">385</span><span class="p">,</span>
+            <span class="n">main_author</span><span class="o">=</span><span class="s2">&quot;J. K. Rowling&quot;</span><span class="p">,</span>
+            <span class="n">images</span><span class="o">=</span><span class="n">ImageItemBase</span><span class="p">(</span>
+                <span class="n">alternatives</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                <span class="n">main</span><span class="o">=</span><span class="n">HttpUrl</span><span class="p">(</span>
+                    <span class="s2">&quot;https://b.scdn.gr/images/sku_main_images/000242/242327/medium_20200219102603_o_chari_poter_kai_i_filosofiki_lithos.jpeg&quot;</span><span class="p">,</span>
+                    <span class="n">scheme</span><span class="o">=</span><span class="s2">&quot;https&quot;</span><span class="p">,</span>
+                    <span class="n">host</span><span class="o">=</span><span class="s2">&quot;b.scdn.gr&quot;</span><span class="p">,</span>
+                    <span class="n">tld</span><span class="o">=</span><span class="s2">&quot;gr&quot;</span><span class="p">,</span>
+                    <span class="n">host_type</span><span class="o">=</span><span class="s2">&quot;domain&quot;</span><span class="p">,</span>
+                    <span class="n">path</span><span class="o">=</span><span class="s2">&quot;/images/sku_main_images/000242/242327/medium_20200219102603_o_chari_poter_kai_i_filosofiki_lithos.jpeg&quot;</span><span class="p">,</span>
+                <span class="p">),</span>
+            <span class="p">),</span>
+        <span class="p">),</span>
+        <span class="n">BookItem</span><span class="p">(</span>
+            <span class="n">web_uri</span><span class="o">=</span><span class="n">HttpUrl</span><span class="p">(</span>
+                <span class="s2">&quot;https://www.skroutz.gr/books/242082.%CE</span><span class="si">%9F</span><span class="s2">-%CE%A7%CE%AC%CF</span><span class="si">%81%</span><span class="s2">CE%B9-%CE%A0%CF%8C%CF</span><span class="si">%84%</span><span class="s2">CE%B5%CF%81-%CE%BA%CE%B1%CE%B9-%CE%B7-%CE%BA%CE%AC%CE%BC%CE%B1%CF</span><span class="si">%81%</span><span class="s2">CE%B1-%CE%BC%CE%B5-%CF</span><span class="si">%84%</span><span class="s2">CE%B1-%CE%BC%CF</span><span class="si">%85%</span><span class="s2">CF</span><span class="si">%83%</span><span class="s2">CF</span><span class="si">%84%</span><span class="s2">CE%B9%CE%BA%CE%AC.html&quot;</span><span class="p">,</span>
+                <span class="n">scheme</span><span class="o">=</span><span class="s2">&quot;https&quot;</span><span class="p">,</span>
+                <span class="n">host</span><span class="o">=</span><span class="s2">&quot;www.skroutz.gr&quot;</span><span class="p">,</span>
+                <span class="n">tld</span><span class="o">=</span><span class="s2">&quot;gr&quot;</span><span class="p">,</span>
+                <span class="n">host_type</span><span class="o">=</span><span class="s2">&quot;domain&quot;</span><span class="p">,</span>
+                <span class="n">path</span><span class="o">=</span><span class="s2">&quot;/books/242082.%CE</span><span class="si">%9F</span><span class="s2">-%CE%A7%CE%AC%CF</span><span class="si">%81%</span><span class="s2">CE%B9-%CE%A0%CF%8C%CF</span><span class="si">%84%</span><span class="s2">CE%B5%CF%81-%CE%BA%CE%B1%CE%B9-%CE%B7-%CE%BA%CE%AC%CE%BC%CE%B1%CF</span><span class="si">%81%</span><span class="s2">CE%B1-%CE%BC%CE%B5-%CF</span><span class="si">%84%</span><span class="s2">CE%B1-%CE%BC%CF</span><span class="si">%85%</span><span class="s2">CF</span><span class="si">%83%</span><span class="s2">CF</span><span class="si">%84%</span><span class="s2">CE%B9%CE%BA%CE%AC.html&quot;</span><span class="p">,</span>
+            <span class="p">),</span>
+            <span class="n">price_max</span><span class="o">=</span><span class="mf">14.4</span><span class="p">,</span>
+            <span class="n">price_min</span><span class="o">=</span><span class="mf">9.94</span><span class="p">,</span>
+            <span class="n">reviewable</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+            <span class="n">reviews_count</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span>
+            <span class="n">reviewscore</span><span class="o">=</span><span class="mf">4.5</span><span class="p">,</span>
+            <span class="n">shop_count</span><span class="o">=</span><span class="mi">44</span><span class="p">,</span>
+            <span class="nb">id</span><span class="o">=</span><span class="mi">242082</span><span class="p">,</span>
+            <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Ο Χάρι Πότερ και η κάμαρα με τα μυστικά&quot;</span><span class="p">,</span>
+            <span class="n">main_author_id</span><span class="o">=</span><span class="mi">385</span><span class="p">,</span>
+            <span class="n">main_author</span><span class="o">=</span><span class="s2">&quot;J. K. Rowling&quot;</span><span class="p">,</span>
+            <span class="n">images</span><span class="o">=</span><span class="n">ImageItemBase</span><span class="p">(</span>
+                <span class="n">alternatives</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                <span class="n">main</span><span class="o">=</span><span class="n">HttpUrl</span><span class="p">(</span>
+                    <span class="s2">&quot;https://a.scdn.gr/images/sku_main_images/000242/242082/medium_20181123130007_o_chari_poter_kai_i_kamara_me_ta_mystika.jpeg&quot;</span><span class="p">,</span>
+                    <span class="n">scheme</span><span class="o">=</span><span class="s2">&quot;https&quot;</span><span class="p">,</span>
+                    <span class="n">host</span><span class="o">=</span><span class="s2">&quot;a.scdn.gr&quot;</span><span class="p">,</span>
+                    <span class="n">tld</span><span class="o">=</span><span class="s2">&quot;gr&quot;</span><span class="p">,</span>
+                    <span class="n">host_type</span><span class="o">=</span><span class="s2">&quot;domain&quot;</span><span class="p">,</span>
+                    <span class="n">path</span><span class="o">=</span><span class="s2">&quot;/images/sku_main_images/000242/242082/medium_20181123130007_o_chari_poter_kai_i_kamara_me_ta_mystika.jpeg&quot;</span><span class="p">,</span>
+                <span class="p">),</span>
+            <span class="p">),</span>
+        <span class="p">),</span>
+    <span class="p">],</span>
+    <span class="n">meta</span><span class="o">=</span><span class="n">MetaItemBase</span><span class="p">(</span>
+        <span class="n">available_filters</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">order_by</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">order_by_methods</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">pagination</span><span class="o">=</span><span class="n">PaginationItem</span><span class="p">(</span><span class="n">page</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">per</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">total_pages</span><span class="o">=</span><span class="mi">11</span><span class="p">,</span> <span class="n">total_results</span><span class="o">=</span><span class="mi">21</span><span class="p">),</span>
+        <span class="n">personalization</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">sku_rating_breakdown</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">sku_reviews_aggregation</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="p">),</span>
+<span class="p">)</span>
+</code></pre></div>
+</div>
+</div>
+<h2 id="get_similar_by_author"><code>get_similar_by_author</code></h2>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+  <div class="doc doc-contents first">
+  
+      <p>Retrieve similar Books by Author</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>_id</code></td>
+          <td>
+                <code>int</code>
+          </td>
+          <td><p>author identifier</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>pag_params</code></td>
+          <td>
+                <code><span title="pyskroutz.resources.PaginationParams">PaginationParams</span></code>
+          </td>
+          <td><p>pagination parameters</p></td>
+          <td>
+                <code>{}</code>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>pyskroutz/resources/books.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">68</span>
+<span class="normal">69</span>
+<span class="normal">70</span>
+<span class="normal">71</span>
+<span class="normal">72</span>
+<span class="normal">73</span>
+<span class="normal">74</span>
+<span class="normal">75</span>
+<span class="normal">76</span>
+<span class="normal">77</span>
+<span class="normal">78</span>
+<span class="normal">79</span>
+<span class="normal">80</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@fluent</span>
+<span class="k">def</span> <span class="nf">get_similar_by_author</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="o">**</span><span class="n">pag_params</span><span class="p">:</span> <span class="n">PaginationParams</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Retrieve similar Books by Author</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        _id: author identifier</span>
+<span class="sd">        pag_params: pagination parameters</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">_set_prepared_request</span><span class="p">(</span>
+        <span class="n">url</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">BASE_URL</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">ENDPOINT_PATH</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="n">_id</span><span class="si">}</span><span class="s2">/similar_by_author&quot;</span><span class="p">,</span>
+        <span class="n">model</span><span class="o">=</span><span class="n">books</span><span class="o">.</span><span class="n">BooksList</span><span class="p">,</span>
+        <span class="n">params</span><span class="o">=</span><span class="n">pag_params</span><span class="p">,</span>
+    <span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div><p><strong>Example</strong></p>
+<div class="tabbed-set" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><label for="__tabbed_5_1">Request</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">pyskroutz</span><span class="o">.</span><span class="n">books</span><span class="p">(</span><span class="n">client</span><span class="p">)</span><span class="o">.</span><span class="n">get_similar_by_author</span><span class="p">(</span><span class="mi">242327</span><span class="p">,</span> <span class="n">per</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+</code></pre></div>
+</div>
+<input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><label for="__tabbed_5_2">Response (pydantic object)</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">BooksList</span><span class="p">(</span>
+    <span class="n">books</span><span class="o">=</span><span class="p">[</span>
+        <span class="n">BookItem</span><span class="p">(</span>
+            <span class="n">web_uri</span><span class="o">=</span><span class="n">HttpUrl</span><span class="p">(</span>
+                <span class="s2">&quot;https://www.skroutz.gr/books/107865.%CE</span><span class="si">%9F</span><span class="s2">%CE%B9-%CE%B9%CF</span><span class="si">%83%</span><span class="s2">CF</span><span class="si">%84%</span><span class="s2">CE%BF%CF</span><span class="si">%81%</span><span class="s2">CE%AF%CE%B5%CF%82-%CF</span><span class="si">%84%</span><span class="s2">CE%BF%CF%85-%CE%9C%CF</span><span class="si">%80%</span><span class="s2">CE%B9%CE%BD%CF</span><span class="si">%84%</span><span class="s2">CE%BB-%CF</span><span class="si">%84%</span><span class="s2">CE%BF%CF%85-%CE</span><span class="si">%92%</span><span class="s2">CE%AC%CF</span><span class="si">%81%</span><span class="s2">CE%B4%CE%BF%CF%85.html&quot;</span><span class="p">,</span>
+                <span class="n">scheme</span><span class="o">=</span><span class="s2">&quot;https&quot;</span><span class="p">,</span>
+                <span class="n">host</span><span class="o">=</span><span class="s2">&quot;www.skroutz.gr&quot;</span><span class="p">,</span>
+                <span class="n">tld</span><span class="o">=</span><span class="s2">&quot;gr&quot;</span><span class="p">,</span>
+                <span class="n">host_type</span><span class="o">=</span><span class="s2">&quot;domain&quot;</span><span class="p">,</span>
+                <span class="n">path</span><span class="o">=</span><span class="s2">&quot;/books/107865.%CE</span><span class="si">%9F</span><span class="s2">%CE%B9-%CE%B9%CF</span><span class="si">%83%</span><span class="s2">CF</span><span class="si">%84%</span><span class="s2">CE%BF%CF</span><span class="si">%81%</span><span class="s2">CE%AF%CE%B5%CF%82-%CF</span><span class="si">%84%</span><span class="s2">CE%BF%CF%85-%CE%9C%CF</span><span class="si">%80%</span><span class="s2">CE%B9%CE%BD%CF</span><span class="si">%84%</span><span class="s2">CE%BB-%CF</span><span class="si">%84%</span><span class="s2">CE%BF%CF%85-%CE</span><span class="si">%92%</span><span class="s2">CE%AC%CF</span><span class="si">%81%</span><span class="s2">CE%B4%CE%BF%CF%85.html&quot;</span><span class="p">,</span>
+            <span class="p">),</span>
+            <span class="n">price_max</span><span class="o">=</span><span class="mf">7.92</span><span class="p">,</span>
+            <span class="n">price_min</span><span class="o">=</span><span class="mf">7.92</span><span class="p">,</span>
+            <span class="n">reviewable</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+            <span class="n">reviews_count</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+            <span class="n">reviewscore</span><span class="o">=</span><span class="mf">0.0</span><span class="p">,</span>
+            <span class="n">shop_count</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+            <span class="nb">id</span><span class="o">=</span><span class="mi">107865</span><span class="p">,</span>
+            <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Οι ιστορίες του Μπιντλ του Βάρδου&quot;</span><span class="p">,</span>
+            <span class="n">main_author_id</span><span class="o">=</span><span class="mi">385</span><span class="p">,</span>
+            <span class="n">main_author</span><span class="o">=</span><span class="s2">&quot;J. K. Rowling&quot;</span><span class="p">,</span>
+            <span class="n">images</span><span class="o">=</span><span class="n">ImageItemBase</span><span class="p">(</span>
+                <span class="n">alternatives</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                <span class="n">main</span><span class="o">=</span><span class="n">HttpUrl</span><span class="p">(</span>
+                    <span class="s2">&quot;https://d.scdn.gr/images/sku_main_images/000107/107865/medium_20160719175022_oi_istories_tou_mpintl_tou_vardou.jpeg&quot;</span><span class="p">,</span>
+                    <span class="n">scheme</span><span class="o">=</span><span class="s2">&quot;https&quot;</span><span class="p">,</span>
+                    <span class="n">host</span><span class="o">=</span><span class="s2">&quot;d.scdn.gr&quot;</span><span class="p">,</span>
+                    <span class="n">tld</span><span class="o">=</span><span class="s2">&quot;gr&quot;</span><span class="p">,</span>
+                    <span class="n">host_type</span><span class="o">=</span><span class="s2">&quot;domain&quot;</span><span class="p">,</span>
+                    <span class="n">path</span><span class="o">=</span><span class="s2">&quot;/images/sku_main_images/000107/107865/medium_20160719175022_oi_istories_tou_mpintl_tou_vardou.jpeg&quot;</span><span class="p">,</span>
+                <span class="p">),</span>
+            <span class="p">),</span>
+        <span class="p">),</span>
+        <span class="n">BookItem</span><span class="p">(</span>
+            <span class="n">web_uri</span><span class="o">=</span><span class="n">HttpUrl</span><span class="p">(</span>
+                <span class="s2">&quot;https://www.skroutz.gr/books/121274.%CE</span><span class="si">%9F</span><span class="s2">-%CE%A7%CE%AC%CF</span><span class="si">%81%</span><span class="s2">CE%B9-%CE%A0%CF%8C%CF</span><span class="si">%84%</span><span class="s2">CE%B5%CF%81-%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-%CE%BA%CE%BB%CE%AE%CF</span><span class="si">%81%</span><span class="s2">CE%BF%CE%B9-%CF</span><span class="si">%84%</span><span class="s2">CE%BF%CF%85-%CE%B8%CE%B1%CE%BD%CE%AC%CF</span><span class="si">%84%</span><span class="s2">CE%BF%CF%85.html&quot;</span><span class="p">,</span>
+                <span class="n">scheme</span><span class="o">=</span><span class="s2">&quot;https&quot;</span><span class="p">,</span>
+                <span class="n">host</span><span class="o">=</span><span class="s2">&quot;www.skroutz.gr&quot;</span><span class="p">,</span>
+                <span class="n">tld</span><span class="o">=</span><span class="s2">&quot;gr&quot;</span><span class="p">,</span>
+                <span class="n">host_type</span><span class="o">=</span><span class="s2">&quot;domain&quot;</span><span class="p">,</span>
+                <span class="n">path</span><span class="o">=</span><span class="s2">&quot;/books/121274.%CE</span><span class="si">%9F</span><span class="s2">-%CE%A7%CE%AC%CF</span><span class="si">%81%</span><span class="s2">CE%B9-%CE%A0%CF%8C%CF</span><span class="si">%84%</span><span class="s2">CE%B5%CF%81-%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-%CE%BA%CE%BB%CE%AE%CF</span><span class="si">%81%</span><span class="s2">CE%BF%CE%B9-%CF</span><span class="si">%84%</span><span class="s2">CE%BF%CF%85-%CE%B8%CE%B1%CE%BD%CE%AC%CF</span><span class="si">%84%</span><span class="s2">CE%BF%CF%85.html&quot;</span><span class="p">,</span>
+            <span class="p">),</span>
+            <span class="n">price_max</span><span class="o">=</span><span class="mf">15.5</span><span class="p">,</span>
+            <span class="n">price_min</span><span class="o">=</span><span class="mf">10.32</span><span class="p">,</span>
+            <span class="n">reviewable</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+            <span class="n">reviews_count</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span>
+            <span class="n">reviewscore</span><span class="o">=</span><span class="mf">4.66667</span><span class="p">,</span>
+            <span class="n">shop_count</span><span class="o">=</span><span class="mi">51</span><span class="p">,</span>
+            <span class="nb">id</span><span class="o">=</span><span class="mi">121274</span><span class="p">,</span>
+            <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Ο Χάρι Πότερ και οι κλήροι του θανάτου&quot;</span><span class="p">,</span>
+            <span class="n">main_author_id</span><span class="o">=</span><span class="mi">385</span><span class="p">,</span>
+            <span class="n">main_author</span><span class="o">=</span><span class="s2">&quot;J. K. Rowling&quot;</span><span class="p">,</span>
+            <span class="n">images</span><span class="o">=</span><span class="n">ImageItemBase</span><span class="p">(</span>
+                <span class="n">alternatives</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                <span class="n">main</span><span class="o">=</span><span class="n">HttpUrl</span><span class="p">(</span>
+                    <span class="s2">&quot;https://b.scdn.gr/images/sku_main_images/000121/121274/medium_20201103152340_o_chari_poter_kai_oi_kliroi_tou_thanatou.jpeg&quot;</span><span class="p">,</span>
+                    <span class="n">scheme</span><span class="o">=</span><span class="s2">&quot;https&quot;</span><span class="p">,</span>
+                    <span class="n">host</span><span class="o">=</span><span class="s2">&quot;b.scdn.gr&quot;</span><span class="p">,</span>
+                    <span class="n">tld</span><span class="o">=</span><span class="s2">&quot;gr&quot;</span><span class="p">,</span>
+                    <span class="n">host_type</span><span class="o">=</span><span class="s2">&quot;domain&quot;</span><span class="p">,</span>
+                    <span class="n">path</span><span class="o">=</span><span class="s2">&quot;/images/sku_main_images/000121/121274/medium_20201103152340_o_chari_poter_kai_oi_kliroi_tou_thanatou.jpeg&quot;</span><span class="p">,</span>
+                <span class="p">),</span>
+            <span class="p">),</span>
+        <span class="p">),</span>
+    <span class="p">],</span>
+    <span class="n">meta</span><span class="o">=</span><span class="n">MetaItemBase</span><span class="p">(</span>
+        <span class="n">available_filters</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">order_by</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">order_by_methods</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">pagination</span><span class="o">=</span><span class="n">PaginationItem</span><span class="p">(</span><span class="n">page</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">per</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">total_pages</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">total_results</span><span class="o">=</span><span class="mi">20</span><span class="p">),</span>
+        <span class="n">personalization</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">sku_rating_breakdown</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">sku_reviews_aggregation</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="p">),</span>
+<span class="p">)</span>
+</code></pre></div>
+</div>
+</div>
+<h2 id="get_similar_by_author_1"><code>get_similar_by_author</code></h2>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+  <div class="doc doc-contents first">
+  
+      <p>Retrieve similar Books by Author</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>_id</code></td>
+          <td>
+                <code>int</code>
+          </td>
+          <td><p>author identifier</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>pag_params</code></td>
+          <td>
+                <code><span title="pyskroutz.resources.PaginationParams">PaginationParams</span></code>
+          </td>
+          <td><p>pagination parameters</p></td>
+          <td>
+                <code>{}</code>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>pyskroutz/resources/books.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">68</span>
+<span class="normal">69</span>
+<span class="normal">70</span>
+<span class="normal">71</span>
+<span class="normal">72</span>
+<span class="normal">73</span>
+<span class="normal">74</span>
+<span class="normal">75</span>
+<span class="normal">76</span>
+<span class="normal">77</span>
+<span class="normal">78</span>
+<span class="normal">79</span>
+<span class="normal">80</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@fluent</span>
+<span class="k">def</span> <span class="nf">get_similar_by_author</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="o">**</span><span class="n">pag_params</span><span class="p">:</span> <span class="n">PaginationParams</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Retrieve similar Books by Author</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        _id: author identifier</span>
+<span class="sd">        pag_params: pagination parameters</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">_set_prepared_request</span><span class="p">(</span>
+        <span class="n">url</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">BASE_URL</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">ENDPOINT_PATH</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="n">_id</span><span class="si">}</span><span class="s2">/similar_by_author&quot;</span><span class="p">,</span>
+        <span class="n">model</span><span class="o">=</span><span class="n">books</span><span class="o">.</span><span class="n">BooksList</span><span class="p">,</span>
+        <span class="n">params</span><span class="o">=</span><span class="n">pag_params</span><span class="p">,</span>
+    <span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div><p><strong>Example</strong></p>
+<div class="tabbed-set" data-tabs="6:2"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><label for="__tabbed_6_1">Request</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">pyskroutz</span><span class="o">.</span><span class="n">books</span><span class="p">(</span><span class="n">client</span><span class="p">)</span><span class="o">.</span><span class="n">get_publisher</span><span class="p">(</span><span class="mi">78</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+</code></pre></div>
+</div>
+<input id="__tabbed_6_2" name="__tabbed_6" type="radio" /><label for="__tabbed_6_2">Response (pydantic object)</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">PublisherRetrieve</span><span class="p">(</span>
+    <span class="n">publisher</span><span class="o">=</span><span class="n">PublisherItem</span><span class="p">(</span>
+        <span class="nb">id</span><span class="o">=</span><span class="mi">78</span><span class="p">,</span>
+        <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Ψυχογιός&quot;</span><span class="p">,</span>
+        <span class="n">address</span><span class="o">=</span><span class="s2">&quot;Τατοΐου 121 144 52 Μεταμόρφωση&quot;</span><span class="p">,</span>
+        <span class="n">email</span><span class="o">=</span><span class="s2">&quot;info@psichogios.gr&quot;</span><span class="p">,</span>
+        <span class="n">website</span><span class="o">=</span><span class="s2">&quot;www.psichogios.gr&quot;</span><span class="p">,</span>
+        <span class="n">fax</span><span class="o">=</span><span class="s2">&quot;210 2819550&quot;</span><span class="p">,</span>
+        <span class="n">phone</span><span class="o">=</span><span class="s2">&quot;210 2804800&quot;</span><span class="p">,</span>
+    <span class="p">)</span>
+<span class="p">)</span>
+</code></pre></div>
+</div>
+</div>
+<h2 id="get_publisher_books"><code>get_publisher_books</code></h2>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+  <div class="doc doc-contents first">
+  
+      <p>Retrieve Publisher Books</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>_id</code></td>
+          <td>
+                <code>int</code>
+          </td>
+          <td><p>publisher identifier</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>pag_params</code></td>
+          <td>
+                <code><span title="pyskroutz.resources.PaginationParams">PaginationParams</span></code>
+          </td>
+          <td><p>pagination parameters</p></td>
+          <td>
+                <code>{}</code>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>pyskroutz/resources/books.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 93</span>
+<span class="normal"> 94</span>
+<span class="normal"> 95</span>
+<span class="normal"> 96</span>
+<span class="normal"> 97</span>
+<span class="normal"> 98</span>
+<span class="normal"> 99</span>
+<span class="normal">100</span>
+<span class="normal">101</span>
+<span class="normal">102</span>
+<span class="normal">103</span>
+<span class="normal">104</span>
+<span class="normal">105</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@fluent</span>
+<span class="k">def</span> <span class="nf">get_publisher_books</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="o">**</span><span class="n">pag_params</span><span class="p">:</span> <span class="n">PaginationParams</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Retrieve Publisher Books</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        _id: publisher identifier</span>
+<span class="sd">        pag_params: pagination parameters</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">_set_prepared_request</span><span class="p">(</span>
+        <span class="n">url</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">BASE_URL</span><span class="si">}</span><span class="s2">/publisher/</span><span class="si">{</span><span class="n">_id</span><span class="si">}</span><span class="s2">/books&quot;</span><span class="p">,</span>
+        <span class="n">model</span><span class="o">=</span><span class="n">books</span><span class="o">.</span><span class="n">BooksList</span><span class="p">,</span>
+        <span class="n">params</span><span class="o">=</span><span class="n">pag_params</span><span class="p">,</span>
+    <span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div><p><strong>Example</strong></p>
+<div class="tabbed-set" data-tabs="7:2"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><label for="__tabbed_7_1">Request</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">pyskroutz</span><span class="o">.</span><span class="n">books</span><span class="p">(</span><span class="n">client</span><span class="p">)</span><span class="o">.</span><span class="n">get_publisher_books</span><span class="p">(</span><span class="mi">78</span><span class="p">,</span> <span class="n">per</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+</code></pre></div>
+</div>
+<input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><label for="__tabbed_7_2">Response (pydantic object)</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">BooksList</span><span class="p">(</span>
+    <span class="n">books</span><span class="o">=</span><span class="p">[</span>
+        <span class="n">BookItem</span><span class="p">(</span>
+            <span class="n">web_uri</span><span class="o">=</span><span class="n">HttpUrl</span><span class="p">(</span>
+                <span class="s2">&quot;https://www.skroutz.gr/books/242327.%CE</span><span class="si">%9F</span><span class="s2">-%CE%A7%CE%AC%CF</span><span class="si">%81%</span><span class="s2">CE%B9-%CE%A0%CF%8C%CF</span><span class="si">%84%</span><span class="s2">CE%B5%CF%81-%CE%BA%CE%B1%CE%B9-%CE%B7-%CF</span><span class="si">%86%</span><span class="s2">CE%B9%CE%BB%CE%BF%CF</span><span class="si">%83%</span><span class="s2">CE%BF%CF</span><span class="si">%86%</span><span class="s2">CE%B9%CE%BA%CE%AE-%CE%BB%CE%AF%CE%B8%CE%BF%CF%82.html&quot;</span><span class="p">,</span>
+                <span class="n">scheme</span><span class="o">=</span><span class="s2">&quot;https&quot;</span><span class="p">,</span>
+                <span class="n">host</span><span class="o">=</span><span class="s2">&quot;www.skroutz.gr&quot;</span><span class="p">,</span>
+                <span class="n">tld</span><span class="o">=</span><span class="s2">&quot;gr&quot;</span><span class="p">,</span>
+                <span class="n">host_type</span><span class="o">=</span><span class="s2">&quot;domain&quot;</span><span class="p">,</span>
+                <span class="n">path</span><span class="o">=</span><span class="s2">&quot;/books/242327.%CE</span><span class="si">%9F</span><span class="s2">-%CE%A7%CE%AC%CF</span><span class="si">%81%</span><span class="s2">CE%B9-%CE%A0%CF%8C%CF</span><span class="si">%84%</span><span class="s2">CE%B5%CF%81-%CE%BA%CE%B1%CE%B9-%CE%B7-%CF</span><span class="si">%86%</span><span class="s2">CE%B9%CE%BB%CE%BF%CF</span><span class="si">%83%</span><span class="s2">CE%BF%CF</span><span class="si">%86%</span><span class="s2">CE%B9%CE%BA%CE%AE-%CE%BB%CE%AF%CE%B8%CE%BF%CF%82.html&quot;</span><span class="p">,</span>
+            <span class="p">),</span>
+            <span class="n">price_max</span><span class="o">=</span><span class="mf">12.96</span><span class="p">,</span>
+            <span class="n">price_min</span><span class="o">=</span><span class="mf">6.61</span><span class="p">,</span>
+            <span class="n">reviewable</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+            <span class="n">reviews_count</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span>
+            <span class="n">reviewscore</span><span class="o">=</span><span class="mf">4.93333</span><span class="p">,</span>
+            <span class="n">shop_count</span><span class="o">=</span><span class="mi">42</span><span class="p">,</span>
+            <span class="nb">id</span><span class="o">=</span><span class="mi">242327</span><span class="p">,</span>
+            <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Ο Χάρι Πότερ και η φιλοσοφική λίθος&quot;</span><span class="p">,</span>
+            <span class="n">main_author_id</span><span class="o">=</span><span class="mi">385</span><span class="p">,</span>
+            <span class="n">main_author</span><span class="o">=</span><span class="s2">&quot;J. K. Rowling&quot;</span><span class="p">,</span>
+            <span class="n">images</span><span class="o">=</span><span class="n">ImageItemBase</span><span class="p">(</span>
+                <span class="n">alternatives</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                <span class="n">main</span><span class="o">=</span><span class="n">HttpUrl</span><span class="p">(</span>
+                    <span class="s2">&quot;https://b.scdn.gr/images/sku_main_images/000242/242327/medium_20200219102603_o_chari_poter_kai_i_filosofiki_lithos.jpeg&quot;</span><span class="p">,</span>
+                    <span class="n">scheme</span><span class="o">=</span><span class="s2">&quot;https&quot;</span><span class="p">,</span>
+                    <span class="n">host</span><span class="o">=</span><span class="s2">&quot;b.scdn.gr&quot;</span><span class="p">,</span>
+                    <span class="n">tld</span><span class="o">=</span><span class="s2">&quot;gr&quot;</span><span class="p">,</span>
+                    <span class="n">host_type</span><span class="o">=</span><span class="s2">&quot;domain&quot;</span><span class="p">,</span>
+                    <span class="n">path</span><span class="o">=</span><span class="s2">&quot;/images/sku_main_images/000242/242327/medium_20200219102603_o_chari_poter_kai_i_filosofiki_lithos.jpeg&quot;</span><span class="p">,</span>
+                <span class="p">),</span>
+            <span class="p">),</span>
+        <span class="p">),</span>
+        <span class="n">BookItem</span><span class="p">(</span>
+            <span class="n">web_uri</span><span class="o">=</span><span class="n">HttpUrl</span><span class="p">(</span>
+                <span class="s2">&quot;https://www.skroutz.gr/books/16712787.%CE%97-%CE%B4%CE%B9%CE%BA%CE%AE-%CE%BC%CE%BF%CF%85-%CE%B5%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CE%AE-%CE%BA%CE%BF%CF</span><span class="si">%85%</span><span class="s2">CE%B6%CE%AF%CE%BD%CE%B1.html&quot;</span><span class="p">,</span>
+                <span class="n">scheme</span><span class="o">=</span><span class="s2">&quot;https&quot;</span><span class="p">,</span>
+                <span class="n">host</span><span class="o">=</span><span class="s2">&quot;www.skroutz.gr&quot;</span><span class="p">,</span>
+                <span class="n">tld</span><span class="o">=</span><span class="s2">&quot;gr&quot;</span><span class="p">,</span>
+                <span class="n">host_type</span><span class="o">=</span><span class="s2">&quot;domain&quot;</span><span class="p">,</span>
+                <span class="n">path</span><span class="o">=</span><span class="s2">&quot;/books/16712787.%CE%97-%CE%B4%CE%B9%CE%BA%CE%AE-%CE%BC%CE%BF%CF%85-%CE%B5%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CE%AE-%CE%BA%CE%BF%CF</span><span class="si">%85%</span><span class="s2">CE%B6%CE%AF%CE%BD%CE%B1.html&quot;</span><span class="p">,</span>
+            <span class="p">),</span>
+            <span class="n">price_max</span><span class="o">=</span><span class="mf">35.0</span><span class="p">,</span>
+            <span class="n">price_min</span><span class="o">=</span><span class="mf">24.5</span><span class="p">,</span>
+            <span class="n">reviewable</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+            <span class="n">reviews_count</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span>
+            <span class="n">reviewscore</span><span class="o">=</span><span class="mf">4.8</span><span class="p">,</span>
+            <span class="n">shop_count</span><span class="o">=</span><span class="mi">26</span><span class="p">,</span>
+            <span class="nb">id</span><span class="o">=</span><span class="mi">16712787</span><span class="p">,</span>
+            <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Η δική μου ελληνική κουζίνα&quot;</span><span class="p">,</span>
+            <span class="n">main_author_id</span><span class="o">=</span><span class="mi">111086</span><span class="p">,</span>
+            <span class="n">main_author</span><span class="o">=</span><span class="s2">&quot;Άκης Πετρετζίκης&quot;</span><span class="p">,</span>
+            <span class="n">images</span><span class="o">=</span><span class="n">ImageItemBase</span><span class="p">(</span>
+                <span class="n">alternatives</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                <span class="n">main</span><span class="o">=</span><span class="n">HttpUrl</span><span class="p">(</span>
+                    <span class="s2">&quot;https://b.scdn.gr/images/sku_main_images/016712/16712787/medium_20200219105637_i_diki_mou_elliniki_kouzina.jpeg&quot;</span><span class="p">,</span>
+                    <span class="n">scheme</span><span class="o">=</span><span class="s2">&quot;https&quot;</span><span class="p">,</span>
+                    <span class="n">host</span><span class="o">=</span><span class="s2">&quot;b.scdn.gr&quot;</span><span class="p">,</span>
+                    <span class="n">tld</span><span class="o">=</span><span class="s2">&quot;gr&quot;</span><span class="p">,</span>
+                    <span class="n">host_type</span><span class="o">=</span><span class="s2">&quot;domain&quot;</span><span class="p">,</span>
+                    <span class="n">path</span><span class="o">=</span><span class="s2">&quot;/images/sku_main_images/016712/16712787/medium_20200219105637_i_diki_mou_elliniki_kouzina.jpeg&quot;</span><span class="p">,</span>
+                <span class="p">),</span>
+            <span class="p">),</span>
+        <span class="p">),</span>
+    <span class="p">],</span>
+    <span class="n">meta</span><span class="o">=</span><span class="n">MetaItemBase</span><span class="p">(</span>
+        <span class="n">available_filters</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">order_by</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">order_by_methods</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">pagination</span><span class="o">=</span><span class="n">PaginationItem</span><span class="p">(</span><span class="n">page</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">per</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">total_pages</span><span class="o">=</span><span class="mi">2030</span><span class="p">,</span> <span class="n">total_results</span><span class="o">=</span><span class="mi">4060</span><span class="p">),</span>
+        <span class="n">personalization</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">sku_rating_breakdown</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+        <span class="n">sku_reviews_aggregation</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="p">),</span>
+<span class="p">)</span>
+</code></pre></div>
+</div>
+</div>
+<h2 id="get_book_categories"><code>get_book_categories</code></h2>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+  <div class="doc doc-contents first">
+  
+      <p>Retrieve Book Categories</p>
+
+      <details class="quote">
+        <summary>Source code in <code>pyskroutz/resources/books.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">107</span>
+<span class="normal">108</span>
+<span class="normal">109</span>
+<span class="normal">110</span>
+<span class="normal">111</span>
+<span class="normal">112</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@fluent</span>
+<span class="k">def</span> <span class="nf">get_book_categories</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Retrieve Book Categories&quot;&quot;&quot;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">_set_prepared_request</span><span class="p">(</span>
+        <span class="n">url</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">BASE_URL</span><span class="si">}</span><span class="s2">/book_categories&quot;</span><span class="p">,</span> <span class="n">model</span><span class="o">=</span><span class="n">books</span><span class="o">.</span><span class="n">BookCategoriesList</span>
+    <span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div><p><strong>Example</strong></p>
+<div class="tabbed-set" data-tabs="8:2"><input checked="checked" id="__tabbed_8_1" name="__tabbed_8" type="radio" /><label for="__tabbed_8_1">Request</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">pyskroutz</span><span class="o">.</span><span class="n">books</span><span class="p">(</span><span class="n">client</span><span class="p">)</span><span class="o">.</span><span class="n">get_book_categories</span><span class="p">()</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+</code></pre></div>
+</div>
+<input id="__tabbed_8_2" name="__tabbed_8" type="radio" /><label for="__tabbed_8_2">Response (pydantic object)</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">BookCategoriesList</span><span class="p">(</span>
+    <span class="n">categories</span><span class="o">=</span><span class="p">[</span>
+        <span class="n">BookCategory</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">38</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Παιδικά&quot;</span><span class="p">,</span> <span class="n">match_count</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span>
+        <span class="n">BookCategory</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">78</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Λογοτεχνία&quot;</span><span class="p">,</span> <span class="n">match_count</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span>
+        <span class="n">BookCategory</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Ελεύθερος Χρόνος - Χόμπυ&quot;</span><span class="p">,</span> <span class="n">match_count</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span>
+        <span class="n">BookCategory</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">150</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Ψυχολογία&quot;</span><span class="p">,</span> <span class="n">match_count</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span>
+        <span class="n">BookCategory</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">121</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Επιστήμες&quot;</span><span class="p">,</span> <span class="n">match_count</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span>
+        <span class="n">BookCategory</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Σχολικά&quot;</span><span class="p">,</span> <span class="n">match_count</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span>
+        <span class="n">BookCategory</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">23</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Εκμάθηση Ξένων Γλωσσών&quot;</span><span class="p">,</span> <span class="n">match_count</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span>
+        <span class="n">BookCategory</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">103</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Τέχνες&quot;</span><span class="p">,</span> <span class="n">match_count</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span>
+        <span class="n">BookCategory</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">120</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Κόμικς&quot;</span><span class="p">,</span> <span class="n">match_count</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span>
+        <span class="n">BookCategory</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">92</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Θρησκείες - Μεταφυσική&quot;</span><span class="p">,</span> <span class="n">match_count</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span>
+        <span class="n">BookCategory</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">156</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Ιστορία&quot;</span><span class="p">,</span> <span class="n">match_count</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span>
+        <span class="n">BookCategory</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">173</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Κλασική Γραμματεία&quot;</span><span class="p">,</span> <span class="n">match_count</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span>
+        <span class="n">BookCategory</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">177</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Φιλοσοφία&quot;</span><span class="p">,</span> <span class="n">match_count</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span>
+        <span class="n">BookCategory</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">178</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Οικονομικά&quot;</span><span class="p">,</span> <span class="n">match_count</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span>
+        <span class="n">BookCategory</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">183</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Πολιτική&quot;</span><span class="p">,</span> <span class="n">match_count</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span>
+        <span class="n">BookCategory</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">184</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Λεξικά&quot;</span><span class="p">,</span> <span class="n">match_count</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span>
+        <span class="n">BookCategory</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">197</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Εκπαίδευση - Παιδαγωγικά&quot;</span><span class="p">,</span> <span class="n">match_count</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span>
+        <span class="n">BookCategory</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">202</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Γλώσσα - Φιλολογία&quot;</span><span class="p">,</span> <span class="n">match_count</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span>
+        <span class="n">BookCategory</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">205</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Δοκίμια&quot;</span><span class="p">,</span> <span class="n">match_count</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span>
+        <span class="n">BookCategory</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mi">206</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;Περιοδικά&quot;</span><span class="p">,</span> <span class="n">match_count</span><span class="o">=</span><span class="kc">None</span><span class="p">),</span>
+    <span class="p">]</span>
+<span class="p">)</span>
+</code></pre></div>
+</div>
+</div>
+<h2 id="get_category"><code>get_category</code></h2>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+  <div class="doc doc-contents first">
+  
+      <p>Retrieve Book Category</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>_id</code></td>
+          <td>
+                <code>int</code>
+          </td>
+          <td><p>book identifier</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>pyskroutz/resources/books.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">114</span>
+<span class="normal">115</span>
+<span class="normal">116</span>
+<span class="normal">117</span>
+<span class="normal">118</span>
+<span class="normal">119</span>
+<span class="normal">120</span>
+<span class="normal">121</span>
+<span class="normal">122</span>
+<span class="normal">123</span>
+<span class="normal">124</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@fluent</span>
+<span class="k">def</span> <span class="nf">get_category</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_id</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Retrieve Book Category</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        _id: book identifier</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">_set_prepared_request</span><span class="p">(</span>
+        <span class="n">url</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">BASE_URL</span><span class="si">}</span><span class="s2">/book_categories/</span><span class="si">{</span><span class="n">_id</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span>
+        <span class="n">model</span><span class="o">=</span><span class="n">books</span><span class="o">.</span><span class="n">BookCategoryRetrieve</span><span class="p">,</span>
+    <span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div><p><strong>Example</strong></p>
+<div class="tabbed-set" data-tabs="9:2"><input checked="checked" id="__tabbed_9_1" name="__tabbed_9" type="radio" /><label for="__tabbed_9_1">Request</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">pyskroutz</span><span class="o">.</span><span class="n">books</span><span class="p">(</span><span class="n">client</span><span class="p">)</span><span class="o">.</span><span class="n">get_category</span><span class="p">(</span><span class="mi">1857</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+</code></pre></div>
+</div>
+<input id="__tabbed_9_2" name="__tabbed_9" type="radio" /><label for="__tabbed_9_2">Response (pydantic object)</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">BookCategoryRetrieve</span><span class="p">(</span><span class="n">category</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+</code></pre></div>
+</div>
+</div>
+<h2 id="get_category_books"><code>get_category_books</code></h2>
+
+
+<div class="doc doc-object doc-function">
+
+
+
+  <div class="doc doc-contents first">
+  
+      <p>Retrieve Book Category's Books</p>
+
+  <p><strong>Parameters:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+        <th>Default</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>_id</code></td>
+          <td>
+                <code>int</code>
+          </td>
+          <td><p>category identifier</p></td>
+          <td>
+              <em>required</em>
+          </td>
+        </tr>
+        <tr>
+          <td><code>order_by</code></td>
+          <td>
+                <code><span title="typing.Optional">Optional</span>[str]</code>
+          </td>
+          <td><p>order by</p></td>
+          <td>
+                <code>None</code>
+          </td>
+        </tr>
+        <tr>
+          <td><code>order_dir</code></td>
+          <td>
+                <code><span title="typing.Optional">Optional</span>[str]</code>
+          </td>
+          <td><p>order dir</p></td>
+          <td>
+                <code>None</code>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+      <details class="quote">
+        <summary>Source code in <code>pyskroutz/resources/books.py</code></summary>
+        <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">126</span>
+<span class="normal">127</span>
+<span class="normal">128</span>
+<span class="normal">129</span>
+<span class="normal">130</span>
+<span class="normal">131</span>
+<span class="normal">132</span>
+<span class="normal">133</span>
+<span class="normal">134</span>
+<span class="normal">135</span>
+<span class="normal">136</span>
+<span class="normal">137</span>
+<span class="normal">138</span>
+<span class="normal">139</span>
+<span class="normal">140</span>
+<span class="normal">141</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nd">@fluent</span>
+<span class="k">def</span> <span class="nf">get_category_books</span><span class="p">(</span>
+    <span class="bp">self</span><span class="p">,</span> <span class="n">_id</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">order_by</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="n">order_dir</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Retrieve Book Category&#39;s Books</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        _id: category identifier</span>
+<span class="sd">        order_by: order by</span>
+<span class="sd">        order_dir: order dir</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">order_by</span> <span class="ow">or</span> <span class="n">order_dir</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="bp">NotImplemented</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">_set_prepared_request</span><span class="p">(</span>
+        <span class="n">url</span><span class="o">=</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">BASE_URL</span><span class="si">}</span><span class="s2">/book_categories/</span><span class="si">{</span><span class="n">_id</span><span class="si">}</span><span class="s2">/books&quot;</span><span class="p">,</span> <span class="n">model</span><span class="o">=</span><span class="n">books</span><span class="o">.</span><span class="n">BooksList</span>
+    <span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+      </details>
+  </div>
+
+</div><p><strong>Example</strong></p>
+<div class="tabbed-set" data-tabs="10:2"><input checked="checked" id="__tabbed_10_1" name="__tabbed_10" type="radio" /><label for="__tabbed_10_1">Request</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">pyskroutz</span><span class="o">.</span><span class="n">books</span><span class="p">(</span><span class="n">client</span><span class="p">)</span><span class="o">.</span><span class="n">get_category_books</span><span class="p">(</span><span class="mi">1857</span><span class="p">)</span><span class="o">.</span><span class="n">execute</span><span class="p">()</span>
+</code></pre></div>
+</div>
+<input id="__tabbed_10_2" name="__tabbed_10" type="radio" /><label for="__tabbed_10_2">Response (pydantic object)</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="n">BooksList</span><span class="p">(</span><span class="n">books</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">meta</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+</code></pre></div>
+</div>
+</div>
+<h2 id="response-models">Response Models</h2>
+
+
+<div class="doc doc-object doc-module">
+
+
+
+  <div class="doc doc-contents first">
+  
+      <p>Response models for book resources</p>
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+<div class="doc doc-object doc-class">
+
+
+
+<h3 id="pyskroutz.models.books.BookItem" class="doc doc-heading">
+        <code>BookItem</code>
+
+
+</h3>
+
+
+  <div class="doc doc-contents ">
+      <p class="doc doc-class-bases">
+        Bases: <code><span title="pyskroutz.models.base.ItemBase">ItemBase</span></code>, <code><span title="pyskroutz.models.base.BuyableItemBase">BuyableItemBase</span></code>, <code><span title="pyskroutz.models.base.WebUriBaseItem">WebUriBaseItem</span></code></p>
+
+  
+      <p>Book response model.</p>
+
+  <p><strong>Attributes:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>main_author_id</code></td>
+          <td>
+                <code><span title="typing.Optional">Optional</span>[<span title="pydantic.PositiveInt">PositiveInt</span>]</code>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><code>main_author</code></td>
+          <td>
+                <code><span title="typing.Optional">Optional</span>[str]</code>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><code>images</code></td>
+          <td>
+                <code><span title="typing.Optional">Optional</span>[<span title="pyskroutz.models.base.ImageItemBase">ImageItemBase</span>]</code>
+          </td>
+          <td></td>
+        </tr>
+    </tbody>
+  </table>
+
+
+        <details class="quote">
+          <summary>Source code in <code>pyskroutz/models/books.py</code></summary>
+          <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">class</span> <span class="nc">BookItem</span><span class="p">(</span><span class="n">ItemBase</span><span class="p">,</span> <span class="n">BuyableItemBase</span><span class="p">,</span> <span class="n">WebUriBaseItem</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Book response model.</span>
+
+<span class="sd">    Attributes:</span>
+<span class="sd">        main_author_id:</span>
+<span class="sd">        main_author:</span>
+<span class="sd">        images:</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">main_author_id</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">PositiveInt</span><span class="p">]</span>
+    <span class="n">main_author</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span>
+    <span class="n">images</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">ImageItemBase</span><span class="p">]</span>
+</code></pre></div></td></tr></table></div>
+        </details>
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+  </div>
+
+</div>
+
+<div class="doc doc-object doc-class">
+
+
+
+<h3 id="pyskroutz.models.books.BooksRetrieve" class="doc doc-heading">
+        <code>BooksRetrieve</code>
+
+
+</h3>
+
+
+  <div class="doc doc-contents ">
+      <p class="doc doc-class-bases">
+        Bases: <code><span title="pydantic.BaseModel">BaseModel</span></code></p>
+
+  
+
+  <p><strong>Attributes:</strong></p>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>book</code></td>
+          <td>
+                <code><a class="autorefs autorefs-internal" title="pyskroutz.models.books.BookItem" href="#pyskroutz.models.books.BookItem">BookItem</a></code>
+          </td>
+          <td><p>Book item.</p></td>
+        </tr>
+    </tbody>
+  </table>
+
+
+        <details class="quote">
+          <summary>Source code in <code>pyskroutz/models/books.py</code></summary>
+          <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">class</span> <span class="nc">BooksRetrieve</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+
+<span class="sd">    Attributes:</span>
+<span class="sd">        book: Book item.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">book</span><span class="p">:</span> <span class="n">BookItem</span>
+</code></pre></div></td></tr></table></div>
+        </details>
+
+  
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+  </div>
+
+</div>
+
+
+
+
+  </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.sections"], "search": "../../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.ce72ebac.min.js"></script>
+      
+    
+  </body>
+</html>
