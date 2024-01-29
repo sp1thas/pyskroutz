@@ -1,5 +1,6 @@
 """Response models for notifications resources
 """
+
 import datetime
 from enum import Enum
 from typing import List, Optional

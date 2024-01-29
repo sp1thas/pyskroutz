@@ -23,9 +23,11 @@ class Manufacturers(ApiResource):
             _id: manufacturer identifier
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{_id}"
-            if _id is not None
-            else f"{self.BASE_URL}/{self.ENDPOINT_PATH}",
+            url=(
+                f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{_id}"
+                if _id is not None
+                else f"{self.BASE_URL}/{self.ENDPOINT_PATH}"
+            ),
             method="GET",
             model=ManufacturerRetrieve if _id is not None else ManufacturersList,
         )

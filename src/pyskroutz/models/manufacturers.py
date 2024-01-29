@@ -1,5 +1,6 @@
 """Response models for manufacturer resources
 """
+
 from typing import List, Optional
 
 from pydantic import BaseModel, HttpUrl

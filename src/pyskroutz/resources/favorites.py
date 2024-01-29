@@ -54,9 +54,11 @@ class Favorites(ApiResource):
     def list_favorites(self, favorite_list: Optional[int] = None) -> None:
         """List favorites (all or specify a favorite list)"""
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/favorites"
-            if favorite_list is None
-            else f"{self.BASE_URL}/favorite_lists/{favorite_list}/favorites",
+            url=(
+                f"{self.BASE_URL}/favorites"
+                if favorite_list is None
+                else f"{self.BASE_URL}/favorite_lists/{favorite_list}/favorites"
+            ),
             model=favorites.FavoriteList,
         )
 

@@ -1,5 +1,6 @@
 """Response models for User resources
 """
+
 import datetime
 from enum import Enum
 from typing import Dict, List, Optional
