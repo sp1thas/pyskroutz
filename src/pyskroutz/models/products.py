@@ -1,5 +1,6 @@
 """Response models for product resources
 """
+
 from typing import Any, List, Optional
 
 from pydantic import BaseModel, HttpUrl

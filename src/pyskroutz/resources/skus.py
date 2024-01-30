@@ -97,9 +97,11 @@ class Skus(ApiResource):
         """
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{_id}/reviews",
-            params=dict(**pag_params)
-            if include_meta is None
-            else dict(include_meta=include_meta, **pag_params),
+            params=(
+                dict(**pag_params)
+                if include_meta is None
+                else dict(include_meta=include_meta, **pag_params)
+            ),
             model=ReviewList,
         )
 

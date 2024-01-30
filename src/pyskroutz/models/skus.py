@@ -1,5 +1,6 @@
 """Response models for SKUs resources
 """
+
 import datetime
 from typing import List, Optional
 

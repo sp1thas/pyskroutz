@@ -1,5 +1,6 @@
 """Response models for User resources
 """
+
 import datetime
 from typing import List, Optional
 

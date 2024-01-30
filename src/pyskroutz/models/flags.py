@@ -1,5 +1,6 @@
 """Response models for flag resources
 """
+
 import datetime
 from typing import List
 

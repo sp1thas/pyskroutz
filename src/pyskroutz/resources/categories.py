@@ -27,9 +27,11 @@ class Categories(ApiResource):
             pag_params: pagination parameters
         """
         self._set_prepared_request(
-            url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{_id}"
-            if _id is not None
-            else f"{self.BASE_URL}/{self.ENDPOINT_PATH}",
+            url=(
+                f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{_id}"
+                if _id is not None
+                else f"{self.BASE_URL}/{self.ENDPOINT_PATH}"
+            ),
             model=CategoryRetrieve if _id is not None else CategoryList,
             params=pag_params,
         )
@@ -81,9 +83,11 @@ class Categories(ApiResource):
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{_id}/specifications",
             model=SpecificationList,
-            params=pag_params
-            if include_group is None
-            else dict(include="group", **pag_params),  # type: ignore
+            params=(
+                pag_params
+                if include_group is None
+                else dict(include="group", **pag_params)
+            ),  # type: ignore
         )
 
     @fluent
@@ -100,9 +104,11 @@ class Categories(ApiResource):
         self._set_prepared_request(
             url=f"{self.BASE_URL}/{self.ENDPOINT_PATH}/{_id}/manufacturers",
             model=SpecificationList,
-            params=dict(**pag_params)
-            if order_dir is None
-            else dict(order_dir=order_dir, **dict(pag_params)),  # type: ignore
+            params=(
+                dict(**pag_params)
+                if order_dir is None
+                else dict(order_dir=order_dir, **dict(pag_params))
+            ),  # type: ignore
         )
 
     @fluent
