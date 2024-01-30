@@ -1,4 +1,6 @@
 <div align="center">
+    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2xuMmk5MHBmNDN3NG14c2diMGRjNWY2bDk5ZTB1Znc3d2NvazVhcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3XiQswSmbjBiU/giphy.gif">
+    <h4>Most of the Skroutz API Endpoints have been discontinued, as a result, this project is not maintained anymore.</h4>
     <h1>pyskroutz</h1>
     <p>A Python client for <a href="https://developer.skroutz.gr/api/v3/">Skroutz API</a>.</p>
     <a href="https://results.pre-commit.ci/latest/github/sp1thas/pyskroutz/master">
